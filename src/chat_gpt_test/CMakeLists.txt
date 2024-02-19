@@ -162,10 +162,10 @@ catkin_install_python(PROGRAMS
   scripts/robot_node.py
   scripts/audio_recorder.py
   scripts/video_recorder.py
-  scripts/multiple_video_recorder.py
+  # scripts/multiple_video_recorder.py
   scripts/depth_camera.py
-  scripts/camera-test.py
-  scripts/multiple_cameras.py
+  # scripts/camera-test.py
+  # scripts/multiple_cameras.py
   scripts/tts.py
   scripts/stt.py
   scripts/server.py
