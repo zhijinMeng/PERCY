@@ -1,0 +1,15 @@
+<launch>
+  <!-- Define parameters for audio and video file names -->
+  <arg name="audio_output_file" default="/path/to/audio/test_audio.wav"/>
+  <arg name="video_output_file" default="/path/to/video/output.mp4"/>
+
+  <!-- Launch the audio recording node -->
+  <node name="audio_recorder" pkg="chat_gpt_test" type="audio_recorder.py" output="screen">
+    <param name="output_file" value="$(arg audio_output_file)"/>
+  </node>
+
+  <!-- Launch the image saving node -->
+  <node name="image_saver" pkg="chat_gpt_test" type="video_recorder.py" output="screen">
+    <param name="output_path" value="$(arg video_output_file)"/>
+  </node>
+</launch>
