@@ -123,8 +123,8 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASREvent.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from pal_interaction_msgs/ASREvent.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -245,17 +245,17 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from pal_interaction_msgs/ASRFileAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -269,23 +269,23 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from pal_interaction_msgs/ASRFileActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from pal_interaction_msgs/ASRFileActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -296,55 +296,55 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileResult.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from pal_interaction_msgs/ASRFileResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/ASRFileFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from pal_interaction_msgs/ASRFileFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from pal_interaction_msgs/AudioPlayAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from pal_interaction_msgs/AudioPlayActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from pal_interaction_msgs/AudioPlayActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from pal_interaction_msgs/AudioPlayActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -365,41 +365,41 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from pal_interaction_msgs/SoundAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from pal_interaction_msgs/SoundActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionResult.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from pal_interaction_msgs/SoundActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/SoundActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from pal_interaction_msgs/SoundActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -420,30 +420,30 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsAction.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Javascript code from pal_interaction_msgs/TtsAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Javascript code from pal_interaction_msgs/TtsActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -458,19 +458,19 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsActionFeedback.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Javascript code from pal_interaction_msgs/TtsActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg/TtsGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating Javascript code from pal_interaction_msgs/TtsGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/msg
 
@@ -489,19 +489,19 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/ASRService.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Javascript code from pal_interaction_msgs/ASRService.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv/GetSpeechDuration.js: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Javascript code from pal_interaction_msgs/GetSpeechDuration.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_interaction_msgs/srv
 

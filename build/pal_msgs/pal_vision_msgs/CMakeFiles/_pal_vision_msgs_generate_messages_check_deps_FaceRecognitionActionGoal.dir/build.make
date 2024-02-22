@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal.dir/progress.make
 
 pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/zhijin/pt0/devel/share/pal_vision_msgs/msg/FaceRecognitionActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:pal_vision_msgs/FaceRecognitionGoal
+	cd /home/zhijin/pt0/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/zhijin/pt0/devel/share/pal_vision_msgs/msg/FaceRecognitionActionGoal.msg std_msgs/Header:pal_vision_msgs/FaceRecognitionGoal:actionlib_msgs/GoalID
 
 _pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal
 _pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceRecognitionActionGoal.dir/build.make

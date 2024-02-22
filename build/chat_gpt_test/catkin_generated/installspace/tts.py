@@ -1,34 +1,17 @@
 #!/usr/bin/env python3
-
 import rospy
-# from pal_interaction_msgs.msg import TtsActionGoal
-from pal_interaction_msgs.msg import *
-from std_msgs.msg import String
+from actionlib import SimpleActionClient
+from pal_interaction_msgs.msg import TtsAction, TtsGoal
 
-class SpeechRecognition:
-    def __init__(self):
-        rospy.init_node('speech_recognition_node', anonymous=True)
-        rospy.loginfo('Speech Recognition node started')
+if __name__ == "__main__":
+    rospy.init_node("tts_example")
+    client = SimpleActionClient("/tts", TtsAction)
+    client.wait_for_server()
 
-        # Create a publisher for recognized text
-        self.text_publisher = rospy.Publisher('recognized_text', String, queue_size=10)
+    # Create a TTS goal with your desired sentence
+    s = "Hello, I am ARI. How can I assist you?"
+    goal = TtsGoal(text= s)
+    client.send_goal(goal)
+    client.wait_for_result()
 
-        # Subscribe to the PAL Speech recognition topic
-        # rospy.Subscriber('/pal_interaction/tts/goal', TtsActionGoal, self.speech_callback)
-        # from zhijin
-        rospy.Subscriber('/humans/voices/anonymous_speaker/speech', TtsActionGoal, self.speech_callback)
-
-    def speech_callback(self, msg):
-        # Extract recognized text from the PAL Speech message
-        recognized_text = msg.goal.text
-
-        # Publish the recognized text
-        self.text_publisher.publish(String(data=recognized_text))
-        rospy.loginfo(f"Recognized text: {recognized_text}")
-
-    def run(self):
-        rospy.spin()
-
-if __name__ == '__main__':
-    speech_recognition_node = SpeechRecognition()
-    speech_recognition_node.run()
+    rospy.loginfo("Speech completed: %s" % s)

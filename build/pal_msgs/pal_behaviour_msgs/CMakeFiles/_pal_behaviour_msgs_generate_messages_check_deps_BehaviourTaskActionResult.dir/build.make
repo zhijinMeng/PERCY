@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_behaviour_msgs/CMakeFiles/_pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult.dir/progress.make
 
 pal_msgs/pal_behaviour_msgs/CMakeFiles/_pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_behaviour_msgs /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg pal_behaviour_msgs/BehaviourTaskResult:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus
+	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_behaviour_msgs /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg std_msgs/Header:actionlib_msgs/GoalStatus:pal_behaviour_msgs/BehaviourTaskResult:actionlib_msgs/GoalID
 
 _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult: pal_msgs/pal_behaviour_msgs/CMakeFiles/_pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult
 _pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult: pal_msgs/pal_behaviour_msgs/CMakeFiles/_pal_behaviour_msgs_generate_messages_check_deps_BehaviourTaskActionResult.dir/build.make

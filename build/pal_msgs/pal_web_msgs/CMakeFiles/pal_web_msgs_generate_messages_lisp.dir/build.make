@@ -70,65 +70,65 @@ pal_msgs/pal_web_msgs/CMakeFiles/pal_web_msgs_generate_messages_lisp: /home/zhij
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputAction.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from pal_web_msgs/GetUserInputAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg -Ipal_web_msgs:/home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/zhijin/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from pal_web_msgs/GetUserInputActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg -Ipal_web_msgs:/home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/zhijin/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionResult.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from pal_web_msgs/GetUserInputActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg -Ipal_web_msgs:/home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/zhijin/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from pal_web_msgs/GetUserInputActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg -Ipal_web_msgs:/home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/zhijin/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg/GetUserInputGoal.lisp: /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from pal_web_msgs/GetUserInputGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg -Ipal_web_msgs:/home/zhijin/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/zhijin/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_web_msgs/msg
 

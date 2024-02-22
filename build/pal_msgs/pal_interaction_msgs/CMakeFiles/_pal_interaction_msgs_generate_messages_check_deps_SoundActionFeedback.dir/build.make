@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback.dir/progress.make
 
 pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundFeedback
+	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg pal_interaction_msgs/SoundFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header
 
 _pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback
 _pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_SoundActionFeedback.dir/build.make

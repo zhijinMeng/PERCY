@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_Gesture.dir/progress.make
 
 pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_Gesture:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/zhijin/pt0/src/pal_msgs/pal_vision_msgs/msg/Gesture.msg std_msgs/Header:geometry_msgs/Point
+	cd /home/zhijin/pt0/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/zhijin/pt0/src/pal_msgs/pal_vision_msgs/msg/Gesture.msg geometry_msgs/Point:std_msgs/Header
 
 _pal_vision_msgs_generate_messages_check_deps_Gesture: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_Gesture
 _pal_vision_msgs_generate_messages_check_deps_Gesture: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_Gesture.dir/build.make

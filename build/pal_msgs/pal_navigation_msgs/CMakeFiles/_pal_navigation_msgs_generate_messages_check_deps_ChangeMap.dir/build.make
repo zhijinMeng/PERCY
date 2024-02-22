@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_ChangeMap.dir/progress.make
 
 pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_ChangeMap:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv geometry_msgs/Point:geometry_msgs/Pose:nav_msgs/MapMetaData:geometry_msgs/Quaternion:std_msgs/Header:nav_msgs/OccupancyGrid
+	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv geometry_msgs/Pose:nav_msgs/OccupancyGrid:geometry_msgs/Point:std_msgs/Header:nav_msgs/MapMetaData:geometry_msgs/Quaternion
 
 _pal_navigation_msgs_generate_messages_check_deps_ChangeMap: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_ChangeMap
 _pal_navigation_msgs_generate_messages_check_deps_ChangeMap: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_ChangeMap.dir/build.make

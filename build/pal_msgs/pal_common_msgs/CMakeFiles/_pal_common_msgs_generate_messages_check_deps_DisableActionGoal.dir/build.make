@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_common_msgs/CMakeFiles/_pal_common_msgs_generate_messages_check_deps_DisableActionGoal.dir/progress.make
 
 pal_msgs/pal_common_msgs/CMakeFiles/_pal_common_msgs_generate_messages_check_deps_DisableActionGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_common_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_common_msgs /home/zhijin/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg std_msgs/Header:pal_common_msgs/DisableGoal:actionlib_msgs/GoalID
+	cd /home/zhijin/pt0/build/pal_msgs/pal_common_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_common_msgs /home/zhijin/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg pal_common_msgs/DisableGoal:std_msgs/Header:actionlib_msgs/GoalID
 
 _pal_common_msgs_generate_messages_check_deps_DisableActionGoal: pal_msgs/pal_common_msgs/CMakeFiles/_pal_common_msgs_generate_messages_check_deps_DisableActionGoal
 _pal_common_msgs_generate_messages_check_deps_DisableActionGoal: pal_msgs/pal_common_msgs/CMakeFiles/_pal_common_msgs_generate_messages_check_deps_DisableActionGoal.dir/build.make

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult.dir/progress.make
 
 pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg std_msgs/Header:actionlib_msgs/GoalID:pal_navigation_msgs/JoyTurboResult:actionlib_msgs/GoalStatus
+	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboResult
 
 _pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult
 _pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_JoyTurboActionResult.dir/build.make

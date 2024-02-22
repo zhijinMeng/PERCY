@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_POI.dir/progress.make
 
 pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_POI:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud:std_msgs/Header:sensor_msgs/ChannelFloat32
+	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg sensor_msgs/PointCloud:std_msgs/String:std_msgs/Header:geometry_msgs/Point32:sensor_msgs/ChannelFloat32
 
 _pal_navigation_msgs_generate_messages_check_deps_POI: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_POI
 _pal_navigation_msgs_generate_messages_check_deps_POI: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_POI.dir/build.make

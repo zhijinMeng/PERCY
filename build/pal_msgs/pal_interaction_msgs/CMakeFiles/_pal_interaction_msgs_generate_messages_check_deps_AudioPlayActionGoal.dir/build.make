@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal.dir/progress.make
 
 pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayGoal
+	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg pal_interaction_msgs/AudioPlayGoal:actionlib_msgs/GoalID:std_msgs/Header
 
 _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal
 _pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_AudioPlayActionGoal.dir/build.make

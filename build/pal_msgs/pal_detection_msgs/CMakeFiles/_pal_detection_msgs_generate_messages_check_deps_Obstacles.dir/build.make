@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_Obstacles.dir/progress.make
 
 pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_Obstacles:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_detection_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_detection_msgs /home/zhijin/pt0/src/pal_msgs/pal_detection_msgs/msg/Obstacles.msg pal_detection_msgs/Obstacle:geometry_msgs/Point:std_msgs/Header
+	cd /home/zhijin/pt0/build/pal_msgs/pal_detection_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_detection_msgs /home/zhijin/pt0/src/pal_msgs/pal_detection_msgs/msg/Obstacles.msg pal_detection_msgs/Obstacle:std_msgs/Header:geometry_msgs/Point
 
 _pal_detection_msgs_generate_messages_check_deps_Obstacles: pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_Obstacles
 _pal_detection_msgs_generate_messages_check_deps_Obstacles: pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_Obstacles.dir/build.make

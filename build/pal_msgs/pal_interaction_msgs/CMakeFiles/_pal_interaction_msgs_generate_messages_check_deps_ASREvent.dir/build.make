@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASREvent.dir/progress.make
 
 pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASREvent:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg pal_interaction_msgs/actiontag:pal_interaction_msgs/asrresult
+	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg pal_interaction_msgs/asrresult:pal_interaction_msgs/actiontag
 
 _pal_interaction_msgs_generate_messages_check_deps_ASREvent: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASREvent
 _pal_interaction_msgs_generate_messages_check_deps_ASREvent: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASREvent.dir/build.make

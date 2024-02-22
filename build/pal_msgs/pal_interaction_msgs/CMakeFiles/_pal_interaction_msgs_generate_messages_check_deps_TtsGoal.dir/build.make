@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_TtsGoal.dir/progress.make
 
 pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_TtsGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText
+	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText
 
 _pal_interaction_msgs_generate_messages_check_deps_TtsGoal: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_TtsGoal
 _pal_interaction_msgs_generate_messages_check_deps_TtsGoal: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_TtsGoal.dir/build.make

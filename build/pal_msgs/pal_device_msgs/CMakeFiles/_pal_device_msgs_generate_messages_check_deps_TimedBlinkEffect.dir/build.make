@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_device_msgs/CMakeFiles/_pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect.dir/progress.make
 
 pal_msgs/pal_device_msgs/CMakeFiles/_pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_device_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_device_msgs /home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv std_msgs/ColorRGBA:pal_device_msgs/LedGroup
+	cd /home/zhijin/pt0/build/pal_msgs/pal_device_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_device_msgs /home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv pal_device_msgs/LedGroup:std_msgs/ColorRGBA
 
 _pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect: pal_msgs/pal_device_msgs/CMakeFiles/_pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect
 _pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect: pal_msgs/pal_device_msgs/CMakeFiles/_pal_device_msgs_generate_messages_check_deps_TimedBlinkEffect.dir/build.make

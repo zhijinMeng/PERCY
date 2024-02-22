@@ -73,43 +73,43 @@ pal_msgs/pal_behaviour_msgs/CMakeFiles/pal_behaviour_msgs_generate_messages_lisp
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from pal_behaviour_msgs/BehaviourTaskAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from pal_behaviour_msgs/BehaviourTaskActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from pal_behaviour_msgs/BehaviourTaskActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from pal_behaviour_msgs/BehaviourTaskActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
@@ -131,15 +131,15 @@ pal_msgs/pal_behaviour_msgs/CMakeFiles/pal_behaviour_msgs_generate_messages_lisp
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationAction.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from pal_behaviour_msgs/PresentationAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
@@ -154,18 +154,18 @@ pal_msgs/pal_behaviour_msgs/CMakeFiles/pal_behaviour_msgs_generate_messages_lisp
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from pal_behaviour_msgs/PresentationActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg/PresentationActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from pal_behaviour_msgs/PresentationActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_behaviour_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg -Ipal_behaviour_msgs:/home/zhijin/pt0/devel/share/pal_behaviour_msgs/msg -Ipal_behaviour_msgs:/home/zhijin/pt0/src/pal_msgs/pal_behaviour_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_behaviour_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_behaviour_msgs/msg
 

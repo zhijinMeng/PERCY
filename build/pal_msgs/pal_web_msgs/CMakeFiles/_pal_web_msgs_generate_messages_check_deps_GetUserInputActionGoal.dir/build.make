@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_web_msgs/CMakeFiles/_pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal.dir/progress.make
 
 pal_msgs/pal_web_msgs/CMakeFiles/_pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_web_msgs /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg pal_interaction_msgs/TtsText:std_msgs/Header:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsGoal:actionlib_msgs/GoalID:pal_web_msgs/GetUserInputGoal:pal_web_msgs/WebGoTo:pal_interaction_msgs/I18nArgument
+	cd /home/zhijin/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_web_msgs /home/zhijin/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:std_msgs/Header:pal_web_msgs/GetUserInputGoal:actionlib_msgs/GoalID:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsGoal
 
 _pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal: pal_msgs/pal_web_msgs/CMakeFiles/_pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal
 _pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal: pal_msgs/pal_web_msgs/CMakeFiles/_pal_web_msgs_generate_messages_check_deps_GetUserInputActionGoal.dir/build.make

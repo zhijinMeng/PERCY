@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult.dir/progress.make
 
 pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg actionlib_msgs/GoalStatus:pal_control_msgs/RigidBodyTrajectoryResult:actionlib_msgs/GoalID:std_msgs/Header
+	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryResult
 
 _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult
 _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryActionResult.dir/build.make

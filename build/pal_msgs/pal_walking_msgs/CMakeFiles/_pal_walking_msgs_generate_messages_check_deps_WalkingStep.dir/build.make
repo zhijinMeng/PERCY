@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep.dir/progress.make
 
 pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg std_msgs/Header:humanoid_nav_msgs/StepTarget:geometry_msgs/Pose2D:std_msgs/Duration
+	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg std_msgs/Duration:std_msgs/Header:humanoid_nav_msgs/StepTarget:geometry_msgs/Pose2D
 
 _pal_walking_msgs_generate_messages_check_deps_WalkingStep: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep
 _pal_walking_msgs_generate_messages_check_deps_WalkingStep: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep.dir/build.make

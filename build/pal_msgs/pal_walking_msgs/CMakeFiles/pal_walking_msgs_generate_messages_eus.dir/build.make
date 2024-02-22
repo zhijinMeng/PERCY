@@ -66,19 +66,19 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_eus: /ho
 
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pal_walking_msgs/WalkingStatus.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg
 
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/WalkingStep.l: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from pal_walking_msgs/WalkingStep.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg
 
@@ -89,9 +89,9 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_eus: /ho
 
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg/SMStatus.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from pal_walking_msgs/SMStatus.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/msg
 
@@ -112,11 +112,11 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_eus: /ho
 
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
-/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv/MoveHipFeet.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from pal_walking_msgs/MoveHipFeet.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/roseus/ros/pal_walking_msgs/srv
 

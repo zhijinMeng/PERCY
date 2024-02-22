@@ -65,19 +65,19 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_lisp: /h
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from pal_walking_msgs/WalkingStatus.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/WalkingStep.lisp: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from pal_walking_msgs/WalkingStep.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg
 
@@ -88,9 +88,9 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_lisp: /h
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg/SMStatus.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from pal_walking_msgs/SMStatus.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/msg
 
@@ -111,11 +111,11 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_lisp: /h
 
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
-/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv/MoveHipFeet.lisp: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from pal_walking_msgs/MoveHipFeet.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv -Ipal_walking_msgs:/home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/zhijin/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/zhijin/pt0/devel/share/common-lisp/ros/pal_walking_msgs/srv
 

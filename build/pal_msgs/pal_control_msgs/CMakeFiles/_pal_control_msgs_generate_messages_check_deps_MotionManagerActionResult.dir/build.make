@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult.dir/progress.make
 
 pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg actionlib_msgs/GoalStatus:pal_control_msgs/MotionManagerResult:actionlib_msgs/GoalID:std_msgs/Header
+	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg pal_control_msgs/MotionManagerResult:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID
 
 _pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult
 _pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_MotionManagerActionResult.dir/build.make

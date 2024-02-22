@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus.dir/progress.make
 
 pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion
+	cd /home/zhijin/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/zhijin/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose
 
 _pal_walking_msgs_generate_messages_check_deps_WalkingStatus: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus
 _pal_walking_msgs_generate_messages_check_deps_WalkingStatus: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus.dir/build.make

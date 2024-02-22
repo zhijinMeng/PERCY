@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal.dir/progress.make
 
 pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg pal_control_msgs/RigidBodyTrajectoryPoint:geometry_msgs/Twist:geometry_msgs/Pose:geometry_msgs/Accel:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Vector3
+	cd /home/zhijin/pt0/build/pal_msgs/pal_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_control_msgs /home/zhijin/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg geometry_msgs/Vector3:geometry_msgs/Accel:geometry_msgs/Twist:pal_control_msgs/RigidBodyTrajectoryPoint:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose
 
 _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal
 _pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal: pal_msgs/pal_control_msgs/CMakeFiles/_pal_control_msgs_generate_messages_check_deps_RigidBodyTrajectoryGoal.dir/build.make

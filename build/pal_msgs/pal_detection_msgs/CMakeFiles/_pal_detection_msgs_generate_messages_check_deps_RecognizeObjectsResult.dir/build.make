@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult.dir/progress.make
 
 pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_detection_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_detection_msgs /home/zhijin/pt0/devel/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg pal_detection_msgs/RecognizedObjectArray:std_msgs/Header:sensor_msgs/CompressedImage:pal_detection_msgs/RecognizedObject:sensor_msgs/RegionOfInterest
+	cd /home/zhijin/pt0/build/pal_msgs/pal_detection_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_detection_msgs /home/zhijin/pt0/devel/share/pal_detection_msgs/msg/RecognizeObjectsResult.msg std_msgs/Header:pal_detection_msgs/RecognizedObjectArray:sensor_msgs/CompressedImage:pal_detection_msgs/RecognizedObject:sensor_msgs/RegionOfInterest
 
 _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult: pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult
 _pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult: pal_msgs/pal_detection_msgs/CMakeFiles/_pal_detection_msgs_generate_messages_check_deps_RecognizeObjectsResult.dir/build.make

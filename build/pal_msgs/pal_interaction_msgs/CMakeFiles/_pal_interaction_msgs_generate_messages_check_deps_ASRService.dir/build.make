@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zhijin/pt0/build
 include pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASRService.dir/progress.make
 
 pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASRService:
-	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRLangModelMngmt:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRLanguage
+	cd /home/zhijin/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_interaction_msgs /home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/ASRLangModelMngmt
 
 _pal_interaction_msgs_generate_messages_check_deps_ASRService: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASRService
 _pal_interaction_msgs_generate_messages_check_deps_ASRService: pal_msgs/pal_interaction_msgs/CMakeFiles/_pal_interaction_msgs_generate_messages_check_deps_ASRService.dir/build.make

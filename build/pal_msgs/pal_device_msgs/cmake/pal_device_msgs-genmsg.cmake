@@ -34,7 +34,7 @@ add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" "pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedDataArrayParams:std_msgs/ColorRGBA:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectViaTopicParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" "pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:std_msgs/ColorRGBA:pal_device_msgs/LedPreProgrammedParams"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
@@ -84,27 +84,27 @@ add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" "pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedFlowParams:std_msgs/Header:actionlib_msgs/GoalStatus:pal_device_msgs/LedFadeParams:actionlib_msgs/GoalID:pal_device_msgs/LedEffectParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/DoTimedLedEffectFeedback:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/DoTimedLedEffectResult:pal_device_msgs/DoTimedLedEffectActionResult:pal_device_msgs/DoTimedLedEffectActionGoal:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/DoTimedLedEffectActionFeedback:std_msgs/ColorRGBA:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectViaTopicParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" "pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedEffectParams:pal_device_msgs/DoTimedLedEffectActionResult:actionlib_msgs/GoalID:pal_device_msgs/LedFlowParams:pal_device_msgs/DoTimedLedEffectFeedback:pal_device_msgs/LedRainbowParams:pal_device_msgs/DoTimedLedEffectActionGoal:std_msgs/ColorRGBA:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:pal_device_msgs/DoTimedLedEffectActionFeedback:actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectResult:std_msgs/Header:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedPreProgrammedParams"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" "pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:std_msgs/Header:pal_device_msgs/LedDataArrayParams:std_msgs/ColorRGBA:pal_device_msgs/LedFadeParams:pal_device_msgs/DoTimedLedEffectGoal:actionlib_msgs/GoalID:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedEffectParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" "pal_device_msgs/LedDataArrayParams:actionlib_msgs/GoalID:pal_device_msgs/LedFlowParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:std_msgs/Header:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectParams:std_msgs/ColorRGBA:pal_device_msgs/LedPreProgrammedParams"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_device_msgs/DoTimedLedEffectResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectResult"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_device_msgs/DoTimedLedEffectFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectFeedback"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" "pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedDataArrayParams:std_msgs/ColorRGBA:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedEffectParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" "pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedEffectParams:std_msgs/ColorRGBA:pal_device_msgs/LedPreProgrammedParams"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
@@ -129,17 +129,17 @@ add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" "std_msgs/ColorRGBA:pal_device_msgs/LedGroup"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" "std_msgs/ColorRGBA:pal_device_msgs/LedGroup"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" "std_msgs/ColorRGBA:pal_device_msgs/LedGroup"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
 #
@@ -169,7 +169,7 @@ _generate_msg_cpp(pal_device_msgs
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
@@ -229,31 +229,31 @@ _generate_msg_cpp(pal_device_msgs
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
@@ -285,19 +285,19 @@ _generate_srv_cpp(pal_device_msgs
 _generate_srv_cpp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -394,7 +394,7 @@ _generate_msg_eus(pal_device_msgs
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
@@ -454,31 +454,31 @@ _generate_msg_eus(pal_device_msgs
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
@@ -510,19 +510,19 @@ _generate_srv_eus(pal_device_msgs
 _generate_srv_eus(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -619,7 +619,7 @@ _generate_msg_lisp(pal_device_msgs
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
@@ -679,31 +679,31 @@ _generate_msg_lisp(pal_device_msgs
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
@@ -735,19 +735,19 @@ _generate_srv_lisp(pal_device_msgs
 _generate_srv_lisp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -844,7 +844,7 @@ _generate_msg_nodejs(pal_device_msgs
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
@@ -904,31 +904,31 @@ _generate_msg_nodejs(pal_device_msgs
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
@@ -960,19 +960,19 @@ _generate_srv_nodejs(pal_device_msgs
 _generate_srv_nodejs(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -1069,7 +1069,7 @@ _generate_msg_py(pal_device_msgs
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
@@ -1129,31 +1129,31 @@ _generate_msg_py(pal_device_msgs
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
   "/home/zhijin/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
@@ -1185,19 +1185,19 @@ _generate_srv_py(pal_device_msgs
 _generate_srv_py(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 

@@ -29,7 +29,7 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg" "pal_interaction_msgs/actiontag:pal_interaction_msgs/asrresult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg" "pal_interaction_msgs/asrresult:pal_interaction_msgs/actiontag"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg" NAME_WE)
@@ -139,7 +139,7 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" "pal_interaction_msgs/actiontag:std_msgs/Header:pal_interaction_msgs/ASRFileGoal:pal_interaction_msgs/ASRFileActionGoal:pal_interaction_msgs/ASRFileFeedback:actionlib_msgs/GoalID:pal_interaction_msgs/ASRFileResult:pal_interaction_msgs/asrresult:actionlib_msgs/GoalStatus:pal_interaction_msgs/ASRFileActionFeedback:pal_interaction_msgs/ASRFileActionResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" "actionlib_msgs/GoalStatus:pal_interaction_msgs/ASRFileActionGoal:pal_interaction_msgs/asrresult:pal_interaction_msgs/ASRFileFeedback:actionlib_msgs/GoalID:pal_interaction_msgs/actiontag:pal_interaction_msgs/ASRFileActionResult:pal_interaction_msgs/ASRFileResult:pal_interaction_msgs/ASRFileActionFeedback:pal_interaction_msgs/ASRFileGoal:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg" NAME_WE)
@@ -149,12 +149,12 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" "pal_interaction_msgs/actiontag:std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/ASRFileResult:pal_interaction_msgs/asrresult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" "actionlib_msgs/GoalStatus:pal_interaction_msgs/asrresult:actionlib_msgs/GoalID:pal_interaction_msgs/actiontag:pal_interaction_msgs/ASRFileResult:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" "pal_interaction_msgs/actiontag:std_msgs/Header:pal_interaction_msgs/ASRFileFeedback:actionlib_msgs/GoalID:pal_interaction_msgs/asrresult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_interaction_msgs/asrresult:actionlib_msgs/GoalID:pal_interaction_msgs/actiontag:pal_interaction_msgs/ASRFileFeedback:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg" NAME_WE)
@@ -164,32 +164,32 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg" "pal_interaction_msgs/actiontag:pal_interaction_msgs/asrresult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg" "pal_interaction_msgs/asrresult:pal_interaction_msgs/actiontag"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg" "pal_interaction_msgs/actiontag:pal_interaction_msgs/asrresult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg" "pal_interaction_msgs/asrresult:pal_interaction_msgs/actiontag"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" "std_msgs/Header:pal_interaction_msgs/AudioPlayActionResult:pal_interaction_msgs/AudioPlayGoal:pal_interaction_msgs/AudioPlayActionFeedback:actionlib_msgs/GoalID:pal_interaction_msgs/AudioPlayFeedback:pal_interaction_msgs/AudioPlayActionGoal:pal_interaction_msgs/AudioPlayResult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" "pal_interaction_msgs/AudioPlayActionGoal:pal_interaction_msgs/AudioPlayResult:pal_interaction_msgs/AudioPlayFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_interaction_msgs/AudioPlayActionFeedback:pal_interaction_msgs/AudioPlayGoal:pal_interaction_msgs/AudioPlayActionResult:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" "pal_interaction_msgs/AudioPlayGoal:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" "pal_interaction_msgs/AudioPlayResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" "pal_interaction_msgs/AudioPlayFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg" NAME_WE)
@@ -209,22 +209,22 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg" "pal_interaction_msgs/SoundResult:std_msgs/Header:pal_interaction_msgs/SoundFeedback:pal_interaction_msgs/SoundGoal:actionlib_msgs/GoalID:pal_interaction_msgs/SoundActionResult:pal_interaction_msgs/SoundActionGoal:actionlib_msgs/GoalStatus:pal_interaction_msgs/SoundActionFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg" "pal_interaction_msgs/SoundActionGoal:actionlib_msgs/GoalStatus:pal_interaction_msgs/SoundActionFeedback:pal_interaction_msgs/SoundFeedback:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundGoal:pal_interaction_msgs/SoundResult:pal_interaction_msgs/SoundActionResult"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" "pal_interaction_msgs/SoundGoal:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundGoal"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" "pal_interaction_msgs/SoundResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundResult"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" "pal_interaction_msgs/SoundFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg" NAME_WE)
@@ -244,12 +244,12 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg" "std_msgs/Header:pal_interaction_msgs/TtsActionGoal:pal_interaction_msgs/TtsResult:pal_interaction_msgs/TtsFeedback:pal_interaction_msgs/I18nText:actionlib_msgs/GoalID:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/TtsActionFeedback:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsActionResult:pal_interaction_msgs/TtsText:pal_interaction_msgs/TtsMark:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg" "actionlib_msgs/GoalStatus:pal_interaction_msgs/TtsActionResult:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nArgument:actionlib_msgs/GoalID:pal_interaction_msgs/TtsResult:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsText:pal_interaction_msgs/TtsActionGoal:pal_interaction_msgs/TtsMark:std_msgs/Header:pal_interaction_msgs/TtsFeedback:pal_interaction_msgs/TtsActionFeedback"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" "std_msgs/Header:pal_interaction_msgs/I18nText:actionlib_msgs/GoalID:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" "pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nArgument:actionlib_msgs/GoalID:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsText:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg" NAME_WE)
@@ -259,12 +259,12 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" "std_msgs/Header:pal_interaction_msgs/TtsFeedback:actionlib_msgs/GoalID:pal_interaction_msgs/TtsMark:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_interaction_msgs/TtsMark:std_msgs/Header:pal_interaction_msgs/TtsFeedback"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg" "pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg" "pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg" NAME_WE)
@@ -279,12 +279,12 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" "pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRLangModelMngmt:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRLanguage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" "pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/ASRLangModelMngmt"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv" "pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv" "pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText"
 )
 
 get_filename_component(_filename "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/recognizerService.srv" NAME_WE)
@@ -318,7 +318,7 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -450,7 +450,7 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -462,13 +462,13 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -480,37 +480,37 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -534,25 +534,25 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -576,13 +576,13 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -594,13 +594,13 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -620,13 +620,13 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_srv_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_cpp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_cpp(pal_interaction_msgs
@@ -791,7 +791,7 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -923,7 +923,7 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -935,13 +935,13 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -953,37 +953,37 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1007,25 +1007,25 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1049,13 +1049,13 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1067,13 +1067,13 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1093,13 +1093,13 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_srv_eus(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_eus(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_eus(pal_interaction_msgs
@@ -1264,7 +1264,7 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1396,7 +1396,7 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1408,13 +1408,13 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1426,37 +1426,37 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1480,25 +1480,25 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1522,13 +1522,13 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1540,13 +1540,13 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1566,13 +1566,13 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_srv_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_lisp(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_lisp(pal_interaction_msgs
@@ -1737,7 +1737,7 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1869,7 +1869,7 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1881,13 +1881,13 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1899,37 +1899,37 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1953,25 +1953,25 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1995,13 +1995,13 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -2013,13 +2013,13 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -2039,13 +2039,13 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_srv_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_nodejs(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_nodejs(pal_interaction_msgs
@@ -2210,7 +2210,7 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2342,7 +2342,7 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2354,13 +2354,13 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2372,37 +2372,37 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2426,25 +2426,25 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2468,13 +2468,13 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
+  "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2486,13 +2486,13 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/zhijin/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2512,13 +2512,13 @@ _generate_msg_py(pal_interaction_msgs
 _generate_srv_py(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_py(pal_interaction_msgs
   "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv"
   "${MSG_I_FLAGS}"
-  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/zhijin/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_py(pal_interaction_msgs

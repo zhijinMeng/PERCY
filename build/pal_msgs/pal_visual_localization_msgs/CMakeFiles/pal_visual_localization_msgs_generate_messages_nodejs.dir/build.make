@@ -72,14 +72,14 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from pal_visual_localization_msgs/VisualLocAddPlaceAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
 
@@ -94,8 +94,8 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from pal_visual_localization_msgs/VisualLocAddPlaceActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
@@ -103,8 +103,8 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from pal_visual_localization_msgs/VisualLocAddPlaceActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
@@ -126,20 +126,20 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from pal_visual_localization_msgs/VisualLocRecognizeAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
 
@@ -154,22 +154,22 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from pal_visual_localization_msgs/VisualLocRecognizeActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from pal_visual_localization_msgs/VisualLocRecognizeActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
@@ -181,12 +181,12 @@ pal_msgs/pal_visual_localization_msgs/CMakeFiles/pal_visual_localization_msgs_ge
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from pal_visual_localization_msgs/VisualLocRecognizeResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_visual_localization_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg -Ipal_visual_localization_msgs:/home/zhijin/pt0/devel/share/pal_visual_localization_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_visual_localization_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs/msg
 

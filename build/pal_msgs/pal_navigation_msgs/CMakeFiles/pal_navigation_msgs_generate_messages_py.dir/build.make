@@ -145,15 +145,15 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -169,8 +169,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -201,47 +201,47 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsActionGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -256,23 +256,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -283,23 +283,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG pal_navigation_msgs/JoyPriorityAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG pal_navigation_msgs/JoyPriorityActionGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -315,9 +315,9 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG pal_navigation_msgs/JoyPriorityActionFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -338,23 +338,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG pal_navigation_msgs/JoyTurboAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -362,16 +362,16 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -393,28 +393,28 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG pal_navigation_msgs/GoToPOIAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -423,21 +423,21 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -454,73 +454,73 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Python from MSG pal_navigation_msgs/GoToPOIFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Python from MSG pal_navigation_msgs/GoToAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Python from MSG pal_navigation_msgs/GoToActionGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Python from MSG pal_navigation_msgs/GoToActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Python from MSG pal_navigation_msgs/GoToActionFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Python from MSG pal_navigation_msgs/GoToGoal"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -531,24 +531,24 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Python from MSG pal_navigation_msgs/GoToFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Python from MSG pal_navigation_msgs/VisualTrainingAction"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -565,17 +565,17 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Python from MSG pal_navigation_msgs/VisualTrainingActionResult"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Python from MSG pal_navigation_msgs/VisualTrainingActionFeedback"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -620,34 +620,34 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Python from MSG pal_navigation_msgs/MapConfiguration"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating Python from MSG pal_navigation_msgs/MissedWaypoint"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -664,10 +664,10 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Python from MSG pal_navigation_msgs/POI"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -685,8 +685,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Python from MSG pal_navigation_msgs/PolarReadingScan"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -697,8 +697,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_TabletPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating Python from MSG pal_navigation_msgs/TabletPOI"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -709,9 +709,9 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating Python from MSG pal_navigation_msgs/Highways"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -719,18 +719,18 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/sensor_msgs/msg/CompressedImage.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating Python from MSG pal_navigation_msgs/LaserImage"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating Python from MSG pal_navigation_msgs/Waypoint"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -746,36 +746,36 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating Python code from SRV pal_navigation_msgs/ChangeMap"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating Python code from SRV pal_navigation_msgs/ChangeSyncMap"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -786,10 +786,10 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating Python code from SRV pal_navigation_msgs/FinalApproachPose"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -800,25 +800,25 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating Python code from SRV pal_navigation_msgs/GetMapConfiguration"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -829,11 +829,11 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating Python code from SRV pal_navigation_msgs/GetPOI"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
@@ -845,25 +845,25 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating Python code from SRV pal_navigation_msgs/RegisterSync"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -879,35 +879,35 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating Python code from SRV pal_navigation_msgs/SetMapConfiguration"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating Python code from SRV pal_navigation_msgs/SetPOI"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
@@ -919,12 +919,12 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_py
 
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating Python code from SRV pal_navigation_msgs/VisualLocRecognize"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 

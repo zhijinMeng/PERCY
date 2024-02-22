@@ -143,15 +143,15 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from pal_navigation_msgs/ExecuteParkingAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -167,8 +167,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/ExecuteParkingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from pal_navigation_msgs/ExecuteParkingActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -199,47 +199,47 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from pal_navigation_msgs/FollowWaypointsAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from pal_navigation_msgs/FollowWaypointsActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from pal_navigation_msgs/FollowWaypointsActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -254,23 +254,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from pal_navigation_msgs/FollowWaypointsGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/FollowWaypointsResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from pal_navigation_msgs/FollowWaypointsResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -281,23 +281,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from pal_navigation_msgs/JoyPriorityAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from pal_navigation_msgs/JoyPriorityActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -313,9 +313,9 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyPriorityActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from pal_navigation_msgs/JoyPriorityActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -336,23 +336,23 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from pal_navigation_msgs/JoyTurboAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from pal_navigation_msgs/JoyTurboActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -360,16 +360,16 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from pal_navigation_msgs/JoyTurboActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/JoyTurboActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from pal_navigation_msgs/JoyTurboActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
@@ -391,28 +391,28 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from pal_navigation_msgs/GoToPOIAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from pal_navigation_msgs/GoToPOIActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
@@ -421,21 +421,21 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from pal_navigation_msgs/GoToPOIActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from pal_navigation_msgs/GoToPOIActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -452,73 +452,73 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToPOIFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from pal_navigation_msgs/GoToPOIFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from pal_navigation_msgs/GoToAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from pal_navigation_msgs/GoToActionGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from pal_navigation_msgs/GoToActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from pal_navigation_msgs/GoToActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from pal_navigation_msgs/GoToGoal.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -529,24 +529,24 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/GoToFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from pal_navigation_msgs/GoToFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingAction.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Javascript code from pal_navigation_msgs/VisualTrainingAction.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
@@ -563,17 +563,17 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionResult.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Javascript code from pal_navigation_msgs/VisualTrainingActionResult.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/VisualTrainingActionFeedback.js: /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Javascript code from pal_navigation_msgs/VisualTrainingActionFeedback.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -618,34 +618,34 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Javascript code from pal_navigation_msgs/MapConfiguration.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/MissedWaypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating Javascript code from pal_navigation_msgs/MissedWaypoint.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -662,10 +662,10 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/POI.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Javascript code from pal_navigation_msgs/POI.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
@@ -683,8 +683,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/PolarReadingScan.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Javascript code from pal_navigation_msgs/PolarReadingScan.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -695,8 +695,8 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/TabletPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating Javascript code from pal_navigation_msgs/TabletPOI.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -707,9 +707,9 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Highways.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating Javascript code from pal_navigation_msgs/Highways.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
@@ -717,18 +717,18 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /opt/ros/noetic/share/sensor_msgs/msg/CompressedImage.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/LaserImage.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating Javascript code from pal_navigation_msgs/LaserImage.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating Javascript code from pal_navigation_msgs/Waypoint.msg"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/msg
 
@@ -744,36 +744,36 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeMap.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating Javascript code from pal_navigation_msgs/ChangeMap.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/ChangeSyncMap.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating Javascript code from pal_navigation_msgs/ChangeSyncMap.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
@@ -784,10 +784,10 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/FinalApproachPose.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating Javascript code from pal_navigation_msgs/FinalApproachPose.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
@@ -798,25 +798,25 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating Javascript code from pal_navigation_msgs/GetMapConfiguration.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
@@ -827,11 +827,11 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/GetPOI.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating Javascript code from pal_navigation_msgs/GetPOI.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
@@ -843,25 +843,25 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/RegisterSync.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating Javascript code from pal_navigation_msgs/RegisterSync.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
@@ -877,35 +877,35 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetMapConfiguration.js: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating Javascript code from pal_navigation_msgs/SetMapConfiguration.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/SetPOI.js: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating Javascript code from pal_navigation_msgs/SetPOI.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
@@ -917,12 +917,12 @@ pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_messages_no
 
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv/VisualLocRecognize.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zhijin/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating Javascript code from pal_navigation_msgs/VisualLocRecognize.srv"
 	cd /home/zhijin/pt0/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv -Ipal_navigation_msgs:/home/zhijin/pt0/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/zhijin/pt0/src/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/zhijin/pt0/devel/share/gennodejs/ros/pal_navigation_msgs/srv
 
