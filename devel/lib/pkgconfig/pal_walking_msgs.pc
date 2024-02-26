@@ -1,8 +1,0 @@
-prefix=/home/zhijin/pt0/devel
-
-Name: pal_walking_msgs
-Description: Description of pal_walking_msgs
-Version: 0.15.1
-Cflags: -I/home/zhijin/pt0/devel/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs humanoid_nav_msgs message_runtime

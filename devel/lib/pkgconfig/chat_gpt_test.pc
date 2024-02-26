@@ -1,8 +1,0 @@
-prefix=/home/zhijin/pt0/devel
-
-Name: chat_gpt_test
-Description: Description of chat_gpt_test
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
