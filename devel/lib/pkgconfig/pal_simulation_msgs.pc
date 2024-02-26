@@ -1,0 +1,8 @@
+prefix=/home/zhijin/pt0/devel
+
+Name: pal_simulation_msgs
+Description: Description of pal_simulation_msgs
+Version: 0.15.1
+Cflags: -I/home/zhijin/pt0/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_generation

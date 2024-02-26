@@ -1,0 +1,8 @@
+prefix=/home/zhijin/pt0/devel
+
+Name: pal_common_msgs
+Description: Description of pal_common_msgs
+Version: 0.15.1
+Cflags: -I/home/zhijin/pt0/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/zhijin/pt0/devel
+
+Name: humanoid_nav_msgs
+Description: Description of humanoid_nav_msgs
+Version: 0.3.0
+Cflags: -I/home/zhijin/pt0/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs actionlib_msgs

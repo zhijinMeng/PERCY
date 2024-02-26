@@ -1,0 +1,6 @@
+<launch>
+    <node pkg='chat_gpt_test' type='audio_recorder.py' name='microphone' output='screen'></node>
+    <node pkg='chat_gpt_test' type='depth_camera.py' name='depth_camera' output='screen'></node>
+    <node pkg='chat_gpt_test' type='video_recorder.py' name='normal_camera' output='screen'></node>
+
+</launch>
