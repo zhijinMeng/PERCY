@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/pt0/install
+
+Name: gpt_server
+Description: Description of gpt_server
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
