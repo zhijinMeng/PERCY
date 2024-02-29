@@ -89,6 +89,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_server" TYPE PROGRAM FILES "/home/ubuntu/pt0/build/gpt_server/catkin_generated/installspace/gpt_server.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_server" TYPE PROGRAM FILES "/home/ubuntu/pt0/build/gpt_server/catkin_generated/installspace/gpt_server_exec.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_server" TYPE PROGRAM FILES "/home/ubuntu/pt0/build/gpt_server/catkin_generated/installspace/gpt3_server.py")
 endif()
 

@@ -13,6 +13,8 @@ messages = [ {"role": "system", "content":
               +"one question per time"} ] 
 while True: 
     message = input("User : ")
+    print(type(messages))
+    print(message)
     emotion = "angry"
 
     message = "say that i am feeling" + emotion + ". now respond with this emotion in account: " + message;  
@@ -31,6 +33,6 @@ while True:
 name = sys.argv[1]
 name += '_conversation_history'
 file = open(name, 'w')
-file.write(json.dumps(messages), indent='4')
+file.write(json.dumps(messages))
 
 
