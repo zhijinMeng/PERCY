@@ -24,10 +24,14 @@ struct GPTGenerateRequest_
   typedef GPTGenerateRequest_<ContainerAllocator> Type;
 
   GPTGenerateRequest_()
-    : request()  {
+    : request()
+    , initialEmotion()
+    , finalEmotion()  {
     }
   GPTGenerateRequest_(const ContainerAllocator& _alloc)
-    : request(_alloc)  {
+    : request(_alloc)
+    , initialEmotion(_alloc)
+    , finalEmotion(_alloc)  {
   (void)_alloc;
     }
 
@@ -35,6 +39,12 @@ struct GPTGenerateRequest_
 
    typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _request_type;
   _request_type request;
+
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _initialEmotion_type;
+  _initialEmotion_type initialEmotion;
+
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _finalEmotion_type;
+  _finalEmotion_type finalEmotion;
 
 
 
@@ -65,7 +75,9 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::gpt_server::GPTGenerateRequest_<ContainerAllocator1> & lhs, const ::gpt_server::GPTGenerateRequest_<ContainerAllocator2> & rhs)
 {
-  return lhs.request == rhs.request;
+  return lhs.request == rhs.request &&
+    lhs.initialEmotion == rhs.initialEmotion &&
+    lhs.finalEmotion == rhs.finalEmotion;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -122,12 +134,12 @@ struct MD5Sum< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "9b13f31f7a0a36901919f7ec0d9f40d4";
+    return "977d7afd53a96949311a6417ee08cfe0";
   }
 
   static const char* value(const ::gpt_server::GPTGenerateRequest_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x9b13f31f7a0a3690ULL;
-  static const uint64_t static_value2 = 0x1919f7ec0d9f40d4ULL;
+  static const uint64_t static_value1 = 0x977d7afd53a96949ULL;
+  static const uint64_t static_value2 = 0x311a6417ee08cfe0ULL;
 };
 
 template<class ContainerAllocator>
@@ -147,6 +159,8 @@ struct Definition< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
   static const char* value()
   {
     return "string request\n"
+"string initialEmotion\n"
+"string finalEmotion\n"
 ;
   }
 
@@ -166,6 +180,8 @@ namespace serialization
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
       stream.next(m.request);
+      stream.next(m.initialEmotion);
+      stream.next(m.finalEmotion);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -186,6 +202,10 @@ struct Printer< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
   {
     s << indent << "request: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.request);
+    s << indent << "initialEmotion: ";
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.initialEmotion);
+    s << indent << "finalEmotion: ";
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.finalEmotion);
   }
 };
 

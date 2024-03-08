@@ -1,0 +1,7 @@
+set(pyhri_SETUP_PY_SETUP_MODULE "setuptools")
+set(pyhri_SETUP_PY_VERSION "0.4.1")
+set(pyhri_SETUP_PY_SCRIPTS "")
+set(pyhri_SETUP_PY_PACKAGES "pyhri")
+set(pyhri_SETUP_PY_PACKAGE_DIRS "src/pyhri")
+set(pyhri_SETUP_PY_MODULES "")
+set(pyhri_SETUP_PY_MODULE_DIRS "")

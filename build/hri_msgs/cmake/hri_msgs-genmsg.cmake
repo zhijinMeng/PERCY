@@ -44,7 +44,7 @@ add_custom_target(_hri_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg" NAME_WE)
 add_custom_target(_hri_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hri_msgs" "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg" "hri_msgs/NormalizedPointOfInterest2D:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hri_msgs" "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg" "std_msgs/Header:hri_msgs/NormalizedPointOfInterest2D"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/hri_msgs/msg/Gaze.msg" NAME_WE)
@@ -94,7 +94,7 @@ add_custom_target(_hri_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg" NAME_WE)
 add_custom_target(_hri_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hri_msgs" "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg" "hri_msgs/NormalizedPointOfInterest2D:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hri_msgs" "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg" "std_msgs/Header:hri_msgs/NormalizedPointOfInterest2D"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/hri_msgs/msg/SoftBiometrics.msg" NAME_WE)
@@ -141,7 +141,7 @@ _generate_msg_cpp(hri_msgs
 _generate_msg_cpp(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_cpp(hri_msgs
@@ -201,7 +201,7 @@ _generate_msg_cpp(hri_msgs
 _generate_msg_cpp(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_cpp(hri_msgs
@@ -302,7 +302,7 @@ _generate_msg_eus(hri_msgs
 _generate_msg_eus(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_eus(hri_msgs
@@ -362,7 +362,7 @@ _generate_msg_eus(hri_msgs
 _generate_msg_eus(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_eus(hri_msgs
@@ -463,7 +463,7 @@ _generate_msg_lisp(hri_msgs
 _generate_msg_lisp(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_lisp(hri_msgs
@@ -523,7 +523,7 @@ _generate_msg_lisp(hri_msgs
 _generate_msg_lisp(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_lisp(hri_msgs
@@ -624,7 +624,7 @@ _generate_msg_nodejs(hri_msgs
 _generate_msg_nodejs(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_nodejs(hri_msgs
@@ -684,7 +684,7 @@ _generate_msg_nodejs(hri_msgs
 _generate_msg_nodejs(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_nodejs(hri_msgs
@@ -785,7 +785,7 @@ _generate_msg_py(hri_msgs
 _generate_msg_py(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_py(hri_msgs
@@ -845,7 +845,7 @@ _generate_msg_py(hri_msgs
 _generate_msg_py(hri_msgs
   "/home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hri_msgs
 )
 _generate_msg_py(hri_msgs

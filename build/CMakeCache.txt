@@ -383,6 +383,9 @@ UBUNTU:BOOL=TRUE
 UBUNTU_FOCAL:BOOL=TRUE
 
 //Path to a file.
+_file_name:FILEPATH=/home/ubuntu/pt0/src/pyhri/test/test_pyhri.test
+
+//Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
 
 //Path to a file.
@@ -411,6 +414,15 @@ chat_gpt_test_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/chat_gpt_test
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/noetic/share/cv_bridge/cmake
+
+//Value Computed by CMake
+emotion_server_BINARY_DIR:STATIC=/home/ubuntu/pt0/build/emotion_server
+
+//Value Computed by CMake
+emotion_server_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/emotion_server
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
@@ -500,6 +512,9 @@ hri_actions_msgs_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/hri_actions_msgs
 //Value Computed by CMake
 hri_msgs_BINARY_DIR:STATIC=/home/ubuntu/pt0/build/hri_msgs
 
+//The directory containing a CMake configuration file for hri_msgs.
+hri_msgs_DIR:PATH=/home/ubuntu/pt0/devel/share/hri_msgs/cmake
+
 //Value Computed by CMake
 hri_msgs_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/hri_msgs
 
@@ -519,7 +534,10 @@ humanoid_nav_msgs_DIR:PATH=/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/cmake
 humanoid_nav_msgs_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
+lib:FILEPATH=/opt/ros/noetic/lib/libmessage_filters.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
@@ -641,6 +659,12 @@ pal_wifi_localization_msgs_BINARY_DIR:STATIC=/home/ubuntu/pt0/build/pal_msgs/pal
 //Value Computed by CMake
 pal_wifi_localization_msgs_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/pal_msgs/pal_wifi_localization_msgs
 
+//Value Computed by CMake
+pyhri_BINARY_DIR:STATIC=/home/ubuntu/pt0/build/pyhri
+
+//Value Computed by CMake
+pyhri_SOURCE_DIR:STATIC=/home/ubuntu/pt0/src/pyhri
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 
@@ -653,11 +677,17 @@ roscpp_serialization_DIR:PATH=/opt/ros/noetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/noetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/noetic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/noetic/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
@@ -667,6 +697,18 @@ sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/noetic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -819,7 +861,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -104,8 +104,8 @@ hri_msgs/CMakeFiles/hri_msgs_generate_messages_py: /home/ubuntu/pt0/devel/lib/py
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_FacialLandmarks.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_FacialLandmarks.py: /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_FacialLandmarks.py: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_FacialLandmarks.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_FacialLandmarks.py: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG hri_msgs/FacialLandmarks"
 	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg -Ihri_msgs:/home/ubuntu/pt0/src/hri_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg
 
@@ -163,8 +163,8 @@ hri_msgs/CMakeFiles/hri_msgs_generate_messages_py: /home/ubuntu/pt0/devel/lib/py
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_Skeleton2D.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_Skeleton2D.py: /home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_Skeleton2D.py: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_Skeleton2D.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg/_Skeleton2D.py: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG hri_msgs/Skeleton2D"
 	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg -Ihri_msgs:/home/ubuntu/pt0/src/hri_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/hri_msgs/msg
 

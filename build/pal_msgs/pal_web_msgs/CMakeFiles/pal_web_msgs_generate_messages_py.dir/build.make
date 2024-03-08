@@ -85,72 +85,72 @@ pal_msgs/pal_web_msgs/CMakeFiles/pal_web_msgs_generate_messages_py: /home/ubuntu
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG pal_web_msgs/GetUserInputAction"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG pal_web_msgs/GetUserInputActionGoal"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG pal_web_msgs/GetUserInputActionResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG pal_web_msgs/GetUserInputActionFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG pal_web_msgs/GetUserInputGoal"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputResult.py: /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg/_GetUserInputResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG pal_web_msgs/GetUserInputResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_web_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg -Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg -Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -p pal_web_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_web_msgs/msg
 

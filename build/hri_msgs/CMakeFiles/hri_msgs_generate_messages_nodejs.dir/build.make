@@ -103,8 +103,8 @@ hri_msgs/CMakeFiles/hri_msgs_generate_messages_nodejs: /home/ubuntu/pt0/devel/sh
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/FacialLandmarks.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/FacialLandmarks.js: /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/FacialLandmarks.js: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/FacialLandmarks.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/FacialLandmarks.js: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hri_msgs/FacialLandmarks.msg"
 	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg -Ihri_msgs:/home/ubuntu/pt0/src/hri_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg
 
@@ -162,8 +162,8 @@ hri_msgs/CMakeFiles/hri_msgs_generate_messages_nodejs: /home/ubuntu/pt0/devel/sh
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/Skeleton2D.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/Skeleton2D.js: /home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/Skeleton2D.js: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/Skeleton2D.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg/Skeleton2D.js: /home/ubuntu/pt0/src/hri_msgs/msg/NormalizedPointOfInterest2D.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from hri_msgs/Skeleton2D.msg"
 	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/src/hri_msgs/msg/Skeleton2D.msg -Ihri_msgs:/home/ubuntu/pt0/src/hri_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_msgs/msg
 

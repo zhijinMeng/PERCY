@@ -19,7 +19,7 @@ add_custom_target(pal_visual_localization_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg" "pal_visual_localization_msgs/VisualLocAddPlaceActionResult:pal_visual_localization_msgs/VisualLocAddPlaceResult:pal_visual_localization_msgs/VisualLocAddPlaceFeedback:pal_visual_localization_msgs/VisualLocAddPlaceGoal:std_msgs/Header:pal_visual_localization_msgs/VisualLocAddPlaceActionFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_visual_localization_msgs/VisualLocAddPlaceActionGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg" "pal_visual_localization_msgs/VisualLocAddPlaceActionGoal:actionlib_msgs/GoalID:pal_visual_localization_msgs/VisualLocAddPlaceActionResult:pal_visual_localization_msgs/VisualLocAddPlaceActionFeedback:pal_visual_localization_msgs/VisualLocAddPlaceGoal:pal_visual_localization_msgs/VisualLocAddPlaceFeedback:actionlib_msgs/GoalStatus:std_msgs/Header:pal_visual_localization_msgs/VisualLocAddPlaceResult"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg" NAME_WE)
@@ -29,12 +29,12 @@ add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_visual_localization_msgs/VisualLocAddPlaceResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_visual_localization_msgs/VisualLocAddPlaceResult"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_visual_localization_msgs/VisualLocAddPlaceFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_visual_localization_msgs/VisualLocAddPlaceFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg" NAME_WE)
@@ -54,22 +54,22 @@ add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg" "pal_visual_localization_msgs/VisualLocRecognizeGoal:pal_visual_localization_msgs/VisualLocRecognizeActionResult:pal_visual_localization_msgs/VisualLocRecognizeResult:geometry_msgs/Pose:geometry_msgs/Point:pal_visual_localization_msgs/VisualLocRecognizeActionFeedback:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovarianceStamped:pal_visual_localization_msgs/VisualLocRecognizeActionGoal:pal_visual_localization_msgs/VisualLocRecognizeFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg" "geometry_msgs/PoseWithCovarianceStamped:pal_visual_localization_msgs/VisualLocRecognizeFeedback:geometry_msgs/Point:actionlib_msgs/GoalID:geometry_msgs/Pose:pal_visual_localization_msgs/VisualLocRecognizeResult:pal_visual_localization_msgs/VisualLocRecognizeActionFeedback:pal_visual_localization_msgs/VisualLocRecognizeActionResult:pal_visual_localization_msgs/VisualLocRecognizeActionGoal:geometry_msgs/PoseWithCovariance:actionlib_msgs/GoalStatus:std_msgs/Header:pal_visual_localization_msgs/VisualLocRecognizeGoal:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg" "pal_visual_localization_msgs/VisualLocRecognizeGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg" "std_msgs/Header:pal_visual_localization_msgs/VisualLocRecognizeGoal:actionlib_msgs/GoalID"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg" "pal_visual_localization_msgs/VisualLocRecognizeResult:geometry_msgs/Pose:geometry_msgs/Point:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovarianceStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg" "geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Point:actionlib_msgs/GoalID:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:actionlib_msgs/GoalStatus:std_msgs/Header:pal_visual_localization_msgs/VisualLocRecognizeResult:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_visual_localization_msgs/VisualLocRecognizeFeedback:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_visual_localization_msgs/VisualLocRecognizeFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg" NAME_WE)
@@ -79,7 +79,7 @@ add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg" NAME_WE)
 add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg" "geometry_msgs/Pose:geometry_msgs/Point:std_msgs/Header:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovarianceStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_visual_localization_msgs" "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg" "geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:std_msgs/Header:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg" NAME_WE)
@@ -96,7 +96,7 @@ add_custom_target(_pal_visual_localization_msgs_generate_messages_check_deps_${_
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
@@ -108,13 +108,13 @@ _generate_msg_cpp(pal_visual_localization_msgs
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
@@ -138,25 +138,25 @@ _generate_msg_cpp(pal_visual_localization_msgs
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
@@ -168,7 +168,7 @@ _generate_msg_cpp(pal_visual_localization_msgs
 _generate_msg_cpp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_cpp(pal_visual_localization_msgs
@@ -233,7 +233,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_visual_localization_msgs_genera
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
@@ -245,13 +245,13 @@ _generate_msg_eus(pal_visual_localization_msgs
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
@@ -275,25 +275,25 @@ _generate_msg_eus(pal_visual_localization_msgs
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
@@ -305,7 +305,7 @@ _generate_msg_eus(pal_visual_localization_msgs
 _generate_msg_eus(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_eus(pal_visual_localization_msgs
@@ -370,7 +370,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_visual_localization_msgs_genera
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
@@ -382,13 +382,13 @@ _generate_msg_lisp(pal_visual_localization_msgs
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
@@ -412,25 +412,25 @@ _generate_msg_lisp(pal_visual_localization_msgs
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
@@ -442,7 +442,7 @@ _generate_msg_lisp(pal_visual_localization_msgs
 _generate_msg_lisp(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_lisp(pal_visual_localization_msgs
@@ -507,7 +507,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_visual_localization_msgs_genera
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
@@ -519,13 +519,13 @@ _generate_msg_nodejs(pal_visual_localization_msgs
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
@@ -549,25 +549,25 @@ _generate_msg_nodejs(pal_visual_localization_msgs
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
@@ -579,7 +579,7 @@ _generate_msg_nodejs(pal_visual_localization_msgs
 _generate_msg_nodejs(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_nodejs(pal_visual_localization_msgs
@@ -644,7 +644,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_visual_localization_msgs_genera
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
@@ -656,13 +656,13 @@ _generate_msg_py(pal_visual_localization_msgs
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
@@ -686,25 +686,25 @@ _generate_msg_py(pal_visual_localization_msgs
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs
@@ -716,7 +716,7 @@ _generate_msg_py(pal_visual_localization_msgs
 _generate_msg_py(pal_visual_localization_msgs
   "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_visual_localization_msgs
 )
 _generate_msg_py(pal_visual_localization_msgs

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/pt0/build
 include hri_msgs/CMakeFiles/_hri_msgs_generate_messages_check_deps_FacialLandmarks.dir/progress.make
 
 hri_msgs/CMakeFiles/_hri_msgs_generate_messages_check_deps_FacialLandmarks:
-	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_msgs /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg hri_msgs/NormalizedPointOfInterest2D:std_msgs/Header
+	cd /home/ubuntu/pt0/build/hri_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_msgs /home/ubuntu/pt0/src/hri_msgs/msg/FacialLandmarks.msg std_msgs/Header:hri_msgs/NormalizedPointOfInterest2D
 
 _hri_msgs_generate_messages_check_deps_FacialLandmarks: hri_msgs/CMakeFiles/_hri_msgs_generate_messages_check_deps_FacialLandmarks
 _hri_msgs_generate_messages_check_deps_FacialLandmarks: hri_msgs/CMakeFiles/_hri_msgs_generate_messages_check_deps_FacialLandmarks.dir/build.make

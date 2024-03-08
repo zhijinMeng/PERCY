@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/pt0/build
 include pal_msgs/pal_tablet_msgs/CMakeFiles/_pal_tablet_msgs_generate_messages_check_deps_RobotStatus.dir/progress.make
 
 pal_msgs/pal_tablet_msgs/CMakeFiles/_pal_tablet_msgs_generate_messages_check_deps_RobotStatus:
-	cd /home/ubuntu/pt0/build/pal_msgs/pal_tablet_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_tablet_msgs /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg pal_tablet_msgs/FunctionalityStatus:std_msgs/String:std_msgs/Bool
+	cd /home/ubuntu/pt0/build/pal_msgs/pal_tablet_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_tablet_msgs /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg std_msgs/String:pal_tablet_msgs/FunctionalityStatus:std_msgs/Bool
 
 _pal_tablet_msgs_generate_messages_check_deps_RobotStatus: pal_msgs/pal_tablet_msgs/CMakeFiles/_pal_tablet_msgs_generate_messages_check_deps_RobotStatus
 _pal_tablet_msgs_generate_messages_check_deps_RobotStatus: pal_msgs/pal_tablet_msgs/CMakeFiles/_pal_tablet_msgs_generate_messages_check_deps_RobotStatus.dir/build.make

@@ -67,19 +67,19 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_py: /hom
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStatus.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pal_walking_msgs/WalkingStatus"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg/_WalkingStep.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pal_walking_msgs/WalkingStep"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/msg
 
@@ -113,11 +113,11 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_py: /hom
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv/_MoveHipFeet.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python code from SRV pal_walking_msgs/MoveHipFeet"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs/srv
 

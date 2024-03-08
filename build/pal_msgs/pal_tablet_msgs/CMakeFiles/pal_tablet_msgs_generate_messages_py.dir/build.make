@@ -60,15 +60,15 @@ pal_msgs/pal_tablet_msgs/CMakeFiles/pal_tablet_msgs_generate_messages_py: /home/
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py: /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pal_tablet_msgs/FunctionalityStatus"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_tablet_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg -Ipal_tablet_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_tablet_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pal_tablet_msgs/RobotStatus"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_tablet_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg -Ipal_tablet_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_tablet_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_tablet_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg

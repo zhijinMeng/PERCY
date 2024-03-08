@@ -8,13 +8,15 @@ import struct
 
 
 class GPTGenerateRequest(genpy.Message):
-  _md5sum = "9b13f31f7a0a36901919f7ec0d9f40d4"
+  _md5sum = "977d7afd53a96949311a6417ee08cfe0"
   _type = "gpt_server/GPTGenerateRequest"
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """string request
+string initialEmotion
+string finalEmotion
 """
-  __slots__ = ['request']
-  _slot_types = ['string']
+  __slots__ = ['request','initialEmotion','finalEmotion']
+  _slot_types = ['string','string','string']
 
   def __init__(self, *args, **kwds):
     """
@@ -24,7 +26,7 @@ class GPTGenerateRequest(genpy.Message):
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       request
+       request,initialEmotion,finalEmotion
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -35,8 +37,14 @@ class GPTGenerateRequest(genpy.Message):
       # message fields cannot be None, assign default values for those that are
       if self.request is None:
         self.request = ''
+      if self.initialEmotion is None:
+        self.initialEmotion = ''
+      if self.finalEmotion is None:
+        self.finalEmotion = ''
     else:
       self.request = ''
+      self.initialEmotion = ''
+      self.finalEmotion = ''
 
   def _get_types(self):
     """
@@ -51,6 +59,18 @@ class GPTGenerateRequest(genpy.Message):
     """
     try:
       _x = self.request
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.Struct('<I%ss'%length).pack(length, _x))
+      _x = self.initialEmotion
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.Struct('<I%ss'%length).pack(length, _x))
+      _x = self.finalEmotion
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
@@ -77,6 +97,24 @@ class GPTGenerateRequest(genpy.Message):
         self.request = str[start:end].decode('utf-8', 'rosmsg')
       else:
         self.request = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.initialEmotion = str[start:end].decode('utf-8', 'rosmsg')
+      else:
+        self.initialEmotion = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.finalEmotion = str[start:end].decode('utf-8', 'rosmsg')
+      else:
+        self.finalEmotion = str[start:end]
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -90,6 +128,18 @@ class GPTGenerateRequest(genpy.Message):
     """
     try:
       _x = self.request
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.Struct('<I%ss'%length).pack(length, _x))
+      _x = self.initialEmotion
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.Struct('<I%ss'%length).pack(length, _x))
+      _x = self.finalEmotion
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
@@ -117,6 +167,24 @@ class GPTGenerateRequest(genpy.Message):
         self.request = str[start:end].decode('utf-8', 'rosmsg')
       else:
         self.request = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.initialEmotion = str[start:end].decode('utf-8', 'rosmsg')
+      else:
+        self.initialEmotion = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.finalEmotion = str[start:end].decode('utf-8', 'rosmsg')
+      else:
+        self.finalEmotion = str[start:end]
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -255,6 +323,6 @@ def _get_struct_I():
     return _struct_I
 class GPTGenerate(object):
   _type          = 'gpt_server/GPTGenerate'
-  _md5sum = '33ea4e5aeb30f5913da681ca459d55f3'
+  _md5sum = '23074dbdb11e5f7b63cfdeb8e3a318fc'
   _request_class  = GPTGenerateRequest
   _response_class = GPTGenerateResponse

@@ -1,0 +1,10 @@
+(cl:defpackage emotion_server-srv
+  (:use )
+  (:export
+   "EMOTIONGENERATE"
+   "<EMOTIONGENERATE-REQUEST>"
+   "EMOTIONGENERATE-REQUEST"
+   "<EMOTIONGENERATE-RESPONSE>"
+   "EMOTIONGENERATE-RESPONSE"
+  ))
+

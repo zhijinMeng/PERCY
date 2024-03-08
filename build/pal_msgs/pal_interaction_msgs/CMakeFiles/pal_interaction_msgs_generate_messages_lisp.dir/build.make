@@ -146,16 +146,16 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvRequest.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from pal_interaction_msgs/ASRSrvRequest.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRSrvResponse.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from pal_interaction_msgs/ASRSrvResponse.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
@@ -245,17 +245,17 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Lisp code from pal_interaction_msgs/ASRFileAction.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
@@ -269,23 +269,23 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionResult.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Lisp code from pal_interaction_msgs/ASRFileActionResult.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/ASRFileActionFeedback.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Lisp code from pal_interaction_msgs/ASRFileActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
@@ -310,22 +310,22 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Lisp code from pal_interaction_msgs/AudioPlayAction.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Lisp code from pal_interaction_msgs/AudioPlayActionGoal.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
@@ -333,17 +333,17 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Lisp code from pal_interaction_msgs/AudioPlayActionResult.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/AudioPlayActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Lisp code from pal_interaction_msgs/AudioPlayActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
@@ -365,39 +365,39 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Lisp code from pal_interaction_msgs/SoundAction.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Lisp code from pal_interaction_msgs/SoundActionGoal.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Lisp code from pal_interaction_msgs/SoundActionResult.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/SoundActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Lisp code from pal_interaction_msgs/SoundActionFeedback.msg"
@@ -420,37 +420,37 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsAction.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Lisp code from pal_interaction_msgs/TtsAction.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Lisp code from pal_interaction_msgs/TtsActionGoal.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Lisp code from pal_interaction_msgs/TtsActionResult.msg"
@@ -458,19 +458,19 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Lisp code from pal_interaction_msgs/TtsActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg/TtsGoal.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating Lisp code from pal_interaction_msgs/TtsGoal.msg"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/msg
 
@@ -488,10 +488,10 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/ASRService.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Lisp code from pal_interaction_msgs/ASRService.srv"
@@ -499,9 +499,9 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv
-/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv/GetSpeechDuration.lisp: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Lisp code from pal_interaction_msgs/GetSpeechDuration.srv"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/share/common-lisp/ros/pal_interaction_msgs/srv
 

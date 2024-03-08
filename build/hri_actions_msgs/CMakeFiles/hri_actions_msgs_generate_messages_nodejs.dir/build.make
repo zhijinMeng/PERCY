@@ -87,8 +87,8 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /home/ubuntu/pt0/src/hri_actions_msgs/msg/LookAtWithStyle.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtWithStyle.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hri_actions_msgs/LookAtWithStyle.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/src/hri_actions_msgs/msg/LookAtWithStyle.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
@@ -100,36 +100,36 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtAction.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtFeedback.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hri_actions_msgs/LookAtAction.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtAction.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hri_actions_msgs/LookAtActionGoal.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hri_actions_msgs/LookAtActionResult.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
@@ -137,15 +137,15 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hri_actions_msgs/LookAtActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/LookAtGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from hri_actions_msgs/LookAtGoal.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/LookAtGoal.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
@@ -162,25 +162,25 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryAction.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from hri_actions_msgs/PointTrajectoryAction.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryAction.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from hri_actions_msgs/PointTrajectoryActionGoal.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
@@ -188,24 +188,24 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from hri_actions_msgs/PointTrajectoryActionResult.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from hri_actions_msgs/PointTrajectoryActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/PointTrajectoryGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from hri_actions_msgs/PointTrajectoryGoal.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
@@ -221,15 +221,15 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlAction.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from hri_actions_msgs/ApplicationControlAction.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlAction.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
@@ -244,8 +244,8 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from hri_actions_msgs/ApplicationControlActionResult.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionResult.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
@@ -253,8 +253,8 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/ApplicationControlActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from hri_actions_msgs/ApplicationControlActionFeedback.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/ApplicationControlActionFeedback.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
@@ -277,30 +277,30 @@ hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_nodejs: /home/ubu
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayAction.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayFeedback.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayFeedback.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from hri_actions_msgs/FaceOverlayAction.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayAction.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from hri_actions_msgs/FaceOverlayActionGoal.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg
 
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionResult.msg
-/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
 /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg/FaceOverlayActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from hri_actions_msgs/FaceOverlayActionResult.msg"
 	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/FaceOverlayActionResult.msg -Ihri_actions_msgs:/home/ubuntu/pt0/src/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ubuntu/pt0/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ubuntu/pt0/devel/share/gennodejs/ros/hri_actions_msgs/msg

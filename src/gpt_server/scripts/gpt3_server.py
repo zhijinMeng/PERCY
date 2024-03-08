@@ -32,6 +32,11 @@ class GPT:
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
 
+        initialEmotion = data.initialEmotion
+        finalEmotion = data.finalEmotion
+
+        print(f'Receive emotions: {initialEmotion}, {finalEmotion}')
+
         input_text = {"role": "user", "content": text_from_speech}
 
         # Append the user's input to the conversation

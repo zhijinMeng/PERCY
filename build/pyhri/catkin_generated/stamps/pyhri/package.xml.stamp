@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pyhri</name>
+  <version>0.4.1</version>
+  <description>A Python wrapper library around the ROS4HRI ROS topics</description>
+
+  <maintainer email="severin.lemaignan@pal-robotics.com">Séverin Lemaignan</maintainer>
+
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/pyhri</url>
+
+
+  <author email="severin.lemaignan@pal-robotics.com">Séverin Lemaignan</author>
+
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cv_bridge</depend>
+  <depend>geometry_msgs</depend>
+  <depend>hri_msgs</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+
+  <export>
+      <rosdoc config="rosdoc.yaml" />
+  </export>
+</package>

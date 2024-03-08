@@ -20,24 +20,38 @@
 
 (defclass gpt_server::GPTGenerateRequest
   :super ros::object
-  :slots (_request ))
+  :slots (_request _initialEmotion _finalEmotion ))
 
 (defmethod gpt_server::GPTGenerateRequest
   (:init
    (&key
     ((:request __request) "")
+    ((:initialEmotion __initialEmotion) "")
+    ((:finalEmotion __finalEmotion) "")
     )
    (send-super :init)
    (setq _request (string __request))
+   (setq _initialEmotion (string __initialEmotion))
+   (setq _finalEmotion (string __finalEmotion))
    self)
   (:request
    (&optional __request)
    (if __request (setq _request __request)) _request)
+  (:initialEmotion
+   (&optional __initialEmotion)
+   (if __initialEmotion (setq _initialEmotion __initialEmotion)) _initialEmotion)
+  (:finalEmotion
+   (&optional __finalEmotion)
+   (if __finalEmotion (setq _finalEmotion __finalEmotion)) _finalEmotion)
   (:serialization-length
    ()
    (+
     ;; string _request
     4 (length _request)
+    ;; string _initialEmotion
+    4 (length _initialEmotion)
+    ;; string _finalEmotion
+    4 (length _finalEmotion)
     ))
   (:serialize
    (&optional strm)
@@ -45,12 +59,20 @@
               (make-string-output-stream (send self :serialization-length)))))
      ;; string _request
        (write-long (length _request) s) (princ _request s)
+     ;; string _initialEmotion
+       (write-long (length _initialEmotion) s) (princ _initialEmotion s)
+     ;; string _finalEmotion
+       (write-long (length _finalEmotion) s) (princ _finalEmotion s)
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
    ;; string _request
      (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _request (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
+   ;; string _initialEmotion
+     (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _initialEmotion (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
+   ;; string _finalEmotion
+     (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _finalEmotion (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
    ;;
    self)
   )
@@ -96,7 +118,7 @@
   :super ros::object
   :slots ())
 
-(setf (get gpt_server::GPTGenerate :md5sum-) "33ea4e5aeb30f5913da681ca459d55f3")
+(setf (get gpt_server::GPTGenerate :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerate :datatype-) "gpt_server/GPTGenerate")
 (setf (get gpt_server::GPTGenerate :request) gpt_server::GPTGenerateRequest)
 (setf (get gpt_server::GPTGenerate :response) gpt_server::GPTGenerateResponse)
@@ -104,19 +126,23 @@
 (defmethod gpt_server::GPTGenerateRequest
   (:response () (instance gpt_server::GPTGenerateResponse :init)))
 
-(setf (get gpt_server::GPTGenerateRequest :md5sum-) "33ea4e5aeb30f5913da681ca459d55f3")
+(setf (get gpt_server::GPTGenerateRequest :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerateRequest :datatype-) "gpt_server/GPTGenerateRequest")
 (setf (get gpt_server::GPTGenerateRequest :definition-)
       "string request
+string initialEmotion
+string finalEmotion
 ---
 string response
 
 ")
 
-(setf (get gpt_server::GPTGenerateResponse :md5sum-) "33ea4e5aeb30f5913da681ca459d55f3")
+(setf (get gpt_server::GPTGenerateResponse :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerateResponse :datatype-) "gpt_server/GPTGenerateResponse")
 (setf (get gpt_server::GPTGenerateResponse :definition-)
       "string request
+string initialEmotion
+string finalEmotion
 ---
 string response
 
@@ -124,6 +150,6 @@ string response
 
 
 
-(provide :gpt_server/GPTGenerate "33ea4e5aeb30f5913da681ca459d55f3")
+(provide :gpt_server/GPTGenerate "23074dbdb11e5f7b63cfdeb8e3a318fc")
 
 
