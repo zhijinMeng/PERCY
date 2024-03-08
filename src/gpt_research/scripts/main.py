@@ -31,6 +31,7 @@ class Node:
 
     
     def OnSpeechReceived(self, data:LiveSpeech):
+        data.incremental
 
         # Only process when the user finished speaking.
         if len(data.final) > 0:
