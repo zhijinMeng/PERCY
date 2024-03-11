@@ -1,0 +1,11 @@
+[
+    {
+      "role": "system",
+      "content": "what's your hobby"
+    },
+    {
+      "role": "user",
+      "content": "judo"
+    }
+  ]
+  

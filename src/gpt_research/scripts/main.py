@@ -86,7 +86,7 @@ class Node:
 
                         self.finalEmotion = emotion
             
-            rospy.sleep(duration=rospy.Duration(secs = 1))
+            rospy.sleep(duration=rospy.Duration(secs = 0.5))
 
             print(f'Obtained Emotions: Init - {self.initialEmotion}, Final - {self.finalEmotion}')
 
