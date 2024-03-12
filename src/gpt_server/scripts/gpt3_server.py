@@ -22,23 +22,23 @@ class GPT:
         
         self.client = OpenAI(api_key="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")
 
-# API_KEY = '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'
-# OpenAI.api_key = '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'
-        # self.messages = [ {"role": "system", 
-        #                    "content":  ""} ] 
+        API_KEY = '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'
+        OpenAI.api_key = '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'
+        self.messages = [ {"role": "system", 
+                                "content":  "Have a conversation with me"} ] 
 
-
-        json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
-        try:
-            with open(json_file_path, 'r') as file:
-                self.messages = json.load(file)
-                print('Successfully loaded JSON file:')
-                print(self.messages)
-        except FileNotFoundError:
-            print(f"Error: File not found at {json_file_path}")
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e}")
-        self.messages.append({"role":"system","content":"ask me a question about my hobby."})
+        ## file readings
+        # json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
+        # try:
+        #     with open(json_file_path, 'r') as file:
+        #         self.messages = json.load(file)
+        #         print('Successfully loaded JSON file:')
+        #         print(self.messages)
+        # except FileNotFoundError:
+        #     print(f"Error: File not found at {json_file_path}")
+        # except json.JSONDecodeError as e:
+        #     print(f"Error decoding JSON: {e}")
+        # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
 
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
