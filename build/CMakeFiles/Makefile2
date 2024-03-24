@@ -76,6 +76,7 @@ all: chat_gpt_test/all
 all: emotion_server/all
 all: gpt_research/all
 all: gpt_server/all
+all: sensors/all
 all: hri_msgs/all
 all: pal_msgs/pal_detection_msgs/all
 all: pal_msgs/pal_navigation_msgs/all
@@ -108,6 +109,7 @@ preinstall: chat_gpt_test/preinstall
 preinstall: emotion_server/preinstall
 preinstall: gpt_research/preinstall
 preinstall: gpt_server/preinstall
+preinstall: sensors/preinstall
 preinstall: hri_msgs/preinstall
 preinstall: pal_msgs/pal_detection_msgs/preinstall
 preinstall: pal_msgs/pal_navigation_msgs/preinstall
@@ -145,6 +147,7 @@ clean: chat_gpt_test/clean
 clean: emotion_server/clean
 clean: gpt_research/clean
 clean: gpt_server/clean
+clean: sensors/clean
 clean: hri_msgs/clean
 clean: pal_msgs/pal_detection_msgs/clean
 clean: pal_msgs/pal_navigation_msgs/clean
@@ -1346,6 +1349,24 @@ pyhri/clean: pyhri/CMakeFiles/clean_test_results_pyhri.dir/clean
 pyhri/clean: pyhri/CMakeFiles/_run_tests_pyhri_rostest_test_test_pyhri.test.dir/clean
 
 .PHONY : pyhri/clean
+
+#=============================================================================
+# Directory level rules for directory sensors
+
+# Recursive "all" directory target.
+sensors/all:
+
+.PHONY : sensors/all
+
+# Recursive "preinstall" directory target.
+sensors/preinstall:
+
+.PHONY : sensors/preinstall
+
+# Recursive "clean" directory target.
+sensors/clean:
+
+.PHONY : sensors/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

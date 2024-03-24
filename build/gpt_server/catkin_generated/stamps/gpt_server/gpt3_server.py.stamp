@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#! /usr/bin/python3
 
 import rospy
 from gpt_server.srv import GPTGenerate, GPTGenerateRequest, GPTGenerateResponse
 from openai import OpenAI
-
+import json
 
 class GPT:
     """
@@ -22,15 +22,31 @@ class GPT:
         
         self.client = OpenAI(api_key="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")
 
-# API_KEY = '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'
-# OpenAI.api_key = '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'
-        self.messages = [ {"role": "system", "content":  
-                        "hello, i will give you some information of mine and i" + 
-                        " need you to ask me questions based on the information that I provied."
-                        +"one question per time"} ] 
+        API_KEY = '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'
+        OpenAI.api_key = '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'
+        self.messages = [ {"role": "system", 
+                                "content":  "Have a conversation with me"} ] 
+
+        ## file readings
+        # json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
+        # try:
+        #     with open(json_file_path, 'r') as file:
+        #         self.messages = json.load(file)
+        #         print('Successfully loaded JSON file:')
+        #         print(self.messages)
+        # except FileNotFoundError:
+        #     print(f"Error: File not found at {json_file_path}")
+        # except json.JSONDecodeError as e:
+        #     print(f"Error decoding JSON: {e}")
+        # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
 
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
+
+        initialEmotion = data.initialEmotion
+        finalEmotion = data.finalEmotion
+
+        print(f'Receive emotions: {initialEmotion}, {finalEmotion}')
 
         input_text = {"role": "user", "content": text_from_speech}
 

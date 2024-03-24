@@ -1,44 +1,44 @@
 
 "use strict";
 
-let SaveMap = require('./SaveMap.js')
-let SetSubMapFloor = require('./SetSubMapFloor.js')
-let ListMaps = require('./ListMaps.js')
-let GetNodes = require('./GetNodes.js')
-let VisualLocRecognize = require('./VisualLocRecognize.js')
-let FinalApproachPose = require('./FinalApproachPose.js')
-let ChangeBuilding = require('./ChangeBuilding.js')
+let Acknowledgment = require('./Acknowledgment.js')
 let ChangeMap = require('./ChangeMap.js')
+let SaveMap = require('./SaveMap.js')
+let RenameMap = require('./RenameMap.js')
+let FinalApproachPose = require('./FinalApproachPose.js')
 let SafetyZone = require('./SafetyZone.js')
+let RegisterSync = require('./RegisterSync.js')
 let GetPOI = require('./GetPOI.js')
 let DisableEmergency = require('./DisableEmergency.js')
-let SetPOI = require('./SetPOI.js')
 let GetSubMap = require('./GetSubMap.js')
-let RegisterSync = require('./RegisterSync.js')
+let ListMaps = require('./ListMaps.js')
+let GetNodes = require('./GetNodes.js')
 let SetMapConfiguration = require('./SetMapConfiguration.js')
-let Acknowledgment = require('./Acknowledgment.js')
-let ChangeSyncMap = require('./ChangeSyncMap.js')
 let GetMapConfiguration = require('./GetMapConfiguration.js')
-let RenameMap = require('./RenameMap.js')
+let SetPOI = require('./SetPOI.js')
+let ChangeSyncMap = require('./ChangeSyncMap.js')
+let VisualLocRecognize = require('./VisualLocRecognize.js')
+let ChangeBuilding = require('./ChangeBuilding.js')
+let SetSubMapFloor = require('./SetSubMapFloor.js')
 
 module.exports = {
-  SaveMap: SaveMap,
-  SetSubMapFloor: SetSubMapFloor,
-  ListMaps: ListMaps,
-  GetNodes: GetNodes,
-  VisualLocRecognize: VisualLocRecognize,
-  FinalApproachPose: FinalApproachPose,
-  ChangeBuilding: ChangeBuilding,
+  Acknowledgment: Acknowledgment,
   ChangeMap: ChangeMap,
+  SaveMap: SaveMap,
+  RenameMap: RenameMap,
+  FinalApproachPose: FinalApproachPose,
   SafetyZone: SafetyZone,
+  RegisterSync: RegisterSync,
   GetPOI: GetPOI,
   DisableEmergency: DisableEmergency,
-  SetPOI: SetPOI,
   GetSubMap: GetSubMap,
-  RegisterSync: RegisterSync,
+  ListMaps: ListMaps,
+  GetNodes: GetNodes,
   SetMapConfiguration: SetMapConfiguration,
-  Acknowledgment: Acknowledgment,
-  ChangeSyncMap: ChangeSyncMap,
   GetMapConfiguration: GetMapConfiguration,
-  RenameMap: RenameMap,
+  SetPOI: SetPOI,
+  ChangeSyncMap: ChangeSyncMap,
+  VisualLocRecognize: VisualLocRecognize,
+  ChangeBuilding: ChangeBuilding,
+  SetSubMapFloor: SetSubMapFloor,
 };

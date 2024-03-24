@@ -125,8 +125,8 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASREvent.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG pal_interaction_msgs/ASREvent"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -148,9 +148,9 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRSrvRequest.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG pal_interaction_msgs/ASRSrvRequest"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -248,23 +248,23 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG pal_interaction_msgs/ASRFileAction"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python from MSG pal_interaction_msgs/ASRFileActionGoal"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
@@ -272,22 +272,22 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Python from MSG pal_interaction_msgs/ASRFileActionResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileActionFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Python from MSG pal_interaction_msgs/ASRFileActionFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -298,29 +298,29 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileResult.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG pal_interaction_msgs/ASRFileResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_ASRFileFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python from MSG pal_interaction_msgs/ASRFileFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG pal_interaction_msgs/AudioPlayAction"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -334,19 +334,19 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Python from MSG pal_interaction_msgs/AudioPlayActionResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_AudioPlayActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Python from MSG pal_interaction_msgs/AudioPlayActionFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -367,15 +367,15 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Python from MSG pal_interaction_msgs/SoundAction"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -390,18 +390,18 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Python from MSG pal_interaction_msgs/SoundActionResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_SoundActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Python from MSG pal_interaction_msgs/SoundActionFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -422,39 +422,39 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsAction.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Python from MSG pal_interaction_msgs/TtsAction"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsAction.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Python from MSG pal_interaction_msgs/TtsActionGoal"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsResult.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Python from MSG pal_interaction_msgs/TtsActionResult"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -462,17 +462,17 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsActionFeedback.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Python from MSG pal_interaction_msgs/TtsActionFeedback"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg/_TtsGoal.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating Python from MSG pal_interaction_msgs/TtsGoal"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/msg
 
@@ -489,21 +489,21 @@ pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generate_messages_
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_ASRService.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Python code from SRV pal_interaction_msgs/ASRService"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/ASRService.srv -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv
 
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv
-/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
+/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv/_GetSpeechDuration.py: /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Python code from SRV pal_interaction_msgs/GetSpeechDuration"
 	cd /home/ubuntu/pt0/build/pal_msgs/pal_interaction_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv -Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_interaction_msgs/srv
 

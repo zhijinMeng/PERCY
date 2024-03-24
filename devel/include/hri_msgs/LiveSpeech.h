@@ -176,6 +176,7 @@ struct Definition< ::hri_msgs::LiveSpeech_<ContainerAllocator> >
 "\n"
 "float64 confidence # confidence of the final recognised speech, [0-1]\n"
 "\n"
+"# string language # IETF language code, e.g. 'en-GB'\n"
 "\n"
 "================================================================================\n"
 "MSG: std_msgs/Header\n"

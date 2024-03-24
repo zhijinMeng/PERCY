@@ -76,84 +76,84 @@ humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate_messages_c
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsAction.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionGoal.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionResult.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionFeedback.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsGoal.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsResult.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ExecFootstepsFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsFeedback.msg"
 	cd /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ubuntu/pt0/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/ClipFootstep.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from humanoid_nav_msgs/ClipFootstep.srv"
@@ -161,8 +161,8 @@ humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate_messages_c
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from humanoid_nav_msgs/PlanFootsteps.srv"
@@ -170,8 +170,8 @@ humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate_messages_c
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/PlanFootstepsBetweenFeet.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from humanoid_nav_msgs/PlanFootstepsBetweenFeet.srv"
@@ -179,8 +179,8 @@ humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate_messages_c
 
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv
-/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ubuntu/pt0/devel/include/humanoid_nav_msgs/StepTargetService.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from humanoid_nav_msgs/StepTargetService.srv"

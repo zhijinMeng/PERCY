@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! /usr/bin/python3
 
 import rospy
 from gpt_server.srv import GPTGenerate, GPTGenerateRequest, GPTGenerateResponse

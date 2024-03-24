@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/pt0/build
 include hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal.dir/progress.make
 
 hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal:
-	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_actions_msgs /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg std_msgs/Header:geometry_msgs/Point:hri_actions_msgs/PointTrajectoryGoal:actionlib_msgs/GoalID
+	cd /home/ubuntu/pt0/build/hri_actions_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_actions_msgs /home/ubuntu/pt0/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg hri_actions_msgs/PointTrajectoryGoal:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Point
 
 _hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal: hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal
 _hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal: hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal.dir/build.make

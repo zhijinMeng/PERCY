@@ -1,10 +1,10 @@
 
 "use strict";
 
-let StartRecording = require('./StartRecording.js')
 let StopRecording = require('./StopRecording.js')
+let StartRecording = require('./StartRecording.js')
 
 module.exports = {
-  StartRecording: StartRecording,
   StopRecording: StopRecording,
+  StartRecording: StartRecording,
 };

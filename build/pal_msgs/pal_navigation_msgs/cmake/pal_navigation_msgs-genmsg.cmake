@@ -19,7 +19,7 @@ add_custom_target(pal_navigation_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" "pal_navigation_msgs/ExecuteParkingActionResult:pal_navigation_msgs/ExecuteParkingResult:std_msgs/Header:actionlib_msgs/GoalID:pal_navigation_msgs/ExecuteParkingActionFeedback:pal_navigation_msgs/ExecuteParkingFeedback:actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingActionGoal:pal_navigation_msgs/ExecuteParkingGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_navigation_msgs/ExecuteParkingGoal:actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingActionResult:pal_navigation_msgs/ExecuteParkingFeedback:pal_navigation_msgs/ExecuteParkingActionGoal:pal_navigation_msgs/ExecuteParkingActionFeedback:pal_navigation_msgs/ExecuteParkingResult"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
@@ -29,12 +29,12 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" "pal_navigation_msgs/ExecuteParkingResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" "pal_navigation_msgs/ExecuteParkingFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingFeedback:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
@@ -54,32 +54,32 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" "pal_navigation_msgs/FollowWaypointsActionGoal:geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/Waypoint:actionlib_msgs/GoalID:pal_navigation_msgs/FollowWaypointsGoal:geometry_msgs/PoseStamped:geometry_msgs/Pose:pal_navigation_msgs/FollowWaypointsResult:pal_navigation_msgs/FollowWaypointsActionFeedback:geometry_msgs/Quaternion:pal_navigation_msgs/MissedWaypoint:pal_navigation_msgs/FollowWaypointsFeedback:actionlib_msgs/GoalStatus:pal_navigation_msgs/FollowWaypointsActionResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" "pal_navigation_msgs/FollowWaypointsActionResult:geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/MissedWaypoint:pal_navigation_msgs/Waypoint:geometry_msgs/Pose:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:geometry_msgs/PoseStamped:pal_navigation_msgs/FollowWaypointsResult:geometry_msgs/Quaternion:pal_navigation_msgs/FollowWaypointsActionFeedback:pal_navigation_msgs/FollowWaypointsActionGoal:pal_navigation_msgs/FollowWaypointsGoal:pal_navigation_msgs/FollowWaypointsFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" "geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/Waypoint:actionlib_msgs/GoalID:pal_navigation_msgs/FollowWaypointsGoal:geometry_msgs/PoseStamped:geometry_msgs/Pose:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" "geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/Waypoint:geometry_msgs/Pose:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/FollowWaypointsGoal"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:pal_navigation_msgs/FollowWaypointsResult:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/MissedWaypoint:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" "geometry_msgs/Point:pal_navigation_msgs/MissedWaypoint:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:geometry_msgs/PoseStamped:pal_navigation_msgs/FollowWaypointsResult:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/FollowWaypointsFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" "pal_navigation_msgs/FollowWaypointsFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" "geometry_msgs/Point:geometry_msgs/Pose:pal_navigation_msgs/Waypoint:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" "geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/Waypoint:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/MissedWaypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" "geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/MissedWaypoint:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
@@ -89,7 +89,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" "pal_navigation_msgs/JoyPriorityGoal:std_msgs/Header:pal_navigation_msgs/JoyPriorityFeedback:actionlib_msgs/GoalID:pal_navigation_msgs/JoyPriorityResult:pal_navigation_msgs/JoyPriorityActionGoal:pal_navigation_msgs/JoyPriorityActionFeedback:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityActionResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" "std_msgs/Header:pal_navigation_msgs/JoyPriorityActionResult:pal_navigation_msgs/JoyPriorityGoal:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityFeedback:pal_navigation_msgs/JoyPriorityResult:pal_navigation_msgs/JoyPriorityActionGoal:pal_navigation_msgs/JoyPriorityActionFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
@@ -99,7 +99,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" "pal_navigation_msgs/JoyPriorityResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
@@ -124,12 +124,12 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" "pal_navigation_msgs/JoyTurboGoal:pal_navigation_msgs/JoyTurboActionGoal:pal_navigation_msgs/JoyTurboActionFeedback:pal_navigation_msgs/JoyTurboFeedback:std_msgs/Header:actionlib_msgs/GoalID:pal_navigation_msgs/JoyTurboActionResult:pal_navigation_msgs/JoyTurboResult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" "pal_navigation_msgs/JoyTurboActionFeedback:std_msgs/Header:pal_navigation_msgs/JoyTurboActionResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboFeedback:pal_navigation_msgs/JoyTurboResult:pal_navigation_msgs/JoyTurboGoal:pal_navigation_msgs/JoyTurboActionGoal"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" "pal_navigation_msgs/JoyTurboGoal:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" "actionlib_msgs/GoalID:pal_navigation_msgs/JoyTurboGoal:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
@@ -139,7 +139,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" "pal_navigation_msgs/JoyTurboFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
@@ -159,22 +159,22 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" "pal_navigation_msgs/GoToPOIResult:pal_navigation_msgs/GoToPOIActionResult:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:pal_navigation_msgs/GoToPOIFeedback:pal_navigation_msgs/GoToPOIActionFeedback:geometry_msgs/PoseStamped:pal_navigation_msgs/GoToPOIGoal:geometry_msgs/Quaternion:std_msgs/String:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIActionGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" "pal_navigation_msgs/GoToPOIActionFeedback:geometry_msgs/Point:pal_navigation_msgs/GoToPOIGoal:std_msgs/Header:pal_navigation_msgs/GoToPOIActionGoal:actionlib_msgs/GoalID:pal_navigation_msgs/GoToPOIActionResult:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIResult:geometry_msgs/PoseStamped:geometry_msgs/Pose:pal_navigation_msgs/GoToPOIFeedback:geometry_msgs/Quaternion:std_msgs/String"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/String:pal_navigation_msgs/GoToPOIGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" "std_msgs/String:actionlib_msgs/GoalID:pal_navigation_msgs/GoToPOIGoal:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" "pal_navigation_msgs/GoToPOIResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:pal_navigation_msgs/GoToPOIFeedback:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:geometry_msgs/PoseStamped:pal_navigation_msgs/GoToPOIFeedback:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
@@ -189,32 +189,32 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg" "pal_navigation_msgs/GoToGoal:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:pal_navigation_msgs/GoToActionGoal:geometry_msgs/PoseStamped:pal_navigation_msgs/GoToActionFeedback:pal_navigation_msgs/GoToActionResult:geometry_msgs/Quaternion:pal_navigation_msgs/GoToFeedback:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg" "pal_navigation_msgs/GoToActionResult:geometry_msgs/Point:pal_navigation_msgs/GoToActionGoal:pal_navigation_msgs/GoToGoal:std_msgs/Header:pal_navigation_msgs/GoToResult:geometry_msgs/Pose:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToFeedback:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/GoToActionFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" "pal_navigation_msgs/GoToGoal:geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" "geometry_msgs/Point:pal_navigation_msgs/GoToGoal:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" "pal_navigation_msgs/GoToResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/GoToFeedback:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToFeedback:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
@@ -224,22 +224,22 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" "pal_navigation_msgs/VisualTrainingResult:std_msgs/Header:actionlib_msgs/GoalID:pal_navigation_msgs/VisualTrainingFeedback:pal_navigation_msgs/VisualTrainingGoal:pal_navigation_msgs/VisualTrainingActionGoal:pal_navigation_msgs/VisualTrainingActionFeedback:pal_navigation_msgs/VisualTrainingActionResult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" "std_msgs/Header:pal_navigation_msgs/VisualTrainingActionGoal:pal_navigation_msgs/VisualTrainingGoal:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/VisualTrainingActionFeedback:pal_navigation_msgs/VisualTrainingResult:pal_navigation_msgs/VisualTrainingActionResult:pal_navigation_msgs/VisualTrainingFeedback"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" "actionlib_msgs/GoalID:pal_navigation_msgs/VisualTrainingGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" "pal_navigation_msgs/VisualTrainingGoal:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_navigation_msgs/VisualTrainingResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" "pal_navigation_msgs/VisualTrainingResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
@@ -284,12 +284,12 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" "geometry_msgs/Point32:nav_msgs/OccupancyGrid:sensor_msgs/PointCloud:geometry_msgs/Point:std_msgs/Header:sensor_msgs/ChannelFloat32:nav_msgs/MapMetaData:geometry_msgs/Pose:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/Highways:std_msgs/Bool:geometry_msgs/Quaternion:std_msgs/String:pal_navigation_msgs/POIGroup:sensor_msgs/Image:pal_navigation_msgs/VisualLocDB:pal_navigation_msgs/POI:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" "nav_msgs/MapMetaData:std_msgs/Bool:sensor_msgs/Image:geometry_msgs/Point:sensor_msgs/ChannelFloat32:pal_navigation_msgs/POI:pal_navigation_msgs/POIGroup:std_msgs/Header:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/VisualLocDB:geometry_msgs/Pose:geometry_msgs/Point32:std_msgs/Float32:nav_msgs/OccupancyGrid:geometry_msgs/Quaternion:sensor_msgs/PointCloud:std_msgs/String:pal_navigation_msgs/Highways"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
@@ -304,7 +304,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg" "geometry_msgs/Point32:sensor_msgs/PointCloud:std_msgs/Header:std_msgs/String:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg" "sensor_msgs/ChannelFloat32:std_msgs/Header:geometry_msgs/Point32:sensor_msgs/PointCloud:std_msgs/String"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
@@ -329,7 +329,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" "std_msgs/String:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" "geometry_msgs/Point:std_msgs/String"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
@@ -339,17 +339,17 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg" "std_msgs/Bool:std_msgs/String:geometry_msgs/Point:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg" "std_msgs/Bool:geometry_msgs/Point:std_msgs/Float32:std_msgs/String"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" "sensor_msgs/CompressedImage:geometry_msgs/Point:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" "geometry_msgs/Point:sensor_msgs/CompressedImage:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
@@ -364,12 +364,12 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" "geometry_msgs/Point:geometry_msgs/Pose:nav_msgs/MapMetaData:std_msgs/Header:geometry_msgs/Quaternion:nav_msgs/OccupancyGrid"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" "nav_msgs/MapMetaData:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:nav_msgs/OccupancyGrid:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/NiceMapTransformation:std_msgs/String:pal_navigation_msgs/POIGroup:sensor_msgs/Image:pal_navigation_msgs/Highways:pal_navigation_msgs/VisualLocDB:std_msgs/Float32:geometry_msgs/Point32:sensor_msgs/PointCloud:geometry_msgs/Quaternion:nav_msgs/OccupancyGrid:nav_msgs/MapMetaData:std_msgs/Bool:pal_navigation_msgs/MapConfiguration:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" "std_msgs/Bool:geometry_msgs/Point32:sensor_msgs/Image:geometry_msgs/Point:geometry_msgs/Quaternion:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32:pal_navigation_msgs/MapConfiguration:nav_msgs/MapMetaData:nav_msgs/OccupancyGrid:pal_navigation_msgs/Highways:pal_navigation_msgs/POI:pal_navigation_msgs/POIGroup:std_msgs/Header:pal_navigation_msgs/VisualLocDB:geometry_msgs/Pose:std_msgs/Float32:std_msgs/String:pal_navigation_msgs/NiceMapTransformation"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
@@ -379,7 +379,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" "geometry_msgs/Quaternion:std_msgs/Bool:geometry_msgs/Point:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" "std_msgs/Bool:geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
@@ -389,7 +389,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/NiceMapTransformation:std_msgs/String:pal_navigation_msgs/POIGroup:sensor_msgs/Image:pal_navigation_msgs/Highways:pal_navigation_msgs/VisualLocDB:std_msgs/Float32:geometry_msgs/Point32:sensor_msgs/PointCloud:geometry_msgs/Quaternion:nav_msgs/OccupancyGrid:nav_msgs/MapMetaData:std_msgs/Bool:pal_navigation_msgs/MapConfiguration:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" "std_msgs/Bool:geometry_msgs/Point32:sensor_msgs/Image:geometry_msgs/Point:geometry_msgs/Quaternion:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32:pal_navigation_msgs/MapConfiguration:nav_msgs/MapMetaData:nav_msgs/OccupancyGrid:pal_navigation_msgs/Highways:pal_navigation_msgs/POI:pal_navigation_msgs/POIGroup:std_msgs/Header:pal_navigation_msgs/VisualLocDB:geometry_msgs/Pose:std_msgs/Float32:std_msgs/String:pal_navigation_msgs/NiceMapTransformation"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
@@ -399,7 +399,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" "geometry_msgs/Point32:sensor_msgs/PointCloud:std_msgs/Header:std_msgs/String:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" "pal_navigation_msgs/POI:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
@@ -409,7 +409,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/NiceMapTransformation:std_msgs/String:pal_navigation_msgs/POIGroup:sensor_msgs/Image:pal_navigation_msgs/Highways:pal_navigation_msgs/VisualLocDB:std_msgs/Float32:geometry_msgs/Point32:sensor_msgs/PointCloud:geometry_msgs/Quaternion:nav_msgs/OccupancyGrid:nav_msgs/MapMetaData:std_msgs/Bool:pal_navigation_msgs/MapConfiguration:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" "std_msgs/Bool:geometry_msgs/Point32:sensor_msgs/Image:geometry_msgs/Point:geometry_msgs/Quaternion:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32:pal_navigation_msgs/MapConfiguration:nav_msgs/MapMetaData:nav_msgs/OccupancyGrid:pal_navigation_msgs/Highways:pal_navigation_msgs/POI:pal_navigation_msgs/POIGroup:std_msgs/Header:pal_navigation_msgs/VisualLocDB:geometry_msgs/Pose:std_msgs/Float32:std_msgs/String:pal_navigation_msgs/NiceMapTransformation"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
@@ -424,12 +424,12 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/NiceMapTransformation:std_msgs/String:pal_navigation_msgs/POIGroup:sensor_msgs/Image:pal_navigation_msgs/Highways:pal_navigation_msgs/VisualLocDB:std_msgs/Float32:geometry_msgs/Point32:sensor_msgs/PointCloud:geometry_msgs/Quaternion:nav_msgs/OccupancyGrid:nav_msgs/MapMetaData:std_msgs/Bool:pal_navigation_msgs/MapConfiguration:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" "std_msgs/Bool:geometry_msgs/Point32:sensor_msgs/Image:geometry_msgs/Point:geometry_msgs/Quaternion:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32:pal_navigation_msgs/MapConfiguration:nav_msgs/MapMetaData:nav_msgs/OccupancyGrid:pal_navigation_msgs/Highways:pal_navigation_msgs/POI:pal_navigation_msgs/POIGroup:std_msgs/Header:pal_navigation_msgs/VisualLocDB:geometry_msgs/Pose:std_msgs/Float32:std_msgs/String:pal_navigation_msgs/NiceMapTransformation"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" "geometry_msgs/Point32:sensor_msgs/PointCloud:std_msgs/Header:std_msgs/String:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" "pal_navigation_msgs/POI:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud:sensor_msgs/ChannelFloat32"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
@@ -439,7 +439,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" "geometry_msgs/Point:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovariance"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" "geometry_msgs/PoseWithCovariance:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
@@ -456,7 +456,7 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -468,13 +468,13 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -498,37 +498,37 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -540,7 +540,7 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -552,7 +552,7 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -582,13 +582,13 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -600,7 +600,7 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -624,25 +624,25 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -660,37 +660,37 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -702,25 +702,25 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -774,13 +774,13 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -798,7 +798,7 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -828,7 +828,7 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
@@ -840,19 +840,19 @@ _generate_msg_cpp(pal_navigation_msgs
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 
@@ -872,13 +872,13 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -890,7 +890,7 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -902,7 +902,7 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -914,7 +914,7 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -926,7 +926,7 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -944,13 +944,13 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -962,7 +962,7 @@ _generate_srv_cpp(pal_navigation_msgs
 _generate_srv_cpp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
@@ -1169,7 +1169,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1181,13 +1181,13 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1211,37 +1211,37 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1253,7 +1253,7 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1265,7 +1265,7 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1295,13 +1295,13 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1313,7 +1313,7 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1337,25 +1337,25 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1373,37 +1373,37 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1415,25 +1415,25 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1487,13 +1487,13 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1511,7 +1511,7 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1541,7 +1541,7 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
@@ -1553,19 +1553,19 @@ _generate_msg_eus(pal_navigation_msgs
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 
@@ -1585,13 +1585,13 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1603,7 +1603,7 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1615,7 +1615,7 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1627,7 +1627,7 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1639,7 +1639,7 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1657,13 +1657,13 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1675,7 +1675,7 @@ _generate_srv_eus(pal_navigation_msgs
 _generate_srv_eus(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
@@ -1882,7 +1882,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -1894,13 +1894,13 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -1924,37 +1924,37 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -1966,7 +1966,7 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -1978,7 +1978,7 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2008,13 +2008,13 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2026,7 +2026,7 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2050,25 +2050,25 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2086,37 +2086,37 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2128,25 +2128,25 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2200,13 +2200,13 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2224,7 +2224,7 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2254,7 +2254,7 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
@@ -2266,19 +2266,19 @@ _generate_msg_lisp(pal_navigation_msgs
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 
@@ -2298,13 +2298,13 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2316,7 +2316,7 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2328,7 +2328,7 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2340,7 +2340,7 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2352,7 +2352,7 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2370,13 +2370,13 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2388,7 +2388,7 @@ _generate_srv_lisp(pal_navigation_msgs
 _generate_srv_lisp(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
@@ -2595,7 +2595,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2607,13 +2607,13 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2637,37 +2637,37 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2679,7 +2679,7 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2691,7 +2691,7 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2721,13 +2721,13 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2739,7 +2739,7 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2763,25 +2763,25 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2799,37 +2799,37 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2841,25 +2841,25 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2913,13 +2913,13 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2937,7 +2937,7 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2967,7 +2967,7 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
@@ -2979,19 +2979,19 @@ _generate_msg_nodejs(pal_navigation_msgs
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 
@@ -3011,13 +3011,13 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3029,7 +3029,7 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3041,7 +3041,7 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3053,7 +3053,7 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3065,7 +3065,7 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3083,13 +3083,13 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3101,7 +3101,7 @@ _generate_srv_nodejs(pal_navigation_msgs
 _generate_srv_nodejs(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
@@ -3308,7 +3308,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3320,13 +3320,13 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3350,37 +3350,37 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3392,7 +3392,7 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3404,7 +3404,7 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3434,13 +3434,13 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3452,7 +3452,7 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3476,25 +3476,25 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3512,37 +3512,37 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3554,25 +3554,25 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ubuntu/pt0/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3626,13 +3626,13 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3650,7 +3650,7 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3680,7 +3680,7 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
@@ -3692,19 +3692,19 @@ _generate_msg_py(pal_navigation_msgs
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 
@@ -3724,13 +3724,13 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3742,7 +3742,7 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3754,7 +3754,7 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3766,7 +3766,7 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3778,7 +3778,7 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3796,13 +3796,13 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
+  "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
@@ -3814,7 +3814,7 @@ _generate_srv_py(pal_navigation_msgs
 _generate_srv_py(pal_navigation_msgs
   "/home/ubuntu/pt0/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs

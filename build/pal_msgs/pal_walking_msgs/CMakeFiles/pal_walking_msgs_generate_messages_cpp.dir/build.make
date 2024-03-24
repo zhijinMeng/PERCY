@@ -65,20 +65,20 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_cpp: /ho
 
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from pal_walking_msgs/WalkingStatus.msg"
 	cd /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/include/pal_walking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/WalkingStep.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from pal_walking_msgs/WalkingStep.msg"
 	cd /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/include/pal_walking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -91,9 +91,9 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_cpp: /ho
 
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/SMStatus.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from pal_walking_msgs/SMStatus.msg"
 	cd /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs && /home/ubuntu/pt0/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg -Ipal_walking_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_walking_msgs -o /home/ubuntu/pt0/devel/include/pal_walking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -122,10 +122,10 @@ pal_msgs/pal_walking_msgs/CMakeFiles/pal_walking_msgs_generate_messages_cpp: /ho
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseArray.msg
-/home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ubuntu/pt0/devel/include/pal_walking_msgs/MoveHipFeet.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pt0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from pal_walking_msgs/MoveHipFeet.srv"
