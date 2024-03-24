@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/pal_video_recording_msgs/StartRecording.h"
-  "/home/ubuntu/pt0/devel/include/pal_video_recording_msgs/StopRecording.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_video_recording_msgs/StartRecording.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_video_recording_msgs/StopRecording.h"
   "CMakeFiles/pal_video_recording_msgs_generate_messages_cpp"
 )
 

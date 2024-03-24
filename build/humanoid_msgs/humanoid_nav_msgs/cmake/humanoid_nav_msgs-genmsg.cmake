@@ -2,7 +2,7 @@
 
 message(STATUS "humanoid_nav_msgs: 8 messages, 4 services")
 
-set(MSG_I_FLAGS "-Ihumanoid_nav_msgs:/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg;-Ihumanoid_nav_msgs:/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ihumanoid_nav_msgs:/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg;-Ihumanoid_nav_msgs:/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,64 +17,64 @@ add_custom_target(humanoid_nav_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" "geometry_msgs/Pose2D"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" "geometry_msgs/Pose2D"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" "humanoid_nav_msgs/ExecFootstepsGoal:humanoid_nav_msgs/ExecFootstepsFeedback:humanoid_nav_msgs/ExecFootstepsResult:std_msgs/Header:humanoid_nav_msgs/ExecFootstepsActionResult:actionlib_msgs/GoalID:humanoid_nav_msgs/ExecFootstepsActionFeedback:geometry_msgs/Pose2D:humanoid_nav_msgs/ExecFootstepsActionGoal:humanoid_nav_msgs/StepTarget:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" "humanoid_nav_msgs/ExecFootstepsResult:humanoid_nav_msgs/ExecFootstepsActionResult:humanoid_nav_msgs/StepTarget:humanoid_nav_msgs/ExecFootstepsFeedback:actionlib_msgs/GoalID:std_msgs/Header:humanoid_nav_msgs/ExecFootstepsActionGoal:humanoid_nav_msgs/ExecFootstepsGoal:geometry_msgs/Pose2D:actionlib_msgs/GoalStatus:humanoid_nav_msgs/ExecFootstepsActionFeedback"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" "humanoid_nav_msgs/ExecFootstepsGoal:actionlib_msgs/GoalID:geometry_msgs/Pose2D:std_msgs/Header:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" "humanoid_nav_msgs/StepTarget:actionlib_msgs/GoalID:std_msgs/Header:humanoid_nav_msgs/ExecFootstepsGoal:geometry_msgs/Pose2D"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" "humanoid_nav_msgs/ExecFootstepsResult:actionlib_msgs/GoalID:geometry_msgs/Pose2D:std_msgs/Header:humanoid_nav_msgs/StepTarget:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" "humanoid_nav_msgs/ExecFootstepsResult:humanoid_nav_msgs/StepTarget:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:geometry_msgs/Pose2D"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" "humanoid_nav_msgs/ExecFootstepsFeedback:actionlib_msgs/GoalID:geometry_msgs/Pose2D:std_msgs/Header:humanoid_nav_msgs/StepTarget:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" "humanoid_nav_msgs/StepTarget:humanoid_nav_msgs/ExecFootstepsFeedback:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:geometry_msgs/Pose2D"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "humanoid_nav_msgs" "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget"
 )
 
 #
@@ -84,77 +84,77 @@ add_custom_target(_humanoid_nav_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_cpp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/humanoid_nav_msgs
 )
 
@@ -170,29 +170,29 @@ add_custom_target(humanoid_nav_msgs_generate_messages_cpp
 add_dependencies(humanoid_nav_msgs_generate_messages humanoid_nav_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_cpp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -205,77 +205,77 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS humanoid_nav_msgs_generate_messages
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 
 ### Generating Services
 _generate_srv_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_eus(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/humanoid_nav_msgs
 )
 
@@ -291,29 +291,29 @@ add_custom_target(humanoid_nav_msgs_generate_messages_eus
 add_dependencies(humanoid_nav_msgs_generate_messages humanoid_nav_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_eus _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -326,77 +326,77 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS humanoid_nav_msgs_generate_messages
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_lisp(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/humanoid_nav_msgs
 )
 
@@ -412,29 +412,29 @@ add_custom_target(humanoid_nav_msgs_generate_messages_lisp
 add_dependencies(humanoid_nav_msgs_generate_messages humanoid_nav_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_lisp _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -447,77 +447,77 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS humanoid_nav_msgs_generate_messages
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 
 ### Generating Services
 _generate_srv_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_nodejs(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/humanoid_nav_msgs
 )
 
@@ -533,29 +533,29 @@ add_custom_target(humanoid_nav_msgs_generate_messages_nodejs
 add_dependencies(humanoid_nav_msgs_generate_messages humanoid_nav_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_nodejs _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -568,77 +568,77 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS humanoid_nav_msgs_generate_messages
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_msg_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 
 ### Generating Services
 _generate_srv_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 _generate_srv_py(humanoid_nav_msgs
-  "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+  "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/humanoid_nav_msgs
 )
 
@@ -654,29 +654,29 @@ add_custom_target(humanoid_nav_msgs_generate_messages_py
 add_dependencies(humanoid_nav_msgs_generate_messages humanoid_nav_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv" NAME_WE)
 add_dependencies(humanoid_nav_msgs_generate_messages_py _humanoid_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

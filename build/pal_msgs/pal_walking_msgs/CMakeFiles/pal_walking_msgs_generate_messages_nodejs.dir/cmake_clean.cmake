@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/msg/ContactState.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/msg/SMStatus.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/msg/WalkingStatus.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/msg/WalkingStep.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/srv/MoveHipFeet.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/srv/Sit.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/srv/StepOver.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs/srv/WalkSteps.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/msg/ContactState.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/msg/SMStatus.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/msg/WalkingStatus.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/msg/WalkingStep.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/srv/MoveHipFeet.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/srv/Sit.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/srv/StepOver.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs/srv/WalkSteps.js"
   "CMakeFiles/pal_walking_msgs_generate_messages_nodejs"
 )
 

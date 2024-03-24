@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_video_recording_msgs/srv/StartRecording.lisp"
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_video_recording_msgs/srv/StopRecording.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_video_recording_msgs/srv/StartRecording.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_video_recording_msgs/srv/StopRecording.lisp"
   "CMakeFiles/pal_video_recording_msgs_generate_messages_lisp"
 )
 

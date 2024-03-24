@@ -2,7 +2,7 @@
 
 message(STATUS "pal_web_msgs: 10 messages, 1 services")
 
-set(MSG_I_FLAGS "-Ipal_web_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg;-Ipal_web_msgs:/home/ubuntu/pt0/devel/share/pal_web_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Ipal_interaction_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg;-Ipal_interaction_msgs:/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg")
+set(MSG_I_FLAGS "-Ipal_web_msgs:/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg;-Ipal_web_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Ipal_interaction_msgs:/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg;-Ipal_interaction_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,59 +17,59 @@ add_custom_target(pal_web_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" "pal_interaction_msgs/TtsGoal:pal_web_msgs/GetUserInputResult:pal_web_msgs/GetUserInputActionGoal:std_msgs/Header:pal_web_msgs/GetUserInputGoal:pal_web_msgs/WebGoTo:actionlib_msgs/GoalStatus:pal_interaction_msgs/TtsText:actionlib_msgs/GoalID:pal_interaction_msgs/InputArgument:pal_web_msgs/GetUserInputActionFeedback:pal_interaction_msgs/I18nText:pal_web_msgs/GetUserInputActionResult:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/Input:pal_web_msgs/GetUserInputFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" "pal_web_msgs/GetUserInputActionGoal:pal_web_msgs/WebGoTo:pal_web_msgs/GetUserInputActionResult:pal_web_msgs/GetUserInputResult:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nArgument:actionlib_msgs/GoalStatus:pal_web_msgs/GetUserInputActionFeedback:pal_web_msgs/GetUserInputGoal:pal_web_msgs/GetUserInputFeedback:std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/Input:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/InputArgument"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" "pal_interaction_msgs/TtsGoal:pal_web_msgs/GetUserInputGoal:std_msgs/Header:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsText:actionlib_msgs/GoalID:pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" "pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nArgument:pal_web_msgs/GetUserInputGoal:std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsGoal"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" "pal_web_msgs/GetUserInputResult:actionlib_msgs/GoalStatus:std_msgs/Header:pal_interaction_msgs/InputArgument:actionlib_msgs/GoalID:pal_interaction_msgs/Input"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" "pal_web_msgs/GetUserInputResult:std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/Input:actionlib_msgs/GoalStatus:pal_interaction_msgs/InputArgument"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_web_msgs/GetUserInputFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_web_msgs/GetUserInputFeedback:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" "pal_interaction_msgs/TtsGoal:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" "pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsGoal"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" "pal_interaction_msgs/Input:pal_interaction_msgs/InputArgument"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" "pal_interaction_msgs/InputArgument:pal_interaction_msgs/Input"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" ""
 )
 
 #
@@ -79,61 +79,61 @@ add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
@@ -141,7 +141,7 @@ _generate_msg_cpp(pal_web_msgs
 
 ### Generating Services
 _generate_srv_cpp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
@@ -159,27 +159,27 @@ add_custom_target(pal_web_msgs_generate_messages_cpp
 add_dependencies(pal_web_msgs_generate_messages pal_web_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_cpp _pal_web_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -192,61 +192,61 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_web_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
@@ -254,7 +254,7 @@ _generate_msg_eus(pal_web_msgs
 
 ### Generating Services
 _generate_srv_eus(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
@@ -272,27 +272,27 @@ add_custom_target(pal_web_msgs_generate_messages_eus
 add_dependencies(pal_web_msgs_generate_messages pal_web_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_eus _pal_web_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -305,61 +305,61 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_web_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
@@ -367,7 +367,7 @@ _generate_msg_lisp(pal_web_msgs
 
 ### Generating Services
 _generate_srv_lisp(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
@@ -385,27 +385,27 @@ add_custom_target(pal_web_msgs_generate_messages_lisp
 add_dependencies(pal_web_msgs_generate_messages pal_web_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_lisp _pal_web_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -418,61 +418,61 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_web_msgs_generate_messages_lisp
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
@@ -480,7 +480,7 @@ _generate_msg_nodejs(pal_web_msgs
 
 ### Generating Services
 _generate_srv_nodejs(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
@@ -498,27 +498,27 @@ add_custom_target(pal_web_msgs_generate_messages_nodejs
 add_dependencies(pal_web_msgs_generate_messages pal_web_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_nodejs _pal_web_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -531,61 +531,61 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_web_msgs_generate_messages_node
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ubuntu/pt0/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs/msg/Input.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
-  "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
@@ -593,7 +593,7 @@ _generate_msg_py(pal_web_msgs
 
 ### Generating Services
 _generate_srv_py(pal_web_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
@@ -611,27 +611,27 @@ add_custom_target(pal_web_msgs_generate_messages_py
 add_dependencies(pal_web_msgs_generate_messages pal_web_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/WebGoTo.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/Subtitles.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/msg/TouchWeb.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs/srv/GetLastTouchWeb.srv" NAME_WE)
 add_dependencies(pal_web_msgs_generate_messages_py _pal_web_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

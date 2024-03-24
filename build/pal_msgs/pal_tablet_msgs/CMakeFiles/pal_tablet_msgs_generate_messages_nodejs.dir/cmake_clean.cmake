@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_tablet_msgs/msg/FunctionalityStatus.js"
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_tablet_msgs/msg/RobotStatus.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_tablet_msgs/msg/FunctionalityStatus.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_tablet_msgs/msg/RobotStatus.js"
   "CMakeFiles/pal_tablet_msgs_generate_messages_nodejs"
 )
 

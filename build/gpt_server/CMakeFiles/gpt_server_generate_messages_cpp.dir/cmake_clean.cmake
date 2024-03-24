@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/gpt_server/GPTGenerate.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/gpt_server/GPTGenerate.h"
   "CMakeFiles/gpt_server_generate_messages_cpp"
 )
 

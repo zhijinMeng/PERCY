@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/pal_simulation_msgs/ExternalWrench.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_simulation_msgs/ExternalWrench.h"
   "CMakeFiles/pal_simulation_msgs_generate_messages_cpp"
 )
 

@@ -1,4 +1,9 @@
-#! /usr/bin/python3
+#!/usr/bin/python3
+import sys
+
+
+print('PYTHON VERSION:')
+print(sys.version)
 
 import rospy
 
@@ -18,6 +23,8 @@ from deepface import DeepFace
 
 from pyhri import HRIListener
 
+print('PYTHON VERSION:')
+print(sys.version)
 
 
 class Node:
@@ -25,6 +32,9 @@ class Node:
     def __init__(self):
         rospy.init_node('gpt_research')
 
+        self.initialConversation = True
+        self.initialEmotion = ''
+        self.finalEmotion = ''
         # Connect to the GPT server.
         # From now one, when you want to receive response from chatgpt, you can do:
         # response = self.gptServer(prompt)
@@ -50,9 +60,6 @@ class Node:
         print('Successfully connected to /tts')
 
 
-        self.initialConversation = True
-        self.initialEmotion = ''
-        self.finalEmotion = ''
 
     
     def OnSpeechReceived(self, data:LiveSpeech):

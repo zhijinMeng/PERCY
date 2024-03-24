@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/pt0/install
+prefix=/home/robocupathome/workspace/eddy_code/install
 
 Name: pal_device_msgs
 Description: Description of pal_device_msgs

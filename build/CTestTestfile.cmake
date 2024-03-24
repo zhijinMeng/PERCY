@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/pt0/src
-# Build directory: /home/ubuntu/pt0/build
+# Source directory: /home/robocupathome/workspace/eddy_code/src
+# Build directory: /home/robocupathome/workspace/eddy_code/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -23,13 +23,11 @@ subdirs("pal_msgs/pal_visual_localization_msgs")
 subdirs("pal_msgs/pal_walking_msgs")
 subdirs("pal_msgs/pal_web_msgs")
 subdirs("pal_msgs/pal_wifi_localization_msgs")
-subdirs("chat_gpt_test")
 subdirs("emotion_server")
 subdirs("gpt_research")
 subdirs("gpt_server")
 subdirs("sensors")
-subdirs("hri_msgs")
+subdirs("stt")
 subdirs("pal_msgs/pal_detection_msgs")
 subdirs("pal_msgs/pal_navigation_msgs")
 subdirs("pal_msgs/pal_vision_msgs")
-subdirs("pyhri")

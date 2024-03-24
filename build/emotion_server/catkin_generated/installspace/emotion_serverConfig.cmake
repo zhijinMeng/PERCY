@@ -67,14 +67,14 @@ set(emotion_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(emotion_server_SOURCE_PREFIX /home/ubuntu/pt0/src/emotion_server)
-  set(emotion_server_DEVEL_PREFIX /home/ubuntu/pt0/devel)
+  set(emotion_server_SOURCE_PREFIX /home/robocupathome/workspace/eddy_code/src/emotion_server)
+  set(emotion_server_DEVEL_PREFIX /home/robocupathome/workspace/eddy_code/devel)
   set(emotion_server_INSTALL_PREFIX "")
   set(emotion_server_PREFIX ${emotion_server_DEVEL_PREFIX})
 else()
   set(emotion_server_SOURCE_PREFIX "")
   set(emotion_server_DEVEL_PREFIX "")
-  set(emotion_server_INSTALL_PREFIX /home/ubuntu/pt0/install)
+  set(emotion_server_INSTALL_PREFIX /home/robocupathome/workspace/eddy_code/install)
   set(emotion_server_PREFIX ${emotion_server_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/pt0/install/lib;/home/ubuntu/pt0/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/robocupathome/workspace/eddy_code/install/lib;/home/robocupathome/workspace/eddy_code/devel/lib;/home/robocupathome/workspace/ari_demo/devel/lib;/home/robocupathome/workspace/cha_code/chatbot_source/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

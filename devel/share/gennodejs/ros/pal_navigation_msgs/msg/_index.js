@@ -1,140 +1,140 @@
 
 "use strict";
 
-let GoToResult = require('./GoToResult.js');
-let JoyPriorityAction = require('./JoyPriorityAction.js');
-let ExecuteParkingFeedback = require('./ExecuteParkingFeedback.js');
-let GoToActionGoal = require('./GoToActionGoal.js');
-let VisualTrainingResult = require('./VisualTrainingResult.js');
-let JoyTurboFeedback = require('./JoyTurboFeedback.js');
-let GoToActionResult = require('./GoToActionResult.js');
-let JoyPriorityActionFeedback = require('./JoyPriorityActionFeedback.js');
-let VisualTrainingActionResult = require('./VisualTrainingActionResult.js');
-let VisualTrainingGoal = require('./VisualTrainingGoal.js');
-let ExecuteParkingActionFeedback = require('./ExecuteParkingActionFeedback.js');
-let GoToActionFeedback = require('./GoToActionFeedback.js');
-let FollowWaypointsActionResult = require('./FollowWaypointsActionResult.js');
-let GoToFeedback = require('./GoToFeedback.js');
-let ExecuteParkingResult = require('./ExecuteParkingResult.js');
-let GoToPOIActionGoal = require('./GoToPOIActionGoal.js');
-let GoToPOIGoal = require('./GoToPOIGoal.js');
-let VisualTrainingActionFeedback = require('./VisualTrainingActionFeedback.js');
-let GoToPOIFeedback = require('./GoToPOIFeedback.js');
-let VisualTrainingActionGoal = require('./VisualTrainingActionGoal.js');
-let JoyTurboGoal = require('./JoyTurboGoal.js');
-let JoyTurboActionResult = require('./JoyTurboActionResult.js');
-let FollowWaypointsGoal = require('./FollowWaypointsGoal.js');
-let FollowWaypointsResult = require('./FollowWaypointsResult.js');
-let JoyPriorityActionGoal = require('./JoyPriorityActionGoal.js');
-let JoyPriorityGoal = require('./JoyPriorityGoal.js');
-let GoToPOIResult = require('./GoToPOIResult.js');
-let JoyTurboActionFeedback = require('./JoyTurboActionFeedback.js');
-let JoyPriorityActionResult = require('./JoyPriorityActionResult.js');
-let FollowWaypointsActionFeedback = require('./FollowWaypointsActionFeedback.js');
-let JoyTurboAction = require('./JoyTurboAction.js');
-let ExecuteParkingAction = require('./ExecuteParkingAction.js');
-let ExecuteParkingActionResult = require('./ExecuteParkingActionResult.js');
-let JoyPriorityFeedback = require('./JoyPriorityFeedback.js');
-let GoToAction = require('./GoToAction.js');
-let GoToPOIAction = require('./GoToPOIAction.js');
-let ExecuteParkingGoal = require('./ExecuteParkingGoal.js');
 let JoyTurboResult = require('./JoyTurboResult.js');
-let GoToPOIActionFeedback = require('./GoToPOIActionFeedback.js');
-let FollowWaypointsFeedback = require('./FollowWaypointsFeedback.js');
-let FollowWaypointsActionGoal = require('./FollowWaypointsActionGoal.js');
-let GoToPOIActionResult = require('./GoToPOIActionResult.js');
+let JoyPriorityAction = require('./JoyPriorityAction.js');
+let JoyTurboAction = require('./JoyTurboAction.js');
+let JoyPriorityFeedback = require('./JoyPriorityFeedback.js');
 let JoyPriorityResult = require('./JoyPriorityResult.js');
-let JoyTurboActionGoal = require('./JoyTurboActionGoal.js');
+let VisualTrainingActionFeedback = require('./VisualTrainingActionFeedback.js');
+let GoToPOIResult = require('./GoToPOIResult.js');
+let ExecuteParkingResult = require('./ExecuteParkingResult.js');
+let GoToGoal = require('./GoToGoal.js');
+let FollowWaypointsResult = require('./FollowWaypointsResult.js');
+let GoToFeedback = require('./GoToFeedback.js');
+let JoyPriorityActionFeedback = require('./JoyPriorityActionFeedback.js');
 let FollowWaypointsAction = require('./FollowWaypointsAction.js');
 let ExecuteParkingActionGoal = require('./ExecuteParkingActionGoal.js');
-let VisualTrainingAction = require('./VisualTrainingAction.js');
+let JoyTurboActionResult = require('./JoyTurboActionResult.js');
+let GoToPOIGoal = require('./GoToPOIGoal.js');
+let VisualTrainingGoal = require('./VisualTrainingGoal.js');
 let VisualTrainingFeedback = require('./VisualTrainingFeedback.js');
-let GoToGoal = require('./GoToGoal.js');
-let Waypoint = require('./Waypoint.js');
-let TabletPOI = require('./TabletPOI.js');
-let Emergency = require('./Emergency.js');
-let MapConfiguration = require('./MapConfiguration.js');
-let NavigationStatus = require('./NavigationStatus.js');
-let Highways = require('./Highways.js');
+let GoToActionFeedback = require('./GoToActionFeedback.js');
+let JoyPriorityGoal = require('./JoyPriorityGoal.js');
+let JoyTurboActionFeedback = require('./JoyTurboActionFeedback.js');
+let JoyTurboFeedback = require('./JoyTurboFeedback.js');
+let JoyTurboGoal = require('./JoyTurboGoal.js');
+let GoToPOIActionResult = require('./GoToPOIActionResult.js');
+let JoyPriorityActionGoal = require('./JoyPriorityActionGoal.js');
+let VisualTrainingAction = require('./VisualTrainingAction.js');
+let ExecuteParkingGoal = require('./ExecuteParkingGoal.js');
+let JoyTurboActionGoal = require('./JoyTurboActionGoal.js');
+let GoToPOIAction = require('./GoToPOIAction.js');
+let FollowWaypointsActionGoal = require('./FollowWaypointsActionGoal.js');
+let FollowWaypointsGoal = require('./FollowWaypointsGoal.js');
+let VisualTrainingResult = require('./VisualTrainingResult.js');
+let GoToResult = require('./GoToResult.js');
+let VisualTrainingActionResult = require('./VisualTrainingActionResult.js');
+let GoToPOIActionGoal = require('./GoToPOIActionGoal.js');
+let GoToAction = require('./GoToAction.js');
+let GoToPOIFeedback = require('./GoToPOIFeedback.js');
+let ExecuteParkingActionResult = require('./ExecuteParkingActionResult.js');
+let ExecuteParkingAction = require('./ExecuteParkingAction.js');
+let ExecuteParkingActionFeedback = require('./ExecuteParkingActionFeedback.js');
+let FollowWaypointsActionFeedback = require('./FollowWaypointsActionFeedback.js');
+let JoyPriorityActionResult = require('./JoyPriorityActionResult.js');
+let FollowWaypointsFeedback = require('./FollowWaypointsFeedback.js');
+let GoToActionResult = require('./GoToActionResult.js');
+let GoToPOIActionFeedback = require('./GoToPOIActionFeedback.js');
+let VisualTrainingActionGoal = require('./VisualTrainingActionGoal.js');
+let FollowWaypointsActionResult = require('./FollowWaypointsActionResult.js');
+let GoToActionGoal = require('./GoToActionGoal.js');
+let ExecuteParkingFeedback = require('./ExecuteParkingFeedback.js');
+let EulerAngles = require('./EulerAngles.js');
+let ServiceStatus = require('./ServiceStatus.js');
+let LaserImage = require('./LaserImage.js');
 let NiceMapTransformation = require('./NiceMapTransformation.js');
+let PolarReading = require('./PolarReading.js');
 let EulerAnglesStamped = require('./EulerAnglesStamped.js');
 let POI = require('./POI.js');
-let ServiceStatus = require('./ServiceStatus.js');
-let PolarReadingScan = require('./PolarReadingScan.js');
-let VisualLocDB = require('./VisualLocDB.js');
+let Emergency = require('./Emergency.js');
+let TabletPOI = require('./TabletPOI.js');
 let POIGroup = require('./POIGroup.js');
+let Waypoint = require('./Waypoint.js');
+let Highways = require('./Highways.js');
 let AvailableMaps = require('./AvailableMaps.js');
-let EulerAngles = require('./EulerAngles.js');
-let PolarReading = require('./PolarReading.js');
+let VisualLocDB = require('./VisualLocDB.js');
+let PolarReadingScan = require('./PolarReadingScan.js');
 let MissedWaypoint = require('./MissedWaypoint.js');
-let LaserImage = require('./LaserImage.js');
+let NavigationStatus = require('./NavigationStatus.js');
+let MapConfiguration = require('./MapConfiguration.js');
 
 module.exports = {
-  GoToResult: GoToResult,
-  JoyPriorityAction: JoyPriorityAction,
-  ExecuteParkingFeedback: ExecuteParkingFeedback,
-  GoToActionGoal: GoToActionGoal,
-  VisualTrainingResult: VisualTrainingResult,
-  JoyTurboFeedback: JoyTurboFeedback,
-  GoToActionResult: GoToActionResult,
-  JoyPriorityActionFeedback: JoyPriorityActionFeedback,
-  VisualTrainingActionResult: VisualTrainingActionResult,
-  VisualTrainingGoal: VisualTrainingGoal,
-  ExecuteParkingActionFeedback: ExecuteParkingActionFeedback,
-  GoToActionFeedback: GoToActionFeedback,
-  FollowWaypointsActionResult: FollowWaypointsActionResult,
-  GoToFeedback: GoToFeedback,
-  ExecuteParkingResult: ExecuteParkingResult,
-  GoToPOIActionGoal: GoToPOIActionGoal,
-  GoToPOIGoal: GoToPOIGoal,
-  VisualTrainingActionFeedback: VisualTrainingActionFeedback,
-  GoToPOIFeedback: GoToPOIFeedback,
-  VisualTrainingActionGoal: VisualTrainingActionGoal,
-  JoyTurboGoal: JoyTurboGoal,
-  JoyTurboActionResult: JoyTurboActionResult,
-  FollowWaypointsGoal: FollowWaypointsGoal,
-  FollowWaypointsResult: FollowWaypointsResult,
-  JoyPriorityActionGoal: JoyPriorityActionGoal,
-  JoyPriorityGoal: JoyPriorityGoal,
-  GoToPOIResult: GoToPOIResult,
-  JoyTurboActionFeedback: JoyTurboActionFeedback,
-  JoyPriorityActionResult: JoyPriorityActionResult,
-  FollowWaypointsActionFeedback: FollowWaypointsActionFeedback,
-  JoyTurboAction: JoyTurboAction,
-  ExecuteParkingAction: ExecuteParkingAction,
-  ExecuteParkingActionResult: ExecuteParkingActionResult,
-  JoyPriorityFeedback: JoyPriorityFeedback,
-  GoToAction: GoToAction,
-  GoToPOIAction: GoToPOIAction,
-  ExecuteParkingGoal: ExecuteParkingGoal,
   JoyTurboResult: JoyTurboResult,
-  GoToPOIActionFeedback: GoToPOIActionFeedback,
-  FollowWaypointsFeedback: FollowWaypointsFeedback,
-  FollowWaypointsActionGoal: FollowWaypointsActionGoal,
-  GoToPOIActionResult: GoToPOIActionResult,
+  JoyPriorityAction: JoyPriorityAction,
+  JoyTurboAction: JoyTurboAction,
+  JoyPriorityFeedback: JoyPriorityFeedback,
   JoyPriorityResult: JoyPriorityResult,
-  JoyTurboActionGoal: JoyTurboActionGoal,
+  VisualTrainingActionFeedback: VisualTrainingActionFeedback,
+  GoToPOIResult: GoToPOIResult,
+  ExecuteParkingResult: ExecuteParkingResult,
+  GoToGoal: GoToGoal,
+  FollowWaypointsResult: FollowWaypointsResult,
+  GoToFeedback: GoToFeedback,
+  JoyPriorityActionFeedback: JoyPriorityActionFeedback,
   FollowWaypointsAction: FollowWaypointsAction,
   ExecuteParkingActionGoal: ExecuteParkingActionGoal,
-  VisualTrainingAction: VisualTrainingAction,
+  JoyTurboActionResult: JoyTurboActionResult,
+  GoToPOIGoal: GoToPOIGoal,
+  VisualTrainingGoal: VisualTrainingGoal,
   VisualTrainingFeedback: VisualTrainingFeedback,
-  GoToGoal: GoToGoal,
-  Waypoint: Waypoint,
-  TabletPOI: TabletPOI,
-  Emergency: Emergency,
-  MapConfiguration: MapConfiguration,
-  NavigationStatus: NavigationStatus,
-  Highways: Highways,
+  GoToActionFeedback: GoToActionFeedback,
+  JoyPriorityGoal: JoyPriorityGoal,
+  JoyTurboActionFeedback: JoyTurboActionFeedback,
+  JoyTurboFeedback: JoyTurboFeedback,
+  JoyTurboGoal: JoyTurboGoal,
+  GoToPOIActionResult: GoToPOIActionResult,
+  JoyPriorityActionGoal: JoyPriorityActionGoal,
+  VisualTrainingAction: VisualTrainingAction,
+  ExecuteParkingGoal: ExecuteParkingGoal,
+  JoyTurboActionGoal: JoyTurboActionGoal,
+  GoToPOIAction: GoToPOIAction,
+  FollowWaypointsActionGoal: FollowWaypointsActionGoal,
+  FollowWaypointsGoal: FollowWaypointsGoal,
+  VisualTrainingResult: VisualTrainingResult,
+  GoToResult: GoToResult,
+  VisualTrainingActionResult: VisualTrainingActionResult,
+  GoToPOIActionGoal: GoToPOIActionGoal,
+  GoToAction: GoToAction,
+  GoToPOIFeedback: GoToPOIFeedback,
+  ExecuteParkingActionResult: ExecuteParkingActionResult,
+  ExecuteParkingAction: ExecuteParkingAction,
+  ExecuteParkingActionFeedback: ExecuteParkingActionFeedback,
+  FollowWaypointsActionFeedback: FollowWaypointsActionFeedback,
+  JoyPriorityActionResult: JoyPriorityActionResult,
+  FollowWaypointsFeedback: FollowWaypointsFeedback,
+  GoToActionResult: GoToActionResult,
+  GoToPOIActionFeedback: GoToPOIActionFeedback,
+  VisualTrainingActionGoal: VisualTrainingActionGoal,
+  FollowWaypointsActionResult: FollowWaypointsActionResult,
+  GoToActionGoal: GoToActionGoal,
+  ExecuteParkingFeedback: ExecuteParkingFeedback,
+  EulerAngles: EulerAngles,
+  ServiceStatus: ServiceStatus,
+  LaserImage: LaserImage,
   NiceMapTransformation: NiceMapTransformation,
+  PolarReading: PolarReading,
   EulerAnglesStamped: EulerAnglesStamped,
   POI: POI,
-  ServiceStatus: ServiceStatus,
-  PolarReadingScan: PolarReadingScan,
-  VisualLocDB: VisualLocDB,
+  Emergency: Emergency,
+  TabletPOI: TabletPOI,
   POIGroup: POIGroup,
+  Waypoint: Waypoint,
+  Highways: Highways,
   AvailableMaps: AvailableMaps,
-  EulerAngles: EulerAngles,
-  PolarReading: PolarReading,
+  VisualLocDB: VisualLocDB,
+  PolarReadingScan: PolarReadingScan,
   MissedWaypoint: MissedWaypoint,
-  LaserImage: LaserImage,
+  NavigationStatus: NavigationStatus,
+  MapConfiguration: MapConfiguration,
 };

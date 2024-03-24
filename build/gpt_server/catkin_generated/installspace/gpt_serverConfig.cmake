@@ -67,14 +67,14 @@ set(gpt_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gpt_server_SOURCE_PREFIX /home/ubuntu/pt0/src/gpt_server)
-  set(gpt_server_DEVEL_PREFIX /home/ubuntu/pt0/devel)
+  set(gpt_server_SOURCE_PREFIX /home/robocupathome/workspace/eddy_code/src/gpt_server)
+  set(gpt_server_DEVEL_PREFIX /home/robocupathome/workspace/eddy_code/devel)
   set(gpt_server_INSTALL_PREFIX "")
   set(gpt_server_PREFIX ${gpt_server_DEVEL_PREFIX})
 else()
   set(gpt_server_SOURCE_PREFIX "")
   set(gpt_server_DEVEL_PREFIX "")
-  set(gpt_server_INSTALL_PREFIX /home/ubuntu/pt0/install)
+  set(gpt_server_INSTALL_PREFIX /home/robocupathome/workspace/eddy_code/install)
   set(gpt_server_PREFIX ${gpt_server_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/pt0/install/lib;/home/ubuntu/pt0/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/robocupathome/workspace/eddy_code/install/lib;/home/robocupathome/workspace/eddy_code/devel/lib;/home/robocupathome/workspace/ari_demo/devel/lib;/home/robocupathome/workspace/cha_code/chatbot_source/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

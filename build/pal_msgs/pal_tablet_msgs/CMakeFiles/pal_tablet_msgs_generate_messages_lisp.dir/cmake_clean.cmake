@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_tablet_msgs/msg/FunctionalityStatus.lisp"
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_tablet_msgs/msg/RobotStatus.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_tablet_msgs/msg/FunctionalityStatus.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_tablet_msgs/msg/RobotStatus.lisp"
   "CMakeFiles/pal_tablet_msgs_generate_messages_lisp"
 )
 

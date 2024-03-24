@@ -2,12 +2,6 @@
 
 <launch>
 
-  <!-- Start the robot description server -->
-  <!-- <param name="robot_description" textfile="$(find my_robot_description)/urdf/my_robot.urdf" /> -->
-
-  <!-- Launch the robot state publisher -->
-  <!-- <node name="gpt_server" pkg="gpt_server" type="gpt3_server.py" /> -->
-
   <!-- Activate the audio and video recorder -->
   <node name="record_audio" pkg="sensors" type="audio_recorder.py" output="screen">
     <param name="id" value="$(arg id)" />

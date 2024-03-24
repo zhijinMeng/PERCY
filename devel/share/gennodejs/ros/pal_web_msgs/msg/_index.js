@@ -1,26 +1,26 @@
 
 "use strict";
 
+let WebGoTo = require('./WebGoTo.js');
 let Subtitles = require('./Subtitles.js');
 let TouchWeb = require('./TouchWeb.js');
-let WebGoTo = require('./WebGoTo.js');
+let GetUserInputFeedback = require('./GetUserInputFeedback.js');
 let GetUserInputGoal = require('./GetUserInputGoal.js');
+let GetUserInputAction = require('./GetUserInputAction.js');
 let GetUserInputResult = require('./GetUserInputResult.js');
 let GetUserInputActionResult = require('./GetUserInputActionResult.js');
-let GetUserInputAction = require('./GetUserInputAction.js');
-let GetUserInputFeedback = require('./GetUserInputFeedback.js');
-let GetUserInputActionGoal = require('./GetUserInputActionGoal.js');
 let GetUserInputActionFeedback = require('./GetUserInputActionFeedback.js');
+let GetUserInputActionGoal = require('./GetUserInputActionGoal.js');
 
 module.exports = {
+  WebGoTo: WebGoTo,
   Subtitles: Subtitles,
   TouchWeb: TouchWeb,
-  WebGoTo: WebGoTo,
+  GetUserInputFeedback: GetUserInputFeedback,
   GetUserInputGoal: GetUserInputGoal,
+  GetUserInputAction: GetUserInputAction,
   GetUserInputResult: GetUserInputResult,
   GetUserInputActionResult: GetUserInputActionResult,
-  GetUserInputAction: GetUserInputAction,
-  GetUserInputFeedback: GetUserInputFeedback,
-  GetUserInputActionGoal: GetUserInputActionGoal,
   GetUserInputActionFeedback: GetUserInputActionFeedback,
+  GetUserInputActionGoal: GetUserInputActionGoal,
 };

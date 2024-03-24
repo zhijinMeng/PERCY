@@ -67,14 +67,14 @@ set(sensors_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sensors_SOURCE_PREFIX /home/ubuntu/pt0/src/sensors)
-  set(sensors_DEVEL_PREFIX /home/ubuntu/pt0/devel)
+  set(sensors_SOURCE_PREFIX /home/robocupathome/workspace/eddy_code/src/sensors)
+  set(sensors_DEVEL_PREFIX /home/robocupathome/workspace/eddy_code/devel)
   set(sensors_INSTALL_PREFIX "")
   set(sensors_PREFIX ${sensors_DEVEL_PREFIX})
 else()
   set(sensors_SOURCE_PREFIX "")
   set(sensors_DEVEL_PREFIX "")
-  set(sensors_INSTALL_PREFIX /home/ubuntu/pt0/install)
+  set(sensors_INSTALL_PREFIX /home/robocupathome/workspace/eddy_code/install)
   set(sensors_PREFIX ${sensors_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/pt0/install/lib;/home/ubuntu/pt0/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/robocupathome/workspace/eddy_code/install/lib;/home/robocupathome/workspace/eddy_code/devel/lib;/home/robocupathome/workspace/ari_demo/devel/lib;/home/robocupathome/workspace/cha_code/chatbot_source/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

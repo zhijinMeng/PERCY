@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/gennodejs/ros/emotion_server/srv/EmotionGenerate.js"
+  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/emotion_server/srv/EmotionGenerate.js"
   "CMakeFiles/emotion_server_generate_messages_nodejs"
 )
 

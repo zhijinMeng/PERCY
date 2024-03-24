@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_video_recording_msgs/manifest.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_video_recording_msgs/srv/StartRecording.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_video_recording_msgs/srv/StopRecording.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_video_recording_msgs/manifest.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_video_recording_msgs/srv/StartRecording.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_video_recording_msgs/srv/StopRecording.l"
   "CMakeFiles/pal_video_recording_msgs_generate_messages_eus"
 )
 

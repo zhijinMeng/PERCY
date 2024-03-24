@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModel.lisp"
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModelList.lisp"
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModelMap.lisp"
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_motion_model_msgs/srv/GetMotionMap.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModel.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModelList.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_motion_model_msgs/msg/MotionModelMap.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_motion_model_msgs/srv/GetMotionMap.lisp"
   "CMakeFiles/pal_motion_model_msgs_generate_messages_lisp"
 )
 

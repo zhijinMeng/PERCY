@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs
+# Install script for directory: /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/pt0/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,68 +37,73 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/srv" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/Sit.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs-msg-paths.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/include/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/include/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/roseus/ros/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_walking_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_walking_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs-msg-extras.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgs-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgsConfig.cmake"
-    "/home/ubuntu/pt0/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgsConfig-version.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgsConfig.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs/catkin_generated/installspace/pal_walking_msgsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_walking_msgs/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_walking_msgs" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/package.xml")
 endif()
 

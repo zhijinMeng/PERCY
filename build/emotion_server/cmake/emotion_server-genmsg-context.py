@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+services_str = "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
 pkg_name = "emotion_server"
 dependencies_str = "std_msgs;sensor_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

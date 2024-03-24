@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/pt0/devel
-
-Name: pyhri
-Description: Description of pyhri
-Version: 0.4.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: cv_bridge geometry_msgs hri_msgs rospy sensor_msgs std_msgs tf2 tf2_ros

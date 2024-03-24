@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pt0/src/pal_msgs/pal_control_msgs
+# Install script for directory: /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/pt0/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,93 +37,98 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/action" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/action/MotionManager.action"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/action/RigidBodyTrajectory.action"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/action/MotionManager.action"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/action/RigidBodyTrajectory.action"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/srv" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/srv" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs-msg-paths.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/include/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/include/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/roseus/ros/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_control_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs-msg-extras.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgs-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/pt0/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgsConfig.cmake"
-    "/home/ubuntu/pt0/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgsConfig-version.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgsConfig.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs/catkin_generated/installspace/pal_control_msgsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_control_msgs/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_control_msgs" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs/package.xml")
 endif()
 

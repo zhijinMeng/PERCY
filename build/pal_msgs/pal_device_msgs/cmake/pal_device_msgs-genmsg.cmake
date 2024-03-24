@@ -2,7 +2,7 @@
 
 message(STATUS "pal_device_msgs: 20 messages, 5 services")
 
-set(MSG_I_FLAGS "-Ipal_device_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg;-Ipal_device_msgs:/home/ubuntu/pt0/devel/share/pal_device_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_device_msgs:/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg;-Ipal_device_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,129 +17,129 @@ add_custom_target(pal_device_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" "pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:std_msgs/ColorRGBA:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" "std_msgs/ColorRGBA:pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedFlowParams"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" "std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" "std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" "pal_device_msgs/DoTimedLedEffectActionFeedback:pal_device_msgs/LedRainbowParams:std_msgs/Header:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/DoTimedLedEffectResult:pal_device_msgs/DoTimedLedEffectActionGoal:pal_device_msgs/LedEffectParams:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_device_msgs/LedFlowParams:pal_device_msgs/LedDataArrayParams:std_msgs/ColorRGBA:pal_device_msgs/LedFadeParams:pal_device_msgs/DoTimedLedEffectActionResult:pal_device_msgs/LedBlinkParams:pal_device_msgs/DoTimedLedEffectFeedback:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedProgressParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" "pal_device_msgs/DoTimedLedEffectActionGoal:pal_device_msgs/LedProgressParams:std_msgs/ColorRGBA:pal_device_msgs/LedDataArrayParams:pal_device_msgs/DoTimedLedEffectFeedback:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedFadeParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedEffectViaTopicParams:actionlib_msgs/GoalStatus:pal_device_msgs/LedEffectParams:pal_device_msgs/LedBlinkParams:std_msgs/Header:pal_device_msgs/LedFixedColorParams:pal_device_msgs/DoTimedLedEffectResult:pal_device_msgs/DoTimedLedEffectActionResult:pal_device_msgs/LedFlowParams:pal_device_msgs/DoTimedLedEffectActionFeedback:pal_device_msgs/LedPreProgrammedParams:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" "actionlib_msgs/GoalID:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedEffectParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:std_msgs/ColorRGBA:std_msgs/Header:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" "pal_device_msgs/LedEffectParams:std_msgs/ColorRGBA:pal_device_msgs/LedProgressParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/DoTimedLedEffectGoal:pal_device_msgs/LedFadeParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedRainbowParams:std_msgs/Header:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedPreProgrammedParams:actionlib_msgs/GoalID:pal_device_msgs/LedFlowParams"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" "actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectResult:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_device_msgs/DoTimedLedEffectFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" "pal_device_msgs/DoTimedLedEffectFeedback:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" "pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedFlowParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedEffectViaTopicParams:std_msgs/ColorRGBA:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedEffectParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedProgressParams"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" "std_msgs/ColorRGBA:pal_device_msgs/LedEffectParams:pal_device_msgs/LedDataArrayParams:pal_device_msgs/LedFadeParams:pal_device_msgs/LedBlinkParams:pal_device_msgs/LedRainbowParams:pal_device_msgs/LedEffectViaTopicParams:pal_device_msgs/LedFixedColorParams:pal_device_msgs/LedPreProgrammedParams:pal_device_msgs/LedProgressParams:pal_device_msgs/LedFlowParams"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_device_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" "pal_device_msgs/LedGroup:std_msgs/ColorRGBA"
 )
 
 #
@@ -149,121 +149,121 @@ add_custom_target(_pal_device_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
@@ -271,33 +271,33 @@ _generate_msg_cpp(pal_device_msgs
 
 ### Generating Services
 _generate_srv_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_cpp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -313,55 +313,55 @@ add_custom_target(pal_device_msgs_generate_messages_cpp
 add_dependencies(pal_device_msgs_generate_messages pal_device_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_cpp _pal_device_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -374,121 +374,121 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_device_msgs_generate_messages_c
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_eus(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
@@ -496,33 +496,33 @@ _generate_msg_eus(pal_device_msgs
 
 ### Generating Services
 _generate_srv_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_eus(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -538,55 +538,55 @@ add_custom_target(pal_device_msgs_generate_messages_eus
 add_dependencies(pal_device_msgs_generate_messages pal_device_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_eus _pal_device_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -599,121 +599,121 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_device_msgs_generate_messages_e
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
@@ -721,33 +721,33 @@ _generate_msg_lisp(pal_device_msgs
 
 ### Generating Services
 _generate_srv_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_lisp(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -763,55 +763,55 @@ add_custom_target(pal_device_msgs_generate_messages_lisp
 add_dependencies(pal_device_msgs_generate_messages pal_device_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_lisp _pal_device_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -824,121 +824,121 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_device_msgs_generate_messages_l
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
@@ -946,33 +946,33 @@ _generate_msg_nodejs(pal_device_msgs
 
 ### Generating Services
 _generate_srv_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_nodejs(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -988,55 +988,55 @@ add_custom_target(pal_device_msgs_generate_messages_nodejs
 add_dependencies(pal_device_msgs_generate_messages pal_device_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_nodejs _pal_device_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1049,121 +1049,121 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_device_msgs_generate_messages_n
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_msg_py(pal_device_msgs
-  "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
@@ -1171,33 +1171,33 @@ _generate_msg_py(pal_device_msgs
 
 ### Generating Services
 _generate_srv_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 _generate_srv_py(pal_device_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
   "${MSG_I_FLAGS}"
-  "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/ColorRGBA.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_device_msgs
 )
 
@@ -1213,55 +1213,55 @@ add_custom_target(pal_device_msgs_generate_messages_py
 add_dependencies(pal_device_msgs_generate_messages pal_device_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv" NAME_WE)
 add_dependencies(pal_device_msgs_generate_messages_py _pal_device_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

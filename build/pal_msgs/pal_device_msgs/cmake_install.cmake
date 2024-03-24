@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pt0/src/pal_msgs/pal_device_msgs
+# Install script for directory: /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/pt0/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,94 +37,99 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/BatteryState.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/Bumper.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedGroup.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFixedColorParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedRainbowParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFadeParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedBlinkParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedProgressParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedFlowParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedDataArrayParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedEffectViaTopicParams.msg"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/msg/LedPreProgrammedParams.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/srv" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/CancelEffect.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/ShutdownAndWakeUpRobot.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedBlinkEffect.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedColourEffect.srv"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/srv/TimedFadeEffect.srv"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/action" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/action/DoTimedLedEffect.action")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/action" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/action/DoTimedLedEffect.action")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_device_msgs/msg/DoTimedLedEffectFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs-msg-paths.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/include/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/include/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/roseus/ros/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_device_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_device_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs-msg-extras.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgs-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/pt0/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgsConfig.cmake"
-    "/home/ubuntu/pt0/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgsConfig-version.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgsConfig.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs/catkin_generated/installspace/pal_device_msgsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_device_msgs/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_device_msgs" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs/package.xml")
 endif()
 

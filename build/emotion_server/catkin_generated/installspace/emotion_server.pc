@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/pt0/install
+prefix=/home/robocupathome/workspace/eddy_code/install
 
 Name: emotion_server
 Description: Description of emotion_server

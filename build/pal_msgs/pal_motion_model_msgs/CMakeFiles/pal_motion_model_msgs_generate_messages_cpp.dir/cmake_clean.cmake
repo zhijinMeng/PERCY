@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/pal_motion_model_msgs/GetMotionMap.h"
-  "/home/ubuntu/pt0/devel/include/pal_motion_model_msgs/MotionModel.h"
-  "/home/ubuntu/pt0/devel/include/pal_motion_model_msgs/MotionModelList.h"
-  "/home/ubuntu/pt0/devel/include/pal_motion_model_msgs/MotionModelMap.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_motion_model_msgs/GetMotionMap.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_motion_model_msgs/MotionModel.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_motion_model_msgs/MotionModelList.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_motion_model_msgs/MotionModelMap.h"
   "CMakeFiles/pal_motion_model_msgs_generate_messages_cpp"
 )
 

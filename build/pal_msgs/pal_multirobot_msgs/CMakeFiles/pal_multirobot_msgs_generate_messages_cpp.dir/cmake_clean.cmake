@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/pal_multirobot_msgs/WifiServiceDetection.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_multirobot_msgs/WifiServiceDetection.h"
   "CMakeFiles/pal_multirobot_msgs_generate_messages_cpp"
 )
 

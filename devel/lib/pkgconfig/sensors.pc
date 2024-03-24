@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/pt0/devel
+prefix=/home/robocupathome/workspace/eddy_code/devel
 
 Name: sensors
 Description: Description of sensors

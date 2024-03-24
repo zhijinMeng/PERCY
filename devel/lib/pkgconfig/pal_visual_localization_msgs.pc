@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/pt0/devel
+prefix=/home/robocupathome/workspace/eddy_code/devel
 
 Name: pal_visual_localization_msgs
 Description: Description of pal_visual_localization_msgs
 Version: 0.16.0
-Cflags: -I/home/ubuntu/pt0/devel/include
+Cflags: -I/home/robocupathome/workspace/eddy_code/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

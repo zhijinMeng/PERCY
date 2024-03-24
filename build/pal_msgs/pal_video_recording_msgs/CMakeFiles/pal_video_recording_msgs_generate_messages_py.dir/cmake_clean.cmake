@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/_StartRecording.py"
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/_StopRecording.py"
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/__init__.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/_StartRecording.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/_StopRecording.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_video_recording_msgs/srv/__init__.py"
   "CMakeFiles/pal_video_recording_msgs_generate_messages_py"
 )
 

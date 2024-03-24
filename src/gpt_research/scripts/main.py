@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import sys
 
+
+print('PYTHON VERSION:')
+print(sys.version)
 
 import rospy
 

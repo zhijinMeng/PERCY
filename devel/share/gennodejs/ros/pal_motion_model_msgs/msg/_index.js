@@ -1,12 +1,12 @@
 
 "use strict";
 
-let MotionModelMap = require('./MotionModelMap.js');
 let MotionModelList = require('./MotionModelList.js');
 let MotionModel = require('./MotionModel.js');
+let MotionModelMap = require('./MotionModelMap.js');
 
 module.exports = {
-  MotionModelMap: MotionModelMap,
   MotionModelList: MotionModelList,
   MotionModel: MotionModel,
+  MotionModelMap: MotionModelMap,
 };

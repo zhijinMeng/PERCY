@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/pt0/src/emotion_server
-# Build directory: /home/ubuntu/pt0/build/emotion_server
+# Source directory: /home/robocupathome/workspace/eddy_code/src/emotion_server
+# Build directory: /home/robocupathome/workspace/eddy_code/build/emotion_server
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

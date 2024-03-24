@@ -17,9 +17,9 @@ add_custom_target(emotion_server_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_custom_target(_emotion_server_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "emotion_server" "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" "sensor_msgs/Image:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "emotion_server" "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" "std_msgs/Header:sensor_msgs/Image"
 )
 
 #
@@ -31,9 +31,9 @@ add_custom_target(_emotion_server_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(emotion_server
-  "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+  "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/emotion_server
 )
 
@@ -49,7 +49,7 @@ add_custom_target(emotion_server_generate_messages_cpp
 add_dependencies(emotion_server_generate_messages emotion_server_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_dependencies(emotion_server_generate_messages_cpp _emotion_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,9 +64,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_cp
 
 ### Generating Services
 _generate_srv_eus(emotion_server
-  "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+  "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/emotion_server
 )
 
@@ -82,7 +82,7 @@ add_custom_target(emotion_server_generate_messages_eus
 add_dependencies(emotion_server_generate_messages emotion_server_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_dependencies(emotion_server_generate_messages_eus _emotion_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,9 +97,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_eu
 
 ### Generating Services
 _generate_srv_lisp(emotion_server
-  "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+  "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/emotion_server
 )
 
@@ -115,7 +115,7 @@ add_custom_target(emotion_server_generate_messages_lisp
 add_dependencies(emotion_server_generate_messages emotion_server_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_dependencies(emotion_server_generate_messages_lisp _emotion_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,9 +130,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_li
 
 ### Generating Services
 _generate_srv_nodejs(emotion_server
-  "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+  "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/emotion_server
 )
 
@@ -148,7 +148,7 @@ add_custom_target(emotion_server_generate_messages_nodejs
 add_dependencies(emotion_server_generate_messages emotion_server_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_dependencies(emotion_server_generate_messages_nodejs _emotion_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,9 +163,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_no
 
 ### Generating Services
 _generate_srv_py(emotion_server
-  "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv"
+  "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/emotion_server
 )
 
@@ -181,7 +181,7 @@ add_custom_target(emotion_server_generate_messages_py
 add_dependencies(emotion_server_generate_messages emotion_server_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_dependencies(emotion_server_generate_messages_py _emotion_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

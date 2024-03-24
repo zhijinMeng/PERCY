@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_simulation_msgs/msg/ExternalWrench.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_simulation_msgs/msg/ExternalWrench.lisp"
   "CMakeFiles/pal_simulation_msgs_generate_messages_lisp"
 )
 

@@ -1,9 +1,16 @@
 #! /usr/bin/python3
 
 import rospy
+import sys
+
+print('PYTHON VERSION:')
+print(sys.version)
 from gpt_server.srv import GPTGenerate, GPTGenerateRequest, GPTGenerateResponse
 from openai import OpenAI
 import json
+import sys
+
+
 
 class GPT:
     """
@@ -14,6 +21,7 @@ class GPT:
 
     def __init__(self):
         rospy.init_node('gpt_server')
+
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
 
         rospy.loginfo('GPT node started')
@@ -70,5 +78,6 @@ class GPT:
 
 
 if __name__ == '__main__':
+   
     gpt = GPT()
     rospy.spin()

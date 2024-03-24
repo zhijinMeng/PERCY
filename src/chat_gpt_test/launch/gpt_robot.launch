@@ -1,6 +1,0 @@
-<launch>
-    <node pkg='chat_gpt_test' type='robot_node.py' name='robot_node' output='screen'/>
-    <node pkg='chat_gpt_test' type='gpt_node.py' name='gpt_node' output='screen'/>
-        
-
-</launch>

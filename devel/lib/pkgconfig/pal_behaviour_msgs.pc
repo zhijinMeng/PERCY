@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/pt0/devel
+prefix=/home/robocupathome/workspace/eddy_code/devel
 
 Name: pal_behaviour_msgs
 Description: Description of pal_behaviour_msgs
 Version: 0.16.0
-Cflags: -I/home/ubuntu/pt0/devel/include
+Cflags: -I/home/robocupathome/workspace/eddy_code/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime std_msgs actionlib_msgs

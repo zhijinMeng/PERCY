@@ -1,42 +1,42 @@
 
 "use strict";
 
-let DetectedPerson = require('./DetectedPerson.js');
 let FaceDetection = require('./FaceDetection.js');
-let Gesture = require('./Gesture.js');
-let FollowMeResponse = require('./FollowMeResponse.js');
-let Rectangle = require('./Rectangle.js');
-let HogDetections = require('./HogDetections.js');
 let FaceDetections = require('./FaceDetections.js');
+let HogDetections = require('./HogDetections.js');
+let FollowMeResponse = require('./FollowMeResponse.js');
 let HeadPanTilt = require('./HeadPanTilt.js');
-let HogDetection = require('./HogDetection.js');
+let DetectedPerson = require('./DetectedPerson.js');
+let Rectangle = require('./Rectangle.js');
 let LegDetections = require('./LegDetections.js');
 let DetectedObject = require('./DetectedObject.js');
-let FaceRecognitionAction = require('./FaceRecognitionAction.js');
-let FaceRecognitionFeedback = require('./FaceRecognitionFeedback.js');
+let Gesture = require('./Gesture.js');
+let HogDetection = require('./HogDetection.js');
 let FaceRecognitionActionResult = require('./FaceRecognitionActionResult.js');
+let FaceRecognitionActionGoal = require('./FaceRecognitionActionGoal.js');
 let FaceRecognitionResult = require('./FaceRecognitionResult.js');
 let FaceRecognitionActionFeedback = require('./FaceRecognitionActionFeedback.js');
-let FaceRecognitionActionGoal = require('./FaceRecognitionActionGoal.js');
+let FaceRecognitionFeedback = require('./FaceRecognitionFeedback.js');
+let FaceRecognitionAction = require('./FaceRecognitionAction.js');
 let FaceRecognitionGoal = require('./FaceRecognitionGoal.js');
 
 module.exports = {
-  DetectedPerson: DetectedPerson,
   FaceDetection: FaceDetection,
-  Gesture: Gesture,
-  FollowMeResponse: FollowMeResponse,
-  Rectangle: Rectangle,
-  HogDetections: HogDetections,
   FaceDetections: FaceDetections,
+  HogDetections: HogDetections,
+  FollowMeResponse: FollowMeResponse,
   HeadPanTilt: HeadPanTilt,
-  HogDetection: HogDetection,
+  DetectedPerson: DetectedPerson,
+  Rectangle: Rectangle,
   LegDetections: LegDetections,
   DetectedObject: DetectedObject,
-  FaceRecognitionAction: FaceRecognitionAction,
-  FaceRecognitionFeedback: FaceRecognitionFeedback,
+  Gesture: Gesture,
+  HogDetection: HogDetection,
   FaceRecognitionActionResult: FaceRecognitionActionResult,
+  FaceRecognitionActionGoal: FaceRecognitionActionGoal,
   FaceRecognitionResult: FaceRecognitionResult,
   FaceRecognitionActionFeedback: FaceRecognitionActionFeedback,
-  FaceRecognitionActionGoal: FaceRecognitionActionGoal,
+  FaceRecognitionFeedback: FaceRecognitionFeedback,
+  FaceRecognitionAction: FaceRecognitionAction,
   FaceRecognitionGoal: FaceRecognitionGoal,
 };

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/pal_tablet_msgs/FunctionalityStatus.h"
-  "/home/ubuntu/pt0/devel/include/pal_tablet_msgs/RobotStatus.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_tablet_msgs/FunctionalityStatus.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/pal_tablet_msgs/RobotStatus.h"
   "CMakeFiles/pal_tablet_msgs_generate_messages_cpp"
 )
 

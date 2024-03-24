@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/include/emotion_server/EmotionGenerate.h"
+  "/home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h"
   "CMakeFiles/emotion_server_generate_messages_cpp"
 )
 

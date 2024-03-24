@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_multirobot_msgs/msg/WifiServiceDetection.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_multirobot_msgs/msg/WifiServiceDetection.lisp"
   "CMakeFiles/pal_multirobot_msgs_generate_messages_lisp"
 )
 

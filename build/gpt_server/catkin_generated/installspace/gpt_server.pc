@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/pt0/install
+prefix=/home/robocupathome/workspace/eddy_code/install
 
 Name: gpt_server
 Description: Description of gpt_server

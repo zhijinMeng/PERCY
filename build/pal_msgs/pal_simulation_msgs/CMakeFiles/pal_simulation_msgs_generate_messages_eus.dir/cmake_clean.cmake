@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_simulation_msgs/manifest.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_simulation_msgs/msg/ExternalWrench.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_simulation_msgs/manifest.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_simulation_msgs/msg/ExternalWrench.l"
   "CMakeFiles/pal_simulation_msgs_generate_messages_eus"
 )
 

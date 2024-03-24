@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/gpt_server/srv/GPTGenerate.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/gpt_server/srv/GPTGenerate.lisp"
   "CMakeFiles/gpt_server_generate_messages_lisp"
 )
 

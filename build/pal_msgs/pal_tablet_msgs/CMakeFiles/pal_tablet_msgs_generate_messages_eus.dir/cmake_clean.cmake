@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_tablet_msgs/manifest.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_tablet_msgs/msg/FunctionalityStatus.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_tablet_msgs/msg/RobotStatus.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_tablet_msgs/manifest.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_tablet_msgs/msg/FunctionalityStatus.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_tablet_msgs/msg/RobotStatus.l"
   "CMakeFiles/pal_tablet_msgs_generate_messages_eus"
 )
 

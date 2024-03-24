@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs
+# Install script for directory: /home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/pt0/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,79 +37,84 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/msg" TYPE FILE FILES "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/msg" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/srv" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
-    "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
-    "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
-    "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
+    "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/ClipFootstep.srv"
+    "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv"
+    "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootstepsBetweenFeet.srv"
+    "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/srv/StepTargetService.srv"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/action" TYPE FILE FILES "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/action/ExecFootsteps.action")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/action" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/action/ExecFootsteps.action")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
-    "/home/ubuntu/pt0/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs-msg-paths.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/include/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/include/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/roseus/ros/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/common-lisp/ros/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/gennodejs/ros/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/pt0/devel/lib/python3/dist-packages/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/lib/python3/dist-packages/humanoid_nav_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/humanoid_nav_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/pt0/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs-msg-extras.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgs-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/pt0/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgsConfig.cmake"
-    "/home/ubuntu/pt0/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgsConfig-version.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgsConfig.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs/catkin_generated/installspace/humanoid_nav_msgsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs" TYPE FILE FILES "/home/ubuntu/pt0/src/humanoid_msgs/humanoid_nav_msgs/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/humanoid_nav_msgs" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs/package.xml")
 endif()
 

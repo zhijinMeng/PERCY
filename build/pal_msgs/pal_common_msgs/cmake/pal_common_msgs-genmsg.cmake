@@ -2,7 +2,7 @@
 
 message(STATUS "pal_common_msgs: 15 messages, 2 services")
 
-set(MSG_I_FLAGS "-Ipal_common_msgs:/home/ubuntu/pt0/devel/share/pal_common_msgs/msg;-Ipal_common_msgs:/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_common_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg;-Ipal_common_msgs:/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,89 +17,89 @@ add_custom_target(pal_common_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" "std_msgs/Header:pal_common_msgs/DisableGoal:pal_common_msgs/DisableActionFeedback:pal_common_msgs/DisableActionGoal:pal_common_msgs/DisableResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_common_msgs/DisableFeedback:pal_common_msgs/DisableActionResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" "std_msgs/Header:pal_common_msgs/DisableResult:pal_common_msgs/DisableActionResult:pal_common_msgs/DisableActionFeedback:actionlib_msgs/GoalID:pal_common_msgs/DisableGoal:actionlib_msgs/GoalStatus:pal_common_msgs/DisableActionGoal:pal_common_msgs/DisableFeedback"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/DisableGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" "std_msgs/Header:pal_common_msgs/DisableGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/DisableResult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" "std_msgs/Header:pal_common_msgs/DisableResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/DisableFeedback:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_common_msgs/DisableFeedback"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:pal_common_msgs/EmptyActionFeedback:actionlib_msgs/GoalID:pal_common_msgs/EmptyFeedback:pal_common_msgs/EmptyGoal:pal_common_msgs/EmptyActionResult:pal_common_msgs/EmptyResult:pal_common_msgs/EmptyActionGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" "std_msgs/Header:pal_common_msgs/EmptyFeedback:pal_common_msgs/EmptyActionGoal:pal_common_msgs/EmptyResult:pal_common_msgs/EmptyActionResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_common_msgs/EmptyActionFeedback:pal_common_msgs/EmptyGoal"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/EmptyGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" "std_msgs/Header:pal_common_msgs/EmptyGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/EmptyResult:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" "std_msgs/Header:pal_common_msgs/EmptyResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_common_msgs/EmptyFeedback:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" "std_msgs/Header:pal_common_msgs/EmptyFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" ""
 )
 
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_common_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" ""
 )
 
 #
@@ -109,91 +109,91 @@ add_custom_target(_pal_common_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_cpp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_cpp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_cpp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_cpp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_cpp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
@@ -201,13 +201,13 @@ _generate_msg_cpp(pal_common_msgs
 
 ### Generating Services
 _generate_srv_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_srv_cpp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_common_msgs
@@ -225,39 +225,39 @@ add_custom_target(pal_common_msgs_generate_messages_cpp
 add_dependencies(pal_common_msgs_generate_messages pal_common_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_cpp _pal_common_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -270,91 +270,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_common_msgs_generate_messages_c
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_eus(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_eus(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_eus(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_eus(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_eus(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_eus(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
@@ -362,13 +362,13 @@ _generate_msg_eus(pal_common_msgs
 
 ### Generating Services
 _generate_srv_eus(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
 )
 _generate_srv_eus(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_common_msgs
@@ -386,39 +386,39 @@ add_custom_target(pal_common_msgs_generate_messages_eus
 add_dependencies(pal_common_msgs_generate_messages pal_common_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_eus _pal_common_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -431,91 +431,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_common_msgs_generate_messages_e
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_lisp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_lisp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_lisp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_lisp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_lisp(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
@@ -523,13 +523,13 @@ _generate_msg_lisp(pal_common_msgs
 
 ### Generating Services
 _generate_srv_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
 )
 _generate_srv_lisp(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_common_msgs
@@ -547,39 +547,39 @@ add_custom_target(pal_common_msgs_generate_messages_lisp
 add_dependencies(pal_common_msgs_generate_messages pal_common_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_lisp _pal_common_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -592,91 +592,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_common_msgs_generate_messages_l
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_nodejs(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_nodejs(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_nodejs(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_nodejs(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_nodejs(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
@@ -684,13 +684,13 @@ _generate_msg_nodejs(pal_common_msgs
 
 ### Generating Services
 _generate_srv_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
 )
 _generate_srv_nodejs(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_common_msgs
@@ -708,39 +708,39 @@ add_custom_target(pal_common_msgs_generate_messages_nodejs
 add_dependencies(pal_common_msgs_generate_messages pal_common_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_nodejs _pal_common_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -753,91 +753,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_common_msgs_generate_messages_n
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
-)
-_generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_py(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_py(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_py(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_py(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_msg_py(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
+  "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
+)
+_generate_msg_py(pal_common_msgs
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
@@ -845,13 +845,13 @@ _generate_msg_py(pal_common_msgs
 
 ### Generating Services
 _generate_srv_py(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
 )
 _generate_srv_py(pal_common_msgs
-  "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
+  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_common_msgs
@@ -869,39 +869,39 @@ add_custom_target(pal_common_msgs_generate_messages_py
 add_dependencies(pal_common_msgs_generate_messages pal_common_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/msg/JointCurrent.msg" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/SetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ubuntu/pt0/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
+get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs/srv/GetString.srv" NAME_WE)
 add_dependencies(pal_common_msgs_generate_messages_py _pal_common_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,54 +1,54 @@
 
 "use strict";
 
-let PersonDetections = require('./PersonDetections.js');
-let FaceThermalDetections = require('./FaceThermalDetections.js');
-let Obstacle = require('./Obstacle.js');
 let FaceDetection = require('./FaceDetection.js');
-let Detection2d = require('./Detection2d.js');
-let Gesture = require('./Gesture.js');
+let FaceDetections = require('./FaceDetections.js');
+let FaceThermalDetections = require('./FaceThermalDetections.js');
+let WaveDetection = require('./WaveDetection.js');
+let RecognizedActions = require('./RecognizedActions.js');
+let PersonDetection = require('./PersonDetection.js');
+let RecognizedObject = require('./RecognizedObject.js');
+let RotatedDetection2d = require('./RotatedDetection2d.js');
+let PersonDetections = require('./PersonDetections.js');
+let RecognizedObjectArray = require('./RecognizedObjectArray.js');
 let Detections2d = require('./Detections2d.js');
 let Obstacles = require('./Obstacles.js');
-let FaceDetections = require('./FaceDetections.js');
-let PersonDetection = require('./PersonDetection.js');
-let RecognizedObjectArray = require('./RecognizedObjectArray.js');
-let RecognizedActions = require('./RecognizedActions.js');
 let TexturedObjectDetection = require('./TexturedObjectDetection.js');
+let Obstacle = require('./Obstacle.js');
+let Detection2d = require('./Detection2d.js');
 let LegDetections = require('./LegDetections.js');
-let RotatedDetection2d = require('./RotatedDetection2d.js');
-let WaveDetection = require('./WaveDetection.js');
-let RecognizedObject = require('./RecognizedObject.js');
-let RecognizeObjectsActionResult = require('./RecognizeObjectsActionResult.js');
-let RecognizeObjectsActionGoal = require('./RecognizeObjectsActionGoal.js');
-let RecognizeObjectsFeedback = require('./RecognizeObjectsFeedback.js');
+let Gesture = require('./Gesture.js');
+let RecognizeObjectsResult = require('./RecognizeObjectsResult.js');
 let RecognizeObjectsGoal = require('./RecognizeObjectsGoal.js');
 let RecognizeObjectsActionFeedback = require('./RecognizeObjectsActionFeedback.js');
+let RecognizeObjectsFeedback = require('./RecognizeObjectsFeedback.js');
 let RecognizeObjectsAction = require('./RecognizeObjectsAction.js');
-let RecognizeObjectsResult = require('./RecognizeObjectsResult.js');
+let RecognizeObjectsActionResult = require('./RecognizeObjectsActionResult.js');
+let RecognizeObjectsActionGoal = require('./RecognizeObjectsActionGoal.js');
 
 module.exports = {
-  PersonDetections: PersonDetections,
-  FaceThermalDetections: FaceThermalDetections,
-  Obstacle: Obstacle,
   FaceDetection: FaceDetection,
-  Detection2d: Detection2d,
-  Gesture: Gesture,
+  FaceDetections: FaceDetections,
+  FaceThermalDetections: FaceThermalDetections,
+  WaveDetection: WaveDetection,
+  RecognizedActions: RecognizedActions,
+  PersonDetection: PersonDetection,
+  RecognizedObject: RecognizedObject,
+  RotatedDetection2d: RotatedDetection2d,
+  PersonDetections: PersonDetections,
+  RecognizedObjectArray: RecognizedObjectArray,
   Detections2d: Detections2d,
   Obstacles: Obstacles,
-  FaceDetections: FaceDetections,
-  PersonDetection: PersonDetection,
-  RecognizedObjectArray: RecognizedObjectArray,
-  RecognizedActions: RecognizedActions,
   TexturedObjectDetection: TexturedObjectDetection,
+  Obstacle: Obstacle,
+  Detection2d: Detection2d,
   LegDetections: LegDetections,
-  RotatedDetection2d: RotatedDetection2d,
-  WaveDetection: WaveDetection,
-  RecognizedObject: RecognizedObject,
-  RecognizeObjectsActionResult: RecognizeObjectsActionResult,
-  RecognizeObjectsActionGoal: RecognizeObjectsActionGoal,
-  RecognizeObjectsFeedback: RecognizeObjectsFeedback,
+  Gesture: Gesture,
+  RecognizeObjectsResult: RecognizeObjectsResult,
   RecognizeObjectsGoal: RecognizeObjectsGoal,
   RecognizeObjectsActionFeedback: RecognizeObjectsActionFeedback,
+  RecognizeObjectsFeedback: RecognizeObjectsFeedback,
   RecognizeObjectsAction: RecognizeObjectsAction,
-  RecognizeObjectsResult: RecognizeObjectsResult,
+  RecognizeObjectsActionResult: RecognizeObjectsActionResult,
+  RecognizeObjectsActionGoal: RecognizeObjectsActionGoal,
 };

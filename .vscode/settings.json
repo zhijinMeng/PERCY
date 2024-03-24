@@ -1,8 +1,7 @@
 {
     "python.autoComplete.extraPaths": [
-        "/home/seung/multimodal_dataset/devel/lib/python3/dist-packages",
-        "/opt/ros/noetic/lib/python3/dist-packages",
-        "/home/seung/pynaoqi/lib/python2.7/site-packages"
+        "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
     ],
     "python.analysis.extraPaths": [
         "/home/seung/multimodal_dataset/devel/lib/python3/dist-packages",

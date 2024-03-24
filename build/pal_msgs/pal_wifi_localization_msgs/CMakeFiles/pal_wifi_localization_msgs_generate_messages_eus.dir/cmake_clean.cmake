@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_wifi_localization_msgs/manifest.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignal.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignalList.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignalMap.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_wifi_localization_msgs/srv/GetWifiMap.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_wifi_localization_msgs/manifest.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignal.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignalList.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_wifi_localization_msgs/msg/WifiSignalMap.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_wifi_localization_msgs/srv/GetWifiMap.l"
   "CMakeFiles/pal_wifi_localization_msgs_generate_messages_eus"
 )
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/common-lisp/ros/emotion_server/srv/EmotionGenerate.lisp"
+  "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/emotion_server/srv/EmotionGenerate.lisp"
   "CMakeFiles/emotion_server_generate_messages_lisp"
 )
 

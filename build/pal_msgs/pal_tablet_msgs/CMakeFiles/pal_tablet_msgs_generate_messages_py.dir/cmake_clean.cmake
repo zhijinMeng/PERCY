@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py"
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py"
-  "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/__init__.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_FunctionalityStatus.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/_RobotStatus.py"
+  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_tablet_msgs/msg/__init__.py"
   "CMakeFiles/pal_tablet_msgs_generate_messages_py"
 )
 

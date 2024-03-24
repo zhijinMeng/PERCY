@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pt0/src/pal_msgs/pal_visual_localization_msgs
+# Install script for directory: /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_visual_localization_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/pt0/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,81 +37,86 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/action" TYPE FILE FILES
-    "/home/ubuntu/pt0/src/pal_msgs/pal_visual_localization_msgs/action/VisualLocAddPlace.action"
-    "/home/ubuntu/pt0/src/pal_msgs/pal_visual_localization_msgs/action/VisualLocRecognize.action"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_visual_localization_msgs/action/VisualLocAddPlace.action"
+    "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_visual_localization_msgs/action/VisualLocRecognize.action"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocAddPlaceFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
-    "/home/ubuntu/pt0/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeAction.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeActionFeedback.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeResult.msg"
+    "/home/robocupathome/workspace/eddy_code/devel/share/pal_visual_localization_msgs/msg/VisualLocRecognizeFeedback.msg"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs-msg-paths.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs-msg-paths.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/include/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/include/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/roseus/ros/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/common-lisp/ros/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/common-lisp/ros/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/share/gennodejs/ros/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/pt0/devel/lib/python3/dist-packages/pal_visual_localization_msgs")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/pal_visual_localization_msgs")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/cmake" TYPE FILE FILES "/home/ubuntu/pt0/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs-msg-extras.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/cmake" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgs-msg-extras.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/pt0/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgsConfig.cmake"
-    "/home/ubuntu/pt0/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgsConfig-version.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgsConfig.cmake"
+    "/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs/catkin_generated/installspace/pal_visual_localization_msgsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs" TYPE FILE FILES "/home/ubuntu/pt0/src/pal_msgs/pal_visual_localization_msgs/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pal_visual_localization_msgs" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_visual_localization_msgs/package.xml")
 endif()
 

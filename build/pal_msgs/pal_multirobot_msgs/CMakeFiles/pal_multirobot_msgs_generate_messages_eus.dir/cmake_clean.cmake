@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_multirobot_msgs/manifest.l"
-  "/home/ubuntu/pt0/devel/share/roseus/ros/pal_multirobot_msgs/msg/WifiServiceDetection.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_multirobot_msgs/manifest.l"
+  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_multirobot_msgs/msg/WifiServiceDetection.l"
   "CMakeFiles/pal_multirobot_msgs_generate_messages_eus"
 )
 
