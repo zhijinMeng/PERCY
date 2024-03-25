@@ -61,3 +61,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stt" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/stt/catkin_generated/installspace/stt_server.py")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stt" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/stt/catkin_generated/installspace/test.py")
+endif()
+

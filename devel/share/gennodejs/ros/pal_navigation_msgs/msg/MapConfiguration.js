@@ -16,8 +16,8 @@ let POI = require('./POI.js');
 let POIGroup = require('./POIGroup.js');
 let VisualLocDB = require('./VisualLocDB.js');
 let NiceMapTransformation = require('./NiceMapTransformation.js');
-let nav_msgs = _finder('nav_msgs');
 let sensor_msgs = _finder('sensor_msgs');
+let nav_msgs = _finder('nav_msgs');
 
 //-----------------------------------------------------------
 

@@ -1,34 +1,56 @@
+#!/usr/bin/python3
+
 import rospy
 from std_msgs.msg import String
-from google.cloud import speech
-import sys
+from google.cloud import speech_v1p1beta1 as speech
+import numpy as np
 
-print(sys.version)
-# Initialize ROS node
-rospy.init_node('speech_to_text')
-
-# Create a ROS subscriber to listen for audio data
 def audio_callback(data):
-    transcribe_audio(data.data)
+    # Print the received data
+    rospy.loginfo("Received data: %s", data.data)
 
-rospy.Subscriber('audio/channel0', String, audio_callback)  # Subscribe to 'audio/channel0' topic
+    # Initialize the Speech-to-Text client
+    client = speech.SpeechClient()
 
-# Google Cloud Speech API client
-client = speech.SpeechClient()
-print('here')
-def transcribe_audio(audio_data):
-    # Perform transcription using Google Cloud Speech API
-    audio = speech.RecognitionAudio(content=audio_data)
-    config = speech.RecognitionConfig(
-        encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
-        language_code="en-US",
+    # Configure streaming audio settings
+    config = {
+        "language_code": "en-US",
+        "sample_rate_hertz": 16000,  # Adjust based on your audio sample rate
+        "encoding": speech.enums.RecognitionConfig.AudioEncoding.LINEAR16,
+    }
+
+    # Convert raw audio data to int16 (assuming it's 8-bit PCM)
+    raw_audio_uint8 = np.frombuffer(data.data, dtype=np.uint8)
+    audio_data_int16 = raw_audio_uint8.astype(np.int16)
+
+    # Convert audio data to LINEAR16 byte string
+    audio_bytes = audio_data_int16.tobytes()
+
+    # Initialize the streaming request
+    streaming_request = speech.StreamingRecognizeRequest(
+        streaming_config=speech.StreamingRecognitionConfig(config=config, interim_results=True)
     )
 
-    response = client.recognize(config=config, audio=audio)
+    # Process the raw audio data
+    audio = {"content": audio_bytes}
+    rospy.loginfo("Received audio data")
 
-    for result in response.results:
-        print(f"Transcription: {result.alternatives[0].transcript}")
+    # Stream audio data to the API and handle transcriptions
+    response_stream = client.streaming_recognize(streaming_request, audio_content=[audio])
 
-# Keep ROS node running
-rospy.spin()
+    # Process the transcription results
+    for response in response_stream:
+        for result in response.results:
+            if result.is_final:
+                rospy.loginfo("Final Transcription: %s", result.alternatives[0].transcript)
+            else:
+                rospy.loginfo("Interim Transcription: %s", result.alternatives[0].transcript)
+
+def main():
+    rospy.loginfo`("Starting ROS Speech-to-Text Node")
+    rospy.init_node("ros_speech_to_text")
+    rospy.Subscriber("/audio/channel0", String, audio_callback)
+    rospy.spin()
+
+if __name__ == "__main__":
+    main()

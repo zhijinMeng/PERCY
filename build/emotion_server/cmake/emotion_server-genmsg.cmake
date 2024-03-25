@@ -19,7 +19,7 @@ add_custom_target(emotion_server_generate_messages ALL)
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" NAME_WE)
 add_custom_target(_emotion_server_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "emotion_server" "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" "std_msgs/Header:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "emotion_server" "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv" "sensor_msgs/Image:std_msgs/Header"
 )
 
 #
@@ -33,7 +33,7 @@ add_custom_target(_emotion_server_generate_messages_check_deps_${_filename}
 _generate_srv_cpp(emotion_server
   "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/emotion_server
 )
 
@@ -66,7 +66,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_cp
 _generate_srv_eus(emotion_server
   "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/emotion_server
 )
 
@@ -99,7 +99,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_eu
 _generate_srv_lisp(emotion_server
   "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/emotion_server
 )
 
@@ -132,7 +132,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_li
 _generate_srv_nodejs(emotion_server
   "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/emotion_server
 )
 
@@ -165,7 +165,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS emotion_server_generate_messages_no
 _generate_srv_py(emotion_server
   "/home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/emotion_server
 )
 

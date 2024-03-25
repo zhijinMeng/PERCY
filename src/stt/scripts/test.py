@@ -1,10 +1,17 @@
-import speech_recognition as sr
+#!/usr/bin/python3
 
-r = sr.Recognizer()
-with sr.AudioFile("./7.wav") as source:
-    audio = r.record(source)
-    try:
-        text = r.recognize_google(audio)
-        print("Transcription:", text)
-    except sr.UnknownValueError:
-        print("Could not understand audio")
+
+import rospy
+# from std_msgs.msg import UInt8MultiArray
+from audio_common_msgs.msg import AudioData
+
+def audio_callback(msg):
+    rospy.loginfo("Received data: %s", msg.data)
+
+def main():
+    rospy.init_node("audio_subscriber")
+    rospy.Subscriber("/audio/channel0", AudioData, audio_callback)
+    rospy.spin()
+
+if __name__ == "__main__":
+    main()
