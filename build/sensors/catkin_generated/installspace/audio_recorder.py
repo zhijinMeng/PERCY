@@ -21,11 +21,7 @@ if __name__ == '__main__':
     file_name = str(id) + '.wav'
     # output_file_path = "./src/DATA/" +file_name  # Set the correct path
     output_file_path = "/home/ubuntu/pt0/src/DATA/" +file_name  # Set the correct path
-    
-    print('here')
-    print(os.getcwd())
-    print('hello')
-    
+
     wf = wave.open(output_file_path, 'wb') #change output directory as desired
     wf.setnchannels(AUDIO_CHANNELS)
     wf.setsampwidth(AUDIO_WIDTH)

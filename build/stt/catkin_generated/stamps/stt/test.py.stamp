@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 
+
 import rospy
+# from std_msgs.msg import UInt8MultiArray
+from audio_common_msgs.msg import AudioData
 
-# Initialize ROS node
-rospy.init_node('my_node')
+def audio_callback(msg):
+    rospy.loginfo("Received data: %s", msg.data)
 
-# Log information
-rospy.loginfo("This is an information message.")
+def main():
+    rospy.init_node("audio_subscriber")
+    rospy.Subscriber("/audio/channel0", AudioData, audio_callback)
+    rospy.spin()
 
-# Spin to keep the node alive
-rospy.spin()
+if __name__ == "__main__":
+    main()

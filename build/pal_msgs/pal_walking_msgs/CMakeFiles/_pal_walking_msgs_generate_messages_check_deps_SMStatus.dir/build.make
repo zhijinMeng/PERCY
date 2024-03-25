@@ -67,7 +67,7 @@ include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages
 include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_SMStatus.dir/progress.make
 
 pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_SMStatus:
-	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point
+	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/SMStatus.msg geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion
 
 _pal_walking_msgs_generate_messages_check_deps_SMStatus: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_SMStatus
 _pal_walking_msgs_generate_messages_check_deps_SMStatus: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_SMStatus.dir/build.make

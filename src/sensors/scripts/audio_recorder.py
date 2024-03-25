@@ -20,7 +20,7 @@ if __name__ == '__main__':
     id = rospy.get_param('~id', '0')
     file_name = str(id) + '.wav'
     # output_file_path = "./src/DATA/" +file_name  # Set the correct path
-    output_file_path = "/home/ubuntu/pt0/src/DATA/" +file_name  # Set the correct path
+    output_file_path = "/home/robocupathome/workspace/eddy_code/src/DATA/" +file_name  # Set the correct path
 
     wf = wave.open(output_file_path, 'wb') #change output directory as desired
     wf.setnchannels(AUDIO_CHANNELS)

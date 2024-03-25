@@ -71,7 +71,8 @@ class GPT:
         return response
 
     def get_openai_response(self, messages):
-        chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
+        # chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
+        chat = self.client.chat.completions.create(model="gpt-4", messages=messages)
         reply = chat.choices[0].message.content 
         return reply
         # return GPTGenerateResponse(response=reply)

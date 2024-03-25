@@ -11,7 +11,7 @@
     <param name="id" value="$(arg id)" />
   </node>
   <!-- Activate Chatgpt Node-->
-  <node name="gpt_server" pkg="gpt_server" type="gpt3_server.py" output="screen" />
+  <node name="gpt_server" pkg="gpt_server" type="gpt4_server.py" output="screen" />
   <!-- Activate the whole System-->
   <node name="gpt_research" pkg="gpt_research" type="main.py" output="screen" />
   
