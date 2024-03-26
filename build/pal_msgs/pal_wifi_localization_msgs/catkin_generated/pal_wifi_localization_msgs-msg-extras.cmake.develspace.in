@@ -1,2 +1,0 @@
-set(pal_wifi_localization_msgs_MESSAGE_FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_wifi_localization_msgs/msg/WifiSignalList.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_wifi_localization_msgs/msg/WifiSignalMap.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_wifi_localization_msgs/msg/WifiSignal.msg")
-set(pal_wifi_localization_msgs_SERVICE_FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_wifi_localization_msgs/srv/GetWifiMap.srv")
