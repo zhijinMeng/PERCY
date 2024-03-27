@@ -240,7 +240,7 @@ class emotion_recognizer:
     def __init__(self):
         rospy.init_node('emotion_server')
 
-        self.service = rospy.Service('get_emotion', EmotionGenerate, self.OnRequest)
+        self.service = rospy.Service('emotion_generate', EmotionGenerate, self.OnRequest)
 
         rospy.loginfo('Emotion Server node started')
         
@@ -251,7 +251,6 @@ class emotion_recognizer:
         return result_str
     
     def OnRequest(self, data: EmotionGenerateRequest):
-        
         return self.get_emotion(data.videoPath, data.wavPath, data.textPath)
 
 
@@ -260,5 +259,6 @@ class emotion_recognizer:
 
 if __name__=='__main__':
     er = emotion_recognizer()
-    result = er.get_emotion(one_path_mp4, one_path_wav, one_path_text)
-    print(result)
+    rospy.spin()
+    # result = er.get_emotion(one_path_mp4, one_path_wav, one_path_text)
+    # print(result)
