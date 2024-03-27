@@ -8,9 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/robocupathome/workspace/eddy_code/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/robocupathome/workspace/eddy_code/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/robocupathome/workspace/eddy_code/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PATH='/opt/ros/noetic/bin:/home/robocupathome/.nvm/versions/node/v14.21.3/bin:/home/robocupathome/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/robocupathome/workspace/eddy_code/build'
-export PYTHONPATH="/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/robocupathome/workspace/eddy_code/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/robocupathome/workspace/eddy_code/src:$ROS_PACKAGE_PATH"

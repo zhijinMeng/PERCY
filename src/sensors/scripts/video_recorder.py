@@ -41,6 +41,6 @@ if __name__ == '__main__':
 
     output_path = rospy.get_param('~id', '0')
     # output_path = "/data_recorded/" + output_path+'.mp4'  # Set the correct path
-    output_path = "/home/ubuntu/pt0/src/DATA/" + str(output_path)+'.mp4'  # Set the correct path
+    output_path = "/home/robocupathome/workspace/eddy_code/src/DATA/" + str(output_path)+'.mp4'  # Set the correct path
     image_saver = ImageSaver(output_path)
     image_saver.run()

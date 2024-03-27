@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::emotion_server::EmotionGenerate > {
   static const char* value()
   {
-    return "6cfd3401d9cf70ad4f76f96cd7ac1c9b";
+    return "82bcd62a338b6421f3f91564dfc93990";
   }
 
   static const char* value(const ::emotion_server::EmotionGenerate&) { return value(); }

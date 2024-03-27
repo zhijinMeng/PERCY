@@ -636,6 +636,13 @@
 /home/robocupathome/workspace/eddy_code/build/gpt_server/CMakeFiles/install.dir
 /home/robocupathome/workspace/eddy_code/build/gpt_server/CMakeFiles/install/local.dir
 /home/robocupathome/workspace/eddy_code/build/gpt_server/CMakeFiles/install/strip.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/test.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/edit_cache.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/rebuild_cache.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/list_install_components.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/install.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/install/local.dir
+/home/robocupathome/workspace/eddy_code/build/model/CMakeFiles/install/strip.dir
 /home/robocupathome/workspace/eddy_code/build/sensors/CMakeFiles/test.dir
 /home/robocupathome/workspace/eddy_code/build/sensors/CMakeFiles/edit_cache.dir
 /home/robocupathome/workspace/eddy_code/build/sensors/CMakeFiles/rebuild_cache.dir

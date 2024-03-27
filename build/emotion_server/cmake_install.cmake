@@ -97,3 +97,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/emotion_server" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/emotion_server/catkin_generated/installspace/deepFace_server.py")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/emotion_server" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/emotion_server/catkin_generated/installspace/emotion.py")
+endif()
+

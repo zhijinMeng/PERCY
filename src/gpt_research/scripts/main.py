@@ -62,10 +62,11 @@ class Node:
         self.gptServer.wait_for_service()
         print('Successfully connected to /gpt_generate')
 
-        #print('Waiting for Emotion server to be availale')
-        #self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
-        #self.emotionServer.wait_for_service()
-        #print('Successfully connected to /emotion_generate')
+        # connect to the emotion server
+        print('Waiting for Emotion server to be availale')
+        self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
+        self.emotionServer.wait_for_service()
+        print('Successfully connected to /emotion_generate')
 
         self.hri = HRIListener()
 
@@ -83,7 +84,7 @@ class Node:
 
 
     def OnUserSpeechDetected(self, data:Bool, ):
-        rospy.loginfo("we are in the speech detected callback")
+        # rospy.loginfo("we are in the speech detected callback")
         
 
         if data.data == True:
@@ -91,29 +92,32 @@ class Node:
             counter_index = str(self.counter)
             video_filename = str(self.id) + '_'+counter_index+ '.mp4'
             mp4_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+video_filename
-            rospy.loginfo(f"mp4_file_path {mp4_file_path}")
+            # rospy.loginfo(f"mp4_file_path {mp4_file_path}")
+            rospy.loginfo(f"mp4 saved as {mp4_file_path}")
+
             self.video_writer = cv2.VideoWriter(mp4_file_path, self.fourcc, 30.0, (640, 480))
-            rospy.loginfo("we started recording")
+            # rospy.loginfo("we started recording")
             self.speechBeginTime = rospy.get_time()
         elif data.data == False and self.recordStarted == True:
             self.recordStarted = False
-            rospy.loginfo("we stop recording")
+            # rospy.loginfo("we stop recording")
+            # rospy.loginfo(f"mp4 saved as {mp4_file_path}")
             self.video_writer.release()
 
 
     def image_callback(self, msg):
-        rospy.loginfo("we are in the image callback")
+        # rospy.loginfo("we are in the image callback")
         return
-        self.cv_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
     
     def record_callback(self, msg):
-        rospy.loginfo(f"record_callback")
+        # rospy.loginfo(f"record_callback")
         
         if self.recordStarted and self.video_writer is not None:
-            rospy.loginfo("we are recording, adding sometrhing to it")
+            # rospy.loginfo("we are recording, adding sometrhing to it")
             img =self.bridge.imgmsg_to_cv2(msg, "bgr8")
-            rospy.loginfo(f"img ")
+            # rospy.loginfo(f"img ")
             self.video_writer.write(img)
+            
         
 
     def OnAudioStream(self, data:AudioData):
@@ -126,6 +130,7 @@ class Node:
         
         # This is all copilot generated.
         wave_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+wave_filename
+        txt_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+wave_filename.replace('.wav', '.txt')
         
         with wave.open(wave_file_path, 'wb') as wave_file:
             wave_file.setnchannels(1)  # Mono audio
@@ -141,6 +146,12 @@ class Node:
         transcription = client.audio.transcriptions.create(
         model="whisper-1", 
         file=audio_file)
+
+        # write the transcription to a txt file for emotion analysis
+        with open(txt_file_path, "w") as output:
+            output.write(str(transcription.text))
+            print(f'Saved transcription as txt file: {txt_file_path}')
+            
         print(transcription.text)
 
     def OnSpeechReceived(self, data:LiveSpeech):

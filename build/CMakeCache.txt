@@ -569,6 +569,15 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
+//Value Computed by CMake
+model_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/model
+
+//Value Computed by CMake
+model_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+model_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/model
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
@@ -773,9 +782,6 @@ sensors_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/sensors
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
-//The directory containing a CMake configuration file for stdmsgs.
-stdmsgs_DIR:PATH=stdmsgs_DIR-NOTFOUND
-
 //Value Computed by CMake
 stt_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/stt
 
@@ -934,7 +940,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=32
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

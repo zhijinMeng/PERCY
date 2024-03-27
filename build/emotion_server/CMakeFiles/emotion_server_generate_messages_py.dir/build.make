@@ -71,8 +71,6 @@ emotion_server/CMakeFiles/emotion_server_generate_messages_py: /home/robocupatho
 
 /home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/emotion_server/srv/_EmotionGenerate.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/emotion_server/srv/_EmotionGenerate.py: /home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv
-/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/emotion_server/srv/_EmotionGenerate.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/emotion_server/srv/_EmotionGenerate.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robocupathome/workspace/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV emotion_server/EmotionGenerate"
 	cd /home/robocupathome/workspace/eddy_code/build/emotion_server && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p emotion_server -o /home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/emotion_server/srv
 

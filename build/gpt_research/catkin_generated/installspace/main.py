@@ -100,66 +100,6 @@ class Node:
             rospy.loginfo("we stop recording")
             self.video_writer.release()
 
-        # if self.recordStarted:
-        #     if data.data == True:
-        #         return
-        #     else:
-        #         # we are recoding, but nothing received, we stop recording
-        #         self.recordStarted = False
-        #         record_sub.unregister()
-
-        #         rospy.loginfo("we stop recording")
-        #         self.video_writer.release()
-
-        # else:
-        #     # in this case, no record started
-        #     if data.data == True:
-        #         # start
-        #         self.recordStarted = True
-        #         counter_index = str(self.counter)
-        #         video_filename = str(self.id) + '_'+counter_index+ '.mp4'
-        #         mp4_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+video_filename
-        #         self.video_writer = cv2.VideoWriter(mp4_file_path, self.fourcc, 30.0, (640, 480))
-        #         record_sub = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_callback)
-        #         rospy.loginfo("we started recording")
-        #         self.speechBeginTime = rospy.get_time()
-        #     else:
-        #         return
-                
-        
-
-        # If the user is not speaking, implying that they finished speaking
-        # if data.data == False:
-        #     self.speechEndTime = rospy.get_time()
-
-        #     # Check if the range of speech is valid.
-        #     if self.speechBeginTime != -1 and self.speechEndTime - self.speechBeginTime > 0:
-    
-        #         counter_index = str(self.counter)
-        #         video_filename = str(self.id) + '_'+counter_index+ '.mp4'
-        #         mp4_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+video_filename
-                
-        #         # if self.video_writer is not None:
-        #         #     self.video_writer.write(self.cv_image)
-               
-
-        #         # make a subscriber to record callback 
-        #         record_sub = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_callback)
-
-        #         pass    # To do: trim the video data to the range of speech.
-            
-        #     # Reset the speech begin time. Make sure we do not get false positive.
-        #     self.speechBeginTime = -1
-
-        # else:
-        #     # If the user is speaking, record the start time of the speech.
-        #     self.speechBeginTime = rospy.get_time()
-        #     # Check if the video writer is closed. If not, close it.
-        #     if self.video_writer is not None:
-        #         self.video_writer = cv2.VideoWriter(mp4_file_path, self.fourcc, 30.0, (640, 480))
-        #         self.video_writer.release()
-        #         record_sub.unregister()
-        #         print(f'Saved video stream as mp4 file: {mp4_file_path}')
 
     def image_callback(self, msg):
         rospy.loginfo("we are in the image callback")

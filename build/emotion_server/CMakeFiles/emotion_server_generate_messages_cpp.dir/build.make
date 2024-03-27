@@ -70,8 +70,6 @@ emotion_server/CMakeFiles/emotion_server_generate_messages_cpp: /home/robocupath
 
 /home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /home/robocupathome/workspace/eddy_code/src/emotion_server/srv/EmotionGenerate.srv
-/home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/robocupathome/workspace/eddy_code/devel/include/emotion_server/EmotionGenerate.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/robocupathome/workspace/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from emotion_server/EmotionGenerate.srv"
