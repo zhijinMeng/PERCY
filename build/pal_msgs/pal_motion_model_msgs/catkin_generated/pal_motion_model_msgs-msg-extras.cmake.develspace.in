@@ -1,2 +1,0 @@
-set(pal_motion_model_msgs_MESSAGE_FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_motion_model_msgs/msg/MotionModelList.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_motion_model_msgs/msg/MotionModelMap.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_motion_model_msgs/msg/MotionModel.msg")
-set(pal_motion_model_msgs_SERVICE_FILES "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_motion_model_msgs/srv/GetMotionMap.srv")
