@@ -1,0 +1,8 @@
+prefix=/home/robocupathome/workspace/eddy_code/install
+
+Name: gpt_research
+Description: Description of gpt_research
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

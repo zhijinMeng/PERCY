@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/robocupathome/workspace/eddy_code/src
+# Build directory: /home/robocupathome/workspace/eddy_code/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("humanoid_msgs/humanoid_msgs")
+subdirs("pal_msgs/pal_msgs")
+subdirs("pal_msgs/pal_video_recording_msgs")
+subdirs("hri_actions_msgs")
+subdirs("humanoid_msgs/humanoid_nav_msgs")
+subdirs("pal_msgs/pal_behaviour_msgs")
+subdirs("pal_msgs/pal_common_msgs")
+subdirs("pal_msgs/pal_control_msgs")
+subdirs("pal_msgs/pal_device_msgs")
+subdirs("pal_msgs/pal_interaction_msgs")
+subdirs("pal_msgs/pal_motion_model_msgs")
+subdirs("pal_msgs/pal_multirobot_msgs")
+subdirs("pal_msgs/pal_simulation_msgs")
+subdirs("pal_msgs/pal_tablet_msgs")
+subdirs("pal_msgs/pal_visual_localization_msgs")
+subdirs("pal_msgs/pal_walking_msgs")
+subdirs("pal_msgs/pal_web_msgs")
+subdirs("pal_msgs/pal_wifi_localization_msgs")
+subdirs("emotion")
+subdirs("emotion_server")
+subdirs("gpt_research")
+subdirs("gpt_server")
+subdirs("model")
+subdirs("sensors")
+subdirs("stt")
+subdirs("pal_msgs/pal_detection_msgs")
+subdirs("pal_msgs/pal_navigation_msgs")
+subdirs("pal_msgs/pal_vision_msgs")

@@ -1,0 +1,8 @@
+prefix=/home/robocupathome/workspace/eddy_code/devel
+
+Name: emotion_server
+Description: Description of emotion_server
+Version: 0.0.0
+Cflags: -I/home/robocupathome/workspace/eddy_code/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

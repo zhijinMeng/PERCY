@@ -24,8 +24,8 @@ import json
 one_path_mp4 = '/home/robocupathome/workspace/eddy_code/src/DATA/7.mp4'
 one_path_wav = '/home/robocupathome/workspace/eddy_code/src/DATA/7.wav'
 one_path_text = '/home/robocupathome/workspace/eddy_code/src/DATA/monday_test.txt'
-n_class = 4
-name_list = ['anger', 'joy', 'neutral', 'surprise']
+n_class = 5
+name_list = ['anger', 'joy', 'neutral', 'surprise', 'sadness']
 
 # 加载tokenizer
 text_max_len = 50
