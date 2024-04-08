@@ -25,6 +25,11 @@ class GPT:
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
 
         rospy.loginfo('GPT node started')
+        self.id = rospy.get_param('~id', '0')
+        self.file_name = f'{self.id}.json'
+        self.save_filepath = f'/home/robocupathome/workspace/eddy_code/src/DATA/{self.file_name}'
+
+        self.manual_question_received = False
 
         # Here, initialize ChatGPT-3.5 Turbo
         
@@ -33,7 +38,7 @@ class GPT:
         API_KEY = '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'
         OpenAI.api_key = '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'
         self.messages = [ {"role": "system", 
-                                "content":  "Have a conversation with me"} ] 
+                                "content":  "Have a conversation with me. Please respond in English only!"} ] 
 
         ## file readings
         # json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
@@ -49,6 +54,26 @@ class GPT:
         # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
 
     def OnRequest(self, data: GPTGenerateRequest):
+        s = data.request.split('q: ')
+
+        if len(s) > 1:
+            self.manual_question_received = True
+            manual_question = s[1]
+            print('Manual question detected')
+            input_text = {"role": "assistant", "content": manual_question}
+            self.messages.append(input_text)
+
+            print('Manual question saved')
+            return 'Manual question inserted'
+        
+        if self.manual_question_received:
+            response_to_manual_question = data.request
+            self.messages.append({"role": "user", "content": response_to_manual_question})
+
+            self.manual_question_received = False
+            return 'Acknowledged.'
+
+
         text_from_speech = data.request  # Speech recognized by the user
 
         initialEmotion = data.initialEmotion
@@ -68,6 +93,12 @@ class GPT:
         self.messages.append({"role": "assistant", "content": response})
 
         print(f'Received a request with a prompt:\n{input_text}')
+
+        # Save the conversation to a JSON file
+
+
+
+
         return response
 
     def get_openai_response(self, messages):
@@ -77,8 +108,18 @@ class GPT:
         return reply
         # return GPTGenerateResponse(response=reply)
 
+    def Dump(self):
+        with open(self.save_filepath, 'w') as json_file:
+            json.dump(self.messages, json_file)
+
+
 
 if __name__ == '__main__':
    
+    
     gpt = GPT()
     rospy.spin()
+
+    print('History dumped.')
+    gpt.Dump()
+       

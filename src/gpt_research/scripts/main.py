@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
-
 import cv2
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
@@ -13,16 +12,22 @@ from pal_interaction_msgs.msg import TtsAction, TtsGoal
 from sensor_msgs.msg import Image
 import numpy as np
 from audio_common_msgs.msg import AudioData     # /audio/speech
-from std_msgs.msg import Bool                   # /audio/voice_detected
+from std_msgs.msg import Bool, String                   # /audio/voice_detected
 from pyhri import HRIListener
 import wave
 import os
 from openai import OpenAI
 import message_filters
-from pal_interaction_msgs.srv import GetSpeechDuration
-
-
+from pal_interaction_msgs.srv import GetSpeechDuration, GetSpeechDurationRequest, GetSpeechDurationResponse
 from rospy import Duration
+
+from multiprocessing import Process
+
+DUMMY_WAVE = '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.wav'
+DUMMY_TXT= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.txt'
+DUMMY_VIDEO= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.mp4'
+
+
 
 
 client = OpenAI(api_key="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")
@@ -30,6 +35,7 @@ client = OpenAI(api_key="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")
 class Node:
 
     def __init__(self):
+        print(":)")
 
         rospy.init_node('gpt_research')
         self.id = rospy.get_param('~id', '0')
@@ -45,16 +51,15 @@ class Node:
         self.counter = 0
 
         self.isSpeechDetectedSub = rospy.Subscriber('/audio/voice_detected', Bool, self.OnUserSpeechDetected)
+
+
         self.speechBeginTime = -1   # -1 to indicate that speech has not started yet.
         self.speechEndTime = -1
         self.recordStarted = False
         # initialize the parameters for the camera
         self.bridge = CvBridge()
         self.cv_image = None
-        self.image_sub = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.image_callback)
         self.record_sub = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback)
-
-
         self.video_writer = None  # Initialize video_writer to None
         self.fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         
@@ -64,10 +69,13 @@ class Node:
         self.get_video = False
         self.get_audio = False
         self.get_text = False
-        self.emotion = None
+        self.emotion = 'happy'
         self.wav_file_path = None
-        self.video_file_path = None
+        self.video_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/0_0.mp4'
         self.txt_file_path = None
+        self.robot_speech = False
+        self.recording = False
+        self.speech_detected = False
 
 
 
@@ -93,63 +101,73 @@ class Node:
         # Publish to /tts
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
-        
+
+        # Manual Control
+        self.man_control = rospy.Subscriber('/manual_control', String, self.OnManualControlPublished)
+                
 
         print('Successfully connected to /tts')
+        self.getInput = True
+      
         #ts = message_filters.TimeSynchronizer(['/head_front_camera/color/image_raw', '/humans/voices/anonymous_speaker/speech'], 10)
         #ts.registerCallback("")
 
+    def OnManualControlPublished(self, data):
+        if(data.data == 'c'):
+            self.getInput = False if self.getInput else True # Toggle between on/off
+            print(f'GetInput set to {self.getInput}')
+        elif not self.getInput:
+            self.audioStream.unregister()
+            rospy.sleep(2)
+            self.GPTgenerate(txt_file_path= data.data)
 
-    def OnUserSpeechDetected(self, data:Bool, ):
-        # rospy.loginfo("we are in the speech detected callback")
-        
-
-        if data.data == True:
-            self.recordStarted = True
-            counter_index = str(self.counter)
-            video_filename = str(self.id) + '_'+counter_index+ '.mp4'
-            self.video_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+video_filename
-            # rospy.loginfo(f"mp4_file_path {mp4_file_path}")
-            rospy.loginfo(f"mp4 saved as {self.video_file_path}")
-
-            self.video_writer = cv2.VideoWriter(self.video_file_path, self.fourcc, 30.0, (640, 480))
-            # set the flag to get video
-            
-            # rospy.loginfo("we started recording")
-            self.speechBeginTime = rospy.get_time()
-        elif data.data == False and self.recordStarted == True:
-            self.recordStarted = False
-            # rospy.loginfo("we stop recording")
-            # rospy.loginfo(f"mp4 saved as {mp4_file_path}")
-            self.video_writer.release()
-            self.get_video = True
-            if self.wav_file_path and self.txt_file_path:
-                self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path)
-
-    def image_callback(self, msg):
-        # rospy.loginfo("we are in the image callback")
-        return
-    
+    def OnUserSpeechDetected(self, data):
+        self.speech_detected = data.data
+        if self.speech_detected:
+            if not self.recording:
+                self.start_recording()
+        else:
+            if self.recording:
+                self.stop_recording()
+  
     def record_callback(self, msg):
-        # rospy.loginfo(f"record_callback")
-        
-        if self.recordStarted and self.video_writer is not None:
-            # rospy.loginfo("we are recording, adding sometrhing to it")
-            img =self.bridge.imgmsg_to_cv2(msg, "bgr8")
-            # rospy.loginfo(f"img ")
-            self.video_writer.write(img)    
+        if self.recording:
+            img = self.bridge.imgmsg_to_cv2(msg, "bgr8")
+            #print('A ',img)
+            self.video_writer.write(img)
+            #print('B',self.video_writer)
+
+    def start_recording(self):
+        self.recording = True
+        counter_index = str(self.counter)
+        video_filename = str(self.id) +'_'+counter_index+ '.mp4'
+        self.video_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{video_filename}'
+        self.video_writer = cv2.VideoWriter(self.video_file_path, self.fourcc, 30.0, (640, 480))
+        rospy.loginfo(f"MP4 saved as {self.video_file_path}")
+
+    def stop_recording(self):
+        self.recording = False
+        rospy.sleep(2)
+        self.video_writer.release()
+        rospy.loginfo('Video writer closed')
 
     def OnAudioStream(self, data:AudioData):
+        if not self.getInput:
+            return
+
         # stream = data.data
+        self.robot_speech = True
         counter_index = str(self.counter)
         wave_filename = str(self.id) +'_'+counter_index+ '.wav'
         
         # This is all copilot generated.
         self.wave_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+wave_filename
         self.txt_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+wave_filename.replace('.wav', '.txt')
+        supposed_video_path = '/home/robocupathome/workspace/eddy_code/src/DATA/'+wave_filename.replace('.wav', '.mp4')
+
         
         with wave.open(self.wave_file_path, 'wb') as wave_file:
-            wave_file.setnchannels(1)  # Mono audio
+            wave_file.setnchannels(1)  # Mono audio 
             wave_file.setsampwidth(2)  # 2 bytes per sample
             wave_file.setframerate(16000)  # Sample rate of 16000 Hz
             wave_file.writeframes(data.data)
@@ -157,7 +175,7 @@ class Node:
         self.get_audio = True
         print(f'Saved audio stream as wave file: {self.wave_file_path}')
 
-        self.counter = self.counter + 1
+        
 
         # From here, call whisper so it can generate text from the audio file.
         audio_file= open(self.wave_file_path, "rb")
@@ -172,58 +190,105 @@ class Node:
         # set the flag to get text
         self.get_text = True   
         print(transcription.text)
-       
-        if self.video_file_path:
-                self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path)
+        self.audioStream.unregister()
+        rospy.sleep(2)
 
-    def GPTgenerate(self,video_file_path,wav_file_path,txt_file_path):
-        if self.get_audio == True and self.get_text == True and self.get_video == True:
-            # step 1: get the emotion from the emotion server 
-            request = EmotionGenerateRequest()
-            request.videoPath = video_file_path
-            request.wavPath = wav_file_path
-            request.textPath = txt_file_path
-            emotionResponse: EmotionGenerateResponse
-            emotionResponse = self.emotionServer(request)
-            self.emotion = emotionResponse.response
+    
+        # if self.get_audio == True and self.get_text == True and self.get_video == True:
+      
 
-            # step 2: communicate with the GPT server
-            # Get the transcription from the txt file and make it a list
-            transcription = []
-            with open(self.txt_file_path, 'r') as file:
-                # Read the contents of the file and split them into lines
-                transcription = file.read()
-                
-                # Optionally, you may want to remove any trailing whitespace characters
-                # transcription = [line.strip() for line in transcription]
+        self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path)
+        print('\n\nGenerated.')
+         
 
-            request = GPTGenerateRequest()
-            request.request = transcription
-            request.initialEmotion = self.emotion
-            # request.finalEmotion = self.finalEmotion
+    def GPTgenerate(self,video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
+        if(not self.getInput):
 
-            response:GPTGenerateResponse
-            response = self.gptServer(request)
+            # Check if txt_file_path starts with the prefix q:. If so, it's a manual question.
+            s = txt_file_path.split('q: ')
 
-            output = response.response  # The actual string generated by GPT
+            if len(s) > 1:  # Manual question detected
+                print('Manual question detected')
+                # Manual question detected
+                request = GPTGenerateRequest()
+                request.request = txt_file_path # Pass the manual question prefixed with q: so that GPT understands it's a manual question
+                request.initialEmotion = ''
+                request.finalEmotion = ''
 
-            # Publish to /tts, make the robot speak.
-            msg = TtsGoal()
-            msg.rawtext.lang_id = 'en_GB'
-            msg.rawtext.text = output
+                print(self.gptServer(request))
 
-            self.tts.send_goal_and_wait(msg)
+                msg = TtsGoal()
+                msg.rawtext.lang_id = 'en_GB'
+                msg.rawtext.text = s[1]
+              
+                self.tts.send_goal_and_wait(msg)
+                # Reconnect to /audio/speech to get audio stream
+                self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
+                return
+            else:
+                print('blocked by request')
 
-            print('Generated Response:')
-            print(output)
 
-            print('done')
-            self.get_audio = False
-            self.get_text = False
-            self.get_video = False
-        else:
-            pass
+        self.counter = self.counter + 1
+        # step 1: get the emotion from the emotion server 
+        request = EmotionGenerateRequest()
+        request.videoPath = video_file_path
+        request.wavPath = wav_file_path
+        request.textPath = txt_file_path
+        emotionResponse: EmotionGenerateResponse
+        emotionResponse = self.emotionServer(request)
+        self.emotion = emotionResponse.response
 
+        # step 2: communicate with the GPT server
+        # Get the transcription from the txt file and make it a list
+        transcription = []
+        with open(self.txt_file_path, 'r') as file:
+            # Read the contents of the file and split them into lines
+            transcription = file.read()
+            
+            # Optionally, you may want to remove any trailing whitespace characters
+            # transcription = [line.strip() for line in transcription]
+
+        request = GPTGenerateRequest()
+        request.request = transcription
+        request.initialEmotion = self.emotion
+        # request.finalEmotion = self.finalEmotion
+
+        response:GPTGenerateResponse
+        response = self.gptServer(request)
+
+        output = response.response  # The actual string generated by GPT
+
+        # Publish to /tts, make the robot speak.
+        msg = TtsGoal()
+        msg.rawtext.lang_id = 'en_GB'
+        msg.rawtext.text = output
+        start_time = rospy.Time.now()
+
+        self.tts.send_goal_and_wait(msg)
+        
+        print('setp 3')
+        print(self.robot_speech)
+        end_time = rospy.Time.now()
+
+        print('Generated Response:')
+        print(output)
+        # response_time = self.speech_duration(GetSpeechDurationRequest(text=msg.rawtext.text))
+
+        time_difference = end_time - start_time
+        print('time difference: ', (end_time - start_time).to_sec())
+        print('done')
+        # print(f"response time: {response_time.duration}")
+        print('---------------------------------------')
+        print('here')
+        # rospy.sleep(time_difference.to_sec())
+        rospy.sleep(2)
+        self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
+        self.get_audio = False
+        self.get_text = False
+        self.get_video = False
+
+        return time_difference.to_sec()
  
 
 if __name__ == '__main__':

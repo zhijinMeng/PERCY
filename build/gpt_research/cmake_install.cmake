@@ -65,3 +65,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/fer.py")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/manual_control.py")
+endif()
+

@@ -26,8 +26,8 @@ from emotion_server.srv import *
 one_path_mp4 = '/home/robocupathome/workspace/eddy_code/src/DATA/good_day_0.mp4'
 one_path_wav = '/home/robocupathome/workspace/eddy_code/src/DATA/good_day_0.wav'
 one_path_text = '/home/robocupathome/workspace/eddy_code/src/DATA/test_1.txt'
-n_class = 4
-name_list = ['anger', 'joy', 'neutral', 'surprise']
+n_class = 5
+name_list = ['anger', 'joy', 'neutral', 'surprise' , 'sadness']
 
 # 加载tokenizer
 text_max_len = 50
@@ -252,6 +252,10 @@ class emotion_recognizer:
     
     def OnRequest(self, data: EmotionGenerateRequest):
         return self.get_emotion(data.videoPath, data.wavPath, data.textPath)
+
+
+
+
 
 
 # result_str = get_predict_result(one_path_mp4, one_path_wav, one_path_text, tokenizer, model_load)
