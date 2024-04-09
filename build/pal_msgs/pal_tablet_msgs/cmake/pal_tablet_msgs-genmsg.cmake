@@ -24,7 +24,7 @@ add_custom_target(_pal_tablet_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_custom_target(_pal_tablet_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" "pal_tablet_msgs/FunctionalityStatus:std_msgs/Bool:std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" "std_msgs/String:pal_tablet_msgs/FunctionalityStatus:std_msgs/Bool"
 )
 
 #
@@ -42,7 +42,7 @@ _generate_msg_cpp(pal_tablet_msgs
 _generate_msg_cpp(pal_tablet_msgs
   "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -83,7 +83,7 @@ _generate_msg_eus(pal_tablet_msgs
 _generate_msg_eus(pal_tablet_msgs
   "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -124,7 +124,7 @@ _generate_msg_lisp(pal_tablet_msgs
 _generate_msg_lisp(pal_tablet_msgs
   "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -165,7 +165,7 @@ _generate_msg_nodejs(pal_tablet_msgs
 _generate_msg_nodejs(pal_tablet_msgs
   "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -206,7 +206,7 @@ _generate_msg_py(pal_tablet_msgs
 _generate_msg_py(pal_tablet_msgs
   "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_tablet_msgs
 )
 

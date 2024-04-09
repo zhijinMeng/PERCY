@@ -23,6 +23,11 @@ from rospy import Duration
 
 from multiprocessing import Process
 
+DUMMY_WAVE = '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.wav'
+DUMMY_TXT= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.txt'
+DUMMY_VIDEO= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.mp4'
+
+
 
 
 client = OpenAI(api_key="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")
@@ -98,19 +103,29 @@ class Node:
         self.tts.wait_for_server()
 
         # Manual Control
-        self.man_control = rospy.Subscriber('/manual_control', String, self.OnManualControlPublished)
-                
+        # self.man_control = rospy.Subscriber('/manual_control', String, self.OnKeyReceived)
+        self.is_manual = False
 
         print('Successfully connected to /tts')
+        
+
+        self.automatic_sub = rospy.Service('is_automatic_mode', Bool, self.OnOpModeChanged)
+        self.automatic_mode = True
       
         #ts = message_filters.TimeSynchronizer(['/head_front_camera/color/image_raw', '/humans/voices/anonymous_speaker/speech'], 10)
         #ts.registerCallback("")
 
 
 
-    def OnManualControlPublished(self, data):
-        print(f'manual_control: received {data.data}')
 
+    def OnKeyReceived(self, data):
+        if(data.data == 'c'):
+            self.is_manual = False if self.is_manual else True # Toggle between on/off
+            print(f'GetInput set to {self.is_manual}')
+        elif not self.getInput:
+            self.audioStream.unregister()
+            rospy.sleep(2)
+            self.GPTgenerate(txt_file_path= data.data, is_question=True, is_manual=self.is_manual)
 
     def OnUserSpeechDetected(self, data):
         self.speech_detected = data.data
@@ -124,9 +139,9 @@ class Node:
     def record_callback(self, msg):
         if self.recording:
             img = self.bridge.imgmsg_to_cv2(msg, "bgr8")
-            print('A ',img)
+            #print('A ',img)
             self.video_writer.write(img)
-            print('B',self.video_writer)
+            #print('B',self.video_writer)
 
     def start_recording(self):
         self.recording = True
@@ -143,12 +158,8 @@ class Node:
         rospy.loginfo('Video writer closed')
 
     def OnAudioStream(self, data:AudioData):
+
         # stream = data.data
-        print('Step 1')
-        print(self.robot_speech)
-    
-        print('Step 2')
-        print(self.robot_speech)
         self.robot_speech = True
         counter_index = str(self.counter)
         wave_filename = str(self.id) +'_'+counter_index+ '.wav'
@@ -189,16 +200,36 @@ class Node:
     
         # if self.get_audio == True and self.get_text == True and self.get_video == True:
       
-        sleep_time = self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path)
+
+        self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path, is_manual=self.is_manual, is_question=False)
+        print('\n\nGenerated.')
          
-    
+
+    def GPTgenerate(self, is_question, is_manual, video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
+        if(is_manual):
+
+            # Check if txt_file_path starts with the prefix q:. If so, it's a manual question.
+            print('Manual question detected')
+            # Manual question detected
+            request = GPTGenerateRequest()
+            request.request = txt_file_path # Pass the manual question prefixed with q: so that GPT understands it's a manual question
+            request.initialEmotion = ''
+            request.finalEmotion = ''
+
+            print(self.gptServer(request))
+
+            msg = TtsGoal()
+            msg.rawtext.lang_id = 'en_GB'
+            msg.rawtext.text = s[1]
             
+            self.tts.send_goal_and_wait(msg)
+            # Reconnect to /audio/speech to get audio stream
+            self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
+            return
+        else:
+            print('blocked by request')
 
-    # rospy.sleep(sleep_time)
 
-
-
-    def GPTgenerate(self,video_file_path,wav_file_path,txt_file_path):
         self.counter = self.counter + 1
         # step 1: get the emotion from the emotion server 
         request = EmotionGenerateRequest()
@@ -236,6 +267,7 @@ class Node:
         start_time = rospy.Time.now()
 
         self.tts.send_goal_and_wait(msg)
+        
         print('setp 3')
         print(self.robot_speech)
         end_time = rospy.Time.now()

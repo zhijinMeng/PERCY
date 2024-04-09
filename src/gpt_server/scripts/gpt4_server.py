@@ -10,6 +10,8 @@ from openai import OpenAI
 import json
 import sys
 
+from std_msgs.msg import Bool
+
 
 
 class GPT:
@@ -21,6 +23,7 @@ class GPT:
 
     def __init__(self):
         rospy.init_node('gpt_server')
+
 
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
 
@@ -53,12 +56,13 @@ class GPT:
         #     print(f"Error decoding JSON: {e}")
         # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
 
-    def OnRequest(self, data: GPTGenerateRequest):
-        s = data.request.split('q: ')
 
-        if len(s) > 1:
+
+    def OnRequest(self, data: GPTGenerateRequest):
+
+        if data.is_question:
             self.manual_question_received = True
-            manual_question = s[1]
+            manual_question = data.request
             print('Manual question detected')
             input_text = {"role": "assistant", "content": manual_question}
             self.messages.append(input_text)
@@ -66,7 +70,7 @@ class GPT:
             print('Manual question saved')
             return 'Manual question inserted'
         
-        if self.manual_question_received:
+        if not data.is_question and data.manual_mode:
             response_to_manual_question = data.request
             self.messages.append({"role": "user", "content": response_to_manual_question})
 

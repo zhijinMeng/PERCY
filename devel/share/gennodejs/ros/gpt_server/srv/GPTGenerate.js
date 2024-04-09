@@ -24,6 +24,8 @@ class GPTGenerateRequest {
       this.request = null;
       this.initialEmotion = null;
       this.finalEmotion = null;
+      this.manual_mode = null;
+      this.is_question = null;
     }
     else {
       if (initObj.hasOwnProperty('request')) {
@@ -44,6 +46,18 @@ class GPTGenerateRequest {
       else {
         this.finalEmotion = '';
       }
+      if (initObj.hasOwnProperty('manual_mode')) {
+        this.manual_mode = initObj.manual_mode
+      }
+      else {
+        this.manual_mode = false;
+      }
+      if (initObj.hasOwnProperty('is_question')) {
+        this.is_question = initObj.is_question
+      }
+      else {
+        this.is_question = false;
+      }
     }
   }
 
@@ -55,6 +69,10 @@ class GPTGenerateRequest {
     bufferOffset = _serializer.string(obj.initialEmotion, buffer, bufferOffset);
     // Serialize message field [finalEmotion]
     bufferOffset = _serializer.string(obj.finalEmotion, buffer, bufferOffset);
+    // Serialize message field [manual_mode]
+    bufferOffset = _serializer.bool(obj.manual_mode, buffer, bufferOffset);
+    // Serialize message field [is_question]
+    bufferOffset = _serializer.bool(obj.is_question, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -68,6 +86,10 @@ class GPTGenerateRequest {
     data.initialEmotion = _deserializer.string(buffer, bufferOffset);
     // Deserialize message field [finalEmotion]
     data.finalEmotion = _deserializer.string(buffer, bufferOffset);
+    // Deserialize message field [manual_mode]
+    data.manual_mode = _deserializer.bool(buffer, bufferOffset);
+    // Deserialize message field [is_question]
+    data.is_question = _deserializer.bool(buffer, bufferOffset);
     return data;
   }
 
@@ -76,7 +98,7 @@ class GPTGenerateRequest {
     length += _getByteLength(object.request);
     length += _getByteLength(object.initialEmotion);
     length += _getByteLength(object.finalEmotion);
-    return length + 12;
+    return length + 14;
   }
 
   static datatype() {
@@ -86,7 +108,7 @@ class GPTGenerateRequest {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '977d7afd53a96949311a6417ee08cfe0';
+    return 'e5b277fc72b6d2919614566329f615d6';
   }
 
   static messageDefinition() {
@@ -95,6 +117,8 @@ class GPTGenerateRequest {
     string request
     string initialEmotion
     string finalEmotion
+    bool manual_mode
+    bool is_question
     
     `;
   }
@@ -124,6 +148,20 @@ class GPTGenerateRequest {
     }
     else {
       resolved.finalEmotion = ''
+    }
+
+    if (msg.manual_mode !== undefined) {
+      resolved.manual_mode = msg.manual_mode;
+    }
+    else {
+      resolved.manual_mode = false
+    }
+
+    if (msg.is_question !== undefined) {
+      resolved.is_question = msg.is_question;
+    }
+    else {
+      resolved.is_question = false
     }
 
     return resolved;
@@ -207,6 +245,6 @@ class GPTGenerateResponse {
 module.exports = {
   Request: GPTGenerateRequest,
   Response: GPTGenerateResponse,
-  md5sum() { return '23074dbdb11e5f7b63cfdeb8e3a318fc'; },
+  md5sum() { return '6a3016ec943c4b1e9b46a9b5305c9cf6'; },
   datatype() { return 'gpt_server/GPTGenerate'; }
 };

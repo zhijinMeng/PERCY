@@ -103,23 +103,26 @@ class Node:
         self.tts.wait_for_server()
 
         # Manual Control
-        self.man_control = rospy.Subscriber('/manual_control', String, self.OnManualControlPublished)
-                
+        self.man_control = rospy.Subscriber('/manual_control', String, self.OnKeyReceived)
+        self.is_manual = False
 
         print('Successfully connected to /tts')
-        self.getInput = True
+        
       
         #ts = message_filters.TimeSynchronizer(['/head_front_camera/color/image_raw', '/humans/voices/anonymous_speaker/speech'], 10)
         #ts.registerCallback("")
 
-    def OnManualControlPublished(self, data):
+
+
+
+    def OnKeyReceived(self, data):
         if(data.data == 'c'):
-            self.getInput = False if self.getInput else True # Toggle between on/off
-            print(f'GetInput set to {self.getInput}')
-        elif not self.getInput:
+            self.is_manual = False if self.is_manual else True # Toggle between on/off
+            print(f'GetInput set to {self.is_manual}')
+        elif self.is_manual:
             self.audioStream.unregister()
             rospy.sleep(2)
-            self.GPTgenerate(txt_file_path= data.data)
+            self.GPTgenerate(is_question=True, is_manual=self.is_manual, txt_file_path= data.data)
 
     def OnUserSpeechDetected(self, data):
         self.speech_detected = data.data
@@ -152,8 +155,6 @@ class Node:
         rospy.loginfo('Video writer closed')
 
     def OnAudioStream(self, data:AudioData):
-        if not self.getInput:
-            return
 
         # stream = data.data
         self.robot_speech = True
@@ -197,47 +198,44 @@ class Node:
         # if self.get_audio == True and self.get_text == True and self.get_video == True:
       
 
-        self.GPTgenerate(self.video_file_path,self.wave_file_path,self.txt_file_path)
+        self.GPTgenerate(False, self.is_manual, self.video_file_path,self.wave_file_path,self.txt_file_path)
         print('\n\nGenerated.')
          
 
-    def GPTgenerate(self,video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
-        if(not self.getInput):
+    def GPTgenerate(self, is_question, is_manual, video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
+        if(is_question):
+            print('Question detected')
+            # Manual question detected
+            request = GPTGenerateRequest()
+            request.request = txt_file_path # txt_file_path is the question
+            request.initialEmotion = ''
+            request.finalEmotion = ''
+            request.is_question = True
+            request.manual_mode = is_manual
 
-            # Check if txt_file_path starts with the prefix q:. If so, it's a manual question.
-            s = txt_file_path.split('q: ')
-
-            if len(s) > 1:  # Manual question detected
-                print('Manual question detected')
-                # Manual question detected
-                request = GPTGenerateRequest()
-                request.request = txt_file_path # Pass the manual question prefixed with q: so that GPT understands it's a manual question
-                request.initialEmotion = ''
-                request.finalEmotion = ''
-
-                print(self.gptServer(request))
-
-                msg = TtsGoal()
-                msg.rawtext.lang_id = 'en_GB'
-                msg.rawtext.text = s[1]
-              
-                self.tts.send_goal_and_wait(msg)
-                # Reconnect to /audio/speech to get audio stream
-                self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
-                return
-            else:
-                print('blocked by request')
+            print(self.gptServer(request))
+            # Make the robot speak out the question
+            msg = TtsGoal()
+            msg.rawtext.lang_id = 'en_GB'
+            msg.rawtext.text = txt_file_path
+            
+            self.tts.send_goal_and_wait(msg)
+            rospy.sleep(2)
+            # Reconnect to /audio/speech to get audio stream
+            self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
+            return
 
 
         self.counter = self.counter + 1
         # step 1: get the emotion from the emotion server 
-        request = EmotionGenerateRequest()
-        request.videoPath = video_file_path
-        request.wavPath = wav_file_path
-        request.textPath = txt_file_path
-        emotionResponse: EmotionGenerateResponse
-        emotionResponse = self.emotionServer(request)
-        self.emotion = emotionResponse.response
+        # request = EmotionGenerateRequest()
+        # request.videoPath = video_file_path
+        # request.wavPath = wav_file_path
+        # request.textPath = txt_file_path
+        # emotionResponse: EmotionGenerateResponse
+        # emotionResponse = self.emotionServer(request)
+        # self.emotion = emotionResponse.response
+        self.emotion = 'happy'
 
         # step 2: communicate with the GPT server
         # Get the transcription from the txt file and make it a list
@@ -253,6 +251,8 @@ class Node:
         request.request = transcription
         request.initialEmotion = self.emotion
         # request.finalEmotion = self.finalEmotion
+        request.is_question = False
+        request.manual_mode = is_manual
 
         response:GPTGenerateResponse
         response = self.gptServer(request)

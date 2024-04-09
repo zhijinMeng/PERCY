@@ -67,7 +67,7 @@ include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages
 include pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep.dir/progress.make
 
 pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep:
-	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg geometry_msgs/Pose2D:std_msgs/Header:humanoid_nav_msgs/StepTarget:std_msgs/Duration
+	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg std_msgs/Header:humanoid_nav_msgs/StepTarget:geometry_msgs/Pose2D:std_msgs/Duration
 
 _pal_walking_msgs_generate_messages_check_deps_WalkingStep: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep
 _pal_walking_msgs_generate_messages_check_deps_WalkingStep: pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStep.dir/build.make

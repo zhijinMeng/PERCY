@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::gpt_server::GPTGenerate > {
   static const char* value()
   {
-    return "23074dbdb11e5f7b63cfdeb8e3a318fc";
+    return "6a3016ec943c4b1e9b46a9b5305c9cf6";
   }
 
   static const char* value(const ::gpt_server::GPTGenerate&) { return value(); }
