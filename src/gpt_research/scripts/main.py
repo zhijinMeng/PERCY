@@ -77,8 +77,6 @@ class Node:
         self.recording = False
         self.speech_detected = False
 
-
-
         print('Waiting for GPT server to be availale')
         self.gptServer = rospy.ServiceProxy('/gpt_generate', GPTGenerate)
         self.gptServer.wait_for_service()
@@ -112,18 +110,6 @@ class Node:
         #ts = message_filters.TimeSynchronizer(['/head_front_camera/color/image_raw', '/humans/voices/anonymous_speaker/speech'], 10)
         #ts.registerCallback("")
 
-
-
-
-    def OnKeyReceived(self, data):
-        if(data.data == 'c'):
-            self.is_manual = False if self.is_manual else True # Toggle between on/off
-            print(f'GetInput set to {self.is_manual}')
-        elif self.is_manual:
-            self.audioStream.unregister()
-            rospy.sleep(2)
-            self.GPTgenerate(is_question=True, is_manual=self.is_manual, txt_file_path= data.data)
-
     def OnUserSpeechDetected(self, data):
         self.speech_detected = data.data
         if self.speech_detected:
@@ -153,6 +139,16 @@ class Node:
         rospy.sleep(2)
         self.video_writer.release()
         rospy.loginfo('Video writer closed')
+
+    def OnKeyReceived(self, data):
+        if(data.data == 'c'):
+            self.is_manual = False if self.is_manual else True # Toggle between on/off
+            print(f'GetInput set to {self.is_manual}')
+        elif self.is_manual:
+            # self.audioStream.unregister()
+            # rospy.sleep(2)
+            self.GPTgenerate(True, is_manual=self.is_manual, txt_file_path= data.data)
+            rospy.sleep(2)
 
     def OnAudioStream(self, data:AudioData):
 
@@ -192,7 +188,7 @@ class Node:
         self.get_text = True   
         print(transcription.text)
         self.audioStream.unregister()
-        rospy.sleep(2)
+        # rospy.sleep(2)
 
     
         # if self.get_audio == True and self.get_text == True and self.get_video == True:
@@ -204,6 +200,8 @@ class Node:
 
     def GPTgenerate(self, is_question, is_manual, video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
         if(is_question):
+            self.audioStream.unregister()
+            rospy.sleep(2)
             print('Question detected')
             # Manual question detected
             request = GPTGenerateRequest()
@@ -228,14 +226,14 @@ class Node:
 
         self.counter = self.counter + 1
         # step 1: get the emotion from the emotion server 
-        # request = EmotionGenerateRequest()
-        # request.videoPath = video_file_path
-        # request.wavPath = wav_file_path
-        # request.textPath = txt_file_path
-        # emotionResponse: EmotionGenerateResponse
-        # emotionResponse = self.emotionServer(request)
-        # self.emotion = emotionResponse.response
-        self.emotion = 'happy'
+        request = EmotionGenerateRequest()
+        request.videoPath = video_file_path
+        request.wavPath = wav_file_path
+        request.textPath = txt_file_path
+        emotionResponse: EmotionGenerateResponse
+        emotionResponse = self.emotionServer(request)
+        self.emotion = emotionResponse.response
+        # self.emotion = 'happy'
 
         # step 2: communicate with the GPT server
         # Get the transcription from the txt file and make it a list
@@ -273,15 +271,13 @@ class Node:
 
         print('Generated Response:')
         print(output)
-        # response_time = self.speech_duration(GetSpeechDurationRequest(text=msg.rawtext.text))
 
         time_difference = end_time - start_time
         print('time difference: ', (end_time - start_time).to_sec())
         print('done')
-        # print(f"response time: {response_time.duration}")
+
         print('---------------------------------------')
         print('here')
-        # rospy.sleep(time_difference.to_sec())
         rospy.sleep(2)
         self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)
         self.get_audio = False
