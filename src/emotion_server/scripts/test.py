@@ -48,7 +48,7 @@ class Node:
                 self.startTime = currentTime
             else:
                 lasting_time = currentTime - self.startTime
-                if lasting_time >= 1:
+                if lasting_time >= 2:
                     self.is_speaking = False
                     self.startTime = currentTime
 
