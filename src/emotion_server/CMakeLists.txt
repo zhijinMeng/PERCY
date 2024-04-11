@@ -164,6 +164,7 @@ include_directories(
  catkin_install_python(PROGRAMS
    scripts/deepFace_server.py
    scripts/emotion.py
+   scripts/test.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

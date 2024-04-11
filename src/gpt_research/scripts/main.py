@@ -20,14 +20,12 @@ from openai import OpenAI
 import message_filters
 from pal_interaction_msgs.srv import GetSpeechDuration, GetSpeechDurationRequest, GetSpeechDurationResponse
 from rospy import Duration
-
+import time
 from multiprocessing import Process
 
 DUMMY_WAVE = '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.wav'
 DUMMY_TXT= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.txt'
 DUMMY_VIDEO= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.mp4'
-
-
 
 
 client = OpenAI(api_key="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")
@@ -51,31 +49,29 @@ class Node:
         self.counter = 0
 
         self.isSpeechDetectedSub = rospy.Subscriber('/audio/voice_detected', Bool, self.OnUserSpeechDetected)
-
-
-        self.speechBeginTime = -1   # -1 to indicate that speech has not started yet.
-        self.speechEndTime = -1
+        self.audio_detecter = rospy.Subscriber('/audio/voice_detected', Bool, self.newDetected)
         self.recordStarted = False
+
         # initialize the parameters for the camera
         self.bridge = CvBridge()
         self.cv_image = None
         self.record_sub = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback)
         self.video_writer = None  # Initialize video_writer to None
         self.fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        
         self.record_sub = None
 
         # Three flags to indicate what data to get for emotion analysis
         self.get_video = False
         self.get_audio = False
         self.get_text = False
-        self.emotion = 'happy'
+        self.emotion = 'happy' # Default emotion
         self.wav_file_path = None
         self.video_file_path = '/home/robocupathome/workspace/eddy_code/src/DATA/0_0.mp4'
         self.txt_file_path = None
         self.robot_speech = False
         self.recording = False
         self.speech_detected = False
+        self.is_speaking = False
 
         print('Waiting for GPT server to be availale')
         self.gptServer = rospy.ServiceProxy('/gpt_generate', GPTGenerate)
@@ -92,8 +88,7 @@ class Node:
         self.speech_duration = rospy.ServiceProxy('/get_speech_duration',GetSpeechDuration)
 
         self.hri = HRIListener()
-
-        # # Subscribe to speech recognition topic. Whenever speech is received, OnSpeechReceived() is invoked.
+ 
         # self.humanSpeech = rospy.Subscriber('/humans/voices/anonymous_speaker/speech', LiveSpeech, self.OnSpeechReceived)
 
         # Publish to /tts
@@ -112,7 +107,7 @@ class Node:
 
     def OnUserSpeechDetected(self, data):
         self.speech_detected = data.data
-        if self.speech_detected:
+        if self.speech_detected: # If speech is detected like human being starts to talk
             if not self.recording:
                 self.start_recording()
         else:
@@ -285,6 +280,25 @@ class Node:
         self.get_video = False
 
         return time_difference.to_sec()
+    
+    def newDetected(self,data:Bool):
+        print('waiting for new sentense')
+        while data.data:
+            self.is_speaking = True
+            startTime= time.time()
+            if not data.data:
+                while not data.data:
+                    currentTime = time.time()
+                    lasting_time = currentTime - startTime
+                    if lasting_time >= 2:
+                        self.is_speaking = False
+                        break
+                        
+
+                   
+      
+
+            
  
 
 if __name__ == '__main__':
