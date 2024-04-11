@@ -49,7 +49,6 @@ class Node:
         self.counter = 0
 
         self.isSpeechDetectedSub = rospy.Subscriber('/audio/voice_detected', Bool, self.OnUserSpeechDetected)
-        self.audio_detecter = rospy.Subscriber('/audio/voice_detected', Bool, self.newDetected)
         self.recordStarted = False
 
         # initialize the parameters for the camera
@@ -70,8 +69,12 @@ class Node:
         self.txt_file_path = None
         self.robot_speech = False
         self.recording = False
-        self.speech_detected = False
+    
+
+        # Setting the audio detector written by Shengyuan and Zhijin which allows a 3 second between sentences
+        self.audio_detecter = rospy.Subscriber('/audio/voice_detected', Bool, self.newDetected)
         self.is_speaking = False
+        self.startTime = time.time()
 
         print('Waiting for GPT server to be availale')
         self.gptServer = rospy.ServiceProxy('/gpt_generate', GPTGenerate)
