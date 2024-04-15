@@ -73,7 +73,7 @@ if __name__ == "__main__":
     voice_verification = VoiceVerification()
     id = 123
     mfcc = np.random.rand(10, 10)
-    voice_verification.enroll_new_user(123, 'test0.wav')
+    voice_verification.enroll_new_user(123, 'sy4.wav')
 
     # Later, when you want to load the MFCC array
     loaded_mfcc = voice_verification.load_mfcc(id)
@@ -81,7 +81,7 @@ if __name__ == "__main__":
         print(f"MFCC loaded successfully for ID {id}")
         print(loaded_mfcc)
     # Verify user
-    verify_wav_path = 'test0.wav'
+    verify_wav_path = 'sy3.wav'
     prediction, verify_prediction = voice_verification.verify_user(id, verify_wav_path)
     if prediction is not None:
         print(f"Prediction: {prediction}")

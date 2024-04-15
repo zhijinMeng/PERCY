@@ -39,7 +39,7 @@ class Node:
                 self.startTime = currentTime
             else:
                 lasting_time = currentTime - self.startTime
-                if lasting_time >= 2: # here we define 
+                if lasting_time >= 3: # here we define 
                     self.is_speaking = False
                     self.startTime = currentTime
 
@@ -52,6 +52,7 @@ class Node:
             if self.is_speaking:
                 print('start recording')
                 self.audio_video_writer.set_path("/home/robocupathome/workspace/eddy_code/src/DATA/test")
+                self.audio_video_writer.write_frame_audio(audio_data.data)
             else:
                 pass
         else:
