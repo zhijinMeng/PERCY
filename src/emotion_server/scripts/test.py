@@ -2,7 +2,6 @@
 import rospy
 import time
 from std_msgs.msg import Bool
-
 from audio_video_writter_class import FrameWriter
 from audio_common_msgs.msg import AudioData
 from sensor_msgs.msg import Image
@@ -13,7 +12,7 @@ from cv_bridge import CvBridge
 
 class Node:
     def __init__(self):
-        rospy.init_node('audio_detector')
+        rospy.init_node('sensor_recorder')
         self.speechdetector = rospy.Subscriber('/audio/voice_detected', Bool, self.newDetected)
         self.is_speaking = False
         self.startTime = time.time()
@@ -22,16 +21,8 @@ class Node:
         self.audio_inComing = False
 
         # here we subscribe to the audio and video topics
-        # self.audio_writter= message_filters.Subscriber('/audio/channel0', AudioData )
-        # self.video_writter = message_filters.Subscriber('/head_front_camera/color/image_raw', Image)
-        
-
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
-        # bind them togher
-        # sensor_recorder = message_filters.ApproximateTimeSynchronizer([self.audio_writter, self.video_writter], 20, 0.1, allow_headerless=True)
-        # sensor_recorder.registerCallback(self.record_callback)
-
         self.audio_video_writer = FrameWriter()
         
         
@@ -48,7 +39,7 @@ class Node:
                 self.startTime = currentTime
             else:
                 lasting_time = currentTime - self.startTime
-                if lasting_time >= 2:
+                if lasting_time >= 2: # here we define 
                     self.is_speaking = False
                     self.startTime = currentTime
 
