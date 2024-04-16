@@ -165,6 +165,7 @@ include_directories(
    scripts/deepFace_server.py
    scripts/emotion.py
    scripts/test.py
+   scripts/audio_video_writter_class.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

@@ -13,7 +13,8 @@ from cv_bridge import CvBridge
 class Node:
     def __init__(self):
         rospy.init_node('sensor_recorder')
-        self.speechdetector = rospy.Subscriber('/audio/voice_detected', Bool, self.newDetected)
+        self.speechdetector = rospy.Subscriber('/audio/voice_detected', Bool, self.vocie_detected_callback)
+      
         self.is_speaking = False
         self.startTime = time.time()
         self.bridge = CvBridge()
@@ -24,9 +25,21 @@ class Node:
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
         self.audio_video_writer = FrameWriter()
+
+        self.SAMPLE_RATE = 16000
+        self.NUM_FRAMES = 300
+        self.NUM_FBANKS = 64
+
+        # set buffer
+        self.buffer_appended = False
+        # init buffer
+        self.buffer = b''
+        # reccive data for buffer
+        self.buffer_writter = rospy.Subscriber('/audio/channel0', AudioData, self.set_buffer)
+        self.buffer_size = 3 * self.SAMPLE_RATE # 3 seconds of audio as buffer
+
         
-        
-    def newDetected(self, data: Bool):
+    def vocie_detected_callback(self, data: Bool):
         self.audio_inComing = data.data
     
     def print_is_speaking(self):
@@ -39,17 +52,17 @@ class Node:
                 self.startTime = currentTime
             else:
                 lasting_time = currentTime - self.startTime
-                if lasting_time >= 3: # here we define 
+                if lasting_time >= 1: # here we define 
                     self.is_speaking = False
                     self.startTime = currentTime
-
             rate.sleep()
 
     def record_callback_audio(self, audio_data: AudioData):
-
         if self.audio_video_writer.get_is_recording() == False:
             # not recording. -> start recording if heard anything
             if self.is_speaking:
+                
+                self.audio_video_writer.append_buffer(self.get_buffer(),"/home/robocupathome/workspace/eddy_code/src/DATA/test") # append buffer to the wav file
                 print('start recording')
                 self.audio_video_writer.set_path("/home/robocupathome/workspace/eddy_code/src/DATA/test")
                 self.audio_video_writer.write_frame_audio(audio_data.data)
@@ -70,17 +83,19 @@ class Node:
             self.audio_video_writer.write_frame_video(cv_image)
 
 
-    # now we add video recorder and audio recorder
-    def Sensor_Active(self):
-        # keep detecting if there's a sound
-        while not rospy.is_shutdown():
-            if self.is_speaking: # If speech is detected like human being starts to talk
-                if not self.recording:
-                    self.start_recording()
-            else: # no one is speaking
-                if self.recording: # If the writer is active
-                    self.stop_recording()
+    # set buffer_related functions
+    def set_buffer(self, data):
+        # Convert the array of uint8 to bytes
+        audio_bytes = bytes(data.data)
+        
+        # Keep the buffer size fixed
+        self.buffer += audio_bytes
+        if len(self.buffer) > self.buffer_size:
+            # Trim excess data from the beginning of the buffer
+            self.buffer = self.buffer[-self.buffer_size:]
 
+    def get_buffer(self):
+        return self.buffer
 
 if __name__ == '__main__':
     a = Node()
