@@ -67,7 +67,7 @@ include pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_me
 include pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize.dir/progress.make
 
 pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize:
-	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/PoseWithCovariance:geometry_msgs/Pose
+	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_navigation_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv geometry_msgs/Point:std_msgs/Header:geometry_msgs/PoseWithCovariance:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Pose:geometry_msgs/Quaternion
 
 _pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize
 _pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize: pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_VisualLocRecognize.dir/build.make

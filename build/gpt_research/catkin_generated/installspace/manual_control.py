@@ -18,12 +18,6 @@ if __name__ == '__main__':
     while(not rospy.is_shutdown()):
         p = input()
 
-        if(p == 'c'):
-            print(f'automatic_mode is now {automatic_mode}')
-            automatic_mode = False if automatic_mode else True
-            op_mode.publish(automatic_mode)
-            continue
-
         print(f'publishing to manual_control: {p}')
         pub.publish(p)
 

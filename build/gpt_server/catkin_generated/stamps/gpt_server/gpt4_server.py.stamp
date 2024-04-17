@@ -24,8 +24,6 @@ class GPT:
     def __init__(self):
         rospy.init_node('gpt_server')
 
-        self.automatic_sub = rospy.Service('is_automatic_mode', Bool, self.OnOpModeChanged)
-        self.automatic_mode = True
 
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
 
@@ -59,16 +57,12 @@ class GPT:
         # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
 
 
-    def OnOpModeChanged(self, data: Bool):
-        self.automatic_mode = data.data
-
 
     def OnRequest(self, data: GPTGenerateRequest):
-        s = data.request.split('q: ')
 
-        if len(s) > 1:
+        if data.is_question:
             self.manual_question_received = True
-            manual_question = s[1]
+            manual_question = data.request
             print('Manual question detected')
             input_text = {"role": "assistant", "content": manual_question}
             self.messages.append(input_text)
@@ -76,7 +70,7 @@ class GPT:
             print('Manual question saved')
             return 'Manual question inserted'
         
-        if self.manual_question_received:
+        if not data.is_question and data.manual_mode:
             response_to_manual_question = data.request
             self.messages.append({"role": "user", "content": response_to_manual_question})
 

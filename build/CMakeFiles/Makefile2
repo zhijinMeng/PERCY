@@ -82,7 +82,7 @@ all: pal_msgs/pal_visual_localization_msgs/all
 all: pal_msgs/pal_walking_msgs/all
 all: pal_msgs/pal_web_msgs/all
 all: pal_msgs/pal_wifi_localization_msgs/all
-all: emotion/all
+all: chatting_system/all
 all: emotion_server/all
 all: gpt_research/all
 all: gpt_server/all
@@ -114,7 +114,7 @@ preinstall: pal_msgs/pal_visual_localization_msgs/preinstall
 preinstall: pal_msgs/pal_walking_msgs/preinstall
 preinstall: pal_msgs/pal_web_msgs/preinstall
 preinstall: pal_msgs/pal_wifi_localization_msgs/preinstall
-preinstall: emotion/preinstall
+preinstall: chatting_system/preinstall
 preinstall: emotion_server/preinstall
 preinstall: gpt_research/preinstall
 preinstall: gpt_server/preinstall
@@ -151,7 +151,7 @@ clean: pal_msgs/pal_visual_localization_msgs/clean
 clean: pal_msgs/pal_walking_msgs/clean
 clean: pal_msgs/pal_web_msgs/clean
 clean: pal_msgs/pal_wifi_localization_msgs/clean
-clean: emotion/clean
+clean: chatting_system/clean
 clean: emotion_server/clean
 clean: gpt_research/clean
 clean: gpt_server/clean
@@ -164,19 +164,19 @@ clean: pal_msgs/pal_vision_msgs/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory emotion
+# Directory level rules for directory chatting_system
 
 # Recursive "all" directory target.
-emotion/all:
-.PHONY : emotion/all
+chatting_system/all:
+.PHONY : chatting_system/all
 
 # Recursive "preinstall" directory target.
-emotion/preinstall:
-.PHONY : emotion/preinstall
+chatting_system/preinstall:
+.PHONY : chatting_system/preinstall
 
 # Recursive "clean" directory target.
-emotion/clean:
-.PHONY : emotion/clean
+chatting_system/clean:
+.PHONY : chatting_system/clean
 
 #=============================================================================
 # Directory level rules for directory emotion_server

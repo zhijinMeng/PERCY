@@ -67,7 +67,7 @@ include pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_c
 include pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections.dir/progress.make
 
 pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections:
-	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_vision_msgs/msg/LegDetections.msg geometry_msgs/Point:std_msgs/Header
+	cd /home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_vision_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_vision_msgs/msg/LegDetections.msg std_msgs/Header:geometry_msgs/Point
 
 _pal_vision_msgs_generate_messages_check_deps_LegDetections: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections
 _pal_vision_msgs_generate_messages_check_deps_LegDetections: pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections.dir/build.make

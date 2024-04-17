@@ -1,0 +1,8 @@
+prefix=/home/robocupathome/workspace/eddy_code/devel
+
+Name: chatting_system
+Description: Description of chatting_system
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
