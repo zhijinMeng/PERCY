@@ -1,7 +1,5 @@
 string request
 string initialEmotion
 string finalEmotion
-bool manual_mode
-bool is_question
 ---
 string response

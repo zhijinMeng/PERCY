@@ -2,6 +2,9 @@ import pickle
 import numpy as np
 from rescnn_model import DeepSpeakerModel
 from audio import NUM_FRAMES, SAMPLE_RATE, read_mfcc, sample_from_mfcc
+import sys
+sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
+
 class VoiceVerification:
     def __init__(self):
         self.pickle_files = {}

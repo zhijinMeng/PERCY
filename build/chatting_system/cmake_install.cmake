@@ -62,6 +62,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/chatting_system/catkin_generated/installspace/enroll.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/chatting_system/catkin_generated/installspace/audio_video_writter_class.py")
 endif()
 

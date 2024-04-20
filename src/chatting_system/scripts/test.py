@@ -33,6 +33,7 @@ class Node:
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
         self.audio_video_writer = FrameWriter()
+
         
         self.SAMPLE_RATE = 16000
         self.NUM_FRAMES = 300
@@ -56,23 +57,6 @@ class Node:
         self.create_folder(self.folder_path) # create the folder for the user
         print(self.folder_path)
         self.txt_file = 'test.txt'
-        # self.counter = 0 # set counter for each utterance, a part of the file name
-        # set default value for the file paths
-    #     self.audio_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.wav') # the audio file path
-    #     self.video_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.mp4') # the video file path
-    #     self.txt_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.txt') # the txt file path
-        
-    #     print(self.audio_path)
-    #     self.update_file_names()
-    #     print(self.audio_path)
-
-
-    # def update_file_names(self):
-    #     # update the file names based on the counter, executed after each utterance ends.
-    #     self.counter += 1
-    #     self.audio_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.wav') # the audio file path
-    #     self.video_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.mp4') # the video file path
-    #     self.txt_path = os.path.join(self.folder_path, f'{self.id}_{self.counter}.txt') # the txt file path
 
 
 
@@ -117,8 +101,8 @@ class Node:
             # is recording -> if nothing comes in, stop recording, else put data to it
             if self.is_speaking == False:
                 print('end recording')
-                self.txt_file = self.audio_video_writer.close()
-                print(self.txt_file)
+                self.audio_video_writer.close()
+                
             else:
                 self.audio_video_writer.write_frame_audio(audio_data.data)
             
@@ -143,21 +127,6 @@ class Node:
     def get_buffer(self):
         return self.buffer
     
-    # From here, call whisper so it can generate text from the audio file.
-    def get_text(self, audio_file,txt_file):
-        audio_file= open(self.wave_file_path, "rb")
-        transcription = client.audio.transcriptions.create(
-        model="whisper-1", 
-        file=audio_file)
-
-        # write the transcription to a txt file for emotion analysis
-        with open(txt_file, "w") as output:
-            output.write(str(transcription.text))
-            print(f'Saved transcription as txt file: {txt_file}')
-        # set the flag to get text
-        print(transcription.text)
-
-
 
 
 if __name__ == '__main__':

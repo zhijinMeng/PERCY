@@ -531,25 +531,25 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-hri_actions_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/hri_actions_msgs
+hri_actions_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/hri_actions_msgs
 
 //Value Computed by CMake
 hri_actions_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-hri_actions_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/hri_actions_msgs
+hri_actions_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/hri_actions_msgs
 
 //Value Computed by CMake
-humanoid_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_msgs
+humanoid_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/humanoid_msgs/humanoid_msgs
 
 //Value Computed by CMake
 humanoid_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-humanoid_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_msgs
+humanoid_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_msgs
 
 //Value Computed by CMake
-humanoid_nav_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/humanoid_msgs/humanoid_nav_msgs
+humanoid_nav_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/humanoid_msgs/humanoid_nav_msgs
 
 //The directory containing a CMake configuration file for humanoid_nav_msgs.
 humanoid_nav_msgs_DIR:PATH=/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/cmake
@@ -558,7 +558,7 @@ humanoid_nav_msgs_DIR:PATH=/home/robocupathome/workspace/eddy_code/devel/share/h
 humanoid_nav_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-humanoid_nav_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/humanoid_msgs/humanoid_nav_msgs
+humanoid_nav_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
@@ -582,52 +582,52 @@ model_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/model
 nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
 //Value Computed by CMake
-pal_behaviour_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_behaviour_msgs
+pal_behaviour_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_behaviour_msgs
 
 //Value Computed by CMake
 pal_behaviour_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_behaviour_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_behaviour_msgs
+pal_behaviour_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs
 
 //Value Computed by CMake
-pal_common_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_common_msgs
+pal_common_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs
 
 //Value Computed by CMake
 pal_common_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_common_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_common_msgs
+pal_common_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs
 
 //Value Computed by CMake
-pal_control_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_control_msgs
+pal_control_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs
 
 //Value Computed by CMake
 pal_control_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_control_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_control_msgs
+pal_control_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs
 
 //Value Computed by CMake
-pal_detection_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_detection_msgs
+pal_detection_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_detection_msgs
 
 //Value Computed by CMake
 pal_detection_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_detection_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_detection_msgs
+pal_detection_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_detection_msgs
 
 //Value Computed by CMake
-pal_device_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_device_msgs
+pal_device_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_device_msgs
 
 //Value Computed by CMake
 pal_device_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_device_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_device_msgs
+pal_device_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_device_msgs
 
 //Value Computed by CMake
-pal_interaction_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_interaction_msgs
+pal_interaction_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_interaction_msgs
 
 //The directory containing a CMake configuration file for pal_interaction_msgs.
 pal_interaction_msgs_DIR:PATH=/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/cmake
@@ -636,115 +636,115 @@ pal_interaction_msgs_DIR:PATH=/home/robocupathome/workspace/eddy_code/devel/shar
 pal_interaction_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_interaction_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_interaction_msgs
+pal_interaction_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs
 
 //Value Computed by CMake
-pal_motion_model_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_motion_model_msgs
+pal_motion_model_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_motion_model_msgs
 
 //Value Computed by CMake
 pal_motion_model_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_motion_model_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_motion_model_msgs
+pal_motion_model_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_motion_model_msgs
 
 //Value Computed by CMake
-pal_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_msgs
+pal_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_msgs
 
 //Value Computed by CMake
 pal_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_msgs
+pal_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_msgs
 
 //Value Computed by CMake
-pal_multirobot_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_multirobot_msgs
+pal_multirobot_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_multirobot_msgs
 
 //Value Computed by CMake
 pal_multirobot_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_multirobot_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_multirobot_msgs
+pal_multirobot_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs
 
 //Value Computed by CMake
-pal_navigation_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_navigation_msgs
+pal_navigation_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs
 
 //Value Computed by CMake
 pal_navigation_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_navigation_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_navigation_msgs
+pal_navigation_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs
 
 //Value Computed by CMake
-pal_simulation_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_simulation_msgs
+pal_simulation_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_simulation_msgs
 
 //Value Computed by CMake
 pal_simulation_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_simulation_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_simulation_msgs
+pal_simulation_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_simulation_msgs
 
 //Value Computed by CMake
-pal_tablet_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_tablet_msgs
+pal_tablet_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_tablet_msgs
 
 //Value Computed by CMake
 pal_tablet_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_tablet_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_tablet_msgs
+pal_tablet_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs
 
 //Value Computed by CMake
-pal_video_recording_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_video_recording_msgs
+pal_video_recording_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_video_recording_msgs
 
 //Value Computed by CMake
 pal_video_recording_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_video_recording_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_video_recording_msgs
+pal_video_recording_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs
 
 //Value Computed by CMake
-pal_vision_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_vision_msgs
+pal_vision_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_vision_msgs
 
 //Value Computed by CMake
 pal_vision_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_vision_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_vision_msgs
+pal_vision_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_vision_msgs
 
 //Value Computed by CMake
-pal_visual_localization_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_visual_localization_msgs
+pal_visual_localization_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_visual_localization_msgs
 
 //Value Computed by CMake
 pal_visual_localization_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_visual_localization_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_visual_localization_msgs
+pal_visual_localization_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_visual_localization_msgs
 
 //Value Computed by CMake
-pal_walking_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_walking_msgs
+pal_walking_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_walking_msgs
 
 //Value Computed by CMake
 pal_walking_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_walking_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_walking_msgs
+pal_walking_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs
 
 //Value Computed by CMake
-pal_web_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_web_msgs
+pal_web_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_web_msgs
 
 //Value Computed by CMake
 pal_web_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_web_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_web_msgs
+pal_web_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs
 
 //Value Computed by CMake
-pal_wifi_localization_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/pal_msgs/pal_wifi_localization_msgs
+pal_wifi_localization_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_wifi_localization_msgs
 
 //Value Computed by CMake
 pal_wifi_localization_msgs_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pal_wifi_localization_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/pal_msgs/pal_wifi_localization_msgs
+pal_wifi_localization_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_wifi_localization_msgs
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
@@ -940,7 +940,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=32
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
