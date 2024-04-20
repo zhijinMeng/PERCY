@@ -1,9 +1,12 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 import rospy
 from gpt_server.srv import GPTGenerate, GPTGenerateRequest, GPTGenerateResponse
 from openai import OpenAI
 import json
+import pandas as pd
+import sys
+import os 
 
 class GPT:
     """
@@ -19,26 +22,73 @@ class GPT:
         rospy.loginfo('GPT node started')
 
         # Here, initialize ChatGPT-3.5 Turbo
-        
         self.client = OpenAI(api_key="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")
+        self.messages = ""
+        # Extract the profile from the JSON file
+        # 1.get a id
+        id = rospy.get_param('~id','test')
+        csv_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.csv'
+       
 
-# API_KEY = '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'
-# OpenAI.api_key = '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'
-        # self.messages = [ {"role": "system", 
-        #                    "content":  ""} ] 
+        # extract user_profile from the csv file
+        self.json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
+        profile_extractor = self.QAExtractor(csv_file_path, list(range(28, 52)))
+        for i in range(27):
+            profile_pair = profile_extractor.get_next_qa_pair()
+            if profile_pair != "empty":
+                self.append_to_json(profile_pair, self.json_file_path)
+        try:
+            with open(self.json_file_path, 'r') as file:
+                user_profile = json.load(file)
+                print('Successfully loaded JSON file:')
+                print(user_profile)
+        except FileNotFoundError:
+            print(f"Error: File not found at {self.json_file_path}")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+
+        # profiled extracted, now construct the gpt server
+        qa_extractor = self.QAExtractor(csv_file_path,list(range(28, 52))) # Initialize the QAExtractor
+        self.emotion = "neutral"
+        next_topic = qa_extractor.get_next_qa_pair()
 
 
-        # json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
-        # try:
-        #     with open(json_file_path, 'r') as file:
-        #         self.messages = json.load(file)
-        #         print('Successfully loaded JSON file:')
-        #         print(self.messages)
-        # except FileNotFoundError:
-        #     print(f"Error: File not found at {json_file_path}")
-        # except json.JSONDecodeError as e:
-        #     print(f"Error decoding JSON: {e}")
-        self.messages.append({"role":"system","content":"ask me a question about my hobby."})
+
+        if self.emotion == "sad" or self.emotion == "anger" or counter > 3 or message == "change the topic":
+        # next_topic = changing_topic()
+            if next_topic == "":
+                print("No next topic available. Ending this section.")
+                sys.exit()  # Kill the process and end the program
+            else:
+            #   print("Next topic is:", next_topic)
+                messages = [ {"role": "system", "content":
+                    "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+                    "I will give you the user profile information to be used in generating questions " +
+                    f"this is the user profile {user_profile} read it and understand it"+
+                    "Ask the user deeper questions based on the data you gained form the user profile information"+
+                    f"Ask about the user's {next_topic[0]['content']}, using the user's answer: {next_topic[1]['content']}"+
+                    "When you ask the user the next question, use the user response with his\her emotions to generate a single empathic response before generating the following question"+
+                    "Ask at most 3 following questions"+
+                    "if it possible try to avoid yes/no questions"+
+                    "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+                    "one question per time"} ]
+                while True:
+                    chat = client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
+                    reply = chat.choices[0].message.content
+                    counter= counter+1
+                    print(f"ChatGPT: {reply}")
+                    messages.append({"role": "assistant", "content": reply})
+                    message = input("User : ")
+                    print(type(messages))
+                    print(message)
+                    emotion = "natural"
+                #  message = "say that i am feeling" + emotion + ". now respond with this emotion in account: " + message;
+                    if message:
+                        if "stop" in message:
+                            break
+                        messages.append(
+                            {"role": "user", "content": message},
+                        )
 
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
@@ -68,6 +118,51 @@ class GPT:
         return reply
         # return GPTGenerateResponse(response=reply)
 
+    def append_to_json(self, data, file_path):
+        # Check if the JSON file exists
+        if os.path.exists(file_path):
+            # If file exists, read existing JSON data
+            with open(file_path, 'r') as json_file:
+                existing_data = json.load(json_file)
+        else:
+            # If file doesn't exist, initialize with an empty list
+            existing_data = []
+
+        # Append new data to the existing data
+        existing_data.append(data)
+
+        # Write the updated data back to the JSON file
+        with open(file_path, 'w') as json_file:
+            json.dump(existing_data, json_file, indent=4)
+
+    # here we define the extractor class to extract the user profile
+    class QAExtractor:
+        def __init__(self, csv_file_path, column_indices):
+            # Initialize with path to CSV file and column indices
+            self.df = pd.read_csv(csv_file_path, header=None)
+            # Adjust column indices for zero-based indexing
+            self.column_indices = [idx - 1 for idx in column_indices]
+            # Track the current question-answer pair
+            self.index = 0
+
+        def get_next_qa_pair(self):
+            """
+            Return the next question-answer pair. Return None if all pairs have been processed.
+            """
+            while self.index < len(self.column_indices):
+                col_idx = self.column_indices[self.index]
+                # Extract question from the second row
+                question = self.df.iloc[1, col_idx]
+                # Extract corresponding answer from the fourth row
+                answer = self.df.iloc[3, col_idx]
+                # Move to the next pair
+                self.index += 1
+
+                if pd.notna(answer):
+                    return {"role": "system", "content": question}, {"role": "user", "content": answer}
+
+            return "empty"  # Indicate no more QA pairs
+    
 
 if __name__ == '__main__':
     gpt = GPT()
