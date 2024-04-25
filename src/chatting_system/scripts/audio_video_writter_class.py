@@ -12,7 +12,7 @@ from pickle_test import VoiceVerification # import the voice verification class
 from gpt_server.srv import GPTGenerate, GPTGenerateResponse, GPTGenerateRequest  # Import GPT service definition
 from actionlib import SimpleActionClient
 from pal_interaction_msgs.msg import TtsAction, TtsGoal
-
+from emotion_server.srv import EmotionGenerate, EmotionGenerateResponse, EmotionGenerateRequest
 
 
 AUDIO_RATE = 16000
@@ -46,6 +46,12 @@ class FrameWriter:
         # Publish to /tts when we want the robot to say something
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
+
+        # connect to the emotion server
+        print('Waiting for Emotion server to be availale')
+        self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
+        self.emotionServer.wait_for_service()
+        print('Successfully connected to /emotion_generate')
 
 
     def set_path(self, path):
@@ -119,7 +125,7 @@ class FrameWriter:
         #     transcription = file.read() # read the transcription from the txt file as the input for GPT server
         request = GPTGenerateRequest()
         request.request = transcription
-        request.initialEmotion = 'happy' # here to pass the emotion
+        request.initialEmotion = self.emotion # here to pass the emotion
         request.finalEmotion = 'happy' # here to pass the emotion
         # we get the response here
         response: GPTGenerateResponse = self.gptServer(request)
@@ -152,10 +158,20 @@ class FrameWriter:
         self.buffer = b''
         # 1. call whisper to generate the txt file
         transcription = self.whisper_translate(self.audio_name,self.txt_name)
+        # 2. get the emotion state
+     
+        print(self.video_name, self.audio_name, self.txt_name)
+        request = EmotionGenerateRequest()
+        request.videoPath = self.video_name
+        request.wavPath = self.audio_name
+        request.textPath = self.txt_name
+        emotionResponse: EmotionGenerateResponse
+        emotionResponse = self.emotionServer(request)
+        self.emotion = emotionResponse.response
         # 2. tell the voice_verification, if humnan then call emotion server and chatgpt
         score = self.voice_verification.verify_user('user', self.audio_name)
         print(score)
-        if score > 0.6:
+        if score <0.85:
             print('Human detected')
             self.GPTgenerate(transcription)
             # 3. call the emotion analysis and chatgpt
