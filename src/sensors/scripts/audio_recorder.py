@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import wave
 import rospy
 from audio_common_msgs.msg import AudioData
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     wf = wave.open(output_file_path, 'wb') #change output directory as desired
     wf.setnchannels(AUDIO_CHANNELS)
     wf.setsampwidth(AUDIO_WIDTH)
-    wf.setframerate(AUDIO_RATE)
+    wf.setframerate(AUDIO_RATE) 
 
     #Record processed audio, corresponding to channel 0
     rospy.Subscriber('/audio/channel0', AudioData, channel_callback, wf)

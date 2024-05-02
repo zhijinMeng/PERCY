@@ -194,7 +194,7 @@ class Node:
 
         self.GPTgenerate(False, self.is_manual, self.video_file_path,self.wave_file_path,self.txt_file_path)
         print('\n\nGenerated.')
-         
+  
 
     def GPTgenerate(self, is_question, is_manual, video_file_path= DUMMY_VIDEO, wav_file_path= DUMMY_WAVE,txt_file_path= DUMMY_TXT):
         if(is_question):

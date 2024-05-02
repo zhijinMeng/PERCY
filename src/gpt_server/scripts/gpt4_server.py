@@ -75,7 +75,7 @@ class GPT:
         print(f'Receive emotions: {self.emotion}')
 
         # here we detect whether to change the topic or not
-        if self.emotion == "sad" or self.emotion == "anger" or text_from_speech == "new topic":
+        if self.emotion == "sad" or self.emotion == "anger" or text_from_speech == "change topic":
 
             self.next_topic = self.topic_changing()
             rospy.logwarn(f"Changed to new topic {self.next_topic[0]['content']}")

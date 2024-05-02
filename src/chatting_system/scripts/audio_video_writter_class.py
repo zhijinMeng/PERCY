@@ -53,6 +53,8 @@ class FrameWriter:
         self.emotionServer.wait_for_service()
         print('Successfully connected to /emotion_generate')
 
+        self.response = ''
+
 
     def set_path(self, path):
         if self.is_recording:
@@ -69,6 +71,7 @@ class FrameWriter:
         self.video_writer = cv2.VideoWriter(self.output_path, self.fourcc, 30.0, (640, 480)) # path to video
         self.is_recording = True
         # enroll the user
+
         if not self.is_enrolled:
             self.voice_verification.enroll_new_user('user', self.mfcc_wav_name, self.pkl_path)
             self.is_enrolled = True
@@ -136,6 +139,7 @@ class FrameWriter:
         goal.rawtext.text = output
         self.tts.send_goal(goal)
         print(f'Generated response: {output}')
+        return output
 
 
     def close(self):
@@ -173,14 +177,18 @@ class FrameWriter:
         print(score)
         if score <0.85:
             print('Human detected')
-            self.GPTgenerate(transcription)
+            self.response = self.GPTgenerate(transcription)
+            is_human = True
+            return transcription, self.emotion, is_human
             # 3. call the emotion analysis and chatgpt
         else:
             print('Not human detected')
+            
         
 
         print ('---------------------------------------------------------------------------------')
-        return 
+        is_human = False
+        return self.response, self.emotion, is_human
 
 
 
