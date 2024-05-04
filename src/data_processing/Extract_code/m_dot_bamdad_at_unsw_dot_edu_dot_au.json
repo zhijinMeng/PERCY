@@ -1,0 +1,102 @@
+[
+    [
+        {
+            "role": "system",
+            "content": "What is your current relationship status?"
+        },
+        {
+            "role": "user",
+            "content": "Married"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What do you do for work?"
+        },
+        {
+            "role": "user",
+            "content": "Employee"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your most favourite movies or TV shows?"
+        },
+        {
+            "role": "user",
+            "content": "Documentary"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of music do you enjoy listening to the most?"
+        },
+        {
+            "role": "user",
+            "content": "Persian"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What are some of your favorite games to play (video games, board games, etc.)?"
+        },
+        {
+            "role": "user",
+            "content": "Strategy games"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your favorite food?"
+        },
+        {
+            "role": "user",
+            "content": "Middle Eastern cuisine"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your recent area of focus or goals? (skip if none)"
+        },
+        {
+            "role": "user",
+            "content": "Educational pursuits and learning new skills"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "How would you describe your personality in a few words?"
+        },
+        {
+            "role": "user",
+            "content": "Reliable"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is something you strongly dislike or hate?"
+        },
+        {
+            "role": "user",
+            "content": "Dishonesty"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What type of weather do you enjoy the most?"
+        },
+        {
+            "role": "user",
+            "content": "Sunny"
+        }
+    ]
+]

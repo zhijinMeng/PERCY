@@ -53,7 +53,7 @@ class Node:
         self.buffer_writter = rospy.Subscriber('/audio/channel0', AudioData, self.set_buffer)
         self.buffer_duration = 3 # here we define the buffer duration 
         self.buffer_size = self.buffer_duration * self.SAMPLE_RATE # 3 seconds of audio as buffer
-        self.sentence_gap = 1 # define the maximun gap between two sentences  
+        self.sentence_gap = 2 # define the maximun gap between two sentences  
 
         # here we define the file paths for audio, video and text
         self.id = rospy.get_param('~id', 'test') # get the id of the user, with default value of 'test'
@@ -129,6 +129,7 @@ class Node:
                     self.time_stamp_monitoring = True
                     # self.audio_video_writer.set_start_time(rospy.Time.now().to_sec())
                 # the starting point, where we need to record timestamp for this timestamp as well
+                    buffer_length = len(self.buffer)/self.SAMPLE_RATE
                     self.start_time = rospy.Time.now().to_sec() - self.start_time_audio.to_sec() -1.5
                     print(f'buffer length is {len(self.buffer)/self.SAMPLE_RATE}')
                 

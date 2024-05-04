@@ -7,7 +7,7 @@ import json
 import pandas as pd
 import sys
 import os 
-
+import random
 class GPT:
     """
     ChatGPT server class.
@@ -22,7 +22,7 @@ class GPT:
         # intialize the chat history
         self.history_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/chat_history.json'
         self.messages = []
-        self.counter = 0 # set the counter for topic changing
+  
 
         rospy.loginfo('GPT node started')
 
@@ -32,140 +32,68 @@ class GPT:
         self.user_profile=""
         self.history = ""
         # Extract the profile from the JSON file
-        # 1.get a id
         csv_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.csv'
-        self.is_first_question = True
-       
-
-        # extract user_profile from the csv file
-        self.json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
-        profile_extractor = self.QAExtractor(csv_file_path, list(range(28, 52)))
-        for i in range(27):
-            profile_pair = profile_extractor.get_next_qa_pair()
-            if profile_pair != "empty":
-                self.append_to_json(profile_pair, self.json_file_path)
-        try:
-            with open(self.json_file_path, 'r') as file:
-                self.user_profile = json.load(file)
-                print('Successfully loaded JSON file:')
-                # print(self.user_profile)
-        except FileNotFoundError:
-            print(f"Error: File not found at {self.json_file_path}")
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e}")
-
-        # profiled extracted, now construct the gpt server
-        self.qa_extractor = self.QAExtractor(csv_file_path,list(range(28, 52))) # Initialize the QAExtractor
+        json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
         self.emotion = "neutral"
+        # set the timer for the topic changing
+        self.topic_changer = self.TopicChanger(json_file_path)
+        self.to_change_topic = True # set the flag to change the topic
+        # once the below function is executed, then we set the flag to call TopicChanger to change the topic
+        self.Totimer = rospy.Timer(rospy.Duration(120), self.set_topic_flag)
 
+    def set_topic_flag(self,event=None):
+        # set the flag to change the topic
+        self.to_change_topic = True
 
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
         self.emotion = data.initialEmotion
- 
- 
+
+
         # finalEmotion = data.finalEmotion
         input_text = {"role": "user", "content": text_from_speech}
         text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.emotion}
         # Append the user's input to the conversation history -> the dialogue
         self.append_to_json(text_to_append, self.history_file_path)
-        # self.history.append(input_text)
+
 
 
         print(f'Receive emotions: {self.emotion}')
 
         # here we detect whether to change the topic or not
-        if self.emotion == "sad" or self.emotion == "anger" or text_from_speech == "change topic":
-
-            self.next_topic = self.topic_changing()
-            rospy.logwarn(f"Changed to new topic {self.next_topic[0]['content']}")
-            # next_topic = self.qa_extractor.get_next_qa_pair()
-            print('new topic changed')
-            self.messages = [ {"role": "system", "content":
-              "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-              "I will give you the user profile information to be used in generating questions " +
-              f"this is the user profile {self.user_profile} read it and understand it"+
-              "Ask the user deeper questions based on the data you gained form the user profile information"+
-               f"Ask about the user's {self.next_topic[0]['content']}, using the user's answer: {self.next_topic[1]['content']}"+
-              "When you ask the user the next question, use the user response with his\her emotions of {self.emotion} to generate a single empathic response before generating the following question"+
-              "Ask at most 3 following questions"+
-              "if it possible try to avoid yes/no questions"+
-              "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-              "one question per time"} ]
-            
-
-            # call the gpt server to generate the response
-            self.messages.append(input_text)
-
-            # Get a response from ChatGPT-3.5 Turbo
-            response = self.get_openai_response(self.messages)
-
-            # Append the response to the conversation
-            self.messages.append({"role": "assistant", "content": response})
-
-            print(f'Received a request with a prompt:\n{input_text}')
-            self.counter=0 # refresh the counter after changing the topic
-            response_to_append = {"role": "assistant", "content": response}
-            # append to the chat history
-            self.append_to_json(response_to_append, self.history_file_path)
-            return response
-
-        else:
-            self.counter += 1
-            if self.is_first_question:
-
-                self.next_topic = self.qa_extractor.get_next_qa_pair()
-                rospy.logwarn(f"1st question: Changed to new topic {self.next_topic[0]['content']}")
-                self.is_first_question = False # turn off the flag
-                self.messages = [ {"role": "system", "content":
-                "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-                "I will give you the user profile information to be used in generating questions " +
-                f"this is the user profile {self.user_profile} read it and understand it"+
-                "Ask the user deeper questions based on the data you gained form the user profile information"+
-                f"Ask about the user's {self.next_topic[0]['content']}, using the user's answer: {self.next_topic[1]['content']}"+
-                "When you ask the user the next question, use the user response with his\her emotions of {self.emotion}to generate a single empathic response before generating the following question"+
-                "Ask at most 3 following questions"+
-                "if it possible try to avoid yes/no questions"+
-                "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-                "one question per time"} ]
+        if self.to_change_topic == True:
+            # change topic and close the flag, ready for next topic
+            question, answer = self.topic_changer.new_topic()
+            print(answer)
+            self.to_change_topic = False
 
 
-            else:
-                print("no need to change, stick with the current topic")
-
-                pass
-
-                
-            # call the gpt server to generate the response
-            self.messages.append(input_text)
-
-            # Get a response from ChatGPT-3.5 Turbo
-            response = self.get_openai_response(self.messages)
-
-            # Append the response to the conversation
-            response_to_append = {"role": "assistant", "content": response}
-            self.messages.append({"role": "assistant", "content": response})
-
-            print(f'Received a request with a prompt:\n{input_text}')
-
-            # append to the chat history
-            self.append_to_json(response_to_append, self.history_file_path)
-            return response
+            # # print('new topic changed')
+            # self.messages = [ {"role": "system", "content":
+            #     "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+            #     "I will give you the user profile information to be used in generating questions " +
+            #     f"this is the user profile {self.user_profile} read it and understand it"+
+            #     "Ask the user deeper questions based on the data you gained form the user profile information"+
+            #     f"Ask about the user's {question}, using the user's answer: {answer}"+
+            #     "When you ask the user the next question, use the user response with his\her emotions of {self.emotion} to generate a single empathic response before generating the following question"+
+            #     "Ask at most 3 following questions"+
+            #     "if it possible try to avoid yes/no questions"+
+            #     "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+            #     "one question per time"} ]
+        
+            self.messages= [{"role": "system", "content":
+            "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+            "I will give you the user profile information to be used in generating questions " +
+            f"Ask about the user's {question}, using the user's answer: {answer}"+
+            "When you ask the user the next question, use the user response with his\her emotions of {self.emotion} to generate a single empathic response before generating the following question"+
+            "Ask at most 3 following questions"+
+            "if it possible try to avoid yes/no questions"+
+            "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+            "one question per time"} ]
 
 
 
-
-
-
-
-
-
-
-
-
-        input_text = {"role": "user", "content": text_from_speech}
-
-        # Append the user's input to the conversation
+        # call the gpt server to generate the response
         self.messages.append(input_text)
 
         # Get a response from ChatGPT-3.5 Turbo
@@ -175,33 +103,37 @@ class GPT:
         self.messages.append({"role": "assistant", "content": response})
 
         print(f'Received a request with a prompt:\n{input_text}')
+        response_to_append = {"role": "assistant", "content": response}
+        # append to the chat history
+        self.append_to_json(response_to_append, self.history_file_path)
         return response
 
+        # else:
+        #     self.counter += 1
+        #     if self.is_first_question:
 
-# -------------------------------------------------------------------------------------------------------
+        #         self.next_topic = self.qa_extractor.get_next_qa_pair()
+        #         rospy.logwarn(f"1st question: Changed to new topic {self.next_topic[0]['content']}")
+        #         self.is_first_question = False # turn off the flag
+        #         self.messages = [ {"role": "system", "content":
+        #         "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+        #         "I will give you the user profile information to be used in generating questions " +
+        #         f"this is the user profile {self.user_profile} read it and understand it"+
+        #         "Ask the user deeper questions based on the data you gained form the user profile information"+
+        #         f"Ask about the user's {self.next_topic[0]['content']}, using the user's answer: {self.next_topic[1]['content']}"+
+        #         "When you ask the user the next question, use the user response with his\her emotions of {self.emotion}to generate a single empathic response before generating the following question"+
+        #         "Ask at most 3 following questions"+
+        #         "if it possible try to avoid yes/no questions"+
+        #         "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+        #         "one question per time"} ]
 
-    # def OnRequest(self, data: GPTGenerateRequest):
-    #     text_from_speech = data.request  # Speech recognized by the user
 
-    #     initialEmotion = data.initialEmotion
-    #     finalEmotion = data.finalEmotion
+        #     else:
+        #         print("no need to change, stick with the current topic")
 
-    #     print(f'Receive emotions: {initialEmotion}, {finalEmotion}')
+        #         pass
 
-    #     input_text = {"role": "user", "content": text_from_speech}
-
-    #     # Append the user's input to the conversation
-    #     self.messages.append(input_text)
-
-    #     # Get a response from ChatGPT-3.5 Turbo
-    #     response = self.get_openai_response(self.messages)
-
-    #     # Append the response to the conversation
-    #     self.messages.append({"role": "assistant", "content": response})
-
-    #     print(f'Received a request with a prompt:\n{input_text}')
-    #     return response
-
+   
     def get_openai_response(self, messages):
         chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
         reply = chat.choices[0].message.content 
@@ -224,47 +156,46 @@ class GPT:
         # Write the updated data back to the JSON file
         with open(file_path, 'w') as json_file:
             json.dump(existing_data, json_file, indent=4)
-
-    def shutdown_node():
-        rospy.signal_shutdown("Shutdown requested")
-
-    # here we define the extractor class to extract the user profile
-    class QAExtractor:
-        def __init__(self, csv_file_path, column_indices):
-            # Initialize with path to CSV file and column indices
-            self.df = pd.read_csv(csv_file_path, header=None)
-            # Adjust column indices for zero-based indexing
-            self.column_indices = [idx - 1 for idx in column_indices]
-            # Track the current question-answer pair
-            self.index = 0
-
-        def get_next_qa_pair(self):
-            """
-            Return the next question-answer pair. Return None if all pairs have been processed.
-            """
-            while self.index < len(self.column_indices):
-                col_idx = self.column_indices[self.index]
-                # Extract question from the second row
-                question = self.df.iloc[1, col_idx]
-                # Extract corresponding answer from the fourth row
-                answer = self.df.iloc[3, col_idx]
-                # Move to the next pair
-                self.index += 1
-
-                if pd.notna(answer):
-                    return {"role": "system", "content": question}, {"role": "user", "content": answer}
-
-            return "empty"  # Indicate no more QA pairs
     
-    def topic_changing(self):
-        next_topic = self.qa_extractor.get_next_qa_pair() # get the next topic
-        if next_topic == "":
-            print("No more topics to discuss. Exiting...")
-            self.shutdown_node()
-            return 
-        else:
-            return next_topic
+    def print_flag(self):
+        rate = rospy.Rate(1)  # Rate of 1 Hz (1 message per second)
+        while not rospy.is_shutdown():
+            print(self.to_change_topic)
+            rate.sleep()  # Sleep to maintain the desired rate
+
+
+    class TopicChanger:
+        def __init__(self,json_path):
+            # Create a set to store all the printed pairs 
+            self.printed_pairs = set()
+            # Specify the path to the JSON file
+            self.json_path = json_path
+            self.current_index = 0
+            # Load the JSON data from the file
+            with open(self.json_path) as f:
+                self.json_data = json.load(f)
+
+        def new_topic(self):
+            if self.current_index < len(self.json_data):
+                pair = self.json_data[self.current_index]
+                question = pair[0]['content']
+                answer = pair[1]['content']
+                if (question, answer) not in self.printed_pairs:
+                    print("Question:", question)
+                    print("Answer:", answer)
+                    print()
+                    self.printed_pairs.add((question, answer))
+                    self.current_index += 1
+                    rospy.logwarn(f"Current Topic Index: {self.current_index}, There are {len(self.json_data)-self.current_index} topics left. Changed to new topic {question}")
+                    return {"role": "system", "content": question}, {"role": "user", "content": answer}
+            else:
+                rospy.logwarn("All Topics Discussed")
+                rospy.signal_shutdown("All Topics Discussed")
+ 
+     
+          
 
 if __name__ == '__main__':
     gpt = GPT()
+    gpt.print_flag()
     rospy.spin()

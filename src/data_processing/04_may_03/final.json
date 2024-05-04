@@ -1,0 +1,167 @@
+[
+    {
+        "index": 0,
+        "starting_time": 11.55464220046997,
+        "ending_time": 16.057816743850708,
+        "role": "user",
+        "content": "Hello",
+        "emotion": "anger"
+    },
+    {
+        "index": 1,
+        "starting_time": 20.559640169143677,
+        "ending_time": 30.06065011024475,
+        "role": "assistant",
+        "content": "Hi there! I'm thrilled to chat with you today. Can you share with me your current relationship status?"
+    },
+    {
+        "index": 2,
+        "starting_time": 35.56853365898132,
+        "ending_time": 41.06653952598572,
+        "role": "user",
+        "content": "I think you already know it.",
+        "emotion": "sadness"
+    },
+    {
+        "index": 3,
+        "starting_time": 44.56851601600647,
+        "ending_time": 60.07345747947693,
+        "role": "assistant",
+        "content": "I understand, thank you for sharing that with me. Being in a relationship can bring so many joys and challenges. How are you feeling about your relationship status right now?"
+    },
+    {
+        "index": 4,
+        "starting_time": 66.57936191558838,
+        "ending_time": 72.07871651649475,
+        "role": "user",
+        "content": "Uh, can I say it again?",
+        "emotion": "sadness"
+    },
+    {
+        "index": 5,
+        "starting_time": 75.58176231384277,
+        "ending_time": 85.08960103988647,
+        "role": "assistant",
+        "content": "Of course! Feel free to share as much as you'd like. What is your current relationship status?"
+    },
+    {
+        "index": 6,
+        "starting_time": 91.58922028541565,
+        "ending_time": 96.0899703502655,
+        "role": "user",
+        "content": "I'm taken.",
+        "emotion": "neutral"
+    },
+    {
+        "index": 7,
+        "starting_time": 99.59498977661133,
+        "ending_time": 110.09783959388733,
+        "role": "assistant",
+        "content": "Thank you for sharing. Being taken can mean different things for different people. How did you meet your partner?"
+    },
+    {
+        "index": 8,
+        "starting_time": 111.82157969474792,
+        "ending_time": 116.01063394546509,
+        "role": "user",
+        "content": "We are classmates in Bachelor Degree.",
+        "emotion": "sadness"
+    },
+    {
+        "index": 9,
+        "starting_time": 119.5122971534729,
+        "ending_time": 134.01803994178772,
+        "role": "assistant",
+        "content": "That's wonderful to hear! It must be nice to have a special connection that started from sharing educational experiences. How do you navigate balancing your relationship with your studies?"
+    },
+    {
+        "index": 10,
+        "starting_time": 136.51849365234375,
+        "ending_time": 141.01990032196045,
+        "role": "user",
+        "content": "Sorry, can you say that again?",
+        "emotion": "sadness"
+    },
+    {
+        "index": 11,
+        "starting_time": 144.5227198600769,
+        "ending_time": 152.0276117324829,
+        "role": "assistant",
+        "content": "Of course! What do you do for work?"
+    },
+    {
+        "index": 12,
+        "starting_time": 156.5314962863922,
+        "ending_time": 161.0318250656128,
+        "role": "user",
+        "content": "I'm a student.",
+        "emotion": "sadness"
+    },
+    {
+        "index": 13,
+        "starting_time": 164.53559803962708,
+        "ending_time": 175.04030871391296,
+        "role": "assistant",
+        "content": "That's great to hear! Being a student is such an exciting and busy time in life. What are you studying?"
+    },
+    {
+        "index": 14,
+        "starting_time": 176.29434323310852,
+        "ending_time": 181.04257535934448,
+        "role": "user",
+        "content": "Information Technology Robot.",
+        "emotion": "sadness"
+    },
+    {
+        "index": 15,
+        "starting_time": 184.541757106781,
+        "ending_time": 197.0478711128235,
+        "role": "assistant",
+        "content": "That's fascinating! Studying Information Technology Robot must be very interesting. What inspired you to choose this field of study?"
+    },
+    {
+        "index": 16,
+        "starting_time": 198.42637610435486,
+        "ending_time": 208.05682110786438,
+        "role": "user",
+        "content": "By accident, I have this project, which is a ball robotics. So that's how I choose to do this as main.",
+        "emotion": "anger"
+    },
+    {
+        "index": 17,
+        "starting_time": 212.5593512058258,
+        "ending_time": 235.0649127960205,
+        "role": "assistant",
+        "content": "It's amazing how sometimes unexpected events can lead us down new and exciting paths! Working on a ball robotics project sounds like a fun and challenging experience. How do you envision applying your studies to your future career goals?"
+    },
+    {
+        "index": 18,
+        "starting_time": 243.57044768333435,
+        "ending_time": 249.06963682174683,
+        "role": "user",
+        "content": "Can you say it again?",
+        "emotion": "joy"
+    },
+    {
+        "index": 19,
+        "starting_time": 252.57431769371033,
+        "ending_time": 261.07523941993713,
+        "role": "assistant",
+        "content": "Of course! What are some of your favourite Sci-fi movies or TV shows?"
+    },
+    {
+        "index": 20,
+        "starting_time": 268.57967710494995,
+        "ending_time": 272.08196806907654,
+        "role": "user",
+        "content": "Space War.",
+        "emotion": "sadness"
+    },
+    {
+        "index": 21,
+        "starting_time": 275.5867123603821,
+        "ending_time": 288.08641481399536,
+        "role": "assistant",
+        "content": "Space War sounds like an exciting choice! What specifically do you enjoy about Sci-fi movies and TV shows like Space War?"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    [
+        {
+            "role": "system",
+            "content": "What is your current relationship status?"
+        },
+        {
+            "role": "user",
+            "content": "Single"
+        }
+    ],
+    [ 
+        {
+            "role": "system",
+            "content": "What do you do for work?"
+        },
+        {
+            "role": "user",
+            "content": "Student"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your most favourite movies or TV shows?"
+        },
+        {
+            "role": "user",
+            "content": "Action"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of music do you enjoy listening to the most?"
+        },
+        {
+            "role": "user",
+            "content": "Rock"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What are some of your favorite games to play (video games, board games, etc.)?"
+        },
+        {
+            "role": "user",
+            "content": "Video games"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your favorite food?"
+        },
+        {
+            "role": "user",
+            "content": "Mediterranean cuisine"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your recent area of focus or goals? (skip if none)"
+        },
+        {
+            "role": "user",
+            "content": "Financial stability and wealth accumulation"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your proudest personal achievements to date? (skip if none)"
+        },
+        {
+            "role": "user",
+            "content": "Completing a challenging project or task that pushed your limits and resulted in successful outcomes."
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Can you share any significant challenges you have faced? (skip if none)"
+        },
+        {
+            "role": "user",
+            "content": "Health-related obstacles"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Do you have any health issues or allergies? (skip if none)"
+        },
+        {
+            "role": "user",
+            "content": "Allergies"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "How would you describe your personality in a few words?"
+        },
+        {
+            "role": "user",
+            "content": "Creative"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is something you strongly dislike or hate?"
+        },
+        {
+            "role": "user",
+            "content": "Dishonesty"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What type of weather do you enjoy the most?"
+        },
+        {
+            "role": "user",
+            "content": "Sunny"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Are there any additional comments you have?"
+        },
+        {
+            "role": "user",
+            "content": "good"
+        }
+    ]
+]
