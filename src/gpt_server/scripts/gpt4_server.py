@@ -58,13 +58,13 @@ class GPT:
         print(f'Receive emotions: {self.emotion}')
         self.messages.append(input_text) # append user speech into the message
 
+        rospy.loginfo(f"Received a request with a prompt:\n{text_from_speech}")
+
         # here we detect whether to change the topic or not
-        if self.to_change_topic == True or text_from_speech.lower() == "change topic":
+        if self.to_change_topic == True or text_from_speech.lower() == "new topic":
             # change topic and close the flag, ready for next topic
             question, answer = self.topic_changer.new_topic()
             self.to_change_topic = False
-            print(question)
-            print(answer)
         
             self.messages= [{"role": "system", "content":
             "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
@@ -77,9 +77,6 @@ class GPT:
             self.messages.append(question)
             self.messages.append(answer)
 
-
-
-        # call the gpt server to generate the response
 
         # Get a response from ChatGPT-3.5 Turbo
         response = self.get_openai_response(self.messages)
