@@ -16,6 +16,7 @@ from openai import OpenAI
 import os 
 import json
 import wave
+import shutil
 # define the openai api key, which is for OpenAI API verfication
 client = OpenAI(api_key="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")
 
@@ -56,11 +57,14 @@ class Node:
         self.sentence_gap = 2 # define the maximun gap between two sentences  
 
         # here we define the file paths for audio, video and text
-        self.id = rospy.get_param('~id', 'test') # get the id of the user, with default value of 'test'
+        self.id = str(rospy.get_param('~id', 'test')) # get the id of the user, with default value of 'test'
         # first use the id to generate a directory under DATA
         self.base_path = '/home/robocupathome/workspace/eddy_code/src/DATA' # the database path
-        self.folder_path = os.path.join(self.base_path, self.id) # the folder path for a specific particant with name as 'ID'
+        self.folder_path = os.path.join(self.base_path, self.id,'clipped') # the folder path for a specific particant with name as 'ID'
+        self.participant_folder_path = os.path.join(self.base_path, self.id)
         self.create_folder(self.folder_path) # create the folder for the user
+        robot_mfcc = '/home/robocupathome/workspace/eddy_code/src/DATA/mfcc.wav'
+        shutil.copy(robot_mfcc, self.participant_folder_path)
         
         print(self.folder_path)
         self.txt_file = 'test.txt'
@@ -74,9 +78,9 @@ class Node:
 
 
         # here we define the whole video and audio recording
-        self.audio_output_path = os.path.join(self.folder_path, 'audio.wav')
+        self.audio_output_path = os.path.join(self.participant_folder_path, 'audio.wav')
         print(self.audio_output_path)
-        self.video_output_path = os.path.join(self.folder_path,'video.mp4')
+        self.video_output_path = os.path.join(self.participant_folder_path,'video.mp4')
         self.bridge = CvBridge()
         self.audio_file = wave.open(self.audio_output_path, 'wb')
         self.audio_file.setnchannels(AUDIO_CHANNELS)
@@ -137,7 +141,7 @@ class Node:
                 
                 self.audio_video_writer.append_buffer(self.get_buffer(),self.folder_path) # append buffer to the wav file
                 print('start recording')
-                self.audio_video_writer.set_path(self.folder_path)
+                self.audio_video_writer.set_path(self.folder_path,self.participant_folder_path)
                 self.audio_video_writer.write_frame_audio(audio_data.data)
             else:
                 pass
@@ -278,7 +282,7 @@ class Node:
 
     def merge(self):
         chat_history_path = os.path.join(self.base_path, self.id,"chat_history.json")
-        rospy.on_shutdown(self.merge_json(self.time_stamp_file,chat_history_path, os.path.join(self.folder_path, 'final.json')))
+        rospy.on_shutdown(self.merge_json(self.time_stamp_file,chat_history_path, os.path.join(self.participant_folder_path, 'final.json')))
 
 if __name__ == '__main__':
     a = Node()

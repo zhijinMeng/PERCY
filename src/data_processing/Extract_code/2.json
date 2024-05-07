@@ -2,27 +2,7 @@
     [
         {
             "role": "system",
-            "content": "What is your current relationship status?"
-        },
-        {
-            "role": "user",
-            "content": "In a relationship"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "What do you do for work?"
-        },
-        {
-            "role": "user",
-            "content": "Student"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "What is your most favourite movies or TV shows?"
+            "content": "What is your favorite movie or TV show genre?"
         },
         {
             "role": "user",
@@ -42,7 +22,7 @@
     [
         {
             "role": "system",
-            "content": "What are some of your favorite games to play (video games, board games, etc.)?"
+            "content": "What kind of  games do you enjoy the most?"
         },
         {
             "role": "user",
@@ -62,7 +42,7 @@
     [
         {
             "role": "system",
-            "content": "What is your recent area of focus or goals? (skip if none)"
+            "content": "What is your recent area of focus or goal?"
         },
         {
             "role": "user",
@@ -72,7 +52,7 @@
     [
         {
             "role": "system",
-            "content": "What is your proudest personal achievements to date? (skip if none)"
+            "content": "What is your proudest personal achievements to date?"
         },
         {
             "role": "user",
@@ -82,21 +62,11 @@
     [
         {
             "role": "system",
-            "content": "Can you share any significant challenges you have faced? (skip if none)"
+            "content": "Can you share any significant challenges you have faced?"
         },
         {
             "role": "user",
             "content": "Balancing responsibilities"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "Do you have any health issues or allergies? (skip if none)"
-        },
-        {
-            "role": "user",
-            "content": "Health conditions"
         }
     ],
     [

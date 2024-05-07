@@ -1,0 +1,18 @@
+<launch>
+    <!-- Define command line argument for id -->
+    <arg name="id" default="default_id"/>
+
+    <!-- Start emotion_server node -->
+    <node pkg="emotion_server" type="emotion.py" name="emotion_server" output="screen">
+    </node>
+
+    <!-- Start gpt4_server node -->
+    <node pkg="gpt_server" type="gpt4_server.py" name="gpt_server" output="screen">
+        <param name="id" value="$(arg id)"/>
+    </node>
+
+    <!-- Start chatting_system node -->
+    <node pkg="chatting_system" type="test.py" name="multimodal_dataset_main_server" output="screen">
+        <param name="id" value="$(arg id)"/>
+    </node>
+</launch>

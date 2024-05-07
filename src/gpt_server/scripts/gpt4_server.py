@@ -22,8 +22,6 @@ class GPT:
         # intialize the chat history
         self.history_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/chat_history.json'
         self.messages = []
-  
-
         rospy.loginfo('GPT node started')
 
         # Here, initialize ChatGPT-3.5 Turbo
@@ -32,7 +30,6 @@ class GPT:
         self.user_profile=""
         self.history = ""
         # Extract the profile from the JSON file
-        csv_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.csv'
         json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
         self.emotion = "neutral"
         # set the timer for the topic changing
@@ -40,6 +37,10 @@ class GPT:
         self.to_change_topic = True # set the flag to change the topic
         # once the below function is executed, then we set the flag to call TopicChanger to change the topic
         self.Totimer = rospy.Timer(rospy.Duration(120), self.set_topic_flag)
+        self.profile =""
+        with open(json_file_path, "r") as json_file:
+            self.profile = json.load(json_file)
+
 
     def set_topic_flag(self,event=None):
         # set the flag to change the topic
@@ -49,52 +50,36 @@ class GPT:
         text_from_speech = data.request  # Speech recognized by the user
         self.emotion = data.initialEmotion
 
-
         # finalEmotion = data.finalEmotion
         input_text = {"role": "user", "content": text_from_speech}
         text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.emotion}
         # Append the user's input to the conversation history -> the dialogue
         self.append_to_json(text_to_append, self.history_file_path)
-
-
-
         print(f'Receive emotions: {self.emotion}')
+        self.messages.append(input_text) # append user speech into the message
 
         # here we detect whether to change the topic or not
-        if self.to_change_topic == True:
+        if self.to_change_topic == True or text_from_speech.lower() == "change topic":
             # change topic and close the flag, ready for next topic
             question, answer = self.topic_changer.new_topic()
-            print(answer)
             self.to_change_topic = False
-
-
-            # # print('new topic changed')
-            # self.messages = [ {"role": "system", "content":
-            #     "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-            #     "I will give you the user profile information to be used in generating questions " +
-            #     f"this is the user profile {self.user_profile} read it and understand it"+
-            #     "Ask the user deeper questions based on the data you gained form the user profile information"+
-            #     f"Ask about the user's {question}, using the user's answer: {answer}"+
-            #     "When you ask the user the next question, use the user response with his\her emotions of {self.emotion} to generate a single empathic response before generating the following question"+
-            #     "Ask at most 3 following questions"+
-            #     "if it possible try to avoid yes/no questions"+
-            #     "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-            #     "one question per time"} ]
+            print(question)
+            print(answer)
         
             self.messages= [{"role": "system", "content":
             "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-            "I will give you the user profile information to be used in generating questions " +
-            f"Ask about the user's {question}, using the user's answer: {answer}"+
-            "When you ask the user the next question, use the user response with his\her emotions of {self.emotion} to generate a single empathic response before generating the following question"+
-            "Ask at most 3 following questions"+
+            "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
+            "Every time you make a response, use the user response with his\her emotions of {self.emotion} to generate the next response"+
             "if it possible try to avoid yes/no questions"+
             "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-            "one question per time"} ]
+            "one question per time and always response in English"} ]
+
+            self.messages.append(question)
+            self.messages.append(answer)
 
 
 
         # call the gpt server to generate the response
-        self.messages.append(input_text)
 
         # Get a response from ChatGPT-3.5 Turbo
         response = self.get_openai_response(self.messages)
@@ -106,33 +91,8 @@ class GPT:
         response_to_append = {"role": "assistant", "content": response}
         # append to the chat history
         self.append_to_json(response_to_append, self.history_file_path)
+        print(self.messages)
         return response
-
-        # else:
-        #     self.counter += 1
-        #     if self.is_first_question:
-
-        #         self.next_topic = self.qa_extractor.get_next_qa_pair()
-        #         rospy.logwarn(f"1st question: Changed to new topic {self.next_topic[0]['content']}")
-        #         self.is_first_question = False # turn off the flag
-        #         self.messages = [ {"role": "system", "content":
-        #         "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-        #         "I will give you the user profile information to be used in generating questions " +
-        #         f"this is the user profile {self.user_profile} read it and understand it"+
-        #         "Ask the user deeper questions based on the data you gained form the user profile information"+
-        #         f"Ask about the user's {self.next_topic[0]['content']}, using the user's answer: {self.next_topic[1]['content']}"+
-        #         "When you ask the user the next question, use the user response with his\her emotions of {self.emotion}to generate a single empathic response before generating the following question"+
-        #         "Ask at most 3 following questions"+
-        #         "if it possible try to avoid yes/no questions"+
-        #         "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-        #         "one question per time"} ]
-
-
-        #     else:
-        #         print("no need to change, stick with the current topic")
-
-        #         pass
-
    
     def get_openai_response(self, messages):
         chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
@@ -157,11 +117,10 @@ class GPT:
         with open(file_path, 'w') as json_file:
             json.dump(existing_data, json_file, indent=4)
     
-    def print_flag(self):
-        rate = rospy.Rate(1)  # Rate of 1 Hz (1 message per second)
-        while not rospy.is_shutdown():
-            print(self.to_change_topic)
-            rate.sleep()  # Sleep to maintain the desired rate
+    # def print_flag(self):
+    #     rate = rospy.Rate(1)  # Rate of 1 Hz (1 message per second)
+    #     while not rospy.is_shutdown():
+    #         rate.sleep()  # Sleep to maintain the desired rate
 
 
     class TopicChanger:
@@ -187,7 +146,7 @@ class GPT:
                     self.printed_pairs.add((question, answer))
                     self.current_index += 1
                     rospy.logwarn(f"Current Topic Index: {self.current_index}, There are {len(self.json_data)-self.current_index} topics left. Changed to new topic {question}")
-                    return {"role": "system", "content": question}, {"role": "user", "content": answer}
+                    return {"role": "assistant", "content": question}, {"role": "user", "content": answer}
             else:
                 rospy.logwarn("All Topics Discussed")
                 rospy.signal_shutdown("All Topics Discussed")
@@ -197,5 +156,5 @@ class GPT:
 
 if __name__ == '__main__':
     gpt = GPT()
-    gpt.print_flag()
+    # gpt.print_flag()
     rospy.spin()

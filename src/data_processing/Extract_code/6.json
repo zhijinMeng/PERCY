@@ -2,27 +2,7 @@
     [
         {
             "role": "system",
-            "content": "What is your current relationship status?"
-        },
-        {
-            "role": "user",
-            "content": "Married"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "What do you do for work?"
-        },
-        {
-            "role": "user",
-            "content": "Employee"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "What is your most favourite movies or TV shows?"
+            "content": "What is your favorite movie or TV show genre?"
         },
         {
             "role": "user",
@@ -36,17 +16,17 @@
         },
         {
             "role": "user",
-            "content": "Persian"
+            "content": "Classical"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What are some of your favorite games to play (video games, board games, etc.)?"
+            "content": "What kind of  games do you enjoy the most?"
         },
         {
             "role": "user",
-            "content": "Strategy games"
+            "content": "Puzzle games"
         }
     ],
     [
@@ -56,13 +36,13 @@
         },
         {
             "role": "user",
-            "content": "Middle Eastern cuisine"
+            "content": "Asian cuisine"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is your recent area of focus or goals? (skip if none)"
+            "content": "What is your recent area of focus or goal?"
         },
         {
             "role": "user",
@@ -72,11 +52,31 @@
     [
         {
             "role": "system",
+            "content": "What is your proudest personal achievements to date?"
+        },
+        {
+            "role": "user",
+            "content": "Achieving a personal goal that required dedication and hard work, whether it's in academics, career, or personal development."
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Can you share any significant challenges you have faced?"
+        },
+        {
+            "role": "user",
+            "content": "Life transitions"
+        }
+    ],
+    [
+        {
+            "role": "system",
             "content": "How would you describe your personality in a few words?"
         },
         {
             "role": "user",
-            "content": "Reliable"
+            "content": "Outgoing"
         }
     ],
     [
@@ -86,7 +86,7 @@
         },
         {
             "role": "user",
-            "content": "Dishonesty"
+            "content": "Laziness"
         }
     ],
     [
@@ -96,7 +96,17 @@
         },
         {
             "role": "user",
-            "content": "Sunny"
+            "content": "Stormy"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "How do you prefer to spend your free time for leisure and enjoyment?"
+        },
+        {
+            "role": "user",
+            "content": "swimming "
         }
     ]
 ]

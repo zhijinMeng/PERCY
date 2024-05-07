@@ -56,16 +56,17 @@ class FrameWriter:
         self.response = ''
 
 
-    def set_path(self, path):
+    def set_path(self, path,particpant_folder_path):
         if self.is_recording:
             self.close()
         # self.wf = wave.open(f"{path}{self.counter}.wav", 'wb') # path of audio 
         self.output_path = f"{path}/{self.counter}.mp4"
+        print(self.output_path)
         # update audio/video names to check if it is recording
         self.audio_name = f"{path}/{self.counter}.wav"
         self.video_name = f"{path}/{self.counter}.mp4"
         self.txt_name = f"{path}/{self.counter}.txt"
-        self.mfcc_wav_name = f"{path}/mfcc.wav"
+        self.mfcc_wav_name = f"{particpant_folder_path}/mfcc.wav"
         self.pkl_path = f'{path}/user.pkl'
         print(self.mfcc_wav_name)
         self.video_writer = cv2.VideoWriter(self.output_path, self.fourcc, 30.0, (640, 480)) # path to video
