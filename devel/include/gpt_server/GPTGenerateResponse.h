@@ -147,7 +147,6 @@ struct Definition< ::gpt_server::GPTGenerateResponse_<ContainerAllocator> >
   static const char* value()
   {
     return "string response\n"
-"\n"
 ;
   }
 

@@ -1,13 +1,13 @@
 import json
 
-JSON_FILE = 'chat_history.json'
+JSON_FILE = 'final.json'
 
 def add_input_to_user(json_data):
     for message in json_data:
         print(f"Message: {message['content']}")
         if message["role"] == "user":
-            user_input = input("Enter additional parameter: ")
-            message["new_parameter"] = user_input
+            user_input = input("Enter Emotion in your opinion: ")
+            message["user_self_annotation"] = user_input
             
             # Write the modified data back to the JSON file after each user message
             with open("modified_chat_history.json", "w", encoding="utf-8") as file:

@@ -1,19 +1,13 @@
-#! /usr/bin/python3
+#!/usr/bin/python3
 
 import rospy
-import sys
-
-print('PYTHON VERSION:')
-print(sys.version)
 from gpt_server.srv import GPTGenerate, GPTGenerateRequest, GPTGenerateResponse
 from openai import OpenAI
 import json
+import pandas as pd
 import sys
-
-from std_msgs.msg import Bool
-
-
-
+import os 
+import random
 class GPT:
     """
     ChatGPT server class.
@@ -23,73 +17,86 @@ class GPT:
 
     def __init__(self):
         rospy.init_node('gpt_server')
-
-
+        id = rospy.get_param('~id','test')
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
-
+        # intialize the chat history
+        self.history_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/chat_history.json'
+        self.messages = []
         rospy.loginfo('GPT node started')
-        self.id = rospy.get_param('~id', '0')
-        self.file_name = f'{self.id}.json'
-        self.save_filepath = f'/home/robocupathome/workspace/eddy_code/src/DATA/{self.file_name}'
-
-        self.manual_question_received = False
 
         # Here, initialize ChatGPT-3.5 Turbo
-        
         self.client = OpenAI(api_key="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")
+        # self.messages = ""
+        self.user_profile=""
+        self.history = ""
+        # Extract the profile from the JSON file
+        json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
+        self.emotion = "neutral"
+        # set the timer for the topic changing
+        self.topic_changer = self.TopicChanger(json_file_path)
+        self.to_change_topic = True # set the flag to change the topic
+        # once the below function is executed, then we set the flag to call TopicChanger to change the topic
+        self.Totimer = rospy.Timer(rospy.Duration(180), self.set_topic_flag) # the topic is changed every 3 mins
+        self.profile =""
+        with open(json_file_path, "r") as json_file:
+            self.profile = json.load(json_file)
 
-        API_KEY = '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'
-        OpenAI.api_key = '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'
-        self.messages = [ {"role": "system", 
-                                "content":  "Have a conversation with me. Please respond in English only!"} ] 
-
-        ## file readings
-        # json_file_path = '/home/ubuntu/pt0/src/gpt_server/scripts/profile.json'
-        # try:
-        #     with open(json_file_path, 'r') as file:
-        #         self.messages = json.load(file)
-        #         print('Successfully loaded JSON file:')
-        #         print(self.messages)
-        # except FileNotFoundError:
-        #     print(f"Error: File not found at {json_file_path}")
-        # except json.JSONDecodeError as e:
-        #     print(f"Error decoding JSON: {e}")
-        # self.messages.append({"role":"system","content":"ask me a question about my hobby."})
+        self.topic_index = -1
+        self.topic_range_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/topic_range.json'
 
 
+
+    def set_topic_flag(self,event=None):
+        # set the flag to change the topic
+        self.to_change_topic = True
 
     def OnRequest(self, data: GPTGenerateRequest):
-
-        if data.is_question:
-            self.manual_question_received = True
-            manual_question = data.request
-            print('Manual question detected')
-            input_text = {"role": "assistant", "content": manual_question}
-            self.messages.append(input_text)
-
-            print('Manual question saved')
-            return 'Manual question inserted'
-        
-        if not data.is_question and data.manual_mode:
-            response_to_manual_question = data.request
-            self.messages.append({"role": "user", "content": response_to_manual_question})
-
-            self.manual_question_received = False
-            return 'Acknowledged.'
-
-
         text_from_speech = data.request  # Speech recognized by the user
+        self.emotion = data.initialEmotion
+        print(f'Emotion: {self.emotion}')
 
-        initialEmotion = data.initialEmotion
-        finalEmotion = data.finalEmotion
 
-        print(f'Receive emotions: {initialEmotion}, {finalEmotion}')
-
+        # finalEmotion = data.finalEmotion
         input_text = {"role": "user", "content": text_from_speech}
+        text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.emotion, "topic_index": self.topic_index}
+        # Append the user's input to the conversation history -> the dialogue
+        self.append_to_json(text_to_append, self.history_file_path)
+        print(f'Receive emotions: {self.emotion}')
+        self.messages.append(input_text) # append user speech into the message
 
-        # Append the user's input to the conversation
-        self.messages.append(input_text)
+        rospy.loginfo(f"Received a request with a prompt:\n{text_from_speech}")
 
+
+        # here we detect whether to change the topic or not
+        if self.to_change_topic == True or text_from_speech == "New topic." or text_from_speech == "Next topic." :
+            # change topic and close the flag, ready for next topic
+            question, answer = self.topic_changer.new_topic()
+            self.to_change_topic = False
+            self.topic_index += 1   
+    
+        
+            # self.messages= [{"role": "system", "content":
+            # "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+            # "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
+            # "Every time you make a response, use the user response with his\her emotions of {self.emotion} to generate the next response"+
+            # "if it possible try to avoid yes/no questions"+
+            # "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+            # "one question per time and always response in English"} ]
+            
+            self.messages.append({"role": "system", "content":
+            "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
+            "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
+            "Every time you make a response, use the user response with his\her emotions of {self.emotion} to generate the next response"+
+            "if it possible try to avoid yes/no questions"+
+            "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
+            "one question per time and always response in English"} )
+
+
+
+            self.messages.append(question)
+            self.messages.append(answer)
+
+       
         # Get a response from ChatGPT-3.5 Turbo
         response = self.get_openai_response(self.messages)
 
@@ -97,33 +104,80 @@ class GPT:
         self.messages.append({"role": "assistant", "content": response})
 
         print(f'Received a request with a prompt:\n{input_text}')
-
-        # Save the conversation to a JSON file
-
-
-
+        response_to_append = {"role": "assistant", "content": response}
+        # append to the chat history
+        self.append_to_json(response_to_append, self.history_file_path)
+        print(self.messages)
 
         return response
-
+   
     def get_openai_response(self, messages):
-        # chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
-        chat = self.client.chat.completions.create(model="gpt-4", messages=messages)
+        chat = self.client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
         reply = chat.choices[0].message.content 
+
+
+
+
+
         return reply
         # return GPTGenerateResponse(response=reply)
 
-    def Dump(self):
-        with open(self.save_filepath, 'w') as json_file:
-            json.dump(self.messages, json_file)
+    def append_to_json(self, data, file_path):
+        # Check if the JSON file exists
+        if os.path.exists(file_path):
+            # If file exists, read existing JSON data
+            with open(file_path, 'r') as json_file:
+                existing_data = json.load(json_file)
+        else:
+            # If file doesn't exist, initialize with an empty list
+            existing_data = []
+
+        # Append new data to the existing data
+        existing_data.append(data)
+
+        # Write the updated data back to the JSON file
+        with open(file_path, 'w') as json_file:
+            json.dump(existing_data, json_file, indent=4)
+    
+    # def print_flag(self):
+    #     rate = rospy.Rate(1)  # Rate of 1 Hz (1 message per second)
+    #     while not rospy.is_shutdown():
+    #         rate.sleep()  # Sleep to maintain the desired rate
 
 
+    class TopicChanger:
+        def __init__(self,json_path):
+            # Create a set to store all the printed pairs 
+            self.printed_pairs = set()
+            # Specify the path to the JSON file
+            self.json_path = json_path
+            self.current_index = 0
+            # Load the JSON data from the file
+            with open(self.json_path) as f:
+                self.json_data = json.load(f)
+
+        def new_topic(self):
+            if self.current_index < len(self.json_data):
+                pair = self.json_data[self.current_index]
+                question = pair[0]['content']
+                answer = pair[1]['content']
+                if (question, answer) not in self.printed_pairs:
+                    print("Question:", question)
+                    print("Answer:", answer)
+                    print()
+                    self.printed_pairs.add((question, answer))
+                    self.current_index += 1
+                    rospy.logwarn(f"Current Topic Index: {self.current_index}, There are {len(self.json_data)-self.current_index} topics left. Changed to new topic {question}")
+                    return {"role": "assistant", "content": question}, {"role": "user", "content": answer}
+            else:
+                
+                rospy.logwarn("All Topics Discussed")
+                rospy.signal_shutdown("All Topics Discussed")
+ 
+     
+          
 
 if __name__ == '__main__':
-   
-    
     gpt = GPT()
+    # gpt.print_flag()
     rospy.spin()
-
-    print('History dumped.')
-    gpt.Dump()
-       

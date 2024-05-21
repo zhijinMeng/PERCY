@@ -20,7 +20,7 @@
 
 (defclass gpt_server::GPTGenerateRequest
   :super ros::object
-  :slots (_request _initialEmotion _finalEmotion _manual_mode _is_question ))
+  :slots (_request _initialEmotion _finalEmotion ))
 
 (defmethod gpt_server::GPTGenerateRequest
   (:init
@@ -28,15 +28,11 @@
     ((:request __request) "")
     ((:initialEmotion __initialEmotion) "")
     ((:finalEmotion __finalEmotion) "")
-    ((:manual_mode __manual_mode) nil)
-    ((:is_question __is_question) nil)
     )
    (send-super :init)
    (setq _request (string __request))
    (setq _initialEmotion (string __initialEmotion))
    (setq _finalEmotion (string __finalEmotion))
-   (setq _manual_mode __manual_mode)
-   (setq _is_question __is_question)
    self)
   (:request
    (&optional __request)
@@ -47,12 +43,6 @@
   (:finalEmotion
    (&optional __finalEmotion)
    (if __finalEmotion (setq _finalEmotion __finalEmotion)) _finalEmotion)
-  (:manual_mode
-   (&optional (__manual_mode :null))
-   (if (not (eq __manual_mode :null)) (setq _manual_mode __manual_mode)) _manual_mode)
-  (:is_question
-   (&optional (__is_question :null))
-   (if (not (eq __is_question :null)) (setq _is_question __is_question)) _is_question)
   (:serialization-length
    ()
    (+
@@ -62,10 +52,6 @@
     4 (length _initialEmotion)
     ;; string _finalEmotion
     4 (length _finalEmotion)
-    ;; bool _manual_mode
-    1
-    ;; bool _is_question
-    1
     ))
   (:serialize
    (&optional strm)
@@ -77,10 +63,6 @@
        (write-long (length _initialEmotion) s) (princ _initialEmotion s)
      ;; string _finalEmotion
        (write-long (length _finalEmotion) s) (princ _finalEmotion s)
-     ;; bool _manual_mode
-       (if _manual_mode (write-byte -1 s) (write-byte 0 s))
-     ;; bool _is_question
-       (if _is_question (write-byte -1 s) (write-byte 0 s))
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
@@ -91,10 +73,6 @@
      (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _initialEmotion (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
    ;; string _finalEmotion
      (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _finalEmotion (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
-   ;; bool _manual_mode
-     (setq _manual_mode (not (= 0 (sys::peek buf ptr- :char)))) (incf ptr- 1)
-   ;; bool _is_question
-     (setq _is_question (not (= 0 (sys::peek buf ptr- :char)))) (incf ptr- 1)
    ;;
    self)
   )
@@ -140,7 +118,7 @@
   :super ros::object
   :slots ())
 
-(setf (get gpt_server::GPTGenerate :md5sum-) "6a3016ec943c4b1e9b46a9b5305c9cf6")
+(setf (get gpt_server::GPTGenerate :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerate :datatype-) "gpt_server/GPTGenerate")
 (setf (get gpt_server::GPTGenerate :request) gpt_server::GPTGenerateRequest)
 (setf (get gpt_server::GPTGenerate :response) gpt_server::GPTGenerateResponse)
@@ -148,34 +126,28 @@
 (defmethod gpt_server::GPTGenerateRequest
   (:response () (instance gpt_server::GPTGenerateResponse :init)))
 
-(setf (get gpt_server::GPTGenerateRequest :md5sum-) "6a3016ec943c4b1e9b46a9b5305c9cf6")
+(setf (get gpt_server::GPTGenerateRequest :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerateRequest :datatype-) "gpt_server/GPTGenerateRequest")
 (setf (get gpt_server::GPTGenerateRequest :definition-)
       "string request
 string initialEmotion
 string finalEmotion
-bool manual_mode
-bool is_question
 ---
 string response
-
 ")
 
-(setf (get gpt_server::GPTGenerateResponse :md5sum-) "6a3016ec943c4b1e9b46a9b5305c9cf6")
+(setf (get gpt_server::GPTGenerateResponse :md5sum-) "23074dbdb11e5f7b63cfdeb8e3a318fc")
 (setf (get gpt_server::GPTGenerateResponse :datatype-) "gpt_server/GPTGenerateResponse")
 (setf (get gpt_server::GPTGenerateResponse :definition-)
       "string request
 string initialEmotion
 string finalEmotion
-bool manual_mode
-bool is_question
 ---
 string response
-
 ")
 
 
 
-(provide :gpt_server/GPTGenerate "6a3016ec943c4b1e9b46a9b5305c9cf6")
+(provide :gpt_server/GPTGenerate "23074dbdb11e5f7b63cfdeb8e3a318fc")
 
 

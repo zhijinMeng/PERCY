@@ -2,22 +2,25 @@
 import rospy
 import time
 from std_msgs.msg import Bool
-# from audio_video_writter_class import *
-# import audio_video_writter_class
 from audio_common_msgs.msg import AudioData
 from sensor_msgs.msg import Image
 import message_filters
 import cv2
 from cv_bridge import CvBridge
 import sys
-sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
-from audio_video_writter_class import FrameWriter
-from openai import OpenAI
-import os 
+import os
 import json
 import wave
 import shutil
-# define the openai api key, which is for OpenAI API verfication
+from openai import OpenAI
+from std_msgs.msg import String
+
+
+# Add the directory containing pickle_test.py to the Python path
+sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
+
+from audio_video_writter_class import FrameWriter
+from pickle_test import VoiceVerification  # Import the voice verification class
 client = OpenAI(api_key="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")
 
 AUDIO_RATE = 16000
@@ -40,6 +43,11 @@ class Node:
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
         self.audio_video_writer = FrameWriter()
+        print(self.audio_video_writer)
+        if self.audio_video_writer:
+            rospy.logwarn("Created")
+        else:
+            rospy.logwarn("Nothing, you are fucked up")
 
         
         self.SAMPLE_RATE = 16000
@@ -50,7 +58,7 @@ class Node:
         self.buffer_appended = False
         # init buffer
         self.buffer = b''
-        # reccive data for buffer
+        # reccive data for buffer/head_front_camera/color/image_raw
         self.buffer_writter = rospy.Subscriber('/audio/channel0', AudioData, self.set_buffer)
         self.buffer_duration = 3 # here we define the buffer duration 
         self.buffer_size = self.buffer_duration * self.SAMPLE_RATE # 3 seconds of audio as buffer
@@ -96,6 +104,9 @@ class Node:
         self.start_time_image = rospy.Time.now()  # Record the start time
         rospy.loginfo("video starts at: %s", self.start_time_image)
 
+        self.screen_pub = rospy.Publisher('screen_flag_display',Bool, queue_size=10)
+
+
 
 
     def create_folder(self,folder_path):
@@ -122,6 +133,7 @@ class Node:
                 if lasting_time >= self.sentence_gap: # here we define 
                     self.is_speaking = False
                     self.startTime = currentTime
+            self.screen_pub.publish(self.is_speaking)
             rate.sleep()
 
     def record_callback_audio(self, audio_data: AudioData):

@@ -231,9 +231,10 @@ def get_predict_result(one_path_mp4, one_path_wav, one_path_text, tokenizer, mod
 
   result_dict = {'prob_dist':str(prob_dist), 'pred_index':str(index), 'pred_name':name}
   # 改成json字符串
-  str_json = json.dumps(result_dict)
+#   str_json = json.dumps(result_dict)
+  return name
 
-  return str_json
+#   return str_json
 
 
 class emotion_recognizer:

@@ -26,16 +26,12 @@ struct GPTGenerateRequest_
   GPTGenerateRequest_()
     : request()
     , initialEmotion()
-    , finalEmotion()
-    , manual_mode(false)
-    , is_question(false)  {
+    , finalEmotion()  {
     }
   GPTGenerateRequest_(const ContainerAllocator& _alloc)
     : request(_alloc)
     , initialEmotion(_alloc)
-    , finalEmotion(_alloc)
-    , manual_mode(false)
-    , is_question(false)  {
+    , finalEmotion(_alloc)  {
   (void)_alloc;
     }
 
@@ -49,12 +45,6 @@ struct GPTGenerateRequest_
 
    typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _finalEmotion_type;
   _finalEmotion_type finalEmotion;
-
-   typedef uint8_t _manual_mode_type;
-  _manual_mode_type manual_mode;
-
-   typedef uint8_t _is_question_type;
-  _is_question_type is_question;
 
 
 
@@ -87,9 +77,7 @@ bool operator==(const ::gpt_server::GPTGenerateRequest_<ContainerAllocator1> & l
 {
   return lhs.request == rhs.request &&
     lhs.initialEmotion == rhs.initialEmotion &&
-    lhs.finalEmotion == rhs.finalEmotion &&
-    lhs.manual_mode == rhs.manual_mode &&
-    lhs.is_question == rhs.is_question;
+    lhs.finalEmotion == rhs.finalEmotion;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -146,12 +134,12 @@ struct MD5Sum< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "e5b277fc72b6d2919614566329f615d6";
+    return "977d7afd53a96949311a6417ee08cfe0";
   }
 
   static const char* value(const ::gpt_server::GPTGenerateRequest_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xe5b277fc72b6d291ULL;
-  static const uint64_t static_value2 = 0x9614566329f615d6ULL;
+  static const uint64_t static_value1 = 0x977d7afd53a96949ULL;
+  static const uint64_t static_value2 = 0x311a6417ee08cfe0ULL;
 };
 
 template<class ContainerAllocator>
@@ -173,8 +161,6 @@ struct Definition< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
     return "string request\n"
 "string initialEmotion\n"
 "string finalEmotion\n"
-"bool manual_mode\n"
-"bool is_question\n"
 ;
   }
 
@@ -196,8 +182,6 @@ namespace serialization
       stream.next(m.request);
       stream.next(m.initialEmotion);
       stream.next(m.finalEmotion);
-      stream.next(m.manual_mode);
-      stream.next(m.is_question);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -222,10 +206,6 @@ struct Printer< ::gpt_server::GPTGenerateRequest_<ContainerAllocator> >
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.initialEmotion);
     s << indent << "finalEmotion: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.finalEmotion);
-    s << indent << "manual_mode: ";
-    Printer<uint8_t>::stream(s, indent + "  ", v.manual_mode);
-    s << indent << "is_question: ";
-    Printer<uint8_t>::stream(s, indent + "  ", v.is_question);
   }
 };
 

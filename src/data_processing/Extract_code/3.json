@@ -2,111 +2,91 @@
     [
         {
             "role": "system",
-            "content": "What is your favorite movie or TV show genre?"
+            "content": "What are your favorite movies or TV show genres? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Action"
+            "content": "Sci-fi"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What kind of music do you enjoy listening to the most?"
+            "content": "What kind of music do you enjoy listening to the most? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Rock"
+            "content": "Rap"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What kind of  games do you enjoy the most?"
+            "content": "What kind of  games do you enjoy the most? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Video games"
+            "content": "Strategy games"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is your favorite food?"
+            "content": "What is your favorite food? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Mediterranean cuisine"
+            "content": "Asian cuisine"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is your recent area of focus or goal?"
+            "content": "What is your proudest personal achievements to date? (Single Choice)"
         },
         {
             "role": "user",
-            "content": "Financial stability and wealth accumulation"
+            "content": "Graduating from school or university"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is your proudest personal achievements to date?"
+            "content": "Can you share any significant challenge you have faced currently? (Single Choice)"
         },
         {
             "role": "user",
-            "content": "Completing a challenging project or task that pushed your limits and resulted in successful outcomes."
+            "content": "Overcoming insecurities"
         }
     ],
     [
         {
             "role": "system",
-            "content": "Can you share any significant challenges you have faced?"
+            "content": "How would you describe your personality in a few words? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Health-related obstacles"
+            "content": "Outgoing,Optimistic,Adventurous"
         }
     ],
     [
         {
             "role": "system",
-            "content": "How would you describe your personality in a few words?"
+            "content": "What is something you strongly dislike or hate? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Creative"
+            "content": "Betrayal"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is something you strongly dislike or hate?"
+            "content": "What type of weather do you enjoy the most? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Dishonesty"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "What type of weather do you enjoy the most?"
-        },
-        {
-            "role": "user",
-            "content": "Sunny"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "Are there any additional comments you have?"
-        },
-        {
-            "role": "user",
-            "content": "good"
+            "content": "Breezy"
         }
     ]
 ]

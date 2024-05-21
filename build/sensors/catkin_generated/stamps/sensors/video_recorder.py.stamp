@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 import rospy
 import cv2
@@ -29,7 +29,7 @@ class ImageSaver:
     def run(self):
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         # self.output_path = "/home/ubuntu/pt0/src/DATA/"+str(self.output_path)+'.mp4'
-        self.video_writer = cv2.VideoWriter(self.output_path, fourcc, 3.0, (640, 480))
+        self.video_writer = cv2.VideoWriter(self.output_path, fourcc, 30.0, (640, 480))
 
         rospy.spin()
 

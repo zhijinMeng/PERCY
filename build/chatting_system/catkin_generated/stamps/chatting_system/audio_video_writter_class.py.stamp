@@ -12,8 +12,8 @@ from pickle_test import VoiceVerification # import the voice verification class
 from gpt_server.srv import GPTGenerate, GPTGenerateResponse, GPTGenerateRequest  # Import GPT service definition
 from actionlib import SimpleActionClient
 from pal_interaction_msgs.msg import TtsAction, TtsGoal
-
-
+from emotion_server.srv import EmotionGenerate, EmotionGenerateResponse, EmotionGenerateRequest
+from hri_msgs.msg import Expression
 
 AUDIO_RATE = 16000
 AUDIO_CHANNELS = 1
@@ -47,29 +47,42 @@ class FrameWriter:
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
 
+        # connect to the emotion server
+        print('Waiting for Emotion server to be availale')
+        self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
+        self.emotionServer.wait_for_service()
+        print('Successfully connected to /emotion_generate')
 
-    def set_path(self, path):
+        self.response = ''
+
+
+        # robot expression
+        self.robot_emotion_pub = rospy.Publisher('/robot_face/expression', Expression, queue_size=10)
+
+
+    def set_path(self, path,particpant_folder_path):
         if self.is_recording:
             self.close()
         # self.wf = wave.open(f"{path}{self.counter}.wav", 'wb') # path of audio 
         self.output_path = f"{path}/{self.counter}.mp4"
+        print(self.output_path)
         # update audio/video names to check if it is recording
         self.audio_name = f"{path}/{self.counter}.wav"
         self.video_name = f"{path}/{self.counter}.mp4"
         self.txt_name = f"{path}/{self.counter}.txt"
-        self.mfcc_wav_name = f"{path}/mfcc.wav"
+        self.mfcc_wav_name = f"{particpant_folder_path}/mfcc.wav"
         self.pkl_path = f'{path}/user.pkl'
         print(self.mfcc_wav_name)
         self.video_writer = cv2.VideoWriter(self.output_path, self.fourcc, 30.0, (640, 480)) # path to video
         self.is_recording = True
         # enroll the user
+
         if not self.is_enrolled:
             self.voice_verification.enroll_new_user('user', self.mfcc_wav_name, self.pkl_path)
             self.is_enrolled = True
             print('user enrolled')
         rospy.logwarn(f"Recording to {path}")
     
-
     def write_frame_audio(self, data: AudioData):
         if self.wf is None:
             
@@ -92,39 +105,6 @@ class FrameWriter:
         
         self.video_writer.write(data)
         
-    def close(self):
-        if self.wf is not None:
-            self.is_recording = False
-            rospy.logwarn(f"Audio Saved to {self.audio_name}")
-            self.wf.close()
-        else:
-            print("No path set, cannot close audio file")
-        if self.video_writer is not None:
-            rospy.sleep(1)
-            self.video_writer.release()
-            rospy.logwarn(f"Video Saved to {self.video_name}")
-            self.video_writer = None
-        else:
-            print("No path set, cannot close video file")
-        self.counter += 1
-        # reset the buffer and buffer_appended, ready for next sentence
-        self.buffer_appended=False
-        self.buffer = b''
-        # 1. call whisper to generate the txt file
-        self.whisper_translate(self.audio_name,self.txt_name)
-        # 2. tell the voice_verification, if humnan then call emotion server and chatgpt
-        score = self.voice_verification.verify_user('user', self.audio_name)
-        print(score)
-        if score > 0.7:
-            print('Human detected')
-            # 3. call the emotion analysis and chatgpt
-        else:
-            print('Not human detected')
-        # 3. call the emotion analysis and chatgpt
-
-        print ('---------------------------------------------------------------------------------')
-        return 
-
     def get_is_recording(self):
         return self.is_recording
     
@@ -144,5 +124,95 @@ class FrameWriter:
             print(f'Saved transcription as txt file: {txt_file}')
         # set the flag to get text
         print(transcription.text)
+        return transcription.text
+
+    # here we define write_frame_videothe function to call the GPT server to generate the response
+    def GPTgenerate(self,transcription):
+        # transcription = []
+        # with open(txt_file, "r") as file:
+        #     transcription = file.read() # read the transcription from the txt file as the input for GPT server
+        request = GPTGenerateRequest()
+        request.request = transcription
+        request.initialEmotion = self.emotion # here to pass the emotion
+        request.finalEmotion = 'happy' # here to pass the emotion
+        # we get the response here
+        response: GPTGenerateResponse = self.gptServer(request)
+        output = response.response
+        # publish the output to /tts
+        goal = TtsGoal()
+        goal.rawtext.lang_id = 'en_GB'
+        goal.rawtext.text = output
+        self.tts.send_goal(goal)
+        print(f'Generated response: {output}')
+        return output
+
+
+    def close(self):
+        if self.wf is not None:
+            self.is_recording = False
+            rospy.logwarn(f"Audio Saved to {self.audio_name}")
+            self.wf.close()
+        else:
+            print("No path set, cannot close audio file")
+        if self.video_writer is not None:
+            rospy.sleep(1)
+            self.video_writer.release()
+            rospy.logwarn(f"Video Saved to {self.video_name}")
+            self.video_writer = None
+        else:
+            print("No path set, cannot close video file")
+        self.counter += 1
+        # reset the buffer and buffer_appended, ready for next sentence
+        self.buffer_appended=False
+        self.buffer = b''
+        # 1. call whisper to generate the txt file
+        transcription = self.whisper_translate(self.audio_name,self.txt_name)
+        # 2. get the emotion state
+     
+        print(self.video_name, self.audio_name, self.txt_name)
+        request = EmotionGenerateRequest()
+        request.videoPath = self.video_name
+        request.wavPath = self.audio_name
+        request.textPath = self.txt_name
+        emotionResponse: EmotionGenerateResponse
+        emotionResponse = self.emotionServer(request)
+        self.emotion = emotionResponse.response
+
+        # PUBlish the emotion tho the robot eye experssion server
+        # self.emotion = 'happy'
+        self.robot_expression_emotion = "happy"
+        if self.emotion == 'neutral' or self.emotion == 'joy':
+            self.robot_expression_emotion = "happy"
+        elif self.emotion == 'anger' or self.emotion == 'sadness':
+            self.robot_expression_emotion = "sad"
+        elif self.emotion == 'suprise':
+            self.robot_expression_emotion = "amazed"
+        msg = Expression()
+        msg.expression = self.robot_expression_emotion
+        self.robot_emotion_pub.publish(msg)
+
+     
+
+        # 2. tell the voice_verification, if humnan then call emotion server and chatgpt
+        score = self.voice_verification.verify_user('user', self.audio_name)
+        print(score)
+        if score <0.85:
+            print('Human detected')
+            self.response = self.GPTgenerate(transcription)
+            is_human = True
+            return transcription, self.emotion, is_human
+            # 3. call the emotion analysis and chatgpt
+        else:
+            print('Not human detected')
+            
+        
+
+        print ('---------------------------------------------------------------------------------')
+        is_human = False
+        return self.response, self.emotion, is_human
+
+
+
+        
 
  

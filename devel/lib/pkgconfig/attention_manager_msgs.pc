@@ -1,0 +1,8 @@
+prefix=/home/robocupathome/workspace/eddy_code/devel
+
+Name: attention_manager_msgs
+Description: Description of attention_manager_msgs
+Version: 0.3.3
+Cflags: -I/home/robocupathome/workspace/eddy_code/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

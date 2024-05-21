@@ -242,76 +242,6 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make msg_folder/hri_actions_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 msg_folder/hri_actions_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /home/robocupathome/workspace/eddy_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 msg_folder/hri_actions_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : msg_folder/hri_actions_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -1019,11 +949,6 @@ help:
 	@echo "... hri_actions_msgs_genlisp"
 	@echo "... hri_actions_msgs_gennodejs"
 	@echo "... hri_actions_msgs_genpy"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_py"
 .PHONY : help
 
 

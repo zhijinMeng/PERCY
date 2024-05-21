@@ -49,12 +49,12 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg" "pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/ASRLangModelMngmt:pal_interaction_msgs/ASRActivation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg" "pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/ASRLangModelMngmt"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg" "pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg" "pal_interaction_msgs/ASRStatus:pal_interaction_msgs/AudioDeviceDescription"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg" NAME_WE)
@@ -139,22 +139,22 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" "pal_interaction_msgs/ASRFileActionGoal:pal_interaction_msgs/asrresult:std_msgs/Header:pal_interaction_msgs/ASRFileActionResult:actionlib_msgs/GoalStatus:pal_interaction_msgs/ASRFileFeedback:pal_interaction_msgs/ASRFileActionFeedback:pal_interaction_msgs/ASRFileGoal:pal_interaction_msgs/actiontag:pal_interaction_msgs/ASRFileResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/ASRFileActionFeedback:pal_interaction_msgs/asrresult:pal_interaction_msgs/ASRFileResult:pal_interaction_msgs/ASRFileFeedback:pal_interaction_msgs/actiontag:std_msgs/Header:pal_interaction_msgs/ASRFileGoal:pal_interaction_msgs/ASRFileActionGoal:actionlib_msgs/GoalStatus:pal_interaction_msgs/ASRFileActionResult"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/ASRFileGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/ASRFileGoal"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" "pal_interaction_msgs/asrresult:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/actiontag:pal_interaction_msgs/ASRFileResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/asrresult:pal_interaction_msgs/ASRFileResult:pal_interaction_msgs/actiontag:std_msgs/Header:actionlib_msgs/GoalStatus"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" "pal_interaction_msgs/asrresult:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/ASRFileFeedback:pal_interaction_msgs/actiontag:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/ASRFileFeedback:pal_interaction_msgs/asrresult:pal_interaction_msgs/actiontag:std_msgs/Header:actionlib_msgs/GoalStatus"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg" NAME_WE)
@@ -174,22 +174,22 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" "pal_interaction_msgs/AudioPlayGoal:pal_interaction_msgs/AudioPlayResult:pal_interaction_msgs/AudioPlayFeedback:std_msgs/Header:pal_interaction_msgs/AudioPlayActionGoal:actionlib_msgs/GoalStatus:pal_interaction_msgs/AudioPlayActionFeedback:pal_interaction_msgs/AudioPlayActionResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/AudioPlayGoal:pal_interaction_msgs/AudioPlayActionGoal:pal_interaction_msgs/AudioPlayActionFeedback:pal_interaction_msgs/AudioPlayResult:std_msgs/Header:pal_interaction_msgs/AudioPlayFeedback:pal_interaction_msgs/AudioPlayActionResult:actionlib_msgs/GoalStatus"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_interaction_msgs/AudioPlayGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayGoal"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" "pal_interaction_msgs/AudioPlayResult:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/AudioPlayResult"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" "pal_interaction_msgs/AudioPlayFeedback:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/AudioPlayFeedback:actionlib_msgs/GoalStatus"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg" NAME_WE)
@@ -209,22 +209,22 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg" "pal_interaction_msgs/SoundGoal:pal_interaction_msgs/SoundActionFeedback:pal_interaction_msgs/SoundFeedback:pal_interaction_msgs/SoundActionResult:pal_interaction_msgs/SoundActionGoal:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_interaction_msgs/SoundResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/SoundFeedback:actionlib_msgs/GoalStatus:std_msgs/Header:pal_interaction_msgs/SoundResult:pal_interaction_msgs/SoundActionResult:pal_interaction_msgs/SoundActionFeedback:pal_interaction_msgs/SoundActionGoal:pal_interaction_msgs/SoundGoal"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" "pal_interaction_msgs/SoundGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:pal_interaction_msgs/SoundGoal"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_interaction_msgs/SoundResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/SoundResult"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" "pal_interaction_msgs/SoundFeedback:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/SoundFeedback"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg" NAME_WE)
@@ -244,22 +244,22 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg" "pal_interaction_msgs/TtsResult:pal_interaction_msgs/TtsMark:pal_interaction_msgs/I18nArgument:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/TtsActionFeedback:pal_interaction_msgs/TtsActionGoal:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsActionResult:pal_interaction_msgs/TtsText:pal_interaction_msgs/TtsFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/TtsMark:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/TtsResult:pal_interaction_msgs/TtsFeedback:pal_interaction_msgs/I18nText:actionlib_msgs/GoalStatus:pal_interaction_msgs/I18nArgument:std_msgs/Header:pal_interaction_msgs/TtsActionResult:pal_interaction_msgs/TtsActionGoal:pal_interaction_msgs/TtsActionFeedback:pal_interaction_msgs/TtsText"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" "pal_interaction_msgs/I18nArgument:std_msgs/Header:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsText:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nText:pal_interaction_msgs/I18nArgument:std_msgs/Header:pal_interaction_msgs/TtsText"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg" "pal_interaction_msgs/TtsResult:std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg" "actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/TtsResult"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" "pal_interaction_msgs/TtsMark:std_msgs/Header:actionlib_msgs/GoalStatus:pal_interaction_msgs/TtsFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg" "actionlib_msgs/GoalID:pal_interaction_msgs/TtsMark:std_msgs/Header:pal_interaction_msgs/TtsFeedback:actionlib_msgs/GoalStatus"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg" NAME_WE)
@@ -279,7 +279,7 @@ add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" NAME_WE)
 add_custom_target(_pal_interaction_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" "pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/ASRLangModelMngmt:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/AudioDeviceDescription"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_interaction_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv" "pal_interaction_msgs/ASRSrvRequest:pal_interaction_msgs/ASRStatus:pal_interaction_msgs/ASRSrvResponse:pal_interaction_msgs/ASRActivation:pal_interaction_msgs/ASRLanguage:pal_interaction_msgs/AudioDeviceDescription:pal_interaction_msgs/ASRLangModelMngmt"
 )
 
 get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv" NAME_WE)
@@ -342,13 +342,13 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -450,25 +450,25 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -492,25 +492,25 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -534,25 +534,25 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -576,25 +576,25 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_cpp(pal_interaction_msgs
@@ -620,7 +620,7 @@ _generate_msg_cpp(pal_interaction_msgs
 _generate_srv_cpp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_cpp(pal_interaction_msgs
@@ -815,13 +815,13 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -923,25 +923,25 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -965,25 +965,25 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1007,25 +1007,25 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1049,25 +1049,25 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_eus(pal_interaction_msgs
@@ -1093,7 +1093,7 @@ _generate_msg_eus(pal_interaction_msgs
 _generate_srv_eus(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_eus(pal_interaction_msgs
@@ -1288,13 +1288,13 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1396,25 +1396,25 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1438,25 +1438,25 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1480,25 +1480,25 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1522,25 +1522,25 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_lisp(pal_interaction_msgs
@@ -1566,7 +1566,7 @@ _generate_msg_lisp(pal_interaction_msgs
 _generate_srv_lisp(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_lisp(pal_interaction_msgs
@@ -1761,13 +1761,13 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1869,25 +1869,25 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1911,25 +1911,25 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1953,25 +1953,25 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -1995,25 +1995,25 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_nodejs(pal_interaction_msgs
@@ -2039,7 +2039,7 @@ _generate_msg_nodejs(pal_interaction_msgs
 _generate_srv_nodejs(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_nodejs(pal_interaction_msgs
@@ -2234,13 +2234,13 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2342,25 +2342,25 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2384,25 +2384,25 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2426,25 +2426,25 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2468,25 +2468,25 @@ _generate_msg_py(pal_interaction_msgs
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_msg_py(pal_interaction_msgs
@@ -2512,7 +2512,7 @@ _generate_msg_py(pal_interaction_msgs
 _generate_srv_py(pal_interaction_msgs
   "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg"
+  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_interaction_msgs
 )
 _generate_srv_py(pal_interaction_msgs

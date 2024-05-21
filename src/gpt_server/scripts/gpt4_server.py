@@ -8,6 +8,9 @@ import pandas as pd
 import sys
 import os 
 import random
+from std_msgs.msg import String
+
+
 class GPT:
     """
     ChatGPT server class.
@@ -40,6 +43,8 @@ class GPT:
         self.profile =""
         with open(json_file_path, "r") as json_file:
             self.profile = json.load(json_file)
+
+        self.screen_pub = rospy.Publisher('dialogue_robot',String, queue_size=10)
 
 
     def set_topic_flag(self,event=None):
@@ -89,6 +94,9 @@ class GPT:
         # append to the chat history
         self.append_to_json(response_to_append, self.history_file_path)
         print(self.messages)
+        display_response = f'Role: Robot, Content: {response}'
+        self.screen_pub.publish(display_response)
+        
         return response
    
     def get_openai_response(self, messages):
@@ -137,7 +145,7 @@ class GPT:
                 question = pair[0]['content']
                 answer = pair[1]['content']
                 if (question, answer) not in self.printed_pairs:
-                    print("Question:", question)
+                    print("Question:", question) 
                     print("Answer:", answer)
                     print()
                     self.printed_pairs.add((question, answer))
