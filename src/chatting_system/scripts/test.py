@@ -15,6 +15,12 @@ import shutil
 from openai import OpenAI
 from std_msgs.msg import String
 
+from attention_manager.srv import SetPolicy, SetPolicyRequest
+from std_srvs.srv import Empty
+from hri_msgs.msg import Expression
+
+from sensor_msgs.msg import Image
+from sensor_msgs.msg import CompressedImage
 
 # Add the directory containing pickle_test.py to the Python path
 sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
@@ -36,14 +42,18 @@ class Node:
         self.is_speaking = False
         self.startTime = time.time()
         self.bridge = CvBridge()
+        self.depth_bridge = CvBridge()
+        self.thermal_bridge = CvBridge()
       
         self.audio_inComing = False
 
         # here we subscribe to the audio and video topics
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
+        # self.depth_writter = rospy.Subscriber('/head_front_camera/depth/image_rect_raw', Image, self.record_callback_depth_video)
+        # self.thermal_writter = rospy.Subscriber('/teraranger_evo_thermal/rgb_image', Image, self.record_callback_thermal_video)
         self.audio_video_writer = FrameWriter()
-        print(self.audio_video_writer)
+        # print(self.audio_video_writer)
         if self.audio_video_writer:
             rospy.logwarn("Created")
         else:
@@ -105,6 +115,28 @@ class Node:
         rospy.loginfo("video starts at: %s", self.start_time_image)
 
         self.screen_pub = rospy.Publisher('screen_flag_display',Bool, queue_size=10)
+
+
+        
+        # print('Waiting for reset_gaze')
+        # rospy.wait_for_service('/gaze_manager/reset_gaze')
+        # gaze_reset = rospy.ServiceProxy('/gaze_manager/reset_gaze', Empty)
+
+        # gaze_reset()
+
+        print('Waiting for attention manager')
+        rospy.wait_for_service('attention_manager/set_policy')
+        policy = rospy.ServiceProxy('attention_manager/set_policy', SetPolicy)
+        p = SetPolicyRequest()
+        p.policy = SetPolicyRequest.DISABLED
+        policy(p)
+
+        print('Changing Robot eye to neutral')
+        self.eyePub = rospy.Publisher('/robot_face/expression', Expression, queue_size=10)
+        e = Expression()
+        e.expression = e.NEUTRAL
+        self.eyePub.publish(e)
+
 
 
 
@@ -189,12 +221,35 @@ class Node:
             
 
     def record_callback_video(self, image_data: Image):
+        # print('Video callback')
         cv_image = self.bridge.imgmsg_to_cv2(image_data, "bgr8")
         if self.audio_video_writer.get_is_recording():
             self.audio_video_writer.write_frame_video(cv_image)
+        # else:
+            # print('callback false')
 
 
-    # set buffer_related functions for audio_video_writer_class
+    def record_callback_depth_video(self,msg):
+    
+        # Convert ROS message to OpenCV image
+        depth_image = self.depth_bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
+
+        # Process the depth image (e.g., visualize, filter, etc.)
+
+        # Save the depth image as a video frame
+        self.depth_video_writer.write_frame_video(depth_image)
+
+    def record_callback_thermal_video(self,msg):
+    
+        # Convert ROS message to OpenCV image
+        thermal_image = self.thermal_bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
+
+        # Process the depth image (e.g., visualize, filter, etc.)
+
+        # Save the depth image as a video frame
+        self.thermal_video_writer.write_frame_video(thermal_image)
+
+# set buffer_related functions for audio_video_writer_class
     def set_buffer(self, data):
         # Convert the array of uint8 to bytes
         audio_bytes = bytes(data.data)
@@ -240,11 +295,11 @@ class Node:
             rospy.logerr(e)
             return
 
+        if self.video_writer is not None:
+            self.video_writer.write(cv_image)
         cv2.imshow('Camera Feed', cv_image)
         cv2.waitKey(1)
 
-        if self.video_writer is not None:
-            self.video_writer.write(cv_image)
 
     def on_exit(self):
         rospy.loginfo("ROS terminated. Recording finished.")
@@ -258,6 +313,7 @@ class Node:
 
 
         start_time_sec_audio = self.start_time_audio.to_sec()
+        
         time_difference_sec_audio = end_time_sec - start_time_sec_audio
         rospy.loginfo("Time difference for image is: %.2f seconds", time_difference_sec_image)
         rospy.loginfo("Time difference for wav is: %.2f seconds", time_difference_sec_audio)
@@ -266,9 +322,15 @@ class Node:
             self.audio_file.close()
         if self.video_writer is not None:
             self.video_writer.release()
+            self.depth_video_writer.release()
+            self.thermal_video_writer.release()
 
     def run(self):
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.depth_fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.thermal_fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.depth_video_writer = cv2.VideoWriter(os.path.join(self.participant_folder_path, 'depth_video.mp4'), self.depth_fourcc, 6.0, (640, 480))
+        self.thermal_video_writer = cv2.VideoWriter(os.path.join(self.participant_folder_path, 'thermal_video.mp4'), self.thermal_fourcc, 7.5, (640, 480))
         self.video_writer = cv2.VideoWriter(self.video_output_path, fourcc, 30.0, (640, 480))
         rospy.on_shutdown(self.on_exit)
         rospy.spin()

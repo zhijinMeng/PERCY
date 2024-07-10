@@ -35,6 +35,10 @@ class FrameWriter:
         self.txt_name = 'test'
         self.voice_verification = VoiceVerification() # init the voice verificator
         self.is_enrolled = False
+        #subcribe to live detected emotion
+        # self.emotiondetection_realtime = rospy.Subscriber('emotiondetect_result', String, self.emotion_result_callback)
+        self.realtime_emotion = "neutral"
+        self.emotion = "neutral"
 
         # here we init the connection with gpt_server
         print('Waiting for GPT server to be availale')
@@ -48,14 +52,15 @@ class FrameWriter:
         self.tts.wait_for_server()
 
         # connect to the emotion server
-        print('Waiting for Emotion server to be availale')
-        self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
-        self.emotionServer.wait_for_service()
-        print('Successfully connected to /emotion_generate')
-        self.response = ''
+        # print('Waiting for Emotion server to be availale')
+        # self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
+        # self.emotionServer.wait_for_service()
+        # print('Successfully connected to /emotion_generate')
+        # self.response = ''
 
         # Publish to the Screen Display
         self.screen_pub = rospy.Publisher('dialogue',String, queue_size=10)
+    
 
 
     def set_path(self, path,particpant_folder_path):
@@ -172,9 +177,9 @@ class FrameWriter:
         request.videoPath = self.video_name
         request.wavPath = self.audio_name
         request.textPath = self.txt_name
-        emotionResponse: EmotionGenerateResponse
-        emotionResponse = self.emotionServer(request)
-        self.emotion = emotionResponse.response
+        # emotionResponse: EmotionGenerateResponse
+        # emotionResponse = self.emotionServer(request)
+        # self.emotion = emotionResponse.response
         # 2. tell the voice_verification, if humnan then call emotion server and chatgpt
         score = self.voice_verification.verify_user('user', self.audio_name)
         print(score)
