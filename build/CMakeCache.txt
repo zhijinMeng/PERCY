@@ -20,6 +20,14 @@ BUILD_GMOCK:BOOL=ON
 //Build dynamically-linked binaries
 BUILD_SHARED_LIBS:BOOL=ON
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/usr/include
+
+Boost_THREAD_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
@@ -395,6 +403,9 @@ UBUNTU:BOOL=TRUE
 UBUNTU_FOCAL:BOOL=TRUE
 
 //Path to a file.
+_file_name:FILEPATH=/home/robocupathome/workspace/eddy_code/src/msg_folder/play_motion/play_motion/test/play_motion_helpers.test
+
+//Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
 
 //Path to a file.
@@ -421,14 +432,14 @@ attention_manager_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 attention_manager_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/attention_manager
 
-//Value Computed by CMake
-attention_manager_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/attention_manager
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0
 
-//Value Computed by CMake
-attention_manager_msgs_IS_TOP_LEVEL:STATIC=OFF
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0
 
-//Value Computed by CMake
-attention_manager_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/attention_manager
+//The directory containing a CMake configuration file for boost_thread.
+boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
@@ -442,8 +453,44 @@ chatting_system_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 chatting_system_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/chatting_system
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for control_msgs.
+control_msgs_DIR:PATH=/opt/ros/noetic/share/control_msgs/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/noetic/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for controller_manager.
+controller_manager_DIR:PATH=/opt/ros/noetic/share/controller_manager/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/noetic/share/controller_manager_msgs/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/noetic/share/diagnostic_msgs/cmake
+
+//The directory containing a CMake configuration file for diagnostic_updater.
+diagnostic_updater_DIR:PATH=/opt/ros/noetic/share/diagnostic_updater/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/noetic/share/dynamic_reconfigure/cmake
+
+//The directory containing a CMake configuration file for eigen_stl_containers.
+eigen_stl_containers_DIR:PATH=/opt/ros/noetic/share/eigen_stl_containers/cmake
+
+//Value Computed by CMake
+emotion_model_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/emotion_model
+
+//Value Computed by CMake
+emotion_model_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+emotion_model_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/emotion_model
 
 //Value Computed by CMake
 emotion_server_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/emotion_server
@@ -471,6 +518,9 @@ gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
 
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometric_shapes.
+geometric_shapes_DIR:PATH=/opt/ros/noetic/share/geometric_shapes/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
@@ -548,6 +598,9 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/noetic/share/hardware_interface/cmake
+
 //Value Computed by CMake
 hri_actions_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/hri_actions_msgs
 
@@ -578,8 +631,14 @@ humanoid_nav_msgs_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 humanoid_nav_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs
 
+//The directory containing a CMake configuration file for kdl_parser.
+kdl_parser_DIR:PATH=/opt/ros/noetic/share/kdl_parser/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
+lib:FILEPATH=/opt/ros/noetic/lib/libcontroller_manager.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
@@ -587,17 +646,38 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
-//Value Computed by CMake
-model_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/model
+//The directory containing a CMake configuration file for moveit_core.
+moveit_core_DIR:PATH=/opt/ros/noetic/share/moveit_core/cmake
 
-//Value Computed by CMake
-model_IS_TOP_LEVEL:STATIC=OFF
+//The directory containing a CMake configuration file for moveit_msgs.
+moveit_msgs_DIR:PATH=/opt/ros/noetic/share/moveit_msgs/cmake
 
-//Value Computed by CMake
-model_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/model
+//The directory containing a CMake configuration file for moveit_ros_manipulation.
+moveit_ros_manipulation_DIR:PATH=/opt/ros/noetic/share/moveit_ros_manipulation/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_move_group.
+moveit_ros_move_group_DIR:PATH=/opt/ros/noetic/share/moveit_ros_move_group/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_occupancy_map_monitor.
+moveit_ros_occupancy_map_monitor_DIR:PATH=/opt/ros/noetic/share/moveit_ros_occupancy_map_monitor/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_planning.
+moveit_ros_planning_DIR:PATH=/opt/ros/noetic/share/moveit_ros_planning/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_planning_interface.
+moveit_ros_planning_interface_DIR:PATH=/opt/ros/noetic/share/moveit_ros_planning_interface/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_warehouse.
+moveit_ros_warehouse_DIR:PATH=/opt/ros/noetic/share/moveit_ros_warehouse/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for object_recognition_msgs.
+object_recognition_msgs_DIR:PATH=/opt/ros/noetic/share/object_recognition_msgs/cmake
+
+//The directory containing a CMake configuration file for octomap_msgs.
+octomap_msgs_DIR:PATH=/opt/ros/noetic/share/octomap_msgs/cmake
 
 //Value Computed by CMake
 pal_behaviour_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_behaviour_msgs
@@ -764,8 +844,41 @@ pal_wifi_localization_msgs_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 pal_wifi_localization_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_wifi_localization_msgs
 
+//Value Computed by CMake
+play_motion_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/play_motion/play_motion
+
+//Value Computed by CMake
+play_motion_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+play_motion_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/play_motion/play_motion
+
+//Dependencies for the target
+play_motion_helpers_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libmoveit_common_planning_interface_objects.so;general;/opt/ros/noetic/lib/libmoveit_planning_scene_interface.so;general;/opt/ros/noetic/lib/libmoveit_move_group_interface.so;general;/opt/ros/noetic/lib/libmoveit_py_bindings_tools.so;general;/opt/ros/noetic/lib/libmoveit_warehouse.so;general;/opt/ros/noetic/lib/libwarehouse_ros.so;general;/opt/ros/noetic/lib/libtf.so;general;/opt/ros/noetic/lib/libmoveit_pick_place_planner.so;general;/opt/ros/noetic/lib/libmoveit_move_group_capabilities_base.so;general;/opt/ros/noetic/lib/libmoveit_rdf_loader.so;general;/opt/ros/noetic/lib/libmoveit_kinematics_plugin_loader.so;general;/opt/ros/noetic/lib/libmoveit_robot_model_loader.so;general;/opt/ros/noetic/lib/libmoveit_constraint_sampler_manager_loader.so;general;/opt/ros/noetic/lib/libmoveit_planning_pipeline.so;general;/opt/ros/noetic/lib/libmoveit_trajectory_execution_manager.so;general;/opt/ros/noetic/lib/libmoveit_plan_execution.so;general;/opt/ros/noetic/lib/libmoveit_planning_scene_monitor.so;general;/opt/ros/noetic/lib/libmoveit_collision_plugin_loader.so;general;/opt/ros/noetic/lib/libmoveit_cpp.so;general;/opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/noetic/lib/libmoveit_ros_occupancy_map_monitor.so;general;/opt/ros/noetic/lib/libmoveit_exceptions.so;general;/opt/ros/noetic/lib/libmoveit_background_processing.so;general;/opt/ros/noetic/lib/libmoveit_kinematics_base.so;general;/opt/ros/noetic/lib/libmoveit_robot_model.so;general;/opt/ros/noetic/lib/libmoveit_transforms.so;general;/opt/ros/noetic/lib/libmoveit_robot_state.so;general;/opt/ros/noetic/lib/libmoveit_robot_trajectory.so;general;/opt/ros/noetic/lib/libmoveit_planning_interface.so;general;/opt/ros/noetic/lib/libmoveit_collision_detection.so;general;/opt/ros/noetic/lib/libmoveit_collision_detection_fcl.so;general;/opt/ros/noetic/lib/libmoveit_collision_detection_bullet.so;general;/opt/ros/noetic/lib/libmoveit_kinematic_constraints.so;general;/opt/ros/noetic/lib/libmoveit_planning_scene.so;general;/opt/ros/noetic/lib/libmoveit_constraint_samplers.so;general;/opt/ros/noetic/lib/libmoveit_planning_request_adapter.so;general;/opt/ros/noetic/lib/libmoveit_profiler.so;general;/opt/ros/noetic/lib/libmoveit_python_tools.so;general;/opt/ros/noetic/lib/libmoveit_trajectory_processing.so;general;/opt/ros/noetic/lib/libmoveit_distance_field.so;general;/opt/ros/noetic/lib/libmoveit_collision_distance_field.so;general;/opt/ros/noetic/lib/libmoveit_kinematics_metrics.so;general;/opt/ros/noetic/lib/libmoveit_dynamics_solver.so;general;/opt/ros/noetic/lib/libmoveit_utils.so;general;/opt/ros/noetic/lib/libmoveit_test_utils.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0;general;/opt/ros/noetic/lib/x86_64-linux-gnu/libfcl.so.0.6.1;general;/usr/lib/x86_64-linux-gnu/libccd.so;general;/usr/lib/x86_64-linux-gnu/libm.so;general;/opt/ros/noetic/lib/liboctomap.so.1.9.8;general;/opt/ros/noetic/lib/x86_64-linux-gnu/libruckig.so;general;/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so;general;/usr/lib/x86_64-linux-gnu/libBulletDynamics.so;general;/usr/lib/x86_64-linux-gnu/libBulletCollision.so;general;/usr/lib/x86_64-linux-gnu/libLinearMath.so;general;/opt/ros/noetic/lib/libkdl_parser.so;general;/opt/ros/noetic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/noetic/lib/librosconsole_bridge.so;general;/opt/ros/noetic/lib/libsrdfdom.so;general;/opt/ros/noetic/lib/libgeometric_shapes.so;general;/opt/ros/noetic/lib/liboctomap.so;general;/opt/ros/noetic/lib/liboctomath.so;general;/opt/ros/noetic/lib/librandom_numbers.so;general;/opt/ros/noetic/lib/libclass_loader.so;general;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/noetic/lib/libroslib.so;general;/opt/ros/noetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/usr/lib/liborocos-kdl.so;general;/usr/lib/liborocos-kdl.so;general;/opt/ros/noetic/lib/libtf2_ros.so;general;/opt/ros/noetic/lib/libactionlib.so;general;/opt/ros/noetic/lib/libmessage_filters.so;general;/opt/ros/noetic/lib/libtf2.so;general;/opt/ros/noetic/lib/libdiagnostic_updater.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
+
+//Value Computed by CMake
+play_motion_msgs_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/msg_folder/play_motion/play_motion_msgs
+
+//The directory containing a CMake configuration file for play_motion_msgs.
+play_motion_msgs_DIR:PATH=/home/robocupathome/workspace/eddy_code/devel/share/play_motion_msgs/cmake
+
+//Value Computed by CMake
+play_motion_msgs_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+play_motion_msgs_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/msg_folder/play_motion/play_motion_msgs
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for random_numbers.
+random_numbers_DIR:PATH=/opt/ros/noetic/share/random_numbers/cmake
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/noetic/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/noetic/share/roscpp/cmake
@@ -776,11 +889,23 @@ roscpp_serialization_DIR:PATH=/opt/ros/noetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/noetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/noetic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/noetic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/noetic/share/rospack/cmake
+
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/noetic/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
@@ -797,17 +922,50 @@ sensors_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 sensors_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/sensors
 
+//The directory containing a CMake configuration file for shape_msgs.
+shape_msgs_DIR:PATH=/opt/ros/noetic/share/shape_msgs/cmake
+
+//The directory containing a CMake configuration file for srdfdom.
+srdfdom_DIR:PATH=/opt/ros/noetic/share/srdfdom/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
-//Value Computed by CMake
-stt_BINARY_DIR:STATIC=/home/robocupathome/workspace/eddy_code/build/stt
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
 
-//Value Computed by CMake
-stt_IS_TOP_LEVEL:STATIC=OFF
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
 
-//Value Computed by CMake
-stt_SOURCE_DIR:STATIC=/home/robocupathome/workspace/eddy_code/src/stt
+//The directory containing a CMake configuration file for tf2_eigen.
+tf2_eigen_DIR:PATH=/opt/ros/noetic/share/tf2_eigen/cmake
+
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/noetic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/noetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/noetic/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/noetic/share/urdf/cmake
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/noetic/share/visualization_msgs/cmake
+
+//The directory containing a CMake configuration file for warehouse_ros.
+warehouse_ros_DIR:PATH=/opt/ros/noetic/share/warehouse_ros/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -817,6 +975,8 @@ xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/robocupathome/workspace/eddy_code/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/robocupathome/workspace/eddy_code/build/test_results
@@ -958,7 +1118,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=33
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1003,6 +1163,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: thread ][v1.71.0()]
 //Details about finding PY_em
 FIND_PACKAGE_MESSAGE_DETAILS_PY_em:INTERNAL=[/usr/lib/python3/dist-packages/em.py][v()]
 //Details about finding PythonInterp
@@ -1047,6 +1209,12 @@ PYTHON_INSTALL_DIR:INTERNAL=lib/python3/dist-packages
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/robocupathome/workspace/eddy_code/install
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_thread_DIR
+boost_thread_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

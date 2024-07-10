@@ -23,6 +23,12 @@ from rospy import Duration
 import time
 from multiprocessing import Process
 
+from play_motion_msgs.msg import PlayMotionActionGoal, PlayMotionAction
+
+from attention_manager.srv import SetPolicy, SetPolicyRequest
+from std_srvs.srv import Empty
+from hri_msgs.msg import Expression
+
 DUMMY_WAVE = '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.wav'
 DUMMY_TXT= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.txt'
 DUMMY_VIDEO= '/home/robocupathome/workspace/eddy_code/src/DummyFiles/0_0.mp4'
@@ -103,8 +109,18 @@ class Node:
         self.is_manual = False
 
         print('Successfully connected to /tts')
-        
+
+
+
+        # Motion topic
+        print('Connecting to the motion topic')
+        self.motion_pub = SimpleActionClient('/play_motion', PlayMotionAction) 
       
+
+        
+
+
+
         #ts = message_filters.TimeSynchronizer(['/head_front_camera/color/image_raw', '/humans/voices/anonymous_speaker/speech'], 10)
         #ts.registerCallback("")
 
@@ -216,6 +232,19 @@ class Node:
             msg.rawtext.text = txt_file_path
             
             self.tts.send_goal_and_wait(msg)
+
+            # Make the robot do some motion too
+            motion_goal = PlayMotionActionGoal()
+            
+            # Change the string of the line below to one of the predefined motions if you would like.
+            motion_goal.goal.motion_name = 'bow'
+            motion_goal.goal.skip_planning = False
+
+            # Comment out the line below if you don't want any motion
+            self.motion_pub.send_goal_and_wait(motion_goal)
+
+
+
             rospy.sleep(2)
             # Reconnect to /audio/speech to get audio stream
             self.audioStream = rospy.Subscriber('/audio/speech', AudioData, self.OnAudioStream)

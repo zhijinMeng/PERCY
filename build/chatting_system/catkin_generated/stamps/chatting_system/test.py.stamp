@@ -2,22 +2,31 @@
 import rospy
 import time
 from std_msgs.msg import Bool
-# from audio_video_writter_class import *
-# import audio_video_writter_class
 from audio_common_msgs.msg import AudioData
 from sensor_msgs.msg import Image
 import message_filters
 import cv2
 from cv_bridge import CvBridge
 import sys
-sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
-from audio_video_writter_class import FrameWriter
-from openai import OpenAI
-import os 
+import os
 import json
 import wave
 import shutil
-# define the openai api key, which is for OpenAI API verfication
+from openai import OpenAI
+from std_msgs.msg import String
+
+from attention_manager.srv import SetPolicy, SetPolicyRequest
+from std_srvs.srv import Empty
+from hri_msgs.msg import Expression
+
+from sensor_msgs.msg import Image
+from sensor_msgs.msg import CompressedImage
+
+# Add the directory containing pickle_test.py to the Python path
+sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
+
+from audio_video_writter_class import FrameWriter
+from pickle_test import VoiceVerification  # Import the voice verification class
 client = OpenAI(api_key="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")
 
 AUDIO_RATE = 16000
@@ -33,13 +42,22 @@ class Node:
         self.is_speaking = False
         self.startTime = time.time()
         self.bridge = CvBridge()
+        self.depth_bridge = CvBridge()
+        self.thermal_bridge = CvBridge()
       
         self.audio_inComing = False
 
         # here we subscribe to the audio and video topics
         self.audio_writter= rospy.Subscriber('/audio/channel0', AudioData, self.record_callback_audio )
         self.video_writter = rospy.Subscriber('/head_front_camera/color/image_raw', Image, self.record_callback_video)
+        # self.depth_writter = rospy.Subscriber('/head_front_camera/depth/image_rect_raw', Image, self.record_callback_depth_video)
+        # self.thermal_writter = rospy.Subscriber('/teraranger_evo_thermal/rgb_image', Image, self.record_callback_thermal_video)
         self.audio_video_writer = FrameWriter()
+        # print(self.audio_video_writer)
+        if self.audio_video_writer:
+            rospy.logwarn("Created")
+        else:
+            rospy.logwarn("Nothing, you are fucked up")
 
         
         self.SAMPLE_RATE = 16000
@@ -50,11 +68,11 @@ class Node:
         self.buffer_appended = False
         # init buffer
         self.buffer = b''
-        # reccive data for buffer
+        # reccive data for buffer/head_front_camera/color/image_raw
         self.buffer_writter = rospy.Subscriber('/audio/channel0', AudioData, self.set_buffer)
         self.buffer_duration = 3 # here we define the buffer duration 
         self.buffer_size = self.buffer_duration * self.SAMPLE_RATE # 3 seconds of audio as buffer
-        self.sentence_gap = 1.5 # define the maximun gap between two sentences  
+        self.sentence_gap = 2 # define the maximun gap between two sentences  
 
         # here we define the file paths for audio, video and text
         self.id = str(rospy.get_param('~id', 'test')) # get the id of the user, with default value of 'test'
@@ -81,11 +99,12 @@ class Node:
         self.audio_output_path = os.path.join(self.participant_folder_path, 'audio.wav')
         print(self.audio_output_path)
         self.video_output_path = os.path.join(self.participant_folder_path,'video.mp4')
-        self.bridge_2 = CvBridge()
+        self.bridge = CvBridge()
         self.audio_file = wave.open(self.audio_output_path, 'wb')
         self.audio_file.setnchannels(AUDIO_CHANNELS)
         self.audio_file.setsampwidth(AUDIO_WIDTH)
         self.audio_file.setframerate(AUDIO_RATE)
+        self.video_writer = None
         self.audio_sub = rospy.Subscriber('/audio/channel0', AudioData, self.audio_callback)
         self.start_time_audio = rospy.Time.now()  # Record the start time
         rospy.loginfo("audio starts at: %s", self.start_time_audio)
@@ -95,8 +114,30 @@ class Node:
         self.start_time_image = rospy.Time.now()  # Record the start time
         rospy.loginfo("video starts at: %s", self.start_time_image)
 
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.video_writer_whole = cv2.VideoWriter(self.video_output_path, fourcc, 30.0, (640, 480))
+        self.screen_pub = rospy.Publisher('screen_flag_display',Bool, queue_size=10)
+
+
+        
+        # print('Waiting for reset_gaze')
+        # rospy.wait_for_service('/gaze_manager/reset_gaze')
+        # gaze_reset = rospy.ServiceProxy('/gaze_manager/reset_gaze', Empty)
+
+        # gaze_reset()
+
+        print('Waiting for attention manager')
+        rospy.wait_for_service('attention_manager/set_policy')
+        policy = rospy.ServiceProxy('attention_manager/set_policy', SetPolicy)
+        p = SetPolicyRequest()
+        p.policy = SetPolicyRequest.DISABLED
+        policy(p)
+
+        print('Changing Robot eye to neutral')
+        self.eyePub = rospy.Publisher('/robot_face/expression', Expression, queue_size=10)
+        e = Expression()
+        e.expression = e.NEUTRAL
+        self.eyePub.publish(e)
+
+
 
 
 
@@ -124,6 +165,7 @@ class Node:
                 if lasting_time >= self.sentence_gap: # here we define 
                     self.is_speaking = False
                     self.startTime = currentTime
+            self.screen_pub.publish(self.is_speaking)
             rate.sleep()
 
     def record_callback_audio(self, audio_data: AudioData):
@@ -179,12 +221,35 @@ class Node:
             
 
     def record_callback_video(self, image_data: Image):
+        # print('Video callback')
         cv_image = self.bridge.imgmsg_to_cv2(image_data, "bgr8")
         if self.audio_video_writer.get_is_recording():
             self.audio_video_writer.write_frame_video(cv_image)
+        # else:
+            # print('callback false')
 
 
-    # set buffer_related functions for audio_video_writer_class
+    def record_callback_depth_video(self,msg):
+    
+        # Convert ROS message to OpenCV image
+        depth_image = self.depth_bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
+
+        # Process the depth image (e.g., visualize, filter, etc.)
+
+        # Save the depth image as a video frame
+        self.depth_video_writer.write_frame_video(depth_image)
+
+    def record_callback_thermal_video(self,msg):
+    
+        # Convert ROS message to OpenCV image
+        thermal_image = self.thermal_bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
+
+        # Process the depth image (e.g., visualize, filter, etc.)
+
+        # Save the depth image as a video frame
+        self.thermal_video_writer.write_frame_video(thermal_image)
+
+# set buffer_related functions for audio_video_writer_class
     def set_buffer(self, data):
         # Convert the array of uint8 to bytes
         audio_bytes = bytes(data.data)
@@ -225,17 +290,15 @@ class Node:
 
     def video_callback(self, msg):
         try:
-            cv_image = self.bridge_2.imgmsg_to_cv2(msg, "bgr8")
-
+            cv_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
         except CvBridgeError as e:
             rospy.logerr(e)
             return
 
+        if self.video_writer is not None:
+            self.video_writer.write(cv_image)
         cv2.imshow('Camera Feed', cv_image)
         cv2.waitKey(1)
-
-        if self.video_writer_whole is not None:
-            self.video_writer_whole.write(cv_image)
 
 
     def on_exit(self):
@@ -250,21 +313,27 @@ class Node:
 
 
         start_time_sec_audio = self.start_time_audio.to_sec()
+        
         time_difference_sec_audio = end_time_sec - start_time_sec_audio
         rospy.loginfo("Time difference for image is: %.2f seconds", time_difference_sec_image)
         rospy.loginfo("Time difference for wav is: %.2f seconds", time_difference_sec_audio)
 
-
-        chat_history_path = os.path.join(self.base_path, self.id,"chat_history.json")
         if self.audio_file is not None:
             self.audio_file.close()
-        if self.video_writer_whole is not None:
-            self.video_writer_whole.release()
-        self.merge_json(self.time_stamp_file,chat_history_path, os.path.join(self.participant_folder_path, 'final.json'))
-        
+        if self.video_writer is not None:
+            self.video_writer.release()
+            self.depth_video_writer.release()
+            self.thermal_video_writer.release()
 
     def run(self):
+        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.depth_fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.thermal_fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        self.depth_video_writer = cv2.VideoWriter(os.path.join(self.participant_folder_path, 'depth_video.mp4'), self.depth_fourcc, 6.0, (640, 480))
+        self.thermal_video_writer = cv2.VideoWriter(os.path.join(self.participant_folder_path, 'thermal_video.mp4'), self.thermal_fourcc, 7.5, (640, 480))
+        self.video_writer = cv2.VideoWriter(self.video_output_path, fourcc, 30.0, (640, 480))
         rospy.on_shutdown(self.on_exit)
+        rospy.spin()
 
     def merge_json(self, file1, file2, output_file):
         # Read data from the first JSON file
@@ -287,13 +356,12 @@ class Node:
 
     def merge(self):
         chat_history_path = os.path.join(self.base_path, self.id,"chat_history.json")
-        rospy.on_shutdown(rospy.on_shutdown(lambda: self.merge_json(self.time_stamp_file,chat_history_path, os.path.join(self.participant_folder_path, 'final.json')))
-)
+        rospy.on_shutdown(self.merge_json(self.time_stamp_file,chat_history_path, os.path.join(self.participant_folder_path, 'final.json')))
 
 if __name__ == '__main__':
     a = Node()
     a.set_is_speaking()
     a.run()
-    # a.merge()
+    a.merge()
 
     rospy.spin()

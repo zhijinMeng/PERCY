@@ -1,8 +1,0 @@
-prefix=/home/robocupathome/workspace/eddy_code/devel
-
-Name: model
-Description: Description of model
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

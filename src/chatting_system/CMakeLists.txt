@@ -162,6 +162,7 @@ catkin_install_python(PROGRAMS
   scripts/test.py
   scripts/enroll.py
   scripts/audio_video_writter_class.py
+  scripts/robot_head.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

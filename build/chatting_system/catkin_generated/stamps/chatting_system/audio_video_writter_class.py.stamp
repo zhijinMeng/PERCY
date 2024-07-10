@@ -13,7 +13,7 @@ from gpt_server.srv import GPTGenerate, GPTGenerateResponse, GPTGenerateRequest 
 from actionlib import SimpleActionClient
 from pal_interaction_msgs.msg import TtsAction, TtsGoal
 from emotion_server.srv import EmotionGenerate, EmotionGenerateResponse, EmotionGenerateRequest
-from hri_msgs.msg import Expression
+from std_msgs.msg import String
 
 AUDIO_RATE = 16000
 AUDIO_CHANNELS = 1
@@ -35,6 +35,10 @@ class FrameWriter:
         self.txt_name = 'test'
         self.voice_verification = VoiceVerification() # init the voice verificator
         self.is_enrolled = False
+        #subcribe to live detected emotion
+        # self.emotiondetection_realtime = rospy.Subscriber('emotiondetect_result', String, self.emotion_result_callback)
+        self.realtime_emotion = "neutral"
+        self.emotion = "neutral"
 
         # here we init the connection with gpt_server
         print('Waiting for GPT server to be availale')
@@ -48,16 +52,15 @@ class FrameWriter:
         self.tts.wait_for_server()
 
         # connect to the emotion server
-        print('Waiting for Emotion server to be availale')
-        self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
-        self.emotionServer.wait_for_service()
-        print('Successfully connected to /emotion_generate')
+        # print('Waiting for Emotion server to be availale')
+        # self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
+        # self.emotionServer.wait_for_service()
+        # print('Successfully connected to /emotion_generate')
+        # self.response = ''
 
-        self.response = ''
-
-
-        # robot expression
-        self.robot_emotion_pub = rospy.Publisher('/robot_face/expression', Expression, queue_size=10)
+        # Publish to the Screen Display
+        self.screen_pub = rospy.Publisher('dialogue',String, queue_size=10)
+    
 
 
     def set_path(self, path,particpant_folder_path):
@@ -126,7 +129,7 @@ class FrameWriter:
         print(transcription.text)
         return transcription.text
 
-    # here we define write_frame_videothe function to call the GPT server to generate the response
+    # here we define the function to call the GPT server to generate the response
     def GPTgenerate(self,transcription):
         # transcription = []
         # with open(txt_file, "r") as file:
@@ -174,30 +177,18 @@ class FrameWriter:
         request.videoPath = self.video_name
         request.wavPath = self.audio_name
         request.textPath = self.txt_name
-        emotionResponse: EmotionGenerateResponse
-        emotionResponse = self.emotionServer(request)
-        self.emotion = emotionResponse.response
-
-        # PUBlish the emotion tho the robot eye experssion server
-        # self.emotion = 'happy'
-        self.robot_expression_emotion = "happy"
-        if self.emotion == 'neutral' or self.emotion == 'joy':
-            self.robot_expression_emotion = "happy"
-        elif self.emotion == 'anger' or self.emotion == 'sadness':
-            self.robot_expression_emotion = "sad"
-        elif self.emotion == 'suprise':
-            self.robot_expression_emotion = "amazed"
-        msg = Expression()
-        msg.expression = self.robot_expression_emotion
-        self.robot_emotion_pub.publish(msg)
-
-     
-
+        # emotionResponse: EmotionGenerateResponse
+        # emotionResponse = self.emotionServer(request)
+        # self.emotion = emotionResponse.response
         # 2. tell the voice_verification, if humnan then call emotion server and chatgpt
         score = self.voice_verification.verify_user('user', self.audio_name)
         print(score)
+        # publish the transcription to the screen display topic
+
+
         if score <0.85:
             print('Human detected')
+            self.screen_pub.publish(f'Role: User, Content: {transcription}')
             self.response = self.GPTgenerate(transcription)
             is_human = True
             return transcription, self.emotion, is_human
