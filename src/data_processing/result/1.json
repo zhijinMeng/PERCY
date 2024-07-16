@@ -6,7 +6,7 @@
         },
         {
             "role": "user",
-            "content": "Thriller"
+            "content": "Mystery"
         }
     ],
     [
@@ -16,7 +16,7 @@
         },
         {
             "role": "user",
-            "content": "Pop"
+            "content": "Country"
         }
     ],
     [
@@ -26,7 +26,7 @@
         },
         {
             "role": "user",
-            "content": "Board games"
+            "content": "Puzzle games"
         }
     ],
     [
@@ -36,7 +36,7 @@
         },
         {
             "role": "user",
-            "content": "Italian cuisine"
+            "content": "Middle Eastern cuisine"
         }
     ],
     [
@@ -46,7 +46,7 @@
         },
         {
             "role": "user",
-            "content": "Work-related project"
+            "content": "Graduating from school or university"
         }
     ],
     [
@@ -56,27 +56,17 @@
         },
         {
             "role": "user",
-            "content": "Financial hardship"
+            "content": "Balancing responsibilities"
         }
     ],
     [
         {
             "role": "system",
-            "content": "What is your recent area of focus or goal?"
+            "content": "How would you describe your personality in a few words? (Multiple Choices)"
         },
         {
             "role": "user",
-            "content": "Educational pursuits and learning new skills"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "How would you describe your personality? (Multiple Choices)"
-        },
-        {
-            "role": "user",
-            "content": "Outgoing"
+            "content": "Introverted"
         }
     ],
     [
@@ -86,7 +76,7 @@
         },
         {
             "role": "user",
-            "content": "Betrayal"
+            "content": "Cruelty,Negativity"
         }
     ],
     [
@@ -97,16 +87,6 @@
         {
             "role": "user",
             "content": "Rainy"
-        }
-    ],
-    [
-        {
-            "role": "system",
-            "content": "Are there any additional comments you have?"
-        },
-        {
-            "role": "user",
-            "content": "no"
         }
     ]
 ]

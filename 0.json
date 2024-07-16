@@ -1,0 +1,212 @@
+[
+    [
+        {
+            "role": "system",
+            "content": "What are your favorite movies or TV show genres? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q7"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What are your favorite movies or TV show genres? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q7_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of music do you enjoy listening to the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q8"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of music do you enjoy listening to the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q8_19_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of  games do you enjoy the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q9"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What kind of  games do you enjoy the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q9_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your favorite food? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q10"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your favorite food? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q10_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your proudest personal achievements to date? (Single Choice)"
+        },
+        {
+            "role": "user",
+            "content": "Q11"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your proudest personal achievements to date? (Single Choice)"
+        },
+        {
+            "role": "user",
+            "content": "Q11_13_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Can you share any significant challenge you have faced currently? (Single Choice)"
+        },
+        {
+            "role": "user",
+            "content": "Q12"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Can you share any significant challenge you have faced currently? (Single Choice)"
+        },
+        {
+            "role": "user",
+            "content": "Q12_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your recent area of focus or goal?"
+        },
+        {
+            "role": "user",
+            "content": "Q13"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is your recent area of focus or goal?"
+        },
+        {
+            "role": "user",
+            "content": "Q13_12_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "How would you describe your personality? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q14"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "How would you describe your personality? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q14_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is something you strongly dislike or hate? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q15"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What is something you strongly dislike or hate? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q15_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What type of weather do you enjoy the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q16"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "What type of weather do you enjoy the most? (Multiple Choices)"
+        },
+        {
+            "role": "user",
+            "content": "Q16_14_TEXT"
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": "Are there any additional comments you have?"
+        },
+        {
+            "role": "user",
+            "content": "Q17"
+        }
+    ]
+]
