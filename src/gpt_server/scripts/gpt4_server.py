@@ -137,10 +137,11 @@ class GPT:
             self.first_question = False
 
             # Play a motion to indicate the change of topic
-            msg = TtsGoal()
-            msg.rawtext.lang_id = 'en_gb'
-            msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Nice to meet you, let's have a chat"
-            self.ttsPub.send_goal(msg)
+            # msg = TtsGoal()
+            # msg.rawtext.lang_id = 'en_gb'
+            # msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Nice to meet you, let's have a chat padding"
+            # self.ttsPub.send_goal(msg)
+            # rospy.sleep(0.5)
 
             self.to_change_topic = False
         
@@ -163,10 +164,12 @@ class GPT:
             self.utterance_counter = 0
 
             # Play a motion to indicate the change of topic
-            msg = TtsGoal()
-            msg.rawtext.lang_id = 'en_gb'
-            msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Let's change the topic"
-            self.ttsPub.send_goal(msg)
+            # msg = TtsGoal()
+            # msg.rawtext.lang_id = 'en_gb'
+            # # msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Let's change the topic padding  "
+            # msg.rawtext.text = " Let's change the topic padding  "
+            # self.ttsPub.send_goal(msg)
+            
 
             self.to_change_topic = False
         

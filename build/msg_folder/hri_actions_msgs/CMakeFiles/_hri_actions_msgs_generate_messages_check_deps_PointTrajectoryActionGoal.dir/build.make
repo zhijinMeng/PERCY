@@ -67,7 +67,7 @@ include msg_folder/hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messag
 include msg_folder/hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal.dir/progress.make
 
 msg_folder/hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal:
-	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/hri_actions_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_actions_msgs /home/robocupathome/workspace/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:hri_actions_msgs/PointTrajectoryGoal:geometry_msgs/Point
+	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/hri_actions_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hri_actions_msgs /home/robocupathome/workspace/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg geometry_msgs/Point:hri_actions_msgs/PointTrajectoryGoal:std_msgs/Header:actionlib_msgs/GoalID
 
 _hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal: msg_folder/hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal
 _hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal: msg_folder/hri_actions_msgs/CMakeFiles/_hri_actions_msgs_generate_messages_check_deps_PointTrajectoryActionGoal.dir/build.make

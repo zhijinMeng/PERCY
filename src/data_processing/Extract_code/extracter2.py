@@ -13,6 +13,7 @@ class QAExtractor:
         self.answer_start_row = answer_start_row
         self.output_dir = output_dir
         self.excel_database = "/home/robocupathome/workspace/eddy_code/src/data_processing/excel_database/"
+        self.offset_file = "/home/robocupathome/workspace/eddy_code/src/data_processing/offset.txt"
 
         print("DataFrame shape:", len(self.df))  # Verify data loading
 
@@ -39,7 +40,7 @@ class QAExtractor:
 
         if qa_pairs:
             filename = os.path.join(output_folder, "profile.json")
-            with open(filename, 'w') as file:
+            with open(filename, 'w', encoding='utf-8') as file:
                 json.dump(qa_pairs, file, ensure_ascii=False, indent=4)
 
             # Copy the original CSV file to the output folder
@@ -50,19 +51,19 @@ class QAExtractor:
     def extract_answers(self):
         answer_lst = {}
         indexes = {
-            'gender': [0, 1],
-            'age': [2, 3],
-            'race': [4, 5],
-            'degree': [6, 7],
-            'field': [8, 9],
-            'job': [10, 11]
+            'gender': 0,
+            'age': 2,
+            'race': 4,
+            'degree': 6,
+            'field': 8,
+            'job': 10
         }
 
-        for question, (idx, other_idx) in indexes.items():
+        for question, idx in indexes.items():
             answer = self.answers[0][idx]
             if not answer or 'other' in answer.lower():
                 # Handle "other" case
-                other_answer = self.answers[0][other_idx]
+                other_answer = self.answers[0][idx + 1]
                 if other_answer:
                     answer = other_answer
             answer_lst[question] = answer
@@ -108,34 +109,58 @@ class QAExtractor:
         # Concatenate subnames
         self.category_name = "{}_{}_{}_{}_{}_{}".format(gender_subname, age_subname, race_subname, degree_subname, field_subname, job_subname)
 
-        # Decide the index under this category
-        files_list = []
-        for filename in os.listdir(self.excel_database):
-            if filename.startswith(self.category_name):
-                last_two_digits = filename[-2:]
-                files_list.append(int(last_two_digits))
+        # Ensure the folder name is unique by appending a unique identifier
+        unique_id = 0
+        while True:
+            self.folder_name = "{}_{:02d}".format(self.category_name, unique_id)
+            output_folder = os.path.join(self.output_dir, self.folder_name)
+            if not os.path.exists(output_folder):
+                os.makedirs(output_folder)
+                break
+            unique_id += 1
 
-        current_max_index = max(files_list) + 1 if files_list else 0
-        self.folder_name = "{}_{:02d}".format(self.category_name, current_max_index)
-
-        output_folder = os.path.join(self.output_dir, self.folder_name)
-        
-        if not os.path.exists(output_folder):
-            print("Creating directory:", output_folder)  # Debugging line to verify directory creation
-            os.makedirs(output_folder)
+        print("Creating directory: {}".format(output_folder))  # Debugging line to verify directory creation
         
         return output_folder
 
     def extract_qa_pairs(self):
         qa_pairs = []
-        for col_index, question in enumerate(self.questions):
+        offset = self.get_offset()
+        num_questions = len(self.questions)
+
+        for i in range(num_questions):
+            col_index = (i + offset) % num_questions
+            question = self.questions[col_index]
             if "-" in question:
                 question = question.split("-")[0].strip()
             answer = self.answers[0][col_index]  # Only extract the first row for single person
             if answer and answer.strip().lower() != 'other':
                 qa_pair = {"role": "system", "content": question}, {"role": "user", "content": answer}
                 qa_pairs.append(qa_pair)
+
+        self.increment_offset()
         return qa_pairs
+
+    def get_offset(self):
+        if not os.path.exists(self.offset_file):
+            with open(self.offset_file, 'w') as file:
+                file.write('0')
+            return 0
+        else:
+            with open(self.offset_file, 'r') as file:
+                offset = int(file.read().strip())
+            return offset
+
+    def increment_offset(self):
+        if not os.path.exists(self.offset_file):
+            with open(self.offset_file, 'w') as file:
+                file.write('1')
+        else:
+            with open(self.offset_file, 'r') as file:
+                offset = int(file.read().strip())
+            new_offset = (offset + 1) % len(self.questions)
+            with open(self.offset_file, 'w') as file:
+                file.write(str(new_offset))
 
 def main():
     parser = argparse.ArgumentParser(description="Process CSV file to extract QA pairs into a JSON file and copy the CSV file.")

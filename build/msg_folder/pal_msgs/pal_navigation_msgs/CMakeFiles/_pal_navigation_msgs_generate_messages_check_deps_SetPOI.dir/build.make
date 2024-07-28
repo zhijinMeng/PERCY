@@ -67,7 +67,7 @@ include msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_
 include msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_SetPOI.dir/progress.make
 
 msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_SetPOI:
-	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv geometry_msgs/Point32:sensor_msgs/PointCloud:std_msgs/Header:pal_navigation_msgs/POI:std_msgs/String:sensor_msgs/ChannelFloat32
+	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_navigation_msgs /home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud
 
 _pal_navigation_msgs_generate_messages_check_deps_SetPOI: msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_SetPOI
 _pal_navigation_msgs_generate_messages_check_deps_SetPOI: msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/_pal_navigation_msgs_generate_messages_check_deps_SetPOI.dir/build.make

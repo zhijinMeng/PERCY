@@ -67,7 +67,7 @@ include msg_folder/pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_genera
 include msg_folder/pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus.dir/progress.make
 
 msg_folder/pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus:
-	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_walking_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion:std_msgs/Header
+	cd /home/robocupathome/workspace/eddy_code/build/msg_folder/pal_msgs/pal_walking_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_walking_msgs /home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion
 
 _pal_walking_msgs_generate_messages_check_deps_WalkingStatus: msg_folder/pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus
 _pal_walking_msgs_generate_messages_check_deps_WalkingStatus: msg_folder/pal_msgs/pal_walking_msgs/CMakeFiles/_pal_walking_msgs_generate_messages_check_deps_WalkingStatus.dir/build.make

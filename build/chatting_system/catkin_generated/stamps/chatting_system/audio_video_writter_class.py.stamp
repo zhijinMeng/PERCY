@@ -14,6 +14,7 @@ from actionlib import SimpleActionClient
 from pal_interaction_msgs.msg import TtsAction, TtsGoal
 from emotion_server.srv import EmotionGenerate, EmotionGenerateResponse, EmotionGenerateRequest
 from std_msgs.msg import String
+from hri_msgs.msg import Expression
 
 AUDIO_RATE = 16000
 AUDIO_CHANNELS = 1
@@ -36,7 +37,7 @@ class FrameWriter:
         self.voice_verification = VoiceVerification() # init the voice verificator
         self.is_enrolled = False
         #subcribe to live detected emotion
-        # self.emotiondetection_realtime = rospy.Subscriber('emotiondetect_result', String, self.emotion_result_callback)
+        self.emotiondetection_realtime = rospy.Subscriber('emotiondetect_result', String, self.emotion_result_callback)
         self.realtime_emotion = "neutral"
         self.emotion = "neutral"
 
@@ -51,6 +52,8 @@ class FrameWriter:
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
 
+        self.faceExpressionPub = rospy.Publisher("/robot_face/expression", Expression, queue_size=10)
+
         # connect to the emotion server
         # print('Waiting for Emotion server to be availale')
         # self.emotionServer = rospy.ServiceProxy('/emotion_generate', EmotionGenerate)
@@ -62,6 +65,8 @@ class FrameWriter:
         self.screen_pub = rospy.Publisher('dialogue',String, queue_size=10)
     
 
+    def emotion_result_callback(self, emotion: String):
+        self.realtime_emotion = emotion
 
     def set_path(self, path,particpant_folder_path):
         if self.is_recording:
@@ -146,6 +151,12 @@ class FrameWriter:
         goal.rawtext.lang_id = 'en_GB'
         goal.rawtext.text = output
         self.tts.send_goal(goal)
+
+        # Change the facial expression
+        e = Expression()
+        e.expression = self.realtime_emotion
+        self.faceExpressionPub.publish(e)
+
         print(f'Generated response: {output}')
         return output
 
