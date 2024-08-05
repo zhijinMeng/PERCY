@@ -1,0 +1,1 @@
+command to run extracter3.py : python <extracter3>.py <csv_name> --question_row <question_row> --question_start_col <question_start_col> --answer_start_row <answer_start_row> --output_dir <output_directory>

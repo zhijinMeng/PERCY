@@ -10,10 +10,6 @@ import os
 import random
 from std_msgs.msg import String
 
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
-from pal_interaction_msgs.msg import TtsAction, TtsGoal
-from actionlib import SimpleActionClient
 
 class GPT:
     """
@@ -23,8 +19,6 @@ class GPT:
     """
 
     def __init__(self):
-        self.sentimentAnalyser = SentimentIntensityAnalyzer()
-
         rospy.init_node('gpt_server')
         id = rospy.get_param('~id','test')
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
@@ -40,15 +34,12 @@ class GPT:
         self.history = ""
         # Extract the profile from the JSON file
         json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
-        # self.emotion = "neutral"
-        # set the timer for the topic changing'You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information,I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answerEvery time you make a response, use the user response with his\\her emotions of {self.realtime_emotion} to generate the next responseif it possible try to avoid yes/no questionswhen you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic wordsone question per time and always response in English'}, {'role': 'assistant', 'content': 'What are your favorite movies or TV show genres? (Multiple Choices)'}, {'role': 'user', 'content': 'Sci-fi'}, {'role': 'assistant', 'content': "That's awesome! Sci-fi movies and TV shows are so intriguing. What is it about sci-fi that you enjoy the most?"}]
-
+        self.emotion = "neutral"
+        # set the timer for the topic changing
         self.topic_changer = self.TopicChanger(json_file_path)
         self.to_change_topic = True # set the flag to change the topic
-        self.first_question = True
-        self.utterance_counter = 0 # set the utterance counter to change topic
         # once the below function is executed, then we set the flag to call TopicChanger to change the topic
-        # self.Totimer = rospy.Timer(rospy.Duration(120), self.set_topic_flag) # this is the timer to change the topic every 2 minutes
+        self.Totimer = rospy.Timer(rospy.Duration(120), self.set_topic_flag)
         self.profile =""
         with open(json_file_path, "r") as json_file:
             self.profile = json.load(json_file)
@@ -56,127 +47,34 @@ class GPT:
         self.screen_pub = rospy.Publisher('dialogue_robot',String, queue_size=10)
 
 
-        self.emotiondetection_realtime = rospy.Subscriber('emotiondetect_result', String, self.emotion_result_callback)
-        self.realtime_emotion = "neutral"
-
-        print('Connecting to /tts.')
-        self.ttsPub = SimpleActionClient('/tts', TtsAction)
-        self.ttsPub.wait_for_server()
-        print('Connected to /tts!')
-
-
-        
-
-
-
-    def emotion_result_callback(self, data):
-        self.realtime_emotion = data.data
-        # print(f'Emotion detected: {self.realtime_emotion}')
-        return self.realtime_emotion
-
-
-        # this is the old set topic flag function
-    # def set_topic_flag(self,event=None):
-    #     # set the flag to change the topic
-    #     self.to_change_topic = True
-
-    def set_topic_flag(self):
-        if self.utterance_counter >= 3:
-            self.to_change_topic = True
-            self.utterance_counter = 0  
+    def set_topic_flag(self,event=None):
+        # set the flag to change the topic
+        self.to_change_topic = True
 
     def OnRequest(self, data: GPTGenerateRequest):
         text_from_speech = data.request  # Speech recognized by the user
-        # self.emotion = data.initialEmotion
+        self.emotion = data.initialEmotion
 
         # finalEmotion = data.finalEmotion
         input_text = {"role": "user", "content": text_from_speech}
-        sentiment = self.sentimentAnalyser.polarity_scores(text_from_speech)['compound']
-        sentimentstr = ''
-
-        if sentiment < -0.05:
-            sentimentstr = 'negative'
-        elif sentiment > 0.05:
-            sentimentstr = 'positive'
-        else:
-            sentimentstr = 'neutral'
-
-        text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.realtime_emotion, "sentiment": sentimentstr, "sentiment_score": sentiment}
+        text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.emotion}
         # Append the user's input to the conversation history -> the dialogue
         self.append_to_json(text_to_append, self.history_file_path)
-        print(f'Receive emotions: {self.realtime_emotion}')
+        print(f'Receive emotions: {self.emotion}')
         self.messages.append(input_text) # append user speech into the message
 
         rospy.loginfo(f"Received a request with a prompt:\n{text_from_speech}")
 
         # here we detect whether to change the topic or not
-        # if self.to_change_topic == True or text_from_speech[:9].lower()== "new topic":
-        #     # change topic and close the flag, ready for next topic
-        #     question, answer = self.topic_changer.new_topic()
-
-        #     # Play a motion to indicate the change of topic
-        #     msg = TtsGoal()
-        #     msg.rawtext.lang_id = 'en_gb'
-        #     msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Let's change the topic"
-        #     self.ttsPub.send_goal(msg)
-
-        #     self.to_change_topic = False
-        
-        #     self.messages= [{"role": "system", "content":
-        #     "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-        #     "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
-        #     "Every time you make a response, use the user response with his\her emotions of {self.realtime_emotion} to generate the next response"+
-        #     "if it possible try to avoid yes/no questions"+
-        #     "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-        #     "one question per time and always response in English"} ]
-
-        #     self.messages.append(question)
-        #     self.messages.append(answer)
-        if self.first_question == True:
-            question, answer = self.topic_changer.new_topic()
-            self.first_question = False
-
-            # Play a motion to indicate the change of topic
-            # msg = TtsGoal()
-            # msg.rawtext.lang_id = 'en_gb'
-            # msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Nice to meet you, let's have a chat padding"
-            # self.ttsPub.send_goal(msg)
-            # rospy.sleep(0.5)
-
-            self.to_change_topic = False
-        
-            self.messages= [{"role": "system", "content":
-            "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
-            "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
-            "Every time you make a response, use the user response with his\her emotions of {self.realtime_emotion} to generate the next response"+
-            "if it possible try to avoid yes/no questions"+
-            "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
-            "one question per time and always response in English"} ]
-
-            self.messages.append(question)
-            self.messages.append(answer)
-
-
-
-        if self.utterance_counter > 3:
+        if self.to_change_topic == True or text_from_speech.lower() == "new topic":
             # change topic and close the flag, ready for next topic
             question, answer = self.topic_changer.new_topic()
-            self.utterance_counter = 0
-
-            # Play a motion to indicate the change of topic
-            # msg = TtsGoal()
-            # msg.rawtext.lang_id = 'en_gb'
-            # # msg.rawtext.text = "<mark name='doTrick trickName=show_right_cpy'/> Let's change the topic padding  "
-            # msg.rawtext.text = " Let's change the topic padding  "
-            # self.ttsPub.send_goal(msg)
-            
-
             self.to_change_topic = False
         
             self.messages= [{"role": "system", "content":
             "You are empathic, passionate, professional but super friendly and interested to learn more about the users and their personal information," +
             "I will give you the user profile information that contains several pairs of questions and answers, I want you to remember this profile of {self.profile} and have a converstaion with the user based on the information of each pari of question and answer"+
-            "Every time you make a response, use the user response with his\her emotions of {self.realtime_emotion} to generate the next response"+
+            "Every time you make a response, use the user response with his\her emotions of {self.emotion} to generate the next response"+
             "if it possible try to avoid yes/no questions"+
             "when you communicate with users, use a friendly tone and simple vocabrary, do not use a high level and academic words" +
             "one question per time and always response in English"} ]
@@ -198,7 +96,6 @@ class GPT:
         print(self.messages)
         display_response = f'Role: Robot, Content: {response}'
         self.screen_pub.publish(display_response)
-        self.utterance_counter+=1
         
         return response
    
@@ -248,7 +145,6 @@ class GPT:
                 question = pair[0]['content']
                 answer = pair[1]['content']
                 if (question, answer) not in self.printed_pairs:
-                    print('Changing topic!')
                     print("Question:", question) 
                     print("Answer:", answer)
                     print()
