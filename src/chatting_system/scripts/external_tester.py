@@ -133,8 +133,8 @@ class AudioSaver:
             )
             transcription_text = transcription.text.strip()
             word_count = len(transcription_text.split())
-            if word_count < 5:
-                rospy.loginfo(f"Transcription too short (less than 5 words), skipping.")
+            if word_count < 4:
+                rospy.loginfo(f"Transcription too short (less than 4 words), skipping.")
                 return None
 
             # Write the transcription to a txt file for further analysis
@@ -159,7 +159,7 @@ class AudioSaver:
 def main():
     rospy.init_node('audio_listener', anonymous=True)
     audio_saver = AudioSaver()
-    audio_saver.start_listener()  # Start the listener
+    # audio_saver.start_listener()  # Start the listener
     rospy.spin()
 
 
