@@ -5,11 +5,12 @@ import os
 import shutil
 
 class QAExtractor:
-    def __init__(self, csv_file_path, question_row, question_start_col, answer_start_row, output_dir):
+    def __init__(self, csv_file_path, question_row, question_start_col, question_finish_col, answer_start_row, output_dir):
         self.csv_file_path = csv_file_path
         self.df = self.load_csv(csv_file_path)
         self.question_row = question_row
         self.question_start_col = question_start_col
+        self.question_finish_col = question_finish_col
         self.answer_start_row = answer_start_row
         self.output_dir = output_dir
         self.excel_database = "/home/robocupathome/workspace/eddy_code/src/data_processing/excel_database/"
@@ -17,12 +18,12 @@ class QAExtractor:
 
         print("DataFrame shape:", len(self.df))  # Verify data loading
 
-        # Extract questions from the specified row and column
-        self.questions = self.df[question_row][question_start_col:]
+        # Extract questions from the specified row and column range
+        self.questions = self.df[question_row][question_start_col:question_finish_col + 1]
         print("Loaded questions:", self.questions)  # Verify correct loading
 
-        # Extract answers from the specified row onward
-        self.answers = [row[question_start_col:] for row in self.df[answer_start_row:]]
+        # Extract answers from the specified row onward and within the column range
+        self.answers = [row[question_start_col:question_finish_col + 1] for row in self.df[answer_start_row:]]
         print("Sample answers:", self.answers[:5])  # Verify data
 
     def load_csv(self, csv_file_path):
@@ -50,28 +51,12 @@ class QAExtractor:
 
     def extract_answers(self):
         answer_lst = {}
-        questions_of_interest = [
-            "What is your gender identity?",
-            "Which age group best describes you?",
-            "What's your race?",
-            "What is the highest degree or level of education you have completed?",
-            "What is your field of study (major)?",
-            "What do you do for work?"
-        ]
-
-        # Find indices for each question of interest
-        indices = {}
+        
         for i, question in enumerate(self.questions):
-            for q in questions_of_interest:
-                if q in question:
-                    indices[q] = i
-
-        for question in questions_of_interest:
-            idx = indices[question]
-            answer = self.answers[0][idx]
+            answer = self.answers[0][i]
             if not answer or 'other' in answer.lower():
                 # Handle "other" case
-                other_answer = self.answers[0][idx + 1]
+                other_answer = self.answers[0][i + 1] if (i + 1) < len(self.answers[0]) else None
                 if other_answer:
                     answer = other_answer
             answer_lst[question] = answer
@@ -112,12 +97,12 @@ class QAExtractor:
         ]
 
         # Map each answer to its index
-        gender_subname = map_to_index(answer_lst['What is your gender identity?'], gender_options)
-        age_subname = map_to_index(answer_lst['Which age group best describes you?'], age_options)
-        race_subname = map_to_index(answer_lst['What\'s your race?'], race_options)
-        degree_subname = map_to_index(answer_lst['What is the highest degree or level of education you have completed?'], degree_options)
-        field_subname = map_to_index(answer_lst['What is your field of study (major)?'], field_options)
-        job_subname = map_to_index(answer_lst['What do you do for work?'], job_options)
+        gender_subname = map_to_index(answer_lst.get('What is your gender identity?', 'Other'), gender_options)
+        age_subname = map_to_index(answer_lst.get('Which age group best describes you?', 'Other'), age_options)
+        race_subname = map_to_index(answer_lst.get('What\'s your race?', 'Other'), race_options)
+        degree_subname = map_to_index(answer_lst.get('What is the highest degree or level of education you have completed?', 'Other'), degree_options)
+        field_subname = map_to_index(answer_lst.get('What is your field of study (major)?', 'Other'), field_options)
+        job_subname = map_to_index(answer_lst.get('What do you do for work?', 'Other'), job_options)
 
         print("Mapped indices: {}, {}, {}, {}, {}, {}".format(gender_subname, age_subname, race_subname, degree_subname, field_subname, job_subname))  # Debugging line to verify mapped indices
 
@@ -130,6 +115,7 @@ class QAExtractor:
             print("Creating directory: {}".format(output_folder))  # Debugging line to verify directory creation
         
         return output_folder
+
     def extract_qa_pairs(self):
         qa_pairs = []
         offset = self.get_offset()
@@ -174,21 +160,29 @@ def main():
     parser.add_argument("csv_name", help="Name of the CSV file (without .csv extension)")
     parser.add_argument("--question_row", type=int, help="Row index where questions are located")
     parser.add_argument("--question_start_col", type=int, help="Column index where questions start")
+    parser.add_argument("--question_finish_col", type=int, help="Column index where questions finish")
     parser.add_argument("--answer_start_row", type=int, help="Row index where answers start")
-    parser.add_argument("--output_dir", default="/home/robocupathome/workspace/eddy_code/src/DATA", help="Output directory for JSON files (default: /home/robocupathome/workspace/eddy_code/src/DATA)")
 
     args = parser.parse_args()
     csv_file_path = "/home/robocupathome/workspace/eddy_code/src/data_processing/excel_database/" + args.csv_name + ".csv"
 
     question_row = args.question_row if args.question_row is not None else 0
     question_start_col = args.question_start_col if args.question_start_col is not None else 29
+    question_finish_col = args.question_finish_col if args.question_finish_col is not None else 50
     answer_start_row = args.answer_start_row if args.answer_start_row is not None else 2
 
-    if not os.path.exists(args.output_dir):
-        os.makedirs(args.output_dir)
+    # Hardcoded output directory
+    output_dir = "/home/robocupathome/workspace/eddy_code/src/DATA"
 
-    qa_extractor = QAExtractor(csv_file_path, question_row, question_start_col, answer_start_row)
+    # Ensure the output directory exists
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
+    # Create an instance of QAExtractor with the hardcoded output directory
+    qa_extractor = QAExtractor(csv_file_path, question_row, question_start_col, question_finish_col, answer_start_row, output_dir)
+
+    # Call the method to save QA pairs to files
+    qa_extractor.save_qa_pairs_to_files()
 
 if __name__ == "__main__":
-    main() 
+    main()
