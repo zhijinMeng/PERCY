@@ -1,4 +1,4 @@
-prefix=/home/robocupathome/workspace/eddy_code/install
+prefix=/home/ari/ros_ws/eddy_code/install
 
 Name: hri_actions_msgs
 Description: Description of hri_actions_msgs

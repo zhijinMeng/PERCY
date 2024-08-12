@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/gpt_server/srv/_GPTGenerate.py"
-  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/gpt_server/srv/__init__.py"
+  "/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/gpt_server/srv/_GPTGenerate.py"
+  "/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/gpt_server/srv/__init__.py"
   "CMakeFiles/gpt_server_generate_messages_py"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/robocupathome/workspace/eddy_code/src/gpt_research
+# Install script for directory: /home/ari/ros_ws/eddy_code/src/gpt_research
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ari/ros_ws/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,35 +37,30 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_research.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_research.pc")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gpt_research/cmake" TYPE FILE FILES
-    "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_researchConfig.cmake"
-    "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_researchConfig-version.cmake"
+    "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_researchConfig.cmake"
+    "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/gpt_researchConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gpt_research" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/gpt_research/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gpt_research" TYPE FILE FILES "/home/ari/ros_ws/eddy_code/src/gpt_research/package.xml")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/main.py")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/main.py")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/fer.py")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/fer.py")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/gpt_research/catkin_generated/installspace/manual_control.py")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gpt_research" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/gpt_research/catkin_generated/installspace/manual_control.py")
 endif()
 

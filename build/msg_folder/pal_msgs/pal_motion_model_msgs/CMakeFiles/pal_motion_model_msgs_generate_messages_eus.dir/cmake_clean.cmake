@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/manifest.l"
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModel.l"
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModelList.l"
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModelMap.l"
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/srv/GetMotionMap.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/manifest.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModel.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModelList.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/msg/MotionModelMap.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_motion_model_msgs/srv/GetMotionMap.l"
   "CMakeFiles/pal_motion_model_msgs_generate_messages_eus"
 )
 

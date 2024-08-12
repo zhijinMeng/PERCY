@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "message_runtime;sensor_msgs;geometry_msgs;actionlib_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "pal_vision_msgs"
-PROJECT_SPACE_DIR = "/home/robocupathome/workspace/eddy_code/install"
+PROJECT_SPACE_DIR = "/home/ari/ros_ws/eddy_code/install"
 PROJECT_VERSION = "0.16.0"

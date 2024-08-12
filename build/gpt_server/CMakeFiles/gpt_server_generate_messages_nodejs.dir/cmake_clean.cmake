@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/gpt_server/srv/GPTGenerate.js"
+  "/home/ari/ros_ws/eddy_code/devel/share/gennodejs/ros/gpt_server/srv/GPTGenerate.js"
   "CMakeFiles/gpt_server_generate_messages_nodejs"
 )
 

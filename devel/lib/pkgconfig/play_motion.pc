@@ -1,8 +1,0 @@
-prefix=/home/robocupathome/workspace/eddy_code/devel
-
-Name: play_motion
-Description: Description of play_motion
-Version: 0.4.15
-Cflags: -I/home/robocupathome/workspace/eddy_code/src/msg_folder/play_motion/play_motion/include
-Libs: -L${prefix}/lib -lplay_motion_helpers
-Requires: actionlib control_msgs controller_manager_msgs play_motion_msgs moveit_ros_planning_interface roscpp sensor_msgs

@@ -1,14 +1,14 @@
 
 "use strict";
 
+let PlanFootsteps = require('./PlanFootsteps.js')
 let ClipFootstep = require('./ClipFootstep.js')
 let StepTargetService = require('./StepTargetService.js')
-let PlanFootsteps = require('./PlanFootsteps.js')
 let PlanFootstepsBetweenFeet = require('./PlanFootstepsBetweenFeet.js')
 
 module.exports = {
+  PlanFootsteps: PlanFootsteps,
   ClipFootstep: ClipFootstep,
   StepTargetService: StepTargetService,
-  PlanFootsteps: PlanFootsteps,
   PlanFootstepsBetweenFeet: PlanFootstepsBetweenFeet,
 };

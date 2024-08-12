@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/gpt_server/manifest.l"
-  "/home/robocupathome/workspace/eddy_code/devel/share/roseus/ros/gpt_server/srv/GPTGenerate.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/gpt_server/manifest.l"
+  "/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/gpt_server/srv/GPTGenerate.l"
   "CMakeFiles/gpt_server_generate_messages_eus"
 )
 

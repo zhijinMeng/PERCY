@@ -2,7 +2,7 @@
 
 message(STATUS "pal_control_msgs: 17 messages, 1 services")
 
-set(MSG_I_FLAGS "-Ipal_control_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg;-Ipal_control_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg;-Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,94 +17,94 @@ add_custom_target(pal_control_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" "std_msgs/Header:geometry_msgs/Accel:geometry_msgs/Point:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" "geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Vector3:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" "geometry_msgs/Accel:geometry_msgs/Point:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" "geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" "pal_control_msgs/MotionManagerActionResult:std_msgs/Header:actionlib_msgs/GoalStatus:pal_control_msgs/MotionManagerActionGoal:pal_control_msgs/MotionManagerGoal:pal_control_msgs/MotionManagerActionFeedback:pal_control_msgs/MotionManagerFeedback:actionlib_msgs/GoalID:pal_control_msgs/MotionManagerResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" "actionlib_msgs/GoalStatus:pal_control_msgs/MotionManagerResult:pal_control_msgs/MotionManagerFeedback:pal_control_msgs/MotionManagerGoal:pal_control_msgs/MotionManagerActionFeedback:pal_control_msgs/MotionManagerActionResult:pal_control_msgs/MotionManagerActionGoal:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/MotionManagerGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/MotionManagerGoal"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_control_msgs/MotionManagerResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/MotionManagerResult:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/MotionManagerFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" "pal_control_msgs/MotionManagerFeedback:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_control_msgs/RigidBodyTrajectoryActionFeedback:pal_control_msgs/RigidBodyTrajectoryFeedback:geometry_msgs/Vector3:pal_control_msgs/RigidBodyTrajectoryResult:geometry_msgs/Accel:geometry_msgs/Point:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryActionGoal:geometry_msgs/Twist:pal_control_msgs/RigidBodyTrajectoryActionResult:pal_control_msgs/RigidBodyTrajectoryPoint:geometry_msgs/Pose:geometry_msgs/Quaternion:pal_control_msgs/RigidBodyTrajectoryGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" "geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:actionlib_msgs/GoalStatus:pal_control_msgs/RigidBodyTrajectoryFeedback:geometry_msgs/Pose:pal_control_msgs/RigidBodyTrajectoryGoal:geometry_msgs/Quaternion:geometry_msgs/Vector3:std_msgs/Header:pal_control_msgs/RigidBodyTrajectoryActionResult:pal_control_msgs/RigidBodyTrajectoryResult:pal_control_msgs/RigidBodyTrajectoryActionFeedback:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryPoint:pal_control_msgs/RigidBodyTrajectoryActionGoal"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" "std_msgs/Header:geometry_msgs/Accel:geometry_msgs/Point:actionlib_msgs/GoalID:geometry_msgs/Twist:geometry_msgs/Vector3:pal_control_msgs/RigidBodyTrajectoryPoint:geometry_msgs/Pose:geometry_msgs/Quaternion:pal_control_msgs/RigidBodyTrajectoryGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" "geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:geometry_msgs/Pose:pal_control_msgs/RigidBodyTrajectoryGoal:geometry_msgs/Quaternion:geometry_msgs/Vector3:std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryPoint"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" "pal_control_msgs/RigidBodyTrajectoryResult:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_control_msgs/RigidBodyTrajectoryFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" "pal_control_msgs/RigidBodyTrajectoryFeedback:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" "std_msgs/Header:geometry_msgs/Accel:geometry_msgs/Point:geometry_msgs/Twist:geometry_msgs/Vector3:pal_control_msgs/RigidBodyTrajectoryPoint:geometry_msgs/Pose:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" "geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Vector3:std_msgs/Header:pal_control_msgs/RigidBodyTrajectoryPoint"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_control_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" ""
 )
 
 #
@@ -114,103 +114,103 @@ add_custom_target(_pal_control_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_cpp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
@@ -218,7 +218,7 @@ _generate_msg_cpp(pal_control_msgs
 
 ### Generating Services
 _generate_srv_cpp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_control_msgs
@@ -236,41 +236,41 @@ add_custom_target(pal_control_msgs_generate_messages_cpp
 add_dependencies(pal_control_msgs_generate_messages pal_control_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_cpp _pal_control_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -283,103 +283,103 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_control_msgs_generate_messages_
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_eus(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
@@ -387,7 +387,7 @@ _generate_msg_eus(pal_control_msgs
 
 ### Generating Services
 _generate_srv_eus(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_control_msgs
@@ -405,41 +405,41 @@ add_custom_target(pal_control_msgs_generate_messages_eus
 add_dependencies(pal_control_msgs_generate_messages pal_control_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_eus _pal_control_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -452,103 +452,103 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_control_msgs_generate_messages_
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_lisp(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
@@ -556,7 +556,7 @@ _generate_msg_lisp(pal_control_msgs
 
 ### Generating Services
 _generate_srv_lisp(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_control_msgs
@@ -574,41 +574,41 @@ add_custom_target(pal_control_msgs_generate_messages_lisp
 add_dependencies(pal_control_msgs_generate_messages pal_control_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_lisp _pal_control_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -621,103 +621,103 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_control_msgs_generate_messages_
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_nodejs(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
@@ -725,7 +725,7 @@ _generate_msg_nodejs(pal_control_msgs
 
 ### Generating Services
 _generate_srv_nodejs(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_control_msgs
@@ -743,41 +743,41 @@ add_custom_target(pal_control_msgs_generate_messages_nodejs
 add_dependencies(pal_control_msgs_generate_messages pal_control_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_nodejs _pal_control_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -790,103 +790,103 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_control_msgs_generate_messages_
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
-)
-_generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
 )
 _generate_msg_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
+)
+_generate_msg_py(pal_control_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
@@ -894,7 +894,7 @@ _generate_msg_py(pal_control_msgs
 
 ### Generating Services
 _generate_srv_py(pal_control_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_control_msgs
@@ -912,41 +912,41 @@ add_custom_target(pal_control_msgs_generate_messages_py
 add_dependencies(pal_control_msgs_generate_messages pal_control_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/ActuatorCurrentLimit.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/srv/CurrentLimit.srv" NAME_WE)
 add_dependencies(pal_control_msgs_generate_messages_py _pal_control_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

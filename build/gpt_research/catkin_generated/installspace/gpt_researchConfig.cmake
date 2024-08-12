@@ -67,14 +67,14 @@ set(gpt_research_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gpt_research_SOURCE_PREFIX /home/robocupathome/workspace/eddy_code/src/gpt_research)
-  set(gpt_research_DEVEL_PREFIX /home/robocupathome/workspace/eddy_code/devel)
+  set(gpt_research_SOURCE_PREFIX /home/ari/ros_ws/eddy_code/src/gpt_research)
+  set(gpt_research_DEVEL_PREFIX /home/ari/ros_ws/eddy_code/devel)
   set(gpt_research_INSTALL_PREFIX "")
   set(gpt_research_PREFIX ${gpt_research_DEVEL_PREFIX})
 else()
   set(gpt_research_SOURCE_PREFIX "")
   set(gpt_research_DEVEL_PREFIX "")
-  set(gpt_research_INSTALL_PREFIX /home/robocupathome/workspace/eddy_code/install)
+  set(gpt_research_INSTALL_PREFIX /home/ari/ros_ws/eddy_code/install)
   set(gpt_research_PREFIX ${gpt_research_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robocupathome/workspace/eddy_code/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ari/ros_ws/eddy_code/install/lib;/home/ari/cha_ari_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts/external_microphone.py'
+python_script = '/home/ari/ros_ws/eddy_code/src/chatting_system/scripts/external_microphone.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

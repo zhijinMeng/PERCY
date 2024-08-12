@@ -1,44 +1,44 @@
 
 "use strict";
 
-let SafetyZone = require('./SafetyZone.js')
-let SaveMap = require('./SaveMap.js')
-let GetMapConfiguration = require('./GetMapConfiguration.js')
-let ListMaps = require('./ListMaps.js')
-let VisualLocRecognize = require('./VisualLocRecognize.js')
-let ChangeBuilding = require('./ChangeBuilding.js')
+let GetSubMap = require('./GetSubMap.js')
+let Acknowledgment = require('./Acknowledgment.js')
 let ChangeSyncMap = require('./ChangeSyncMap.js')
 let SetSubMapFloor = require('./SetSubMapFloor.js')
-let ChangeMap = require('./ChangeMap.js')
-let SetPOI = require('./SetPOI.js')
-let DisableEmergency = require('./DisableEmergency.js')
-let GetSubMap = require('./GetSubMap.js')
-let GetPOI = require('./GetPOI.js')
+let ChangeBuilding = require('./ChangeBuilding.js')
 let RegisterSync = require('./RegisterSync.js')
-let GetNodes = require('./GetNodes.js')
+let DisableEmergency = require('./DisableEmergency.js')
+let GetMapConfiguration = require('./GetMapConfiguration.js')
 let RenameMap = require('./RenameMap.js')
-let SetMapConfiguration = require('./SetMapConfiguration.js')
-let Acknowledgment = require('./Acknowledgment.js')
+let VisualLocRecognize = require('./VisualLocRecognize.js')
+let SaveMap = require('./SaveMap.js')
+let GetNodes = require('./GetNodes.js')
+let GetPOI = require('./GetPOI.js')
 let FinalApproachPose = require('./FinalApproachPose.js')
+let ListMaps = require('./ListMaps.js')
+let SetMapConfiguration = require('./SetMapConfiguration.js')
+let SetPOI = require('./SetPOI.js')
+let ChangeMap = require('./ChangeMap.js')
+let SafetyZone = require('./SafetyZone.js')
 
 module.exports = {
-  SafetyZone: SafetyZone,
-  SaveMap: SaveMap,
-  GetMapConfiguration: GetMapConfiguration,
-  ListMaps: ListMaps,
-  VisualLocRecognize: VisualLocRecognize,
-  ChangeBuilding: ChangeBuilding,
+  GetSubMap: GetSubMap,
+  Acknowledgment: Acknowledgment,
   ChangeSyncMap: ChangeSyncMap,
   SetSubMapFloor: SetSubMapFloor,
-  ChangeMap: ChangeMap,
-  SetPOI: SetPOI,
-  DisableEmergency: DisableEmergency,
-  GetSubMap: GetSubMap,
-  GetPOI: GetPOI,
+  ChangeBuilding: ChangeBuilding,
   RegisterSync: RegisterSync,
-  GetNodes: GetNodes,
+  DisableEmergency: DisableEmergency,
+  GetMapConfiguration: GetMapConfiguration,
   RenameMap: RenameMap,
-  SetMapConfiguration: SetMapConfiguration,
-  Acknowledgment: Acknowledgment,
+  VisualLocRecognize: VisualLocRecognize,
+  SaveMap: SaveMap,
+  GetNodes: GetNodes,
+  GetPOI: GetPOI,
   FinalApproachPose: FinalApproachPose,
+  ListMaps: ListMaps,
+  SetMapConfiguration: SetMapConfiguration,
+  SetPOI: SetPOI,
+  ChangeMap: ChangeMap,
+  SafetyZone: SafetyZone,
 };

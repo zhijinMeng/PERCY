@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+services_str = "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
 pkg_name = "pal_video_recording_msgs"
 dependencies_str = ""
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

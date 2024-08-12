@@ -1,4 +1,4 @@
-prefix=/home/robocupathome/workspace/eddy_code/install
+prefix=/home/ari/ros_ws/eddy_code/install
 
 Name: pal_wifi_localization_msgs
 Description: Description of pal_wifi_localization_msgs

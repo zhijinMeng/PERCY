@@ -2,7 +2,7 @@
 
 message(STATUS "pal_behaviour_msgs: 15 messages, 1 services")
 
-set(MSG_I_FLAGS "-Ipal_behaviour_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg;-Ipal_behaviour_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_behaviour_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg;-Ipal_behaviour_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,84 +17,84 @@ add_custom_target(pal_behaviour_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" "pal_behaviour_msgs/BehaviourTaskActionResult:pal_behaviour_msgs/BehaviourArgument:pal_behaviour_msgs/BehaviourTaskFeedback:pal_behaviour_msgs/BehaviourTaskActionFeedback:actionlib_msgs/GoalStatus:pal_behaviour_msgs/BehaviourTaskResult:std_msgs/Header:actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourTaskActionGoal:pal_behaviour_msgs/BehaviourTaskGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" "actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourArgument:pal_behaviour_msgs/BehaviourTaskFeedback:pal_behaviour_msgs/BehaviourTaskResult:pal_behaviour_msgs/BehaviourTaskActionFeedback:std_msgs/Header:pal_behaviour_msgs/BehaviourTaskActionGoal:pal_behaviour_msgs/BehaviourTaskGoal:pal_behaviour_msgs/BehaviourTaskActionResult:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" "pal_behaviour_msgs/BehaviourTaskGoal:actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourArgument:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourTaskGoal:pal_behaviour_msgs/BehaviourArgument"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_behaviour_msgs/BehaviourTaskResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourTaskResult:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" "actionlib_msgs/GoalID:pal_behaviour_msgs/BehaviourTaskFeedback:actionlib_msgs/GoalStatus:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" "std_msgs/Header:pal_behaviour_msgs/BehaviourTaskFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" "pal_behaviour_msgs/BehaviourArgument"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" "pal_behaviour_msgs/BehaviourArgument"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" "pal_behaviour_msgs/PresentationFeedback:pal_behaviour_msgs/PresentationGoal:pal_behaviour_msgs/PresentationActionResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID:pal_behaviour_msgs/PresentationActionGoal:pal_behaviour_msgs/PresentationActionFeedback:pal_behaviour_msgs/PresentationResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" "actionlib_msgs/GoalID:pal_behaviour_msgs/PresentationActionGoal:pal_behaviour_msgs/PresentationActionFeedback:pal_behaviour_msgs/PresentationGoal:pal_behaviour_msgs/PresentationFeedback:std_msgs/Header:pal_behaviour_msgs/PresentationResult:pal_behaviour_msgs/PresentationActionResult:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" "actionlib_msgs/GoalID:pal_behaviour_msgs/PresentationGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:pal_behaviour_msgs/PresentationGoal"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" "actionlib_msgs/GoalID:pal_behaviour_msgs/PresentationResult:actionlib_msgs/GoalStatus:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" "std_msgs/Header:pal_behaviour_msgs/PresentationResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" "pal_behaviour_msgs/PresentationFeedback:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" "pal_behaviour_msgs/PresentationFeedback:std_msgs/Header:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" "pal_behaviour_msgs/BehaviourArgument"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_behaviour_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" "pal_behaviour_msgs/BehaviourArgument"
 )
 
 #
@@ -104,91 +104,91 @@ add_custom_target(_pal_behaviour_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_cpp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_cpp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_cpp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_cpp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_cpp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
@@ -196,9 +196,9 @@ _generate_msg_cpp(pal_behaviour_msgs
 
 ### Generating Services
 _generate_srv_cpp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_behaviour_msgs
 )
 
@@ -214,37 +214,37 @@ add_custom_target(pal_behaviour_msgs_generate_messages_cpp
 add_dependencies(pal_behaviour_msgs_generate_messages pal_behaviour_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_cpp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -257,91 +257,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_behaviour_msgs_generate_message
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_eus(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_eus(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_eus(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_eus(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_eus(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
@@ -349,9 +349,9 @@ _generate_msg_eus(pal_behaviour_msgs
 
 ### Generating Services
 _generate_srv_eus(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_behaviour_msgs
 )
 
@@ -367,37 +367,37 @@ add_custom_target(pal_behaviour_msgs_generate_messages_eus
 add_dependencies(pal_behaviour_msgs_generate_messages pal_behaviour_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_eus _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -410,91 +410,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_behaviour_msgs_generate_message
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_lisp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_lisp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_lisp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_lisp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_lisp(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
@@ -502,9 +502,9 @@ _generate_msg_lisp(pal_behaviour_msgs
 
 ### Generating Services
 _generate_srv_lisp(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_behaviour_msgs
 )
 
@@ -520,37 +520,37 @@ add_custom_target(pal_behaviour_msgs_generate_messages_lisp
 add_dependencies(pal_behaviour_msgs_generate_messages pal_behaviour_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_lisp _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -563,91 +563,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_behaviour_msgs_generate_message
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_nodejs(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_nodejs(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_nodejs(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_nodejs(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_nodejs(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
@@ -655,9 +655,9 @@ _generate_msg_nodejs(pal_behaviour_msgs
 
 ### Generating Services
 _generate_srv_nodejs(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_behaviour_msgs
 )
 
@@ -673,37 +673,37 @@ add_custom_target(pal_behaviour_msgs_generate_messages_nodejs
 add_dependencies(pal_behaviour_msgs_generate_messages pal_behaviour_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_nodejs _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -716,91 +716,91 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_behaviour_msgs_generate_message
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
-)
-_generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_py(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_py(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_py(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_py(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 _generate_msg_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
+)
+_generate_msg_py(pal_behaviour_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
@@ -808,9 +808,9 @@ _generate_msg_py(pal_behaviour_msgs
 
 ### Generating Services
 _generate_srv_py(pal_behaviour_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_behaviour_msgs
 )
 
@@ -826,37 +826,37 @@ add_custom_target(pal_behaviour_msgs_generate_messages_py
 add_dependencies(pal_behaviour_msgs_generate_messages pal_behaviour_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/BehaviourTaskFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationAction.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationActionFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationGoal.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationResult.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_behaviour_msgs/msg/PresentationFeedback.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/msg/BehaviourArgument.msg" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_behaviour_msgs/srv/BehaviourEvent.srv" NAME_WE)
 add_dependencies(pal_behaviour_msgs_generate_messages_py _pal_behaviour_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

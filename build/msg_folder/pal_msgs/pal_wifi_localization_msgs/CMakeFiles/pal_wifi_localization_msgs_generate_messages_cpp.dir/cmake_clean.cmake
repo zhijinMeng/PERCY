@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/include/pal_wifi_localization_msgs/GetWifiMap.h"
-  "/home/robocupathome/workspace/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignal.h"
-  "/home/robocupathome/workspace/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignalList.h"
-  "/home/robocupathome/workspace/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignalMap.h"
+  "/home/ari/ros_ws/eddy_code/devel/include/pal_wifi_localization_msgs/GetWifiMap.h"
+  "/home/ari/ros_ws/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignal.h"
+  "/home/ari/ros_ws/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignalList.h"
+  "/home/ari/ros_ws/eddy_code/devel/include/pal_wifi_localization_msgs/WifiSignalMap.h"
   "CMakeFiles/pal_wifi_localization_msgs_generate_messages_cpp"
 )
 

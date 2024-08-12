@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/robocupathome/workspace/eddy_code/install/setup.sh
+    local-name: /home/ari/ros_ws/eddy_code/install/setup.sh

@@ -2,7 +2,7 @@
 
 message(STATUS "pal_walking_msgs: 4 messages, 4 services")
 
-set(MSG_I_FLAGS "-Ipal_walking_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Ihumanoid_nav_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg;-Ihumanoid_nav_msgs:/home/robocupathome/workspace/eddy_code/devel/share/humanoid_nav_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_walking_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg;-Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,44 +17,44 @@ add_custom_target(pal_walking_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" "geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" "geometry_msgs/Pose2D:humanoid_nav_msgs/StepTarget:std_msgs/Duration:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" "humanoid_nav_msgs/StepTarget:geometry_msgs/Pose2D:std_msgs/Duration:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" "geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" "geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" "geometry_msgs/Pose:geometry_msgs/PoseArray:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_walking_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" "std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/PoseArray"
 )
 
 #
@@ -64,53 +64,53 @@ add_custom_target(_pal_walking_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_cpp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_walking_msgs
 )
 
@@ -126,21 +126,21 @@ add_custom_target(pal_walking_msgs_generate_messages_cpp
 add_dependencies(pal_walking_msgs_generate_messages pal_walking_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_cpp _pal_walking_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -153,53 +153,53 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_walking_msgs_generate_messages_
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 
 ### Generating Services
 _generate_srv_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_eus(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_walking_msgs
 )
 
@@ -215,21 +215,21 @@ add_custom_target(pal_walking_msgs_generate_messages_eus
 add_dependencies(pal_walking_msgs_generate_messages pal_walking_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_eus _pal_walking_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -242,53 +242,53 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_walking_msgs_generate_messages_
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_lisp(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_walking_msgs
 )
 
@@ -304,21 +304,21 @@ add_custom_target(pal_walking_msgs_generate_messages_lisp
 add_dependencies(pal_walking_msgs_generate_messages pal_walking_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_lisp _pal_walking_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -331,53 +331,53 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_walking_msgs_generate_messages_
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 
 ### Generating Services
 _generate_srv_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_nodejs(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_walking_msgs
 )
 
@@ -393,21 +393,21 @@ add_custom_target(pal_walking_msgs_generate_messages_nodejs
 add_dependencies(pal_walking_msgs_generate_messages pal_walking_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_nodejs _pal_walking_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -420,53 +420,53 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_walking_msgs_generate_messages_
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Duration.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_msg_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 
 ### Generating Services
 _generate_srv_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 _generate_srv_py(pal_walking_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_walking_msgs
 )
 
@@ -482,21 +482,21 @@ add_custom_target(pal_walking_msgs_generate_messages_py
 add_dependencies(pal_walking_msgs_generate_messages pal_walking_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/WalkingStep.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/ContactState.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/msg/SMStatus.msg" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/WalkSteps.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/StepOver.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/Sit.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_walking_msgs/srv/MoveHipFeet.srv" NAME_WE)
 add_dependencies(pal_walking_msgs_generate_messages_py _pal_walking_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

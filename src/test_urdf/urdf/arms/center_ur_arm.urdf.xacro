@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro"
+       name="ur3e" >
+
+  <!-- common stuff -->
+  <xacro:include filename="$(find xacro)/xacro $(find test_urdf)/urdf/arms/ur_configs/center_arm_config.gazebo.xacro" />
+
+  <!-- ur3e -->
+  <xacro:include filename="$(find xacro)/xacro $(find ur_description)/urdf/ur3.urdf.xacro" />
+
+  <!-- arm -->
+  <xacro:arg name="ur3_transmission_hw_interface" default="hardware_interface/PositionJointInterface"/>
+  <xacro:arg name="ur3_kinematics_config" default="$(find xacro)/xacro $(find ur_description)/config/ur3_default.yaml"/>
+
+  <xacro:ur3_robot prefix="center_arm/" joint_limited="false"
+                   transmission_hw_interface="$(arg ur3_transmission_hw_interface)"
+
+  />
+  
+</robot>

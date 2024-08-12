@@ -2,7 +2,7 @@
 
 message(STATUS "pal_navigation_msgs: 67 messages, 19 services")
 
-set(MSG_I_FLAGS "-Ipal_navigation_msgs:/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg;-Ipal_navigation_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg;-Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg;-Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg;-Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,434 +17,434 @@ add_custom_target(pal_navigation_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingActionResult:pal_navigation_msgs/ExecuteParkingActionGoal:std_msgs/Header:pal_navigation_msgs/ExecuteParkingGoal:pal_navigation_msgs/ExecuteParkingFeedback:pal_navigation_msgs/ExecuteParkingResult:pal_navigation_msgs/ExecuteParkingActionFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" "actionlib_msgs/GoalID:pal_navigation_msgs/ExecuteParkingActionResult:actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingActionGoal:std_msgs/Header:pal_navigation_msgs/ExecuteParkingActionFeedback:pal_navigation_msgs/ExecuteParkingGoal:pal_navigation_msgs/ExecuteParkingFeedback:pal_navigation_msgs/ExecuteParkingResult"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" "pal_navigation_msgs/ExecuteParkingGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" "std_msgs/Header:pal_navigation_msgs/ExecuteParkingGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingResult:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/ExecuteParkingResult:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/ExecuteParkingFeedback:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/ExecuteParkingFeedback:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" "geometry_msgs/Pose:actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/FollowWaypointsActionGoal:pal_navigation_msgs/MissedWaypoint:geometry_msgs/Point:pal_navigation_msgs/FollowWaypointsResult:pal_navigation_msgs/FollowWaypointsGoal:geometry_msgs/PoseStamped:pal_navigation_msgs/FollowWaypointsActionFeedback:geometry_msgs/Quaternion:pal_navigation_msgs/Waypoint:pal_navigation_msgs/FollowWaypointsFeedback:pal_navigation_msgs/FollowWaypointsActionResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" "pal_navigation_msgs/MissedWaypoint:pal_navigation_msgs/FollowWaypointsGoal:actionlib_msgs/GoalID:pal_navigation_msgs/FollowWaypointsActionResult:pal_navigation_msgs/FollowWaypointsResult:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:pal_navigation_msgs/FollowWaypointsActionFeedback:pal_navigation_msgs/Waypoint:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/FollowWaypointsFeedback:pal_navigation_msgs/FollowWaypointsActionGoal:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:pal_navigation_msgs/FollowWaypointsGoal:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/Waypoint:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" "pal_navigation_msgs/FollowWaypointsGoal:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:pal_navigation_msgs/Waypoint:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" "geometry_msgs/Pose:actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/MissedWaypoint:pal_navigation_msgs/FollowWaypointsResult:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" "pal_navigation_msgs/MissedWaypoint:pal_navigation_msgs/FollowWaypointsResult:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/FollowWaypointsFeedback:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/FollowWaypointsFeedback:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/Waypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" "geometry_msgs/PoseStamped:pal_navigation_msgs/Waypoint:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" "geometry_msgs/Pose:std_msgs/Header:pal_navigation_msgs/MissedWaypoint:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" "pal_navigation_msgs/MissedWaypoint:geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" "pal_navigation_msgs/JoyPriorityActionGoal:pal_navigation_msgs/JoyPriorityGoal:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityActionFeedback:std_msgs/Header:pal_navigation_msgs/JoyPriorityResult:pal_navigation_msgs/JoyPriorityActionResult:pal_navigation_msgs/JoyPriorityFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" "pal_navigation_msgs/JoyPriorityFeedback:actionlib_msgs/GoalID:pal_navigation_msgs/JoyPriorityActionResult:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityResult:pal_navigation_msgs/JoyPriorityActionGoal:std_msgs/Header:pal_navigation_msgs/JoyPriorityGoal:pal_navigation_msgs/JoyPriorityActionFeedback"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" "pal_navigation_msgs/JoyPriorityGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" "std_msgs/Header:pal_navigation_msgs/JoyPriorityGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityResult:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityResult:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityFeedback:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyPriorityFeedback:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" "pal_navigation_msgs/JoyTurboActionFeedback:actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/JoyTurboActionResult:pal_navigation_msgs/JoyTurboFeedback:pal_navigation_msgs/JoyTurboGoal:pal_navigation_msgs/JoyTurboActionGoal:pal_navigation_msgs/JoyTurboResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" "actionlib_msgs/GoalID:pal_navigation_msgs/JoyTurboActionResult:pal_navigation_msgs/JoyTurboResult:actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboGoal:std_msgs/Header:pal_navigation_msgs/JoyTurboActionGoal:pal_navigation_msgs/JoyTurboActionFeedback:pal_navigation_msgs/JoyTurboFeedback"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" "pal_navigation_msgs/JoyTurboGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" "pal_navigation_msgs/JoyTurboGoal:std_msgs/Header:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboResult:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/JoyTurboResult:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" "actionlib_msgs/GoalStatus:pal_navigation_msgs/JoyTurboFeedback:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/JoyTurboFeedback:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" "geometry_msgs/Pose:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIGoal:pal_navigation_msgs/GoToPOIFeedback:std_msgs/Header:geometry_msgs/Point:pal_navigation_msgs/GoToPOIActionResult:pal_navigation_msgs/GoToPOIResult:pal_navigation_msgs/GoToPOIActionGoal:pal_navigation_msgs/GoToPOIActionFeedback:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:std_msgs/String:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" "pal_navigation_msgs/GoToPOIActionFeedback:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIGoal:pal_navigation_msgs/GoToPOIActionResult:pal_navigation_msgs/GoToPOIResult:geometry_msgs/Point:std_msgs/Header:std_msgs/String:geometry_msgs/Pose:pal_navigation_msgs/GoToPOIActionGoal:pal_navigation_msgs/GoToPOIFeedback:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" "std_msgs/String:pal_navigation_msgs/GoToPOIGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" "std_msgs/Header:std_msgs/String:pal_navigation_msgs/GoToPOIGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" "pal_navigation_msgs/GoToPOIResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/GoToPOIResult:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" "geometry_msgs/Pose:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToPOIFeedback:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" "actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/GoToPOIFeedback:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" "geometry_msgs/Pose:pal_navigation_msgs/GoToResult:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToActionFeedback:pal_navigation_msgs/GoToFeedback:std_msgs/Header:pal_navigation_msgs/GoToActionResult:geometry_msgs/Point:pal_navigation_msgs/GoToGoal:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:pal_navigation_msgs/GoToActionGoal:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" "actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToActionFeedback:geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/GoToResult:pal_navigation_msgs/GoToFeedback:geometry_msgs/Pose:pal_navigation_msgs/GoToActionGoal:pal_navigation_msgs/GoToActionResult:pal_navigation_msgs/GoToGoal:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:pal_navigation_msgs/GoToGoal:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" "actionlib_msgs/GoalID:geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/GoToGoal:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" "pal_navigation_msgs/GoToResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/GoToResult:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" "geometry_msgs/Pose:actionlib_msgs/GoalStatus:pal_navigation_msgs/GoToFeedback:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" "actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:pal_navigation_msgs/GoToFeedback:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/VisualTrainingGoal:pal_navigation_msgs/VisualTrainingActionFeedback:pal_navigation_msgs/VisualTrainingFeedback:pal_navigation_msgs/VisualTrainingResult:pal_navigation_msgs/VisualTrainingActionResult:pal_navigation_msgs/VisualTrainingActionGoal:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" "actionlib_msgs/GoalID:pal_navigation_msgs/VisualTrainingGoal:pal_navigation_msgs/VisualTrainingFeedback:actionlib_msgs/GoalStatus:pal_navigation_msgs/VisualTrainingResult:pal_navigation_msgs/VisualTrainingActionGoal:std_msgs/Header:pal_navigation_msgs/VisualTrainingActionResult:pal_navigation_msgs/VisualTrainingActionFeedback"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" "pal_navigation_msgs/VisualTrainingGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" "std_msgs/Header:pal_navigation_msgs/VisualTrainingGoal:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" "pal_navigation_msgs/VisualTrainingResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/VisualTrainingResult:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" "pal_navigation_msgs/VisualTrainingFeedback:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" "actionlib_msgs/GoalStatus:std_msgs/Header:pal_navigation_msgs/VisualTrainingFeedback:actionlib_msgs/GoalID"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" "std_msgs/Header:pal_navigation_msgs/EulerAngles"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" "std_msgs/Header:pal_navigation_msgs/EulerAngles"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" "sensor_msgs/PointCloud:pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:nav_msgs/MapMetaData:geometry_msgs/Pose:std_msgs/Header:sensor_msgs/Image:geometry_msgs/Point:std_msgs/Bool:geometry_msgs/Quaternion:pal_navigation_msgs/POIGroup:pal_navigation_msgs/NiceMapTransformation:geometry_msgs/Point32:pal_navigation_msgs/Highways:std_msgs/String:std_msgs/Float32:pal_navigation_msgs/VisualLocDB"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" "sensor_msgs/Image:geometry_msgs/Quaternion:pal_navigation_msgs/Highways:std_msgs/Bool:pal_navigation_msgs/POIGroup:geometry_msgs/Point32:nav_msgs/MapMetaData:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/VisualLocDB:std_msgs/Float32:geometry_msgs/Point:std_msgs/Header:pal_navigation_msgs/POI:std_msgs/String:geometry_msgs/Pose:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:sensor_msgs/PointCloud"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" "sensor_msgs/ChannelFloat32:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" "geometry_msgs/Point32:std_msgs/Header:std_msgs/String:sensor_msgs/ChannelFloat32:sensor_msgs/PointCloud"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" "pal_navigation_msgs/PolarReading:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" "pal_navigation_msgs/PolarReading:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" "std_msgs/String:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" "geometry_msgs/Point:std_msgs/String"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" "std_msgs/String:std_msgs/Float32:geometry_msgs/Point:std_msgs/Bool"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" "geometry_msgs/Point:std_msgs/Bool:std_msgs/String:std_msgs/Float32"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" "geometry_msgs/Point:sensor_msgs/CompressedImage:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" "geometry_msgs/Point:sensor_msgs/CompressedImage:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" "nav_msgs/MapMetaData:geometry_msgs/Pose:nav_msgs/OccupancyGrid:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" "nav_msgs/MapMetaData:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:nav_msgs/OccupancyGrid:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:std_msgs/String:nav_msgs/MapMetaData:pal_navigation_msgs/POI:geometry_msgs/Point:std_msgs/Bool:pal_navigation_msgs/POIGroup:pal_navigation_msgs/VisualLocDB:pal_navigation_msgs/MapConfiguration:geometry_msgs/Point32:std_msgs/Float32:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/Highways:sensor_msgs/PointCloud:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" "pal_navigation_msgs/POIGroup:std_msgs/Float32:pal_navigation_msgs/POI:sensor_msgs/Image:pal_navigation_msgs/NiceMapTransformation:geometry_msgs/Point32:nav_msgs/MapMetaData:pal_navigation_msgs/VisualLocDB:geometry_msgs/Quaternion:std_msgs/Bool:geometry_msgs/Point:std_msgs/String:geometry_msgs/Pose:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/MapConfiguration:sensor_msgs/PointCloud:pal_navigation_msgs/Highways:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" "geometry_msgs/Pose:geometry_msgs/Point:std_msgs/Bool:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" "geometry_msgs/Point:std_msgs/Bool:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:std_msgs/String:nav_msgs/MapMetaData:pal_navigation_msgs/POI:geometry_msgs/Point:std_msgs/Bool:pal_navigation_msgs/POIGroup:pal_navigation_msgs/VisualLocDB:pal_navigation_msgs/MapConfiguration:geometry_msgs/Point32:std_msgs/Float32:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/Highways:sensor_msgs/PointCloud:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" "pal_navigation_msgs/POIGroup:std_msgs/Float32:pal_navigation_msgs/POI:sensor_msgs/Image:pal_navigation_msgs/NiceMapTransformation:geometry_msgs/Point32:nav_msgs/MapMetaData:pal_navigation_msgs/VisualLocDB:geometry_msgs/Quaternion:std_msgs/Bool:geometry_msgs/Point:std_msgs/String:geometry_msgs/Pose:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/MapConfiguration:sensor_msgs/PointCloud:pal_navigation_msgs/Highways:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" "pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" "geometry_msgs/Point32:std_msgs/Header:pal_navigation_msgs/POI:std_msgs/String:sensor_msgs/ChannelFloat32:sensor_msgs/PointCloud"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:std_msgs/String:nav_msgs/MapMetaData:pal_navigation_msgs/POI:geometry_msgs/Point:std_msgs/Bool:pal_navigation_msgs/POIGroup:pal_navigation_msgs/VisualLocDB:pal_navigation_msgs/MapConfiguration:geometry_msgs/Point32:std_msgs/Float32:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/Highways:sensor_msgs/PointCloud:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" "pal_navigation_msgs/POIGroup:std_msgs/Float32:pal_navigation_msgs/POI:sensor_msgs/Image:pal_navigation_msgs/NiceMapTransformation:geometry_msgs/Point32:nav_msgs/MapMetaData:pal_navigation_msgs/VisualLocDB:geometry_msgs/Quaternion:std_msgs/Bool:geometry_msgs/Point:std_msgs/String:geometry_msgs/Pose:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/MapConfiguration:sensor_msgs/PointCloud:pal_navigation_msgs/Highways:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:std_msgs/String:nav_msgs/MapMetaData:pal_navigation_msgs/POI:geometry_msgs/Point:std_msgs/Bool:pal_navigation_msgs/POIGroup:pal_navigation_msgs/VisualLocDB:pal_navigation_msgs/MapConfiguration:geometry_msgs/Point32:std_msgs/Float32:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/NiceMapTransformation:pal_navigation_msgs/Highways:sensor_msgs/PointCloud:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" "pal_navigation_msgs/POIGroup:std_msgs/Float32:pal_navigation_msgs/POI:sensor_msgs/Image:pal_navigation_msgs/NiceMapTransformation:geometry_msgs/Point32:nav_msgs/MapMetaData:pal_navigation_msgs/VisualLocDB:geometry_msgs/Quaternion:std_msgs/Bool:geometry_msgs/Point:std_msgs/String:geometry_msgs/Pose:sensor_msgs/ChannelFloat32:nav_msgs/OccupancyGrid:pal_navigation_msgs/MapConfiguration:sensor_msgs/PointCloud:pal_navigation_msgs/Highways:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" "pal_navigation_msgs/POI:sensor_msgs/ChannelFloat32:std_msgs/Header:geometry_msgs/Point32:std_msgs/String:sensor_msgs/PointCloud"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" "geometry_msgs/Point32:std_msgs/Header:pal_navigation_msgs/POI:std_msgs/String:sensor_msgs/ChannelFloat32:sensor_msgs/PointCloud"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovariance"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" "geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_navigation_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" ""
 )
 
 #
@@ -454,519 +454,519 @@ add_custom_target(_pal_navigation_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_cpp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_cpp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_navigation_msgs
@@ -984,177 +984,177 @@ add_custom_target(pal_navigation_msgs_generate_messages_cpp
 add_dependencies(pal_navigation_msgs_generate_messages pal_navigation_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_cpp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1167,519 +1167,519 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 
 ### Generating Services
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_eus(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_eus(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_navigation_msgs
@@ -1697,177 +1697,177 @@ add_custom_target(pal_navigation_msgs_generate_messages_eus
 add_dependencies(pal_navigation_msgs_generate_messages pal_navigation_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_eus _pal_navigation_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1880,519 +1880,519 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_lisp(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_lisp(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_navigation_msgs
@@ -2410,177 +2410,177 @@ add_custom_target(pal_navigation_msgs_generate_messages_lisp
 add_dependencies(pal_navigation_msgs_generate_messages pal_navigation_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_lisp _pal_navigation_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -2593,519 +2593,519 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 
 ### Generating Services
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_nodejs(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_nodejs(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_navigation_msgs
@@ -3123,177 +3123,177 @@ add_custom_target(pal_navigation_msgs_generate_messages_nodejs
 add_dependencies(pal_navigation_msgs_generate_messages pal_navigation_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_nodejs _pal_navigation_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -3306,519 +3306,519 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_navigation_msgs_generate_messag
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_msg_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/CompressedImage.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_msg_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 
 ### Generating Services
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
-  "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
-)
-_generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
 )
 _generate_srv_py(pal_navigation_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/Image.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovarianceStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
+)
+_generate_srv_py(pal_navigation_msgs
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_navigation_msgs
@@ -3836,177 +3836,177 @@ add_custom_target(pal_navigation_msgs_generate_messages_py
 add_dependencies(pal_navigation_msgs_generate_messages pal_navigation_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/AvailableMaps.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Emergency.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAngles.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/EulerAnglesStamped.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NavigationStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/ServiceStatus.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/TabletPOI.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/Acknowledgment.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeBuilding.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/DisableEmergency.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ListMaps.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetNodes.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetSubMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SafetyZone.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SaveMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetSubMapFloor.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RenameMap.srv" NAME_WE)
 add_dependencies(pal_navigation_msgs_generate_messages_py _pal_navigation_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

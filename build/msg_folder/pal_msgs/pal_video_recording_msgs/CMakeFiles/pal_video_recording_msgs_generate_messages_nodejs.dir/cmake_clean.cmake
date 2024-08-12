@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_video_recording_msgs/srv/StartRecording.js"
-  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_video_recording_msgs/srv/StopRecording.js"
+  "/home/ari/ros_ws/eddy_code/devel/share/gennodejs/ros/pal_video_recording_msgs/srv/StartRecording.js"
+  "/home/ari/ros_ws/eddy_code/devel/share/gennodejs/ros/pal_video_recording_msgs/srv/StopRecording.js"
   "CMakeFiles/pal_video_recording_msgs_generate_messages_nodejs"
 )
 

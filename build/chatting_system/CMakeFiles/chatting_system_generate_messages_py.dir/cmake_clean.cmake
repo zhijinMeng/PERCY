@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/chatting_system/msg/_AudioStamped.py"
-  "/home/robocupathome/workspace/eddy_code/devel/lib/python3/dist-packages/chatting_system/msg/__init__.py"
+  "/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/chatting_system/msg/_AudioStamped.py"
+  "/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/chatting_system/msg/__init__.py"
   "CMakeFiles/chatting_system_generate_messages_py"
 )
 

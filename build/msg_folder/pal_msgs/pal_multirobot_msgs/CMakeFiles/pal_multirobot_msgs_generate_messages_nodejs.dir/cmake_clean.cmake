@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/pal_multirobot_msgs/msg/WifiServiceDetection.js"
+  "/home/ari/ros_ws/eddy_code/devel/share/gennodejs/ros/pal_multirobot_msgs/msg/WifiServiceDetection.js"
   "CMakeFiles/pal_multirobot_msgs_generate_messages_nodejs"
 )
 

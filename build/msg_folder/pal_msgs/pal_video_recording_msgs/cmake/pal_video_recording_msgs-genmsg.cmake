@@ -17,14 +17,14 @@ add_custom_target(pal_video_recording_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_custom_target(_pal_video_recording_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_video_recording_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_video_recording_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" ""
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_custom_target(_pal_video_recording_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_video_recording_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_video_recording_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" ""
 )
 
 #
@@ -36,13 +36,13 @@ add_custom_target(_pal_video_recording_msgs_generate_messages_check_deps_${_file
 
 ### Generating Services
 _generate_srv_cpp(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_video_recording_msgs
 )
 _generate_srv_cpp(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_video_recording_msgs
@@ -60,9 +60,9 @@ add_custom_target(pal_video_recording_msgs_generate_messages_cpp
 add_dependencies(pal_video_recording_msgs_generate_messages pal_video_recording_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_cpp _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_cpp _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -77,13 +77,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_video_recording_msgs_generate_m
 
 ### Generating Services
 _generate_srv_eus(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_video_recording_msgs
 )
 _generate_srv_eus(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_video_recording_msgs
@@ -101,9 +101,9 @@ add_custom_target(pal_video_recording_msgs_generate_messages_eus
 add_dependencies(pal_video_recording_msgs_generate_messages pal_video_recording_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_eus _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_eus _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -118,13 +118,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_video_recording_msgs_generate_m
 
 ### Generating Services
 _generate_srv_lisp(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_video_recording_msgs
 )
 _generate_srv_lisp(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_video_recording_msgs
@@ -142,9 +142,9 @@ add_custom_target(pal_video_recording_msgs_generate_messages_lisp
 add_dependencies(pal_video_recording_msgs_generate_messages pal_video_recording_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_lisp _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_lisp _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -159,13 +159,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_video_recording_msgs_generate_m
 
 ### Generating Services
 _generate_srv_nodejs(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_video_recording_msgs
 )
 _generate_srv_nodejs(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_video_recording_msgs
@@ -183,9 +183,9 @@ add_custom_target(pal_video_recording_msgs_generate_messages_nodejs
 add_dependencies(pal_video_recording_msgs_generate_messages pal_video_recording_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_nodejs _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_nodejs _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -200,13 +200,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_video_recording_msgs_generate_m
 
 ### Generating Services
 _generate_srv_py(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_video_recording_msgs
 )
 _generate_srv_py(pal_video_recording_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_video_recording_msgs
@@ -224,9 +224,9 @@ add_custom_target(pal_video_recording_msgs_generate_messages_py
 add_dependencies(pal_video_recording_msgs_generate_messages pal_video_recording_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StartRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_py _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_video_recording_msgs/srv/StopRecording.srv" NAME_WE)
 add_dependencies(pal_video_recording_msgs_generate_messages_py _pal_video_recording_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

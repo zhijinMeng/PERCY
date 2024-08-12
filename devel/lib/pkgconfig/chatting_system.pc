@@ -1,8 +1,8 @@
-prefix=/home/robocupathome/workspace/eddy_code/devel
+prefix=/home/ari/ros_ws/eddy_code/devel
 
 Name: chatting_system
 Description: Description of chatting_system
 Version: 0.0.0
-Cflags: -I/home/robocupathome/workspace/eddy_code/devel/include
+Cflags: -I/home/ari/ros_ws/eddy_code/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime std_msgs

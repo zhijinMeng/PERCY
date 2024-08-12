@@ -2,7 +2,7 @@
 
 message(STATUS "pal_multirobot_msgs: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ipal_multirobot_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_multirobot_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(pal_multirobot_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_custom_target(_pal_multirobot_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_multirobot_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_multirobot_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" "std_msgs/Header"
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_pal_multirobot_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_multirobot_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_multirobot_msgs
@@ -49,7 +49,7 @@ add_custom_target(pal_multirobot_msgs_generate_messages_cpp
 add_dependencies(pal_multirobot_msgs_generate_messages pal_multirobot_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_dependencies(pal_multirobot_msgs_generate_messages_cpp _pal_multirobot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_multirobot_msgs_generate_messag
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_multirobot_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_multirobot_msgs
@@ -82,7 +82,7 @@ add_custom_target(pal_multirobot_msgs_generate_messages_eus
 add_dependencies(pal_multirobot_msgs_generate_messages pal_multirobot_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_dependencies(pal_multirobot_msgs_generate_messages_eus _pal_multirobot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_multirobot_msgs_generate_messag
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_multirobot_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_multirobot_msgs
@@ -115,7 +115,7 @@ add_custom_target(pal_multirobot_msgs_generate_messages_lisp
 add_dependencies(pal_multirobot_msgs_generate_messages pal_multirobot_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_dependencies(pal_multirobot_msgs_generate_messages_lisp _pal_multirobot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_multirobot_msgs_generate_messag
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_multirobot_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_multirobot_msgs
@@ -148,7 +148,7 @@ add_custom_target(pal_multirobot_msgs_generate_messages_nodejs
 add_dependencies(pal_multirobot_msgs_generate_messages pal_multirobot_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_dependencies(pal_multirobot_msgs_generate_messages_nodejs _pal_multirobot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_multirobot_msgs_generate_messag
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_multirobot_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_multirobot_msgs
@@ -181,7 +181,7 @@ add_custom_target(pal_multirobot_msgs_generate_messages_py
 add_dependencies(pal_multirobot_msgs_generate_messages pal_multirobot_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_multirobot_msgs/msg/WifiServiceDetection.msg" NAME_WE)
 add_dependencies(pal_multirobot_msgs_generate_messages_py _pal_multirobot_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

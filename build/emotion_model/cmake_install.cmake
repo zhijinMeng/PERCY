@@ -1,8 +1,8 @@
-# Install script for directory: /home/robocupathome/workspace/eddy_code/src/emotion_model
+# Install script for directory: /home/ari/ros_ws/eddy_code/src/emotion_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robocupathome/workspace/eddy_code/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ari/ros_ws/eddy_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,27 +37,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ari/ros_ws/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_model.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_model.pc")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/emotion_model/cmake" TYPE FILE FILES
-    "/home/robocupathome/workspace/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_modelConfig.cmake"
-    "/home/robocupathome/workspace/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_modelConfig-version.cmake"
+    "/home/ari/ros_ws/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_modelConfig.cmake"
+    "/home/ari/ros_ws/eddy_code/build/emotion_model/catkin_generated/installspace/emotion_modelConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/emotion_model" TYPE FILE FILES "/home/robocupathome/workspace/eddy_code/src/emotion_model/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/emotion_model" TYPE FILE FILES "/home/ari/ros_ws/eddy_code/src/emotion_model/package.xml")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/emotion_model" TYPE PROGRAM FILES "/home/robocupathome/workspace/eddy_code/build/emotion_model/catkin_generated/installspace/streamdata.py")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/emotion_model" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/emotion_model/catkin_generated/installspace/streamdata.py")
 endif()
 

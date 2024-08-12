@@ -17,9 +17,9 @@ add_custom_target(gpt_server_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_custom_target(_gpt_server_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gpt_server" "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gpt_server" "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_gpt_server_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(gpt_server
-  "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+  "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/gpt_server
@@ -49,7 +49,7 @@ add_custom_target(gpt_server_generate_messages_cpp
 add_dependencies(gpt_server_generate_messages gpt_server_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_dependencies(gpt_server_generate_messages_cpp _gpt_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS gpt_server_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(gpt_server
-  "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+  "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/gpt_server
@@ -82,7 +82,7 @@ add_custom_target(gpt_server_generate_messages_eus
 add_dependencies(gpt_server_generate_messages gpt_server_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_dependencies(gpt_server_generate_messages_eus _gpt_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS gpt_server_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(gpt_server
-  "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+  "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/gpt_server
@@ -115,7 +115,7 @@ add_custom_target(gpt_server_generate_messages_lisp
 add_dependencies(gpt_server_generate_messages gpt_server_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_dependencies(gpt_server_generate_messages_lisp _gpt_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS gpt_server_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(gpt_server
-  "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+  "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/gpt_server
@@ -148,7 +148,7 @@ add_custom_target(gpt_server_generate_messages_nodejs
 add_dependencies(gpt_server_generate_messages gpt_server_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_dependencies(gpt_server_generate_messages_nodejs _gpt_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS gpt_server_generate_messages_nodejs
 
 ### Generating Services
 _generate_srv_py(gpt_server
-  "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+  "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/gpt_server
@@ -181,7 +181,7 @@ add_custom_target(gpt_server_generate_messages_py
 add_dependencies(gpt_server_generate_messages gpt_server_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv" NAME_WE)
 add_dependencies(gpt_server_generate_messages_py _gpt_server_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

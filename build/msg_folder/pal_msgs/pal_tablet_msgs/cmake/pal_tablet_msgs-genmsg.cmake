@@ -2,7 +2,7 @@
 
 message(STATUS "pal_tablet_msgs: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ipal_tablet_msgs:/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipal_tablet_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,14 @@ add_custom_target(pal_tablet_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_custom_target(_pal_tablet_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" "std_msgs/Bool:std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" "std_msgs/String:std_msgs/Bool"
 )
 
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_custom_target(_pal_tablet_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" "pal_tablet_msgs/FunctionalityStatus:std_msgs/Bool:std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_tablet_msgs" "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" "std_msgs/String:pal_tablet_msgs/FunctionalityStatus:std_msgs/Bool"
 )
 
 #
@@ -34,15 +34,15 @@ add_custom_target(_pal_tablet_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_tablet_msgs
 )
 _generate_msg_cpp(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -60,9 +60,9 @@ add_custom_target(pal_tablet_msgs_generate_messages_cpp
 add_dependencies(pal_tablet_msgs_generate_messages pal_tablet_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_cpp _pal_tablet_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_cpp _pal_tablet_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,15 +75,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_tablet_msgs_generate_messages_c
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_tablet_msgs
 )
 _generate_msg_eus(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -101,9 +101,9 @@ add_custom_target(pal_tablet_msgs_generate_messages_eus
 add_dependencies(pal_tablet_msgs_generate_messages pal_tablet_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_eus _pal_tablet_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_eus _pal_tablet_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,15 +116,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_tablet_msgs_generate_messages_e
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_tablet_msgs
 )
 _generate_msg_lisp(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -142,9 +142,9 @@ add_custom_target(pal_tablet_msgs_generate_messages_lisp
 add_dependencies(pal_tablet_msgs_generate_messages pal_tablet_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_lisp _pal_tablet_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_lisp _pal_tablet_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,15 +157,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_tablet_msgs_generate_messages_l
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_tablet_msgs
 )
 _generate_msg_nodejs(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -183,9 +183,9 @@ add_custom_target(pal_tablet_msgs_generate_messages_nodejs
 add_dependencies(pal_tablet_msgs_generate_messages pal_tablet_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_nodejs _pal_tablet_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_nodejs _pal_tablet_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,15 +198,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pal_tablet_msgs_generate_messages_n
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_tablet_msgs
 )
 _generate_msg_py(pal_tablet_msgs
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/String.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_tablet_msgs
 )
 
@@ -224,9 +224,9 @@ add_custom_target(pal_tablet_msgs_generate_messages_py
 add_dependencies(pal_tablet_msgs_generate_messages pal_tablet_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/FunctionalityStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_py _pal_tablet_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/robocupathome/workspace/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_tablet_msgs/msg/RobotStatus.msg" NAME_WE)
 add_dependencies(pal_tablet_msgs_generate_messages_py _pal_tablet_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

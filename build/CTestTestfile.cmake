@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robocupathome/workspace/eddy_code/src
-# Build directory: /home/robocupathome/workspace/eddy_code/build
+# Source directory: /home/ari/ros_ws/eddy_code/src
+# Build directory: /home/ari/ros_ws/eddy_code/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -8,7 +8,6 @@ subdirs("gtest")
 subdirs("msg_folder/humanoid_msgs/humanoid_msgs")
 subdirs("msg_folder/pal_msgs/pal_msgs")
 subdirs("msg_folder/pal_msgs/pal_video_recording_msgs")
-subdirs("msg_folder/attention_manager")
 subdirs("msg_folder/hri_actions_msgs")
 subdirs("msg_folder/humanoid_msgs/humanoid_nav_msgs")
 subdirs("msg_folder/pal_msgs/pal_behaviour_msgs")
@@ -24,7 +23,8 @@ subdirs("msg_folder/pal_msgs/pal_visual_localization_msgs")
 subdirs("msg_folder/pal_msgs/pal_walking_msgs")
 subdirs("msg_folder/pal_msgs/pal_web_msgs")
 subdirs("msg_folder/pal_msgs/pal_wifi_localization_msgs")
-subdirs("msg_folder/play_motion/play_motion_msgs")
+subdirs("test_urdf")
+subdirs("universal_robot/universal_robots")
 subdirs("chatting_system")
 subdirs("emotion_model")
 subdirs("gpt_research")
@@ -33,4 +33,15 @@ subdirs("sensors")
 subdirs("msg_folder/pal_msgs/pal_detection_msgs")
 subdirs("msg_folder/pal_msgs/pal_navigation_msgs")
 subdirs("msg_folder/pal_msgs/pal_vision_msgs")
-subdirs("msg_folder/play_motion/play_motion")
+subdirs("universal_robot/ur10_moveit_config")
+subdirs("universal_robot/ur10e_moveit_config")
+subdirs("universal_robot/ur16e_moveit_config")
+subdirs("universal_robot/ur20_moveit_config")
+subdirs("universal_robot/ur30_moveit_config")
+subdirs("universal_robot/ur3_moveit_config")
+subdirs("universal_robot/ur3e_moveit_config")
+subdirs("universal_robot/ur5_moveit_config")
+subdirs("universal_robot/ur5e_moveit_config")
+subdirs("universal_robot/ur_description")
+subdirs("universal_robot/ur_gazebo")
+subdirs("universal_robot/ur_kinematics")

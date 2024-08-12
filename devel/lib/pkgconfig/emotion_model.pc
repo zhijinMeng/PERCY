@@ -1,4 +1,4 @@
-prefix=/home/robocupathome/workspace/eddy_code/devel
+prefix=/home/ari/ros_ws/eddy_code/devel
 
 Name: emotion_model
 Description: Description of emotion_model

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/robocupathome/workspace/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
+services_str = "/home/ari/ros_ws/eddy_code/src/gpt_server/srv/GPTGenerate.srv"
 pkg_name = "gpt_server"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

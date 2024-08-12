@@ -1,14 +1,14 @@
 
 "use strict";
 
-let recognizerService = require('./recognizerService.js')
-let GetSpeechDuration = require('./GetSpeechDuration.js')
-let SoundLocalisationService = require('./SoundLocalisationService.js')
 let ASRService = require('./ASRService.js')
+let SoundLocalisationService = require('./SoundLocalisationService.js')
+let GetSpeechDuration = require('./GetSpeechDuration.js')
+let recognizerService = require('./recognizerService.js')
 
 module.exports = {
-  recognizerService: recognizerService,
-  GetSpeechDuration: GetSpeechDuration,
-  SoundLocalisationService: SoundLocalisationService,
   ASRService: ASRService,
+  SoundLocalisationService: SoundLocalisationService,
+  GetSpeechDuration: GetSpeechDuration,
+  recognizerService: recognizerService,
 };

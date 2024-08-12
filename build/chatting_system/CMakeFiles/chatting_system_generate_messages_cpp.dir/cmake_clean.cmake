@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/include/chatting_system/AudioStamped.h"
+  "/home/ari/ros_ws/eddy_code/devel/include/chatting_system/AudioStamped.h"
   "CMakeFiles/chatting_system_generate_messages_cpp"
 )
 

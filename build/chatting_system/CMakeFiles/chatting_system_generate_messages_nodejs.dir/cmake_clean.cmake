@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robocupathome/workspace/eddy_code/devel/share/gennodejs/ros/chatting_system/msg/AudioStamped.js"
+  "/home/ari/ros_ws/eddy_code/devel/share/gennodejs/ros/chatting_system/msg/AudioStamped.js"
   "CMakeFiles/chatting_system_generate_messages_nodejs"
 )
 

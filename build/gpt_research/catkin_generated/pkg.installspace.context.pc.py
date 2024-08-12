@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gpt_research"
-PROJECT_SPACE_DIR = "/home/robocupathome/workspace/eddy_code/install"
+PROJECT_SPACE_DIR = "/home/ari/ros_ws/eddy_code/install"
 PROJECT_VERSION = "0.0.0"
