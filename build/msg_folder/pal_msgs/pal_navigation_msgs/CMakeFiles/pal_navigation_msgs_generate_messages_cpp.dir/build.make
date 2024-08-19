@@ -143,15 +143,15 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from pal_navigation_msgs/ExecuteParkingAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -159,16 +159,16 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from pal_navigation_msgs/ExecuteParkingActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -177,8 +177,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ExecuteParkingActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -205,58 +205,58 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from pal_navigation_msgs/FollowWaypointsAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from pal_navigation_msgs/FollowWaypointsActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from pal_navigation_msgs/FollowWaypointsActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -265,24 +265,24 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from pal_navigation_msgs/FollowWaypointsGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FollowWaypointsResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from pal_navigation_msgs/FollowWaypointsResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -295,15 +295,15 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from pal_navigation_msgs/JoyPriorityAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -311,17 +311,17 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from pal_navigation_msgs/JoyPriorityActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from pal_navigation_msgs/JoyPriorityActionResult.msg"
@@ -329,9 +329,9 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyPriorityActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from pal_navigation_msgs/JoyPriorityActionFeedback.msg"
@@ -357,32 +357,32 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from pal_navigation_msgs/JoyTurboAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from pal_navigation_msgs/JoyTurboActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -391,8 +391,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/JoyTurboActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -419,20 +419,20 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from pal_navigation_msgs/GoToPOIAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -440,17 +440,17 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from pal_navigation_msgs/GoToPOIActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -459,14 +459,14 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from pal_navigation_msgs/GoToPOIActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -486,51 +486,51 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToPOIFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from pal_navigation_msgs/GoToPOIFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from pal_navigation_msgs/GoToAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from pal_navigation_msgs/GoToActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -539,25 +539,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from pal_navigation_msgs/GoToActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from pal_navigation_msgs/GoToGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -570,25 +570,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GoToFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from pal_navigation_msgs/GoToFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating C++ code from pal_navigation_msgs/VisualTrainingAction.msg"
@@ -597,16 +597,16 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from pal_navigation_msgs/VisualTrainingActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -615,8 +615,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualTrainingActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -671,35 +671,35 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MapConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from pal_navigation_msgs/MapConfiguration.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/MissedWaypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating C++ code from pal_navigation_msgs/MissedWaypoint.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -720,10 +720,10 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/POI.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from pal_navigation_msgs/POI.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -743,8 +743,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/PolarReadingScan.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating C++ code from pal_navigation_msgs/PolarReadingScan.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -772,29 +772,29 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Highways.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating C++ code from pal_navigation_msgs/Highways.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/share/sensor_msgs/msg/CompressedImage.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/LaserImage.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating C++ code from pal_navigation_msgs/LaserImage.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/Waypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating C++ code from pal_navigation_msgs/Waypoint.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -815,12 +815,12 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeMap.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating C++ code from pal_navigation_msgs/ChangeMap.srv"
@@ -828,25 +828,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/ChangeSyncMap.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating C++ code from pal_navigation_msgs/ChangeSyncMap.srv"
@@ -861,10 +861,10 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/FinalApproachPose.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating C++ code from pal_navigation_msgs/FinalApproachPose.srv"
@@ -879,25 +879,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetMapConfiguration.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating C++ code from pal_navigation_msgs/GetMapConfiguration.srv"
@@ -913,11 +913,11 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/GetPOI.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating C++ code from pal_navigation_msgs/GetPOI.srv"
@@ -932,25 +932,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/RegisterSync.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating C++ code from pal_navigation_msgs/RegisterSync.srv"
@@ -972,25 +972,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetMapConfiguration.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating C++ code from pal_navigation_msgs/SetMapConfiguration.srv"
@@ -999,11 +999,11 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/SetPOI.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating C++ code from pal_navigation_msgs/SetPOI.srv"
@@ -1018,12 +1018,12 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_navigation_msgs/VisualLocRecognize.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating C++ code from pal_navigation_msgs/VisualLocRecognize.srv"

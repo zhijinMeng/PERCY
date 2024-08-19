@@ -25,7 +25,7 @@ class GPT:
         id = rospy.get_param('~id','test')
         self.service = rospy.Service('gpt_generate', GPTGenerate, self.OnRequest)
         # intialize the chat history
-        self.history_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/chat_history.json'
+        self.history_file_path = f'/home/ari/ros_ws/eddy_code/src/DATA/{id}/chat_history.json'
         self.messages = []
         rospy.loginfo('GPT node started')
 
@@ -34,7 +34,7 @@ class GPT:
         # self.messages = ""
         self.history = ""
         # Extract the profile from the JSON file
-        json_file_path = f'/home/robocupathome/workspace/eddy_code/src/DATA/{id}/profile.json'
+        json_file_path = f'/home/ari/ros_ws/eddy_code/src/DATA/{id}/profile.json'
         self.emotion = "neutral"
         # set the timer for the topic changing
         # self.topic_changer = self.TopicChanger(json_file_path)

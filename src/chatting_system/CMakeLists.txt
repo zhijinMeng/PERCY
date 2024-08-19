@@ -156,12 +156,11 @@ include_directories(
 # Mark executable scripts (Python etc.) for installation
 # in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
-  scripts/test.py
-  scripts/enroll.py
-  scripts/audio_video_writter_class.py
   scripts/robot_head.py
   scripts/external_microphone.py
   scripts/external_tester.py
+  scripts/robot_sensors.py
+  scripts/syc_test.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

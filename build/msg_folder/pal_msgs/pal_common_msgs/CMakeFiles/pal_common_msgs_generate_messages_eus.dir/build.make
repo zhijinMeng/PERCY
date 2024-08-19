@@ -75,13 +75,13 @@ msg_folder/pal_msgs/pal_common_msgs/CMakeFiles/pal_common_msgs_generate_messages
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableAction.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pal_common_msgs/DisableAction.msg"
@@ -89,26 +89,26 @@ msg_folder/pal_msgs/pal_common_msgs/CMakeFiles/pal_common_msgs_generate_messages
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableGoal.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from pal_common_msgs/DisableActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionGoal.msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_common_msgs -o /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableResult.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from pal_common_msgs/DisableActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionResult.msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_common_msgs -o /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/DisableActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from pal_common_msgs/DisableActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/DisableActionFeedback.msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_common_msgs -o /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg
@@ -130,13 +130,13 @@ msg_folder/pal_msgs/pal_common_msgs/CMakeFiles/pal_common_msgs_generate_messages
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyAction.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyGoal.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from pal_common_msgs/EmptyAction.msg"
@@ -152,18 +152,18 @@ msg_folder/pal_msgs/pal_common_msgs/CMakeFiles/pal_common_msgs_generate_messages
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyResult.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from pal_common_msgs/EmptyActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionResult.msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_common_msgs -o /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg/EmptyActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from pal_common_msgs/EmptyActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_common_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg/EmptyActionFeedback.msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_common_msgs/msg -Ipal_common_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_common_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_common_msgs -o /home/ari/ros_ws/eddy_code/devel/share/roseus/ros/pal_common_msgs/msg

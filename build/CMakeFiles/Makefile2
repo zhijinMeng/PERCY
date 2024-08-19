@@ -76,7 +76,6 @@ all: test_urdf/all
 all: universal_robot/universal_robots/all
 all: chatting_system/all
 all: emotion_model/all
-all: gpt_research/all
 all: gpt_server/all
 all: sensors/all
 all: msg_folder/pal_msgs/pal_detection_msgs/all
@@ -121,7 +120,6 @@ preinstall: test_urdf/preinstall
 preinstall: universal_robot/universal_robots/preinstall
 preinstall: chatting_system/preinstall
 preinstall: emotion_model/preinstall
-preinstall: gpt_research/preinstall
 preinstall: gpt_server/preinstall
 preinstall: sensors/preinstall
 preinstall: msg_folder/pal_msgs/pal_detection_msgs/preinstall
@@ -171,7 +169,6 @@ clean: test_urdf/clean
 clean: universal_robot/universal_robots/clean
 clean: chatting_system/clean
 clean: emotion_model/clean
-clean: gpt_research/clean
 clean: gpt_server/clean
 clean: sensors/clean
 clean: msg_folder/pal_msgs/pal_detection_msgs/clean
@@ -238,24 +235,6 @@ emotion_model/preinstall:
 emotion_model/clean:
 
 .PHONY : emotion_model/clean
-
-#=============================================================================
-# Directory level rules for directory gpt_research
-
-# Recursive "all" directory target.
-gpt_research/all:
-
-.PHONY : gpt_research/all
-
-# Recursive "preinstall" directory target.
-gpt_research/preinstall:
-
-.PHONY : gpt_research/preinstall
-
-# Recursive "clean" directory target.
-gpt_research/clean:
-
-.PHONY : gpt_research/clean
 
 #=============================================================================
 # Directory level rules for directory gpt_server

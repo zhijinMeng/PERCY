@@ -13,11 +13,11 @@ from pal_interaction_msgs.msg import TtsAction, TtsGoal, TtsFeedback
 from hri_msgs.msg import Expression
 from actionlib import SimpleActionClient
 
-sys.path.insert(0, '/home/robocupathome/workspace/eddy_code/src/chatting_system/scripts')
+sys.path.insert(0, '/home/ari/ros_ws/eddy_code/src/chatting_system/scripts')
 
 # Parameters
 VAD_MODE = 3  # 0: very sensitive, 3: least sensitive
-AUDIO_SAVE_PATH = '/home/robocupathome/workspace/eddy_code/src/chatting_system/DATA/'
+AUDIO_SAVE_PATH = '/home/ari/ros_ws/eddy_code/src/chatting_system/DATA/'
 GAP_THRESHOLD = 1.5  # in seconds
 client = OpenAI(api_key="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")
 

@@ -89,18 +89,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/chatting_system/catkin_generated/installspace/test.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/chatting_system/catkin_generated/installspace/enroll.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/chatting_system/catkin_generated/installspace/audio_video_writter_class.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/chatting_system" TYPE PROGRAM FILES "/home/ari/ros_ws/eddy_code/build/chatting_system/catkin_generated/installspace/robot_head.py")
 endif()
 

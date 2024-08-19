@@ -82,54 +82,54 @@ msg_folder/pal_msgs/pal_control_msgs/CMakeFiles/pal_control_msgs_generate_messag
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_OperationalSpaceGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pal_control_msgs/OperationalSpaceGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/OperationalSpaceGoal.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryPoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG pal_control_msgs/RigidBodyTrajectoryPoint"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG pal_control_msgs/MotionManagerAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerAction.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG pal_control_msgs/MotionManagerActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionGoal.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_MotionManagerActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG pal_control_msgs/MotionManagerActionResult"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/MotionManagerActionResult.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
@@ -160,37 +160,37 @@ msg_folder/pal_msgs/pal_control_msgs/CMakeFiles/pal_control_msgs_generate_messag
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG pal_control_msgs/RigidBodyTrajectoryAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryAction.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG pal_control_msgs/RigidBodyTrajectoryActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryActionGoal.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 
@@ -214,14 +214,14 @@ msg_folder/pal_msgs/pal_control_msgs/CMakeFiles/pal_control_msgs_generate_messag
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg/RigidBodyTrajectoryPoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg/_RigidBodyTrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Accel.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG pal_control_msgs/RigidBodyTrajectoryGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg/RigidBodyTrajectoryGoal.msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_control_msgs/msg -Ipal_control_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_control_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_control_msgs/msg
 

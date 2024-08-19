@@ -76,17 +76,17 @@ msg_folder/humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate
 
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsAction.msg -Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -94,21 +94,21 @@ msg_folder/humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionGoal.msg -Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg -Ihumanoid_nav_msgs:/home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p humanoid_nav_msgs -o /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionResult.msg"
@@ -116,11 +116,11 @@ msg_folder/humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate
 
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/humanoid_nav_msgs/msg/ExecFootstepsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/ExecFootstepsActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from humanoid_nav_msgs/ExecFootstepsActionFeedback.msg"
@@ -161,8 +161,8 @@ msg_folder/humanoid_msgs/humanoid_nav_msgs/CMakeFiles/humanoid_nav_msgs_generate
 
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/srv/PlanFootsteps.srv
-/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose2D.msg
+/home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /home/ari/ros_ws/eddy_code/src/msg_folder/humanoid_msgs/humanoid_nav_msgs/msg/StepTarget.msg
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/humanoid_nav_msgs/PlanFootsteps.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from humanoid_nav_msgs/PlanFootsteps.srv"

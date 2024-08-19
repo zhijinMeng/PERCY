@@ -1,26 +1,17 @@
 <launch>
-    <!-- Define command line argument for id -->
-    <arg name="id" default="default_id"/>
+    <!-- Define the 'id' parameter -->
+    <param name="id" value="$(arg id)" />
 
-    <!-- Start new_emotion_server node
-    <node pkg="emotion_server" type="emotion.py" name="emotion_server" output="screen">
-    </node> -->
-
-    <!-- Start new_emotion_server node -->
-    <!-- <node pkg="New_emotion_models" type="streamdata.py" name="robot_camera_emotion_detector" output="screen"> 
-    </node> -->
-
-    <!-- Start gpt4_server node -->
-    <node pkg="gpt_server" type="gpt4_server.py" name="gpt_server" output="screen">
-        <param name="id" value="$(arg id)"/>
+    <!-- Launch external_tester.py with the parameter -->
+    <node name="external_tester" pkg="chatting_system" type="external_tester.py" output="screen">
+        <param name="id" value="$(arg id)" />
     </node>
 
-    <!-- Start chatting_system node -->
-    <node pkg="chatting_system" type="test.py" name="multimodal_dataset_main_server" output="screen">
-        <param name="id" value="$(arg id)"/>
-    </node>
-    <node pkg="sensors" type="video_recorder.py" name="video_recorder" output="screen">
-        <param name="id" value="$(arg id)"/>
-    </node>
+    <!-- Launch external_microphone.py without additional parameters -->
+    <node name="external_microphone" pkg="chatting_system" type="external_microphone.py" output="screen"/>
 
+    <!-- Launch gpt4_server.py with the parameter -->
+    <node name="gpt4_server" pkg="gpt_server" type="gpt4_server.py" output="screen">
+        <param name="id" value="$(arg id)" />
+    </node>
 </launch>

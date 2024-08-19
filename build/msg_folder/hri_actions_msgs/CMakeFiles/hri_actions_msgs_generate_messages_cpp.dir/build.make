@@ -87,9 +87,9 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg/LookAtWithStyle.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtWithStyle.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hri_actions_msgs/LookAtWithStyle.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg/LookAtWithStyle.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -102,17 +102,17 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hri_actions_msgs/LookAtAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtAction.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -120,19 +120,19 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hri_actions_msgs/LookAtActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionGoal.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hri_actions_msgs/LookAtActionResult.msg"
@@ -142,17 +142,17 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from hri_actions_msgs/LookAtActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtActionFeedback.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/LookAtGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from hri_actions_msgs/LookAtGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/LookAtGoal.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -171,25 +171,25 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from hri_actions_msgs/PointTrajectoryAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryAction.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from hri_actions_msgs/PointTrajectoryActionGoal.msg"
@@ -207,10 +207,10 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/PointTrajectoryActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from hri_actions_msgs/PointTrajectoryActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/PointTrajectoryActionFeedback.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -237,24 +237,24 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlAction.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from hri_actions_msgs/ApplicationControlAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlAction.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from hri_actions_msgs/ApplicationControlActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionGoal.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -271,9 +271,9 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/ApplicationControlFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/ApplicationControlActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from hri_actions_msgs/ApplicationControlActionFeedback.msg"
@@ -299,24 +299,24 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from hri_actions_msgs/FaceOverlayAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayAction.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from hri_actions_msgs/FaceOverlayActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionGoal.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -333,10 +333,10 @@ msg_folder/hri_actions_msgs/CMakeFiles/hri_actions_msgs_generate_messages_cpp: /
 
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs/FaceOverlayActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from hri_actions_msgs/FaceOverlayActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg/FaceOverlayActionFeedback.msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/hri_actions_msgs/msg -Ihri_actions_msgs:/home/ari/ros_ws/eddy_code/devel/share/hri_actions_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p hri_actions_msgs -o /home/ari/ros_ws/eddy_code/devel/include/hri_actions_msgs -e /opt/ros/noetic/share/gencpp/cmake/..

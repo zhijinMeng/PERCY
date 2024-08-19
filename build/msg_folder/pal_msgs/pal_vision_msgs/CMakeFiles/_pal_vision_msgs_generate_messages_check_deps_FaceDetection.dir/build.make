@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ari/ros_ws/eddy_code/build
 include msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceDetection.dir/progress.make
 
 msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceDetection:
-	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_vision_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_vision_msgs/msg/FaceDetection.msg pal_vision_msgs/Rectangle:geometry_msgs/Point
+	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_vision_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_vision_msgs/msg/FaceDetection.msg geometry_msgs/Point:pal_vision_msgs/Rectangle
 
 _pal_vision_msgs_generate_messages_check_deps_FaceDetection: msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceDetection
 _pal_vision_msgs_generate_messages_check_deps_FaceDetection: msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_FaceDetection.dir/build.make

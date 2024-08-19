@@ -34,7 +34,7 @@ def audio_publisher():
             audio_msg = AudioStamped()
             audio_msg.header.stamp = rospy.Time.now() # Timestamp
             audio_msg.data = np.frombuffer(data, dtype=np.uint8).tolist()
-            
+            rospy.loginfo(rospy.Time.now())
             pub.publish(audio_msg)
 
     except rospy.ROSInterruptException:

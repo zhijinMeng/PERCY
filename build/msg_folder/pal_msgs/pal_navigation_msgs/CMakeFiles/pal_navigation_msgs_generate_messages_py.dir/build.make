@@ -145,30 +145,30 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingActionResult"
@@ -176,8 +176,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/ExecuteParkingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_ExecuteParkingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG pal_navigation_msgs/ExecuteParkingActionFeedback"
@@ -200,55 +200,55 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsActionResult"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionResult.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsActionFeedback"
@@ -256,23 +256,23 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_FollowWaypointsResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG pal_navigation_msgs/FollowWaypointsResult"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/FollowWaypointsResult.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -283,40 +283,40 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG pal_navigation_msgs/JoyPriorityAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG pal_navigation_msgs/JoyPriorityActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG pal_navigation_msgs/JoyPriorityActionResult"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionResult.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyPriorityActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG pal_navigation_msgs/JoyPriorityActionFeedback"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyPriorityActionFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -338,30 +338,30 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG pal_navigation_msgs/JoyTurboAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionResult"
@@ -369,8 +369,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/JoyTurboFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_JoyTurboActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG pal_navigation_msgs/JoyTurboActionFeedback"
@@ -393,36 +393,36 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG pal_navigation_msgs/GoToPOIAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionResult"
@@ -430,14 +430,14 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG pal_navigation_msgs/GoToPOIActionFeedback"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIActionFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -454,48 +454,48 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToPOIFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Python from MSG pal_navigation_msgs/GoToPOIFeedback"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToPOIFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Python from MSG pal_navigation_msgs/GoToAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Python from MSG pal_navigation_msgs/GoToActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Python from MSG pal_navigation_msgs/GoToActionResult"
@@ -503,24 +503,24 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Python from MSG pal_navigation_msgs/GoToActionFeedback"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToActionFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Python from MSG pal_navigation_msgs/GoToGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -531,24 +531,24 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_GoToFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Python from MSG pal_navigation_msgs/GoToFeedback"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/GoToFeedback.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingAction.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Python from MSG pal_navigation_msgs/VisualTrainingAction"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingAction.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
@@ -556,15 +556,15 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionGoal.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Python from MSG pal_navigation_msgs/VisualTrainingActionGoal"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionGoal.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingResult.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Python from MSG pal_navigation_msgs/VisualTrainingActionResult"
@@ -572,8 +572,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg/VisualTrainingFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_VisualTrainingActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Python from MSG pal_navigation_msgs/VisualTrainingActionFeedback"
@@ -620,34 +620,34 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Python from MSG pal_navigation_msgs/MapConfiguration"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_MissedWaypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating Python from MSG pal_navigation_msgs/MissedWaypoint"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MissedWaypoint.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -665,10 +665,10 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_POI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Python from MSG pal_navigation_msgs/POI"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -685,8 +685,8 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_PolarReadingScan.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReading.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Python from MSG pal_navigation_msgs/PolarReadingScan"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/PolarReadingScan.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -710,27 +710,27 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Highways.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating Python from MSG pal_navigation_msgs/Highways"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/sensor_msgs/msg/CompressedImage.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_LaserImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating Python from MSG pal_navigation_msgs/LaserImage"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/LaserImage.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg/_Waypoint.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating Python from MSG pal_navigation_msgs/Waypoint"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Waypoint.msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/msg
 
@@ -746,36 +746,36 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating Python code from SRV pal_navigation_msgs/ChangeMap"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeMap.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_ChangeSyncMap.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating Python code from SRV pal_navigation_msgs/ChangeSyncMap"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/ChangeSyncMap.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -786,10 +786,10 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_FinalApproachPose.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating Python code from SRV pal_navigation_msgs/FinalApproachPose"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/FinalApproachPose.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -800,25 +800,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating Python code from SRV pal_navigation_msgs/GetMapConfiguration"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetMapConfiguration.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -830,11 +830,11 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_GetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating Python code from SRV pal_navigation_msgs/GetPOI"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/GetPOI.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -845,25 +845,25 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_RegisterSync.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating Python code from SRV pal_navigation_msgs/RegisterSync"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/RegisterSync.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -879,36 +879,36 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/NiceMapTransformation.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/Highways.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POIGroup.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/MapMetaData.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/Bool.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/MapConfiguration.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /opt/ros/noetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetMapConfiguration.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/VisualLocDB.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating Python code from SRV pal_navigation_msgs/SetMapConfiguration"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetMapConfiguration.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg/POI.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/PointCloud.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/String.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_SetPOI.py: /opt/ros/noetic/share/sensor_msgs/msg/ChannelFloat32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating Python code from SRV pal_navigation_msgs/SetPOI"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/SetPOI.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 
@@ -919,12 +919,12 @@ msg_folder/pal_msgs/pal_navigation_msgs/CMakeFiles/pal_navigation_msgs_generate_
 
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv/_VisualLocRecognize.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating Python code from SRV pal_navigation_msgs/VisualLocRecognize"
 	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_navigation_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/srv/VisualLocRecognize.srv -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_navigation_msgs/msg -Ipal_navigation_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_navigation_msgs/msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pal_navigation_msgs -o /home/ari/ros_ws/eddy_code/devel/lib/python3/dist-packages/pal_navigation_msgs/srv
 

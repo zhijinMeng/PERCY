@@ -619,13 +619,6 @@
 /home/ari/ros_ws/eddy_code/build/emotion_model/CMakeFiles/rebuild_cache.dir
 /home/ari/ros_ws/eddy_code/build/emotion_model/CMakeFiles/edit_cache.dir
 /home/ari/ros_ws/eddy_code/build/emotion_model/CMakeFiles/test.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/install/strip.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/install/local.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/install.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/list_install_components.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/rebuild_cache.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/edit_cache.dir
-/home/ari/ros_ws/eddy_code/build/gpt_research/CMakeFiles/test.dir
 /home/ari/ros_ws/eddy_code/build/gpt_server/CMakeFiles/install/strip.dir
 /home/ari/ros_ws/eddy_code/build/gpt_server/CMakeFiles/install.dir
 /home/ari/ros_ws/eddy_code/build/gpt_server/CMakeFiles/list_install_components.dir

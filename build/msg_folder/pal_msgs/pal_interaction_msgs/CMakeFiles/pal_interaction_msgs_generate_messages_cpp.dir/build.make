@@ -125,8 +125,8 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASREvent.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from pal_interaction_msgs/ASREvent.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASREvent.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -152,8 +152,8 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRSrvRequest.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from pal_interaction_msgs/ASRSrvRequest.msg"
@@ -269,17 +269,17 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from pal_interaction_msgs/ASRFileAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileAction.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -296,11 +296,11 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from pal_interaction_msgs/ASRFileActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionResult.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -308,11 +308,11 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from pal_interaction_msgs/ASRFileActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileActionFeedback.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -325,31 +325,31 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from pal_interaction_msgs/ASRFileResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileResult.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/asrresult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/actiontag.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRFileFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from pal_interaction_msgs/ASRFileFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/ASRFileFeedback.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from pal_interaction_msgs/AudioPlayAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayAction.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -365,19 +365,19 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from pal_interaction_msgs/AudioPlayActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionResult.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/AudioPlayFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/AudioPlayActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from pal_interaction_msgs/AudioPlayActionFeedback.msg"
@@ -403,15 +403,15 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from pal_interaction_msgs/SoundAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundAction.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -427,20 +427,20 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating C++ code from pal_interaction_msgs/SoundActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionResult.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/SoundActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from pal_interaction_msgs/SoundActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/SoundActionFeedback.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -465,52 +465,52 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from pal_interaction_msgs/TtsAction.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsAction.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from pal_interaction_msgs/TtsActionGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionGoal.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsResult.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating C++ code from pal_interaction_msgs/TtsActionResult.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionResult.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsMark.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsFeedback.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating C++ code from pal_interaction_msgs/TtsActionFeedback.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsActionFeedback.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -518,8 +518,8 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/TtsGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from pal_interaction_msgs/TtsGoal.msg"
 	cd /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs && /home/ari/ros_ws/eddy_code/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg -Ipal_interaction_msgs:/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pal_interaction_msgs -o /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -539,13 +539,13 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/ASRService.srv
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLanguage.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRActivation.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRStatus.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/AudioDeviceDescription.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvRequest.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRSrvResponse.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/ASRLangModelMngmt.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/ASRService.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from pal_interaction_msgs/ASRService.srv"
@@ -554,8 +554,8 @@ msg_folder/pal_msgs/pal_interaction_msgs/CMakeFiles/pal_interaction_msgs_generat
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/srv/GetSpeechDuration.srv
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg
-/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg
+/home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ari/ros_ws/eddy_code/devel/include/pal_interaction_msgs/GetSpeechDuration.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros_ws/eddy_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from pal_interaction_msgs/GetSpeechDuration.srv"

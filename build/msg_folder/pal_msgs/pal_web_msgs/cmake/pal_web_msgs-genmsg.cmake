@@ -34,32 +34,32 @@ add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" "pal_web_msgs/GetUserInputActionFeedback:pal_interaction_msgs/InputArgument:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/Input:actionlib_msgs/GoalID:pal_web_msgs/GetUserInputGoal:pal_web_msgs/GetUserInputFeedback:pal_web_msgs/GetUserInputActionResult:pal_interaction_msgs/I18nText:actionlib_msgs/GoalStatus:pal_web_msgs/GetUserInputResult:pal_web_msgs/GetUserInputActionGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg" "pal_web_msgs/GetUserInputActionResult:pal_web_msgs/GetUserInputGoal:pal_interaction_msgs/Input:pal_web_msgs/GetUserInputFeedback:pal_web_msgs/WebGoTo:std_msgs/Header:pal_web_msgs/GetUserInputActionGoal:pal_web_msgs/GetUserInputResult:actionlib_msgs/GoalStatus:pal_interaction_msgs/InputArgument:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText:actionlib_msgs/GoalID:pal_web_msgs/GetUserInputActionFeedback:pal_interaction_msgs/TtsGoal"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" "pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsGoal:actionlib_msgs/GoalID:pal_web_msgs/GetUserInputGoal:pal_interaction_msgs/I18nText:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg" "pal_web_msgs/GetUserInputGoal:pal_web_msgs/WebGoTo:std_msgs/Header:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText:actionlib_msgs/GoalID:pal_interaction_msgs/TtsGoal"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:pal_interaction_msgs/InputArgument:pal_interaction_msgs/Input:pal_web_msgs/GetUserInputResult:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg" "pal_interaction_msgs/Input:std_msgs/Header:pal_web_msgs/GetUserInputResult:actionlib_msgs/GoalStatus:pal_interaction_msgs/InputArgument:actionlib_msgs/GoalID"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:pal_web_msgs/GetUserInputFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg" "actionlib_msgs/GoalID:pal_web_msgs/GetUserInputFeedback:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" "pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_web_msgs/WebGoTo:pal_interaction_msgs/TtsGoal:pal_interaction_msgs/I18nText"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg" "pal_web_msgs/WebGoTo:pal_interaction_msgs/I18nArgument:pal_interaction_msgs/TtsText:pal_interaction_msgs/I18nText:pal_interaction_msgs/TtsGoal"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" NAME_WE)
 add_custom_target(_pal_web_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" "pal_interaction_msgs/InputArgument:pal_interaction_msgs/Input"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pal_web_msgs" "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg" "pal_interaction_msgs/Input:pal_interaction_msgs/InputArgument"
 )
 
 get_filename_component(_filename "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg" NAME_WE)
@@ -99,37 +99,37 @@ _generate_msg_cpp(pal_web_msgs
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_cpp(pal_web_msgs
@@ -212,37 +212,37 @@ _generate_msg_eus(pal_web_msgs
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_eus(pal_web_msgs
@@ -325,37 +325,37 @@ _generate_msg_lisp(pal_web_msgs
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_lisp(pal_web_msgs
@@ -438,37 +438,37 @@ _generate_msg_nodejs(pal_web_msgs
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_nodejs(pal_web_msgs
@@ -551,37 +551,37 @@ _generate_msg_py(pal_web_msgs
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_web_msgs/msg/WebGoTo.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/TtsText.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/I18nText.msg;/home/ari/ros_ws/eddy_code/devel/share/pal_interaction_msgs/msg/TtsGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs
   "/home/ari/ros_ws/eddy_code/devel/share/pal_web_msgs/msg/GetUserInputResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg"
+  "/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/Input.msg;/home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_interaction_msgs/msg/InputArgument.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pal_web_msgs
 )
 _generate_msg_py(pal_web_msgs

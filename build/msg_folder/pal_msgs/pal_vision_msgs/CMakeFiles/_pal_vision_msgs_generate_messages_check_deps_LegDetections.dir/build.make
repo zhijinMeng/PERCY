@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ari/ros_ws/eddy_code/build
 include msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections.dir/progress.make
 
 msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections:
-	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_vision_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_vision_msgs/msg/LegDetections.msg std_msgs/Header:geometry_msgs/Point
+	cd /home/ari/ros_ws/eddy_code/build/msg_folder/pal_msgs/pal_vision_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pal_vision_msgs /home/ari/ros_ws/eddy_code/src/msg_folder/pal_msgs/pal_vision_msgs/msg/LegDetections.msg geometry_msgs/Point:std_msgs/Header
 
 _pal_vision_msgs_generate_messages_check_deps_LegDetections: msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections
 _pal_vision_msgs_generate_messages_check_deps_LegDetections: msg_folder/pal_msgs/pal_vision_msgs/CMakeFiles/_pal_vision_msgs_generate_messages_check_deps_LegDetections.dir/build.make
