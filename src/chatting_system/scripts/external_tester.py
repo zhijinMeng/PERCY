@@ -12,25 +12,22 @@ from gpt_server.srv import GPTGenerate, GPTGenerateResponse, GPTGenerateRequest
 from pal_interaction_msgs.msg import TtsAction, TtsGoal, TtsFeedback
 from hri_msgs.msg import Expression
 from actionlib import SimpleActionClient
+
 sys.path.insert(0, '/home/ari/ros_ws/eddy_code/src/chatting_system/scripts')
-from robot_sensors import get_initial_timestamp
-import os
-import numpy as np
 
 # Parameters
 VAD_MODE = 3  # 0: very sensitive, 3: least sensitive
-ID = rospy.get_param('~id','1354')
-AUDIO_SAVE_PATH = f'/home/ari/ros_ws/eddy_code/src/DATA/{ID}/clipped/'
+AUDIO_SAVE_PATH = '/home/ari/ros_ws/eddy_code/src/chatting_system/DATA/'
 GAP_THRESHOLD = 1.5  # in seconds
 client = OpenAI(api_key="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")
+
 
 class AudioSaver:
     def __init__(self):
         self.vad = webrtcvad.Vad(VAD_MODE)
         self.audio_buffer = []
         self.speech_timer = None
-        self.starting_timestamp = None
-        self.ending_timestamp = None
+        self.current_timestamp = None
         self.subscriber = None
         self.is_speaking = False
         self.is_listening = False
@@ -47,15 +44,8 @@ class AudioSaver:
         # Initialize facial expression publisher
         self.faceExpressionPub = rospy.Publisher('/face_expression', Expression, queue_size=10)
 
-        self.create_folder_if_not_exists(AUDIO_SAVE_PATH)
-        self.create_folder_if_not_exists(WHOLE_AUDIO_SAVE_PATH)
-
         # Subscribe to TTS feedback
         self.tts_feedback_sub = rospy.Subscriber("/tts/feedback", TtsFeedback, self.tts_feedback_callback)
-        self.whole_audio_recorder = rospy.Subscriber("external_microphone", AudioStamped, self.whole_audio_callback)
-        self.initial_timestamp = get_initial_timestamp()
-        print(f"The initial timestamp is: {self.initial_timestamp}")
-
 
     def start_listener(self):
         if not self.subscriber and not self.is_listening:
@@ -72,7 +62,7 @@ class AudioSaver:
 
     def save_audio_to_file(self):
         if self.audio_buffer:  # Only save if buffer has data
-            filename = f"{AUDIO_SAVE_PATH}audio_{self.starting_timestamp}.wav"
+            filename = f"{AUDIO_SAVE_PATH}audio_{self.current_timestamp}.wav"
             
             # Concatenate audio buffer
             audio_data = b''.join(self.audio_buffer)
@@ -83,9 +73,6 @@ class AudioSaver:
                 wf.setframerate(16000)  # 16kHz sample rate
                 wf.writeframes(audio_data)
             rospy.loginfo(f"Saved audio to {filename}")
-            self.ending_timestamp = float(datetime.now().strftime("%Y%m%d_%H%M%S.%f")[:-4])
-
-
             self.audio_buffer = []  # Clear buffer after saving
             self.whisper_translate(filename, filename.replace('.wav', '.txt'))
 
@@ -102,7 +89,7 @@ class AudioSaver:
                 self.speech_timer.cancel()
             if not self.audio_buffer:
                 # New speech detected, start a new buffer
-                self.starting_timestamp = float(datetime.now().strftime("%Y%m%d_%H%M%S.%f")[:-4])
+                self.current_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             self.audio_buffer.append(audio_data)
             self.speech_timer = Timer(GAP_THRESHOLD, self.save_audio_to_file)
             self.speech_timer.start()
@@ -112,11 +99,8 @@ class AudioSaver:
         
         request = GPTGenerateRequest()
         request.request = transcription
-        request.starting_timestamp = str(self.starting_timestamp-self.initial_timestamp)
-        request.ending_timestamp = str(self.ending_timestamp - self.initial_timestamp)
-        # request.initial_timestamp = str(self.initial_timestamp)
-        print(f"Starting timestamp: {request.starting_timestamp}, Ending timestamp: {request.ending_timestamp}")
-
+        request.initialEmotion = 'happy'
+        request.finalEmotion = 'happy'
         
         try:
             response = self.gptServer(request)
@@ -171,13 +155,6 @@ class AudioSaver:
             rospy.loginfo("TTS system finished speaking.")
             self.start_listener()  # Start listening again after the TTS system has finished speaking
 
-    
-    def create_folder_if_not_exists(self, folder_path):
-        if not os.path.exists(folder_path):
-            os.makedirs(folder_path)
-            print(f"Folder '{folder_path}' created.")
-        else:
-            print(f"Folder '{folder_path}' already exists.")
 
 def main():
     rospy.init_node('audio_listener', anonymous=True)

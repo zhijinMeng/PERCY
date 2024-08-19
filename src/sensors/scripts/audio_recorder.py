@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import wave
 import rospy
 from audio_common_msgs.msg import AudioData
@@ -18,9 +19,9 @@ if __name__ == '__main__':
 
     # Get the output file name from the parameter
     id = rospy.get_param('~id', '0')
-    file_name = str(id) + '.wav'
+    file_name = str(id) + '/audio.wav'
     # output_file_path = "./src/DATA/" +file_name  # Set the correct path
-    output_file_path = "/home/robocupathome/workspace/eddy_code/src/DATA/" +file_name  # Set the correct path
+    output_file_path = "/home/ari/ros_ws/eddy_code/src/DATA/" +file_name  # Set the correct path
 
     wf = wave.open(output_file_path, 'wb') #change output directory as desired
     wf.setnchannels(AUDIO_CHANNELS)
@@ -28,7 +29,7 @@ if __name__ == '__main__':
     wf.setframerate(AUDIO_RATE) 
 
     #Record processed audio, corresponding to channel 0
-    rospy.Subscriber('/audio/channel0', AudioData, channel_callback, wf)
+    rospy.Subscriber('external_microphone', AudioData, channel_callback, wf)
 
     print("recording...")
     rospy.spin()
