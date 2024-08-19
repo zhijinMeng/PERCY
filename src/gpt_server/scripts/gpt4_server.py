@@ -11,6 +11,8 @@ import random
 from std_msgs.msg import String
 from pal_interaction_msgs.msg import TtsAction, TtsGoal, TtsFeedback
 from actionlib import SimpleActionClient
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 
 
 class GPT:
@@ -35,15 +37,17 @@ class GPT:
         self.history = ""
         # Extract the profile from the JSON file
         json_file_path = f'/home/ari/ros_ws/eddy_code/src/DATA/{id}/profile.json'
-        self.emotion = "neutral"
         # set the timer for the topic changing
         # self.topic_changer = self.TopicChanger(json_file_path)
         # once the below function is executed, then we set the flag to call TopicChanger to change the topic
         self.profile =""
         self.topic_counter = 0 # set the topic counter to 0
-        self.realtime_emotion = "neutral"
         self.printed_pairs = set()
         self.current_index = 0
+        self.realtime_emotion_subscriber = rospy.Subscriber('/emotiondetect_result', String, self.realtime_emotion_callback)
+        self.realtime_emotion = "neutral"  # Initialize with a default value
+        self.question_emotion ="neutral"
+        self.sentimentAnalyser = SentimentIntensityAnalyzer() # Initialize the sentiment analyser
 
         with open(json_file_path, "r") as json_file:
             self.profile = json.load(json_file)
@@ -94,20 +98,13 @@ class GPT:
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
         goal = TtsGoal()
-        greeting = "Hello, I am PERCY (Personal Emotional Robotic Conversation sYstem). I am an empathic, passionate, professional, but super-friendly chatbot interested in learning more about you. I am here to engage in meaningful and natural conversations with you based on your profile information. I will ask you some questions and respond to your answers. Let's have a great conversation!"
+        greeting = "Hello, I am PERCY (Personal Emotional Robotic Conversation sYstem). I am here to engage in meaningful and natural conversations with you based on your profile information. I will ask you some questions and respond to your answers. Let's have a great conversation!"
         goal.rawtext.lang_id = 'en_GB'
         question, answer = self.change_topic()
         self.to_change_topic = False
         self.messages.append(question)
         self.messages.append(answer)
         self.topic_counter = 0 # reset the counter
-#         self.messages.append(
-# {
-#         "role": "system",
-#          "content": f"I will give you the information of the human with the question: {question} aand its answer: {answer}, can you generate a question or conversation based on this information?"
-#     }
-# )
-
         self.messages.append(
 {
         "role": "assistant",
@@ -129,17 +126,31 @@ class GPT:
     def OnRequest(self, data: GPTGenerateRequest):
         self.topic_counter += 1
         text_from_speech = data.request  # Speech recognized by the user
-        self.emotion = data.initialEmotion
+        starting_timestamp = data.starting_timestamp
+        ending_timestamp = data.ending_timestamp
         response_new_topic = ""
         connecting_words = ""
 
 
         # finalEmotion = data.finalEmotion
         input_text = {"role": "user", "content": text_from_speech}
-        text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.emotion}
+        self.question_emotion = self.realtime_emotion
+        
+        #sentiment analysis
+        sentiment = self.sentimentAnalyser.polarity_scores(text_from_speech)['compound']
+        sentimentstr = ''
+
+        if sentiment < -0.05:
+            sentimentstr = 'negative'
+        elif sentiment > 0.05:
+            sentimentstr = 'positive'
+        else:
+            sentimentstr = 'neutral'
+
+
+        text_to_append = {"role": "user", "content": text_from_speech, "emotion": self.realtime_emotion, "starting_time": starting_timestamp, "finishing_time": ending_timestamp,"sentiment": sentimentstr, "sentiment_score": sentiment}
         # Append the user's input to the conversation history -> the dialogue
         self.append_to_json(text_to_append, self.history_file_path)
-        print(f'Receive emotions: {self.emotion}')
         self.messages.append(input_text) # append user speech into the message
 
         rospy.loginfo(f"Received a request with a prompt:\n{text_from_speech}")
@@ -149,7 +160,7 @@ class GPT:
             self.messages.append(
 {
         "role": "system",
-        "content": f"you should not generate questions for the previous dialogue, only use statement"
+        "content": "you should not generate questions for the previous dialogue, only use statement"
     }
 )
         response = self.get_openai_response(self.messages)
@@ -161,9 +172,10 @@ class GPT:
         response_to_append = {"role": "assistant", "content": response}
         # append to the chat history
         self.append_to_json(response_to_append, self.history_file_path)
-        print(self.messages)
+        # print(self.messages)
         display_response = f'Role: Robot, Content: {response}'
         self.screen_pub.publish(display_response)
+        print(response)
 
         # here we detect whether to change the topic or not
         if self.topic_counter >= 3:
@@ -173,7 +185,7 @@ class GPT:
             self.messages.append(
 {
         "role": "system",
-        "content": f"I will give you the information of the human with the question: {question} aand its answer: {answer}, can you generate a question or conversation based on this information?"
+        "content": f"I will give you the information of the human with the question: {question} aand its answer: {answer}, in your following ?"
     }
 )
             self.messages.append(
@@ -193,6 +205,14 @@ class GPT:
 
         response = response + connecting_words+response_new_topic
         connecting_words = ""
+
+
+        # here we update the user's emootion state, after each utterance
+        self.messages.append(
+{
+        "role": "system",
+        "content": f"remeber that now the human's emotion state is {self.question_emotion}"}
+)
         
         return response
    
@@ -236,37 +256,11 @@ class GPT:
             rospy.logwarn("All Topics Discussed")
             rospy.signal_shutdown("All Topics Discussed")
 
-    
-    # class TopicChanger:
-    #     def __init__(self,json_path):
-    #         # Create a set to store all the printed pairs 
-    #         self.printed_pairs = set()
-    #         # Specify the path to the JSON file
-    #         self.json_path = json_path
-    #         self.current_index = 0
-    #         # Load the JSON data from the file
-    #         with open(self.json_path) as f:
-    #             self.json_data = json.load(f)
+    def realtime_emotion_callback(self, msg):
+        self.realtime_emotion = msg.data
+        # rospy.loginfo(f"Realtime Emotion: {self.realtime_emotion}")
+        
 
-    #     def new_topic(self):
-    #         if self.current_index < len(self.json_data): # make sure not run out of the topics
-    #             pair = self.json_data[self.current_index]
-    #             question = pair[0]['content']
-    #             answer = pair[1]['content']
-    #             if (question, answer) not in self.printed_pairs:
-    #                 print("Question:", question) 
-    #                 print("Answer:", answer)
-    #                 print()
-    #                 self.printed_pairs.add((question, answer))
-    #                 self.current_index += 1
-    #                 rospy.logwarn(f"Current Topic Index: {self.current_index}, There are {len(self.json_data)-self.current_index} topics left. Changed to new topic {question}")
-    #                 return {"role": "assistant", "content": question}, {"role": "user", "content": answer}
-    #         else:
-    #             rospy.logwarn("All Topics Discussed")
-    #             rospy.signal_shutdown("All Topics Discussed")
- 
-     
-          
 
 if __name__ == '__main__':
     gpt = GPT()

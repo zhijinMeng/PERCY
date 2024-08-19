@@ -44,3 +44,5 @@ if __name__ == '__main__':
     output_path = "/home/robocupathome/workspace/eddy_code/src/DATA/" + str(output_path)+"/"+'whole_video.mp4'  # Set the correct path
     image_saver = ImageSaver(output_path)
     image_saver.run()
+
+
