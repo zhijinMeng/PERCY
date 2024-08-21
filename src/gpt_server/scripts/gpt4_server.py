@@ -94,7 +94,7 @@ class GPT:
         self.tts = SimpleActionClient('/tts', TtsAction)
         self.tts.wait_for_server()
         goal = TtsGoal()
-        greeting = "Hello, I am PERCY (Personal Emotional Robotic Conversation sYstem). I am an empathic, passionate, professional, but super-friendly chatbot interested in learning more about you. I am here to engage in meaningful and natural conversations with you based on your profile information. I will ask you some questions and respond to your answers. Let's have a great conversation!"
+        greeting = "Hello, I am PERCY (Personal Emotional Robotic Conversation sYstem). I am here to engage in meaningful and natural conversations with you based on your profile information. I will ask you some questions and respond to your answers. Let's have a great conversation!"
         goal.rawtext.lang_id = 'en_GB'
         question, answer = self.change_topic()
         self.to_change_topic = False
@@ -161,7 +161,7 @@ class GPT:
         response_to_append = {"role": "assistant", "content": response}
         # append to the chat history
         self.append_to_json(response_to_append, self.history_file_path)
-        print(self.messages)
+        # print(self.messages)
         display_response = f'Role: Robot, Content: {response}'
         self.screen_pub.publish(display_response)
 

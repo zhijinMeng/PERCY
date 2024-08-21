@@ -1,17 +1,26 @@
 <launch>
-    <!-- Define the 'id' parameter -->
-    <param name="id" value="$(arg id)" />
+    <!-- Launch external microphone node -->
+    <node pkg="chatting_system" type="external_microphone.py" name="external_microphone" output="screen"/>
 
-    <!-- Launch external_tester.py with the parameter -->
-    <node name="external_tester" pkg="chatting_system" type="external_tester.py" output="screen">
-        <param name="id" value="$(arg id)" />
+    <!-- Launch robot sensors node -->
+    <node pkg="chatting_system" type="robot_sensors.py" name="robot_sensors" output="screen"/>
+
+    <!-- robot expression1 -->
+    <node pkg="chatting_system" type="robot_head.py" name="robot_head" output="screen"/>
+
+    <!-- Launch sync test node with argument -->
+    <arg name="id" default="1"/> <!-- Default ID value can be modified -->
+    <node pkg="chatting_system" type="syc_test.py" name="syc_test" output="screen">
+        <param name="id" value="$(arg id)"/>
     </node>
 
-    <!-- Launch external_microphone.py without additional parameters -->
-    <node name="external_microphone" pkg="chatting_system" type="external_microphone.py" output="screen"/>
+    <!-- Launch external tester with argument -->
+    <node pkg="chatting_system" type="external_tester.py" name="external_tester" output="screen">
+        <param name="id" value="$(arg id)"/>
+    </node>
 
-    <!-- Launch gpt4_server.py with the parameter -->
-    <node name="gpt4_server" pkg="gpt_server" type="gpt4_server.py" output="screen">
-        <param name="id" value="$(arg id)" />
+    <!-- Launch GPT4 server with argument -->
+    <node pkg="gpt_server" type="gpt4_server.py" name="gpt4_server" output="screen">
+        <param name="id" value="$(arg id)"/>
     </node>
 </launch>

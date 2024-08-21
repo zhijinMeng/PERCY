@@ -3,7 +3,8 @@
     @Author : Pan
     @E-mail : 390737991@qq.com
     @Date   : 2022-03-27 22:09:32
-"""import os
+"""
+import os
 import syse
 
 sys.path.append(os.getcwd())

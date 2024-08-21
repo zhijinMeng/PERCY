@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ari/ros_ws/eddy_code/src/L2C/devel/setup.sh

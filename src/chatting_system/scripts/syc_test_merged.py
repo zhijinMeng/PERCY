@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import rospy
+import numpy as np
 import wave
 import os
 from sensor_msgs.msg import Image
+import message_filters
 from chatting_system.msg import AudioStamped
 from cv_bridge import CvBridge
 import cv2
@@ -15,7 +17,6 @@ AUDIO_WIDTH = 2
 # Global variables for the WAV file handler and video writer
 wf = None
 video_writer = None
-bridge = CvBridge()
 
 # Initialize the WAV file for audio recording
 def initialize_wav_file(filename, sample_width=2, channels=1, sample_rate=16000):
@@ -48,7 +49,7 @@ def save_audio_to_wav(data):
         rospy.logwarn("Wave file handler is not initialized.")
 
 # Save video frame to the video file
-def save_video_frame(image_msg):
+def save_video_frame(image_msg, bridge):
     global video_writer
     if video_writer is not None:
         try:
@@ -58,22 +59,6 @@ def save_video_frame(image_msg):
             rospy.logerr("Error converting or saving video frame: %s", str(e))
     else:
         rospy.logwarn("Video writer is not initialized.")
-
-# Audio callback function
-def audio_callback(audio_msg):
-    try:
-        rospy.loginfo("Audio Timestamp: %s.%s", audio_msg.header.stamp.secs, audio_msg.header.stamp.nsecs)
-        save_audio_to_wav(audio_msg.data)
-    except Exception as e:
-        rospy.logerr("Error in audio callback: %s", str(e))
-
-# Video callback function
-def video_callback(image_msg):
-    try:
-        rospy.loginfo("Image Timestamp: %s.%s", image_msg.header.stamp.secs, image_msg.header.stamp.nsecs)
-        save_video_frame(image_msg)
-    except Exception as e:
-        rospy.logerr("Error in video callback: %s", str(e))
 
 # Handle shutdown process
 def shutdown_hook():
@@ -85,11 +70,24 @@ def shutdown_hook():
         video_writer.release()
         rospy.loginfo("Closed video file.")
 
+# Callback function for synchronized messages
+def callback(audio_msg, image_msg):
+    try:
+        # Log timestamps
+        rospy.loginfo("Audio Timestamp: %s.%s", audio_msg.header.stamp.secs, audio_msg.header.stamp.nsecs)
+        rospy.loginfo("Image Timestamp: %s.%s", image_msg.header.stamp.secs, image_msg.header.stamp.nsecs)
+        
+        # Save the audio and video data
+        save_audio_to_wav(audio_msg.data)
+        save_video_frame(image_msg, bridge)
+    except Exception as e:
+        rospy.logerr("Error in callback: %s", str(e))
+
 # Main listener function
 def listener():
-    global wf, video_writer
+    global wf, video_writer, bridge
 
-    rospy.init_node('audio_video_recorder', anonymous=True)
+    rospy.init_node('message_filter_example', anonymous=True)
 
     # Get the parameter ID and create save paths
     id = rospy.get_param('~id', '0')
@@ -100,18 +98,26 @@ def listener():
     initialize_wav_file(AUDIO_SAVE_PATH, AUDIO_WIDTH, AUDIO_CHANNELS, AUDIO_RATE)
     initialize_video_writer(VIDEO_SAVE_PATH, 640, 480, 30)
 
-    # Subscribe to the audio and video topics
-    rospy.Subscriber('external_microphone', AudioStamped, audio_callback)
-    rospy.Subscriber('fixed_video', Image, video_callback)
-    
-    rospy.loginfo("Recording node started, waiting for messages...")
+    # Initialize the CvBridge for converting ROS Image messages to OpenCV images
+    bridge = CvBridge()
 
+    # Create subscribers for the two topics
+    audio_sub = message_filters.Subscriber('external_microphone', AudioStamped)
+    image_sub = message_filters.Subscriber('fixed_video', Image)
+    
+    # Synchronize the messages
+    # sync = message_filters.TimeSynchronizer([audio_sub, image_sub], queue_size=10000)
+    sync = message_filters.ApproximateTimeSynchronizer([audio_sub, image_sub], queue_size=10, slop=0.1, allow_headerless=True)
+    sync.registerCallback(callback)
+    
+    rospy.loginfo("Synchronization node started, waiting for messages...")
+    
     rospy.on_shutdown(shutdown_hook)
     
     try:
         rospy.spin()
     except rospy.ROSInterruptException:
-        rospy.loginfo("Shutting down recording node...")
+        rospy.loginfo("Shutting down synchronization node...")
 
 if __name__ == '__main__':
     listener()
