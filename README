@@ -1,37 +1,6 @@
-1. Before the Experiment:
-    1.1 ari_setup
-    1.2 Start the emotion server:
-        rosrun emotion_server emotion.py
+This is the github code for PERCY, and the dataset can be downloaded in:
 
-
-2. During the experiment, for each particpant:
-    2.1 Ask them to fill in the questionnaire
-    2.2 Use the extracter.py to extract the profile in the name with the original name is [profile_index]
-        
-    2.3 Create a Folder under DATA named after the [profile_index] (for example a folder named 1)
-    2.4 Change the [profile_index].json to profile.json
-        Start the extra cameras
-    2.5 rosrun chatting_system test.py _id:=[profile_index] (the folder name under DATA folder)
-    2.6 rosrun chatting_system test.py _id:=[profile_index]
-
-    2.7 Sometimes, the robot cannot recognize the voice, sometimes it will mistake the voice of robot as a human voice or vice versa
-        2.7.1 Human -> Robot:
-            Tell the participant to say it again
-        2.7.2 Robot -> Human:
-            Tricky, Riskye Seldom happened
-            you can wait, let the pariticipant wait
-            cover the microphone/speaker with hands. 
-            I can adda manual control system to blcok the whole system 
-
-    2.8 When a pariticpant has finished (this will be automatically finshed), 
-        2.8.1 Kill chatting_system rosnode (Ctrl+c) 
-        2.8.2 Kill chat_gpt rosnode (Ctrl+c)
-        2.8.3 Stop the cameras and save the vedio files after the profile_index 
-        upload their folder to OneDrive (manually)
-
-3. After the Experiment:
-    Charge the Robot
-    Clean the Room
+https://studentutsedu-my.sharepoint.com/personal/mohammed_s_althubyani_student_uts_edu_au/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fmohammed%5Fs%5Falthubyani%5Fstudent%5Futs%5Fedu%5Fau%2FDocuments%2FAri%20Robot
 
     
    
