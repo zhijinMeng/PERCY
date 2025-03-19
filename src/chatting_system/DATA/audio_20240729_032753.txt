@@ -1,1 +1,0 @@
-Now, the whole system is quite fast. The waiting time is really, really small. The only problem is that the dialogue has to be in, like, the utterance has to be in turn. Like, I speak one sentence, and then the robot speak one sentence. No more interrupting problems.

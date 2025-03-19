@@ -1,8 +1,0 @@
-prefix=/home/ari/ros_ws/eddy_code/devel
-
-Name: sensors
-Description: Description of sensors
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/ari/ros_ws/eddy_code/devel
-
-Name: hri_actions_msgs
-Description: Description of hri_actions_msgs
-Version: 0.4.3
-Cflags: -I/home/ari/ros_ws/eddy_code/devel/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs actionlib_msgs

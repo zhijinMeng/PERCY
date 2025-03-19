@@ -1,8 +1,0 @@
-prefix=/home/ari/ros_ws/eddy_code/devel
-
-Name: gpt_server
-Description: Description of gpt_server
-Version: 0.0.0
-Cflags: -I/home/ari/ros_ws/eddy_code/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
