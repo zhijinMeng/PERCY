@@ -1,11 +1,11 @@
-# PERCY: Personalized Emotional Robotic Conversational System
+# PERCY: Personalized Emotional Robotic Conversational System  
 
-[![Watch the Video](https://img.youtube.com/vi/9zOunE7xR_E/0.jpg)](https://www.youtube.com/watch?v=9zOunE7xR_E)
+[![Watch the Video](https://img.youtube.com/vi/9zOunE7xR_E/0.jpg)](https://www.youtube.com/watch?v=9zOunE7xR_E)  
 
-## Overview
+## Overview  
 
-Traditional rule-based conversational robots, constrained by predefined scripts and static response mappings, fundamentally lack adaptability for personalized, long-term human interaction. While Large Language Models (LLMs) like GPT-4 have revolutionized conversational AI through open-domain capabilities, current social robots implementing LLMs still lack emotional awareness and continuous personalization. This dual limitation hinders their ability to sustain engagement across multiple interaction sessions.
+Traditional rule-based conversational robots, constrained by predefined scripts and static response mappings, fundamentally lack adaptability for personalized, long-term human interaction. While Large Language Models (LLMs) like GPT-4 have revolutionized conversational AI through open-domain capabilities, current social robots implementing LLMs still lack emotional awareness and continuous personalization. This dual limitation hinders their ability to sustain engagement across multiple interaction sessions.  
 
-We bridge this gap with **PERCY** (Personal Emotional Robotic Conversational sYstem), a system designed to enable open-domain, multi-turn dialogues by dynamically analyzing users’ real-time facial expressions and vocabulary to tailor responses based on their emotional state. Built on an ROS-based multimodal framework, PERCY integrates a fine-tuned GPT-4 reasoning engine, combining textual sentiment analysis with visual emotional cues to assess and respond to user emotions accurately.
+We bridge this gap with **PERCY** (Personal Emotional Robotic Conversational sYstem), a system designed to enable open-domain, multi-turn dialogues by dynamically analyzing users’ real-time facial expressions and vocabulary to tailor responses based on their emotional state. Built on an ROS-based multimodal framework, PERCY integrates a fine-tuned GPT-4 reasoning engine, combining textual sentiment analysis with visual emotional cues to assess and respond to user emotions accurately.  
 
-We evaluated PERCY’s performance through various dialogue quality metrics, showing strong coherence, relevance, and diversity. Human evaluations revealed PERCY’s superior personalization and comparable naturalness to other models. This work highlights the potential for integrating advanced multimodal perception and personalization in social robot dialogue systems.
+We evaluated PERCY’s performance through various dialogue quality metrics, showing strong coherence, relevance, and diversity. Human evaluations revealed PERCY’s superior personalization and comparable naturalness to other models. This work highlights the potential for integrating advanced multimodal perception and personalization in social robot dialogue systems.  
